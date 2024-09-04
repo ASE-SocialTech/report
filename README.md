@@ -1,9 +1,9 @@
 <div align="center">
-![Logo UPC](https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png)
+<img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png" alt="logo"  width="50%"/>
 
-**Universidad Peruana de Ciencias Aplicadas**
-**Ingeniería de Software**
-**Ciclo 2024-2**
+**Universidad Peruana de Ciencias Aplicadas** <br>
+**Ingeniería de Software** <br>
+**Ciclo 2024-2** <br>
 
 <h4>Arquitecturas de Software Emergentes</h4>
 
@@ -18,11 +18,11 @@
 
 **Integrantes:**
 
-Achamizo Huamani, Jean Carlos 
-Aliaga Trevejo, Lucía Guadalupe 
-Raymundo Guevara, Rodrigo Alejandro 
-Siancas Reategui, Luis Alberto
-Trujillo Lopez, Luis Alberto
+Achamizo Huamani, Jean Carlos <br>
+Aliaga Trevejo, Lucía Guadalupe <br>
+Raymundo Guevara, Rodrigo Alejandro <br>
+Siancas Reategui, Luis Alberto <br>
+Trujillo Lopez, Luis Alberto <br>
 
 **Setiembre, 2024**
 
