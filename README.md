@@ -77,8 +77,8 @@ SocialTech es un startup creado por estudiantes de la UPC, dedicada al desarroll
     <tr>
         <td><b>Nombre:</b> Achamizo Huamani, Jean Carlos<br>
             <b>Carrera:</b> Ingenieria de Software <br>
-        <b>Descripcion:</b> Descripción 
-        <td><img src="" alt="Jean Achamizo" width="150" height="200"></td>
+        <b>Descripcion:</b> Como estudiante de Ingeniería de Software en la Universidad UPC, mi entusiasmo por el aprendizaje constante me impulsa a buscar siempre nuevas maneras de perfeccionar mis habilidades académicas y aplicarlas en situaciones prácticas, también poseo aptitudes en comunicación asertiva y escucha activa. Reconozco la importancia de una comunicación clara y efectiva en cualquier proyecto de software, y cuento con la capacidad de escuchar de manera atenta para comprender las necesidades y expectativas de los clientes y colegas de equipo.  
+        <td><img src="./assets/JeanFoto.jpg" alt="Jean Achamizo" width="150" height="200"></td>
     </tr>
     <tr>
         <td><b>Nombre:</b> Aliaga Trevejo, Lucía Guadalupe <br>
