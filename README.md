@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png" alt="logo"  width="50%"/>
+<img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png" alt="logo"  width="20%"/>
 
 **Universidad Peruana de Ciencias Aplicadas** <br>
 **Ingeniería de Software** <br>
@@ -34,27 +34,91 @@ Trujillo Lopez, Luis Alberto <br>
 
 | Versión | Fecha | Autor | Descripción de la modificación |
 | ------- | ----- | ----- | ------------------------------ |
-|   1.0     |      |     |         |
+|   1.0     |   06/09/2024   |  Achamizo Huamani Jean Carlos,  Aliaga Trevejo Lucía Guadalupe, Raymundo Guevara Rodrigo Alejandro, Siancas Reategui Luis Alberto, Trujillo Lopez Luis Alberto  |   Se añadieron los elementos correspondientes al entregable de la TB1 (capítulos 1 al 4)|
 
 ---
 
 # Project Report Collaboration Insights
+
+URL del repositorio: https://github.com/ASE-SocialTech/report
 
 ---
 
 
 # Contenido
 
-## Tabla de contenidos
+## Tabla de Contenidos
+
+- [Capítulo I: Introducción](#capítulo-i-introducción)
+  - [1.1. Startup Profile](#11-startup-profile)
+    - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
+    - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
+  - [1.2. Solution Profile](#12-solution-profile)
+    - [1.2.1 Antecedentes y problemática](#121-antecedentes-y-problemática)
+    - [1.2.2 Lean UX Process](#122-lean-ux-process)
+      - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
+      - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
+      - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
+      - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
+  - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
+
+- [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis)
+  - [2.1. Competidores](#21-competidores)
+    - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
+    - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
+  - [2.2. Entrevistas](#22-entrevistas)
+    - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
+    - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
+    - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
+  - [2.3. Needfinding](#23-needfinding)
+    - [2.3.1. User Personas](#231-user-personas)
+    - [2.3.2. User Task Matrix](#232-user-task-matrix)
+    - [2.3.3. Empathy Mapping](#233-empathy-mapping)
+    - [2.3.4. As-is Scenario Mapping](#234-as-is-scenario-mapping)
+  - [2.4. Ubiquitous Language](#24-ubiquitous-language)
+
+- [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
+  - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
+  - [3.2. User Stories](#32-user-stories)
+  - [3.3. Impact Mapping](#33-impact-mapping)
+  - [3.4. Product Backlog](#34-product-backlog)
+
+- [Capítulo IV: Strategic-Level Software Design](#capítulo-iv-strategic-level-software-design)
+  - [4.1. Strategic-Level Attribute-Driven Design](#41-strategic-level-attribute-driven-design)
+    - [4.1.1. Design Purpose](#411-design-purpose)
+    - [4.1.2. Attribute-Driven Design Inputs](#412-attribute-driven-design-inputs)
+      - [4.1.2.1. Primary Functionality (Primary User Stories)](#4121-primary-functionality-primary-user-stories)
+      - [4.1.2.2. Quality attribute Scenarios](#4122-quality-attribute-scenarios)
+      - [4.1.2.3. Constraints](#4123-constraints)
+    - [4.1.3. Architectural Drivers Backlog](#413-architectural-drivers-backlog)
+    - [4.1.4. Architectural Design Decisions](#414-architectural-design-decisions)
+    - [4.1.5. Quality Attribute Scenario Refinements](#415-quality-attribute-scenario-refinements)
+  - [4.2. Strategic-Level Domain-Driven Design](#42-strategic-level-domain-driven-design)
+    - [4.2.1. EventStorming](#421-eventstorming)
+    - [4.2.2. Candidate Context Discovery](#422-candidate-context-discovery)
+    - [4.2.3. Domain Message Flows Modeling](#423-domain-message-flows-modeling)
+    - [4.2.4. Bounded Context Canvases](#424-bounded-context-canvases)
+    - [4.2.5. Context Mapping](#425-context-mapping)
+  - [4.3. Software Architecture](#43-software-architecture)
+    - [4.3.1. Software Architecture System Landscape Diagram](#431-software-architecture-system-landscape-diagram)
+    - [4.3.2. Software Architecture Context Level Diagrams](#432-software-architecture-context-level-diagrams)
+    - [4.3.3. Software Architecture Container Level Diagrams](#433-software-architecture-container-level-diagrams)
+    - [4.3.4. Software Architecture Deployment Diagrams](#434-software-architecture-deployment-diagrams)
+- [Conclusiones](#conclusiones)
+- [Bibliografía](#bibliografía)
+- [Anexos](#anexos)
+  
+
 
 ---
 
 # Student Outcome
 
-| Criterio específico | Acciones realizadas | Conclusiones |
-| --- | --- | --- |
-|     |     |     |
-|     |     |     |
+| Criterio específico                                              | Acciones realizadas                                                                 | Conclusiones |
+|------------------------------------------------------------------|-------------------------------------------------------------------------------------|--------------|
+| Comunica oralmente con efectividad a diferentes rangos de audiencia | *Achamizo Huamani Jean Carlos* <br> TB1: <br> Escribir outcome <br><br> *Aliaga Trevejo Lucía Guadalupe* <br> TB1: <br> Escribir outcome <br><br> *Raymundo Guevara Rodrigo Alejandro* <br> TB1: <br> Escribir outcome <br><br> *Siancas Reategui Luis Alberto* <br> TB1: <br> Escribir outcome <br><br> *Trujillo Lopez Luis Alberto* <br> TB1: <br> Escribir outcome <br><br>|  *TB1* <br>            |
+| Comunica por escrito con efectividad a diferentes rangos de audiencia | *Achamizo Huamani Jean Carlos* <br> TB1: <br> Escribir outcome <br><br> *Aliaga Trevejo Lucía Guadalupe* <br> TB1: <br> Escribir outcome <br><br> *Raymundo Guevara Rodrigo Alejandro* <br> TB1: <br> Escribir outcome <br><br> *Siancas Reategui Luis Alberto* <br> TB1: <br> Escribir outcome <br><br> *Trujillo Lopez Luis Alberto* <br> TB1: <br> Escribir outcome <br><br>|   *TB1* <br>               |
+
 
 ---
 
@@ -78,31 +142,31 @@ SocialTech es un startup creado por estudiantes de la UPC, dedicada al desarroll
         <td><b>Nombre:</b> Achamizo Huamani, Jean Carlos<br>
             <b>Carrera:</b> Ingenieria de Software <br>
         <b>Descripcion:</b> Como estudiante de Ingeniería de Software en la Universidad UPC, mi entusiasmo por el aprendizaje constante me impulsa a buscar siempre nuevas maneras de perfeccionar mis habilidades académicas y aplicarlas en situaciones prácticas, también poseo aptitudes en comunicación asertiva y escucha activa. Reconozco la importancia de una comunicación clara y efectiva en cualquier proyecto de software, y cuento con la capacidad de escuchar de manera atenta para comprender las necesidades y expectativas de los clientes y colegas de equipo.  
-        <td><img src="./assets/JeanFoto.jpg" alt="Jean Achamizo" width="150" height="200"></td>
+        <td><img src="./assets/JeanFoto.jpg" alt="Jean Achamizo" width="600"></td>
     </tr>
     <tr>
         <td><b>Nombre:</b> Aliaga Trevejo, Lucía Guadalupe <br>
             <b>Carrera:</b> Ingenieria de Software <br>
-        <b>Descripcion:</b> Descripción 
-        <td><img src="" alt="Lucía Aliaga" width="150" height="200"></td>
+        <b>Descripcion:</b> Soy una estudiante de Ingeniería de Software, actualmente interesada en el desarrollo web front y back end. Me gusta crear interfaces intuitivas y llamativas para mejorar la experiencia de usuario. Me considero una persona responsable y centrada. Mis habilidades blandas incluyen comunicación efectiva, trabajo en equipo, liderazgo y adaptabilidad. Aspiro a contribuir de manera significativa en proyectos innovadores para seguir expandiendo mis conocimientos técnicos y capacidades. 
+        <td><img src="./assets/Lucia-Aliaga.jpg" alt="Lucía Aliaga"  width="600"></td>
     </tr>
     <tr>
         <td><b>Nombre:</b> Raymundo Guevara, Rodrigo Alejandro <br>
             <b>Carrera:</b> Ingenieria de Software <br>
         <b>Descripcion:</b> Soy estudiante de la carrera de Ingeniería de Software y un apasionado de la tecnología. Me gusta descubrir nuevas formas de solucionar problemas con diversos frameworks y algoritmos. Me considero una persona responsable y empática. Me gusta mucho trabajar en equipo y ayudar a mis compañeros 
-        <td><img src="./assets/RodrigoFoto.jpg" alt="Rodrigo Raymundo" width="150" height="200"></td>
+        <td><img src="./assets/RodrigoFoto.jpg" alt="Rodrigo Raymundo"  width="600"></td>
     </tr>
     <tr>
         <td><b>Nombre:</b> Siancas Reategui, Luis Alberto<br>
             <b>Carrera:</b> Ingenieria de Software <br>
         <b>Descripcion:</b> Descripción 
-        <td><img src="" alt="Luis Siancas" width="150" height="200"></td>
+        <td><img src="" alt="Luis Siancas" width="600"></td>
     </tr>
     <tr>
         <td><b>Nombre:</b> Trujillo Lopez, Luis Alberto<br>
             <b>Carrera:</b> Ingenieria de Software <br>
         <b>Descripcion:</b> Descripción 
-        <td><img src="" alt="Luis Trujillo" width="150" height="200"></td>
+        <td><img src="" alt="Luis Trujillo" width="600"></td>
     </tr>
    <table>
 
@@ -906,7 +970,7 @@ Son las decisiones críticas que se toman durante el desarrollo de la arquitectu
 
 --- 
 
-# Bibiografía
+# Bibliografía
 
 
 Ministerio de Trabajo y Promoción del Empleo (MTPE). (2024). *Reporte del Mercado Laboral: Sector Construcción*. Recuperado de https://cdn.www.gob.pe/uploads/document/file/6565614/5716638-reporte-mercado-laboral-sector-construccion.pdf. 
