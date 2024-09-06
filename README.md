@@ -190,9 +190,28 @@ En el Perú, aunque existen algunas soluciones para la gestión de la seguridad 
 - Funcionalidad para detectar automáticamente cuando un trabajador ingresa a una zona de riesgo y verificar si está utilizando el EPP adecuado, generando una alerta si el sistema detecta un incumplimiento.
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
+H1: Monitoreo en Tiempo Real
 
+Creemos que: Si implementamos un sistema de monitoreo en tiempo real para el uso de EPP, entonces los supervisores podrán detectar y corregir incumplimientos más rápidamente.
+
+Sabremos que habremos tenido éxito, cuando la tasa de incidentes relacionados con el uso incorrecto de EPP se reduzca en un 15% y la satisfacción de los supervisores con la rapidez y precisión del sistema supere el 80%.
+
+H2: Notificaciones Instantáneas
+
+Creemos que: Si el sistema envía notificaciones instantáneas a los supervisores cuando detecta un incumplimiento en el uso de EPP, entonces los supervisores podrán tomar medidas correctivas de manera más eficiente.
+
+Sabremos que habremos tenido éxito, cuando el tiempo de respuesta a las notificaciones sea menor a 5 segundos y al menos el 85% de las alertas resulten en una acción correctiva efectiva.
+
+H3: Reportes Automáticos
+
+Creemos que: Si el sistema genera reportes automáticos sobre el uso de EPP, entonces los supervisores podrán realizar auditorías más precisas y tomar decisiones basadas en datos relevantes.
+
+Sabremos que habremos tenido éxito, cuando la generación de reportes sea precisa y personalizable y la satisfacción del cliente con las funcionalidades de reporte sea superior al 85%.
 #### 1.2.2.4. Lean UX Canvas
-
+<table><tr><th colspan="1" valign="top"><p><b>Business Problem</b><br>  <br>` `Los trabajadores en entornos industriales enfrentan riesgos significativos debido al uso inadecuado o la falta de control sobre los Equipos de Protección Personal (EPP). Los supervisores carecen de herramientas efectivas para monitorear el cumplimiento de los EPP en tiempo real, lo que puede llevar a accidentes graves y violaciones de las normativas de seguridad.</p><p> </p></th><th colspan="1" rowspan="2" valign="top"><p><b>Solution Ideas</b></p><p>Monitorear el uso de EPP de los trabajadores en tiempo real.</p><p>Recibir notificaciones instantáneas en caso de incumplimientos.</p><p>Generar reportes automáticos sobre el uso de EPP.</p><p>Acceder al sistema desde múltiples dispositivos, incluyendo móviles y tabletas.</p></th><th colspan="1" valign="top"><p><b>Business Outcomes</b><br>Incrementar el cumplimiento de las normativas de seguridad en un 20% en las empresas que implementen el sistema.</p><p>Reducir los incidentes relacionados con el uso incorrecto de EPP en un 15% dentro de los primeros 6 meses de implementación.</p><p>Mejorar la retención de clientes gracias a la integración de nuevas funcionalidades como la generación de reportes automáticos sobre el uso de EPP.</b><br></p><p></p></th></tr>
+<tr><td colspan="1" valign="top"><p><b>User & Customers</b><br>`  `<b>Usuarios</b>: Supervisores de seguridad y trabajadores en entornos industriales de alto riesgo, como fábricas, construcciones y minería.</p><p><b>Clientes</b>: Empresas que buscan mejorar la seguridad laboral y el cumplimiento de las normativas de protección.</p></td><td colspan="1" valign="top"><p><b>User Benefits<br><br>Supervisores de Seguridad:</b> Mayor visibilidad y control sobre el uso de EPP, capacidad para tomar decisiones basadas en datos, y reducción en la necesidad de supervisión manual constante.</p><p><b>Trabajadores:</b> Notificaciones y recordatorios que ayudan a asegurar el uso adecuado de EPP, acceso a guías y recomendaciones para mejorar el cumplimiento.</p><p></p></td></tr>
+<tr><td colspan="1" valign="top"><p><b>Hypotheses</b><br>  <br>` `<b>Monitoreo en Tiempo Real:</b> Implementar un sistema de monitoreo en tiempo real reducirá los incidentes de EPP en un 15% y aumentará el cumplimiento de las normativas en un 20%.</p><p><b>Notificaciones Instantáneas:</b> Notificaciones instantáneas mejorarán la capacidad de los supervisores para responder rápidamente a incumplimientos, disminuyendo el riesgo de accidentes.</p><p><b>Reportes Automáticos:</b> La generación de reportes automáticos mejorará la toma de decisiones y la satisfacción del cliente, contribuyendo a la retención de clientes.</p></td><td colspan="1" valign="top"><p><b>What’s the most important</b><br>`  `<b>thing we need to learn</b><br>`  `<b>first?</b><br>  </p><p>Lo más importante que necesitamos aprender primero es: La eficacia del sistema de monitoreo en tiempo real para detectar y notificar incumplimientos de EPP.</p></td><td colspan="1" valign="top"><b>What’s the least amount of work</b><br>`  `<b>we need to do to learn the most</b><br>`  `<b>important</b> <b>thing?</b><br>  <br><b>Mínimo trabajo necesario:</b> Desarrollar un prototipo básico del sistema de monitoreo que incluya funcionalidades clave como monitoreo en tiempo real, notificaciones y generación de reportes. Realizar pruebas piloto en un entorno controlado para validar la efectividad del sistema y recopilar retroalimentación de los usuarios para iterar y mejorar el producto antes del lanzamiento completo.</td></tr>
+</table>
 ## 1.3. Segmentos objetivo
 
 **Segmento 1:** Trabajadores de almacenes o construcción civil
