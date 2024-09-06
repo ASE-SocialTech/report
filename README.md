@@ -624,11 +624,129 @@ D2: Poco conocimiento del software en el mercado</td>
 
 ### 2.3.1. User Personas
 
+**Segmento 1:** Trabajadores de almacenes o construcción civil
+
+![User Persona Luis Martinez](./assets/user-persona-luis-martinez.png)
+
+**Segmento 2:** Jefes del área de seguridad
+
+![User Persona Santiago Fernandez](./assets/user-persona-santiago-fernandez.png)
+
+
 ### 2.3.2. User Task Matrix
+
+**Segmento 1:** Trabajadores de almacenes o construcción civil
+
+<table>
+  <tr>
+    <th>User Task</th>
+    <th colspan="2">Luis Martinez</th>
+  </tr>
+  <tr>
+    <th></th>
+    <th>Frequency</th>
+    <th>Importance</th>
+  </tr>
+  <tr>
+    <td>Colocarse correctamente todos los EPPs antes de iniciar su trabajo</td>
+    <td>SIEMPRE</td>
+    <td>ALTA</td>
+  </tr>
+  <tr>
+    <td>Informar a los supervisores sobre EPPs dañados o en mal estado</td>
+    <td>SIEMPRE</td>
+    <td>ALTA</td>
+  </tr>
+  <tr>
+    <td>Verificar el estado de los EPPs antes de usarlos</td>
+    <td>USUALMENTE</td>
+    <td>MEDIA</td>
+  </tr>
+  <tr>
+    <td>Asistir a capacitaciones sobre el uso de EPPs</td>
+    <td>A VECES</td>
+    <td>ALTA</td>
+  </tr>
+  <tr>
+    <td>Reportar cualquier incidente relacionado con el uso de EPPs</td>
+    <td>A VECES</td>
+    <td>ALTA</td>
+  </tr>
+  <tr>
+    <td>Mantener los EPPs en buen estado, limpiándolos y guardándolos adecuadamente</td>
+    <td>SIEMPRE</td>
+    <td>MEDIA</td>
+  </tr>
+</table>
+
+**Segmento 2:** Jefes del área de seguridad
+
+<table>
+  <tr>
+    <th>User Task</th>
+    <th colspan="2">Santiago Fernandez</th>
+  </tr>
+  <tr>
+    <th></th>
+    <th>Frequency</th>
+    <th>Importance</th>
+  </tr>
+  <tr>
+    <td>Planificar las estrategias de seguridad</td>
+    <td>USUALMENTE</td>
+    <td>ALTA</td>
+  </tr>
+  <tr>
+    <td>Realizar inspecciones para verificar el estado de los EPPs</td>
+    <td>USUALMENTE</td>
+    <td>ALTA</td>
+  </tr>
+  <tr>
+    <td>Supervisar el uso de EPPs en campo</td>
+    <td>SIEMPRE</td>
+    <td>ALTA</td>
+  </tr>
+  <tr>
+    <td>Organizar y conducir capacitaciones</td>
+     <td>SIEMPRE</td>
+    <td>ALTA</td>
+  </tr>
+  <tr>
+    <td>Gestionar relación con proveedores de EPPs</td>
+    <td>USUALMENTE</td>
+    <td>MEDIA</td>
+  </tr>
+  <tr>
+    <td>Reportar incidentes y aplicar medidas correctivas</td>
+    <td>SIEMPRE</td>
+    <td>ALTA</td>
+  </tr>
+  <tr>
+    <td>Implementar sistemas de monitoreo de seguridad</td>
+    <td>A VECES</td>
+    <td>ALTA</td>
+  </tr>
+</table>
 
 ### 2.3.3. Empathy Mapping
 
+**Segmento 1:** Trabajadores de almacenes o construcción civil
+
+![Empathy Mapping Luis Martinez](./assets/empathy-mapping-luis-martinez.png)
+
+**Segmento 2:** Jefes del área de seguridad
+
+![Empathy Mapping Santiago Fernandez](./assets/empathy-mapping-santiago-fernandez.png)
+
 ### 2.3.4. As-is Scenario Mapping
+
+**Segmento 1:** Trabajadores de almacenes o construcción civil
+
+![As Is Scenario Mapping Luis Martinez](./assets/asis-scenario-mapping-luis-martinez.jpg)
+
+**Segmento 2:** Jefes del área de seguridad
+
+![As Is Scenario Mapping Santiago Fernandez](./assets/asis-scenario-mapping-santiago-fernandez.jpg)
 
 ## 2.4. Ubiquitous Language
 
