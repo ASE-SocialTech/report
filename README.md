@@ -212,9 +212,11 @@ Los jefes de Seguridad, Salud Ocupacional y Medio Ambiente (SSOMA) son responsab
 
 ## 2.1. Competidores
 
-| Nombre del Competidor |  Descripción |
-| :-------------------: | :----------: |
-|                       |              |
+| Nombre del Competidor | Descripción |
+| :-------------------: | :---------- |
+| GoDoWorks | GoDoWorks ofrece la funcionalidad de detección de EPP basada en IA en sus soluciones. Su tecnología utiliza cámaras de alta resolución y algoritmos de visión por computadora para monitorear el uso de equipos de protección personal en entornos industriales. El sistema de GoDoWorks analiza las imágenes capturadas en tiempo real para verificar el cumplimiento de las normativas de seguridad, asegurando que los trabajadores usen cascos, chalecos, guantes y otros implementos de protección de manera adecuada. La plataforma emite alertas automáticas si se detecta que un trabajador no está utilizando el EPP correctamente, ayudando a reducir riesgos y mejorar la seguridad en el lugar de trabajo. |
+| SoterGenius | Soter Analytics y su software SoterGenius ofrecen un sistema integral para la supervisión del uso de equipos de protección personal, como cascos y chalecos, en entornos industriales. Su solución combina IA con cámaras de visión por computadora para monitorear el cumplimiento en tiempo real. El software analiza las imágenes capturadas para detectar si los trabajadores llevan el equipo de protección necesario y alerta a los supervisores sobre cualquier falta de cumplimiento o riesgo potencial, lo que ayuda a reducir accidentes y mejorar la seguridad general en el lugar de trabajo. |
+| IA Box | IA Box ofrece una solución de seguridad basada en inteligencia artificial que analiza video en tiempo real para detectar el correcto uso de EPPs y otros riesgos en el entorno laboral. Utilizando cámaras y sensores ya existentes, su sistema es altamente flexible y configurable, permitiendo la integración con diferentes tecnologías. Además, emite alertas automáticas en caso de detectar anomalías, ayudando a prevenir accidentes y mejorar la seguridad en el lugar de trabajo. |
 
 ### 2.1.1. Análisis competitivo
 
@@ -226,89 +228,88 @@ Los jefes de Seguridad, Salud Ocupacional y Medio Ambiente (SSOMA) son responsab
     <td colspan="2" rowspan="2">¿Por qué llevar a cabo este análisis?</td>
   </tr>
   <tr>
-    <td colspan="5">¿Cómo se diferencia nuestra empresa en su propuesta de valor, estrategias de marketing, oferta de productos y servicios, precios y estructura de costos, canales de distribución, y cómo evaluamos nuestras fortalezas, debilidades, oportunidades y amenazas?</td>
+    <td colspan="5">Comparar las características y funcionalidades clave de nuestra solución con las de la competencia para identificar ventajas competitivas y posibles áreas de mejora.</td>
   </tr>
   <tr>
     <td colspan="3">Competidores</td>
     <td colspan="1" valign="top" style="font-weight: bold;text-align: center">
         Nuestro producto
         <div style="text-align: center; margin-top: 10px;">
-                <img src="" alt="producto" width="70px">
         </div>
     <td colspan="1" valign="top" style="font-weight: bold;text-align: center">
-        Competidor 1
+        GoDoWorks
         <div style="text-align: center; margin-top: 10px;">
-                <img src="" alt="competidor1" width="80px">
         </div>
     </td>
     <td colspan="1" valign="top" style="font-weight: bold;text-align: center" >
-        Competidor 2
+        SoterGenius
         <div style="text-align: center; margin-top: 10px;">
-                <img src="" alt="competidor2" width="80px">
         </div>
       </td>
     <td colspan="1" valign="top" style="font-weight: bold;text-align: center" >
-        Competidor 3
+        IA Box
         <div style="text-align: center; margin-top: 10px;">
-                <img src="" alt="competidor3" width="120px">
         </div>
     </td>
   </tr>
   <tr>
     <td colspan="1" rowspan="2"><p>Perfil</p></td>
     <td colspan="2">Overview</td>
-    <td colspan="1" valign="top">Nuestro producto
+    <td colspan="1" valign="top">Ofrece un software que permite detectar y prevenir el mal uso de los implementos de seguridad en almacenes y construcciones. La solución utiliza inteligencia artificial para identificar la correcta utilización de los equipos de protección personal (EPPs).
     </td>
-    <td colspan="1" valign="top">Competidor1
+    <td colspan="1" valign="top">Orece un software en tiempo real que analiza imágenes para verificar el uso adecuado de los EPPs y asegurar que se sigan las normas de seguridad
     </td>
-    <td colspan="1" valign="top">Competidor2
+    <td colspan="1" valign="top">Proporciona un sistema que previene accidentes por el uso incorrecto de los equipos de protección personal (EPPs), utilizando una inteligencia artificial entrenada con cientos de imágenes de implementos de seguridad para su detección.
     </td>
-    <td colspan="1" valign="top">Competidor3
+    <td colspan="1" valign="top">Ofrece un software de seguridad que utiliza inteligencia artificial para monitorear en tiempo real el uso correcto de EPPs y detectar riesgos en el lugar de trabajo, emitiendo alertas automáticas para prevenir accidentes.
     </td>
   </tr>
   <tr>
     <td colspan="2">Ventaja competitiva</td>
-    <td colspan="1" valign="top">Nuestro producto</td>
-    <td colspan="1" valign="top">Competidor1</td>
-    <td colspan="1" valign="top">Competidor2</td>
-    <td colspan="1" valign="top">Competidor3</td>
+    <td colspan="1" valign="top">Monitoreo constante y alertas inmediatas cuando detecte un mal uso de EPPs.
+
+Asistencia al cliente 24/7
+</td>
+    <td colspan="1" valign="top">Emite una alerta al personal de oficina cada vez que detecte la falta de EPPs</td>
+    <td colspan="1" valign="top">Ofrece asistencias a problemas con el software 24/7</td>
+    <td colspan="1" valign="top">Ofrece un valor significativo a los clientes al mejorar la seguridad en el lugar de trabajo mediante la detección en tiempo real de riesgos y el uso incorrecto de EPPs</td>
   </tr>
   <tr>
     <td colspan="1" rowspan="2"><p>Perfil de Marketing</p></td>
     <td colspan="2">Mercado objetivo</td>
-    <td colspan="1" valign="top">Nuestro producto</td>
-    <td colspan="1" valign="top">Competidor1</td>
-    <td colspan="1" valign="top">Competidor2</td>
-    <td colspan="1" valign="top">Competidor3</td>
+    <td colspan="1" valign="top">Se centra en el uso de IA para la prevención de accidentes basándose en la detección temprana del mal uso de los EPPso</td>
+    <td colspan="1" valign="top">Se enfoca en la integración de inteligencia artificial en la detección de equipo de protección personal (EPP). Su perfil de marketing destaca la innovación y la seguridad en el lugar de trabajo.</td>
+    <td colspan="1" valign="top">Se centra en la gestión y monitoreo de EPP mediante tecnología de sensores y análisis de datos para mejorar la seguridad laboral.</td>
+    <td colspan="1" valign="top">Se presenta como un líder en la integración de inteligencia artificial para mejorar la seguridad personal en entornos laborales. Destacan su enfoque en utilizar algoritmos específicos para proporcionar soluciones avanzadas de seguridad.</td>
   </tr>
   <tr>
     <td colspan="2">Estrategias de marketing</td>
-    <td colspan="1" valign="top">Nuestro producto</td>
-    <td colspan="1" valign="top">Competidor1</td>
-    <td colspan="1" valign="top">Competidor2</td>
-    <td colspan="1" valign="top">Competidor3</td>
+    <td colspan="1" valign="top">Promover el uso de IA para la prevención de accidentes. Además de realizar programas para la familiarización del sector con el sistema.</td>
+    <td colspan="1" valign="top">Utilizan el avance tecnológico y la inteligencia artificial como su principal atractivo. Promocionan la eficiencia y la reducción de riesgos laborales como ventajas clave.</td>
+    <td colspan="1" valign="top">Promueven el uso de tecnología avanzada y datos en tiempo real para optimizar el cumplimiento de normas de seguridad. Hacen hincapié en la prevención de accidentes y en la mejora de la eficiencia operativa.</td>
+    <td colspan="1" valign="top">La estrategia de marketing se centra en educar a los visitantes sobre los beneficios de la inteligencia artificial en la seguridad.</td>
   </tr>
   <tr>
     <td colspan="1" rowspan="3"><p>Perfil de Producto</p></td>
     <td colspan="2">Productos & Servicios</td>
-    <td colspan="1" valign="top">Nuestro producto</td>
-    <td colspan="1" valign="top">Competidor1</td>
-    <td colspan="1" valign="top">Competidor2</td>
-    <td colspan="1" valign="top">Competidor3</td>
+    <td colspan="1" valign="top">Ofrece un software basado en IA para la detección del correcto uso de los EPPs en entornos laborales.</td>
+    <td colspan="1" valign="top">Ofrecen una solución basada en IA para la detección y prevención del uso incorrecto de EPP. La tecnología está diseñada para mejorar la seguridad en los entornos laborales.</td>
+    <td colspan="1" valign="top">Ofrecen sistemas de monitoreo para EPP con sensores que proporcionan datos analíticos sobre su uso. También brindan informes y análisis para ayudar a las empresas a cumplir con las normativas de seguridad.</td>
+    <td colspan="1" valign="top">Ofrecen una variedad de productos relacionados con la seguridad en el trabajo</td>
   </tr>
   <tr>
     <td colspan="2">Precios y Costos</td>
-    <td colspan="1" valign="top">Nuestro producto</td>
-    <td colspan="1" valign="top">Competidor1</td>
-    <td colspan="1" valign="top">Competidor2</td>
-    <td colspan="1" valign="top">Competidor3</td>
+    <td colspan="1" valign="top">Por definir</td>
+    <td colspan="1" valign="top">La página no proporciona detalles específicos sobre precios.</td>
+    <td colspan="1" valign="top">La página no ofrece detalles sobre precios específicos.</td>
+    <td colspan="1" valign="top">La página no proporciona información sobre precios.</td>
   </tr>
   <tr>
     <td colspan="2">Canales de distribución</td>
-    <td colspan="1" valign="top">Nuestro producto</td>
-    <td colspan="1" valign="top">Competidor1</td>
-    <td colspan="1" valign="top">Competidor2</td>
-    <td colspan="1" valign="top">Competidor3</td>
+    <td colspan="1" valign="top">El producto se distribuye por medio de la página web, la aplicación y la aplicación móvil.</td>
+    <td colspan="1" valign="top">La distribución principal es a través de su sitio web.</td>
+    <td colspan="1" valign="top">Distribuyen sus productos principalmente a través de su sitio web.</td>
+    <td colspan="1" valign="top">Su distribución principal se realiza a través de su sitio web.</td>
   </tr>
   <tr>
     <td colspan="1" rowspan="5"><p>Análisis SWOT</p></td>
@@ -316,36 +317,169 @@ Los jefes de Seguridad, Salud Ocupacional y Medio Ambiente (SSOMA) son responsab
   </tr>
   <tr>
     <td colspan="2">Fortalezas</td>
-    <td colspan="1" valign="top">Nuestro producto</td>
-    <td colspan="1" valign="top">Competidor1</td>
-    <td colspan="1" valign="top">Competidor2</td>
-    <td colspan="1" valign="top">Competidor3</td>
+    <td colspan="1" valign="top">
+
+- Uso de IA de última generación
+- Mejora de seguridad en entorno laboral
+- Interfaz amigable
+
+</td>
+    <td colspan="1" valign="top">
+
+- Innovación Tecnológica 
+- Mejora de Seguridad
+- Especialización en EPP
+
+</td>
+    <td colspan="1" valign="top">
+    
+- Monitoreo en Tiempo Real
+- Análisis Detallado
+
+</td>
+    <td colspan="1" valign="top">
+
+- Enfoque en IA
+- Educación del Mercado
+
+</td>
   </tr>
   <tr>
     <td colspan="2">Debilidades</td>
-    <td colspan="1" valign="top">Nuestro producto</td>
-    <td colspan="1" valign="top">Competidor1</td>
-    <td colspan="1" valign="top">Competidor2</td>
-    <td colspan="1" valign="top">Competidor3</td>
+    <td colspan="1" valign="top">
+
+- Sin experiencia en el mercado objetivo
+- Poco conocimiento del software en el mercado
+
+</td>
+    <td colspan="1" valign="top">
+    
+- Falta de Información sobre Precios
+- Dependencia de Tecnología
+</td>
+    <td colspan="1" valign="top">
+
+- Falta de Detalles de Precios
+- Enfoque en un Nicho Específico
+</td>
+    <td colspan="1" valign="top">
+
+- Información Limitada sobre Productos y Precios
+- Dependencia de Tecnología Específica
+</td>
   </tr>
   <tr>
     <td colspan="2">Oportunidades</td>
-    <td colspan="1" valign="top">Nuestro producto</td>
-    <td colspan="1" valign="top">Competidor1</td>
-    <td colspan="1" valign="top">Competidor2</td>
-    <td colspan="1" valign="top">Competidor3</td>
+    <td colspan="1" valign="top">
+    
+- Pocas implementaciones parecidas en el mercado peruano
+- Entrenar la IA con nuevos objetos para ampliar nuestro alcance
+</td>
+    <td colspan="1" valign="top">
+
+- Aumento de la Demanda de Seguridad Laboral
+- Expansión a Nuevos Mercados
+</td>
+    <td colspan="1" valign="top">
+    
+- Creciente Necesidad de Cumplimiento de Normas
+- Desarrollo de Nuevas Funcionalidades
+</td>
+    <td colspan="1" valign="top">
+
+- Aumento de la Conciencia sobre Seguridad
+- Expansión de Contenidos Educativos
+</td>
   </tr>
   <tr>
     <td colspan="2">Amenazas</td>
-    <td colspan="1" valign="top">Nuestro producto</td>
-    <td colspan="1" valign="top">Competidor1</td>
-    <td colspan="1" valign="top">Competidor2</td>
-    <td colspan="1" valign="top">Competidor3</td>
+    <td colspan="1" valign="top">
+    
+- Competencia con más experiencia en el mercado
+- Falta de dataset para entrenar el modelo
+</td>
+    <td colspan="1" valign="top">
+    
+- Competencia en el Sector
+- Evolución Rápida de la Tecnología
+</td>
+    <td colspan="1" valign="top">
+
+- Competencia Intensa
+- Problemas de Privacidad y Datos
+</td>
+    <td colspan="1" valign="top">
+    
+- Competencia en Innovación Tecnológica
+- Cambios en Regulaciones
+</td>
   </tr>
 </table>
 
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
+
+<table>
+  <tr>
+    <th colspan="3" valign="top"></th>
+    <th colspan="4" valign="top"><b>OPORTUNIDADES</b></th>
+    <th colspan="4" valign="top"><b>AMENAZAS</b></th>
+  </tr>
+  <tr>
+    <th colspan="3" valign="top"></th>
+    <td colspan="4" valign="top">
+    O1: Pocas implementaciones parecidas en el mercado peruano
+
+O2: Entrenar la IA con nuevos objetos para ampliar nuestro alcance</td>
+    <td colspan="4" valign="top">A1: Competencia con más experiencia en el mercado
+
+A2: Falta de dataset para entrenar el modelo</td>
+  </tr>
+
+  <tr>
+    <th colspan="3" valign="top"><b>FORTALEZAS</b></th>
+    <th colspan="4" valign="top"><b>ESTRATEGIAS FO (Ofensivas)</b></th>
+    <th colspan="4" valign="top"><b>ESTRATEGIAS FA (Defensiva)</b></th>
+  </tr>
+  <tr>
+    <td colspan="3" valign="top">F1: Uso de IA de última generación
+
+F2: Mejora de seguridad en entorno laboral</td>
+    <td colspan="4" valign="top">
+ 
+- Implementar campañas que destaquen el uso avanzado de IA para captar la atención de clientes que buscan innovaciones tecnológicas (F1, O1). 
+- Realizar pilotos en empresas locales para demostrar la efectividad del software y generar casos de estudio (F2, O1). 
+- Resaltar la facilidad de uso de la interfaz en todas las campañas de marketing para atraer a usuarios menos técnicos (F3, O2).</td>
+
+<td colspan="4" valign="top">
+
+- Colaborar con universidades y centros de investigación para obtener datasets más amplios y mejorar el entrenamiento del modelo (F1, A2). 
+- Ofrecer soporte técnico personalizado y capacitación para diferenciarse de competidores más experimentados (F2, A1).
+- Implementar una estrategia de retención basada en la simplicidad de uso para mantener la base de usuarios (F3, A1).</td>
+
+  </tr>
+
+  <tr>
+    <th colspan="3" valign="top"><b>DEBILIDADES</b></th>
+    <th colspan="4" valign="top"><b>ESTRATEGIAS DO (Reorientación)</b></th>
+    <th colspan="4" valign="top"><b>ESTRATEGIAS DA (Supervivencia)</b></th>
+  </tr>
+  <tr>
+    <td colspan="3" valign="top">D1: Sin experiencia en el mercado objetivo
+D2: Poco conocimiento del software en el mercado</td>
+    <td colspan="4" valign="top">
+
+- Adoptar una estrategia de alianzas con empresas locales para ganar credibilidad y visibilidad en el mercado (D1, O1).
+- Realizar campañas educativas sobre los beneficios del software y la IA en la seguridad laboral, enfocadas en el mercado peruano (D2, O1).</td>
+
+<td colspan="4" valign="top">
+
+- Enfocarse en ofrecer un soporte técnico robusto y crear tutoriales que guíen a los nuevos usuarios a lo largo de su experiencia (D1, A1).
+- Ofrecer versiones de prueba gratuitas o a bajo costo para atraer a usuarios y recolectar datos valiosos que puedan utilizarse para mejorar el modelo (D2, A2).</td>
+
+  </tr>
+
+</table>
 
 ## 2.2. Entrevistas
 
