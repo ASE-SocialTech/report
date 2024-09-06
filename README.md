@@ -510,6 +510,27 @@ D2: Poco conocimiento del software en el mercado</td>
   </tr>
 </table>
 
+<table border=1>
+  <tr>
+    <td>
+      <b>Nombres y <br>apellidos:</b> Piero Valverde<br>
+      <b>Edad: </b>20<br>
+      <b>Distrito:</b> Independecia <br>
+      <b>Duración:</b>  03:45 
+    </td>
+    <td align=center>
+      <img src="./assets/Entrevista_PieroValverde.png" alt="img"  width="80%"/>
+    </td>
+  </tr>
+  <tr>
+    <td colspan=2>
+      <b>Enlace:</b> <a></a>
+      <br>
+      <b>Resumen:</b> Piero Valverde, de 20 años, se desempeña actualmente como asistente de almacén en Sodimac. Durante la entrevista, nos comenta que las marcas más utilizadas por su empresa en cuanto a implementos de seguridad son 3M y Delta, debido a su alta calidad y reconocimiento. Piero se describe como una persona que sigue las normas al pie de la letra. Para comunicarse con sus compañeros de trabajo y mantenerse informado sobre los anuncios laborales, utiliza principalmente WhatsApp e Instagram. Sin embargo, menciona que en ocasiones los equipos de protección personal (EPP) que les proporcionan están algo anticuados y presentan defectos, como rajaduras. Además, admite que en algunas ocasiones ha trabajado sin EPPs debido a olvidos en la implementación, aunque al darse cuenta, se asegura de corregir la situación lo más rápido posible.
+    </td>
+  </tr>
+</table>
+
 **Segmento 2:**
 
 <table border=1>
