@@ -506,7 +506,7 @@ D2: Poco conocimiento del software en el mercado</td>
 
 ### 2.2.2. Registro de entrevistas
 
-**Segmento 1:**
+**Segmento 1:** Trabajadores de almacenes o construcción civil
 
 <table border=1>
   <tr>
@@ -514,7 +514,7 @@ D2: Poco conocimiento del software en el mercado</td>
       <b>Nombres y apellidos:</b> Italo Vargas <br>
       <b>Edad:</b>  24 <br>
       <b>Distrito:</b> Los olivos <br>
-      <b>Duración:</b>  03:45 
+      <b>Duración:</b>  03:45 minutos
     </td>
     <td align=center>
       <img src="./assets/ItaloVargas-Entrevista.jpg" alt="img"  width="80%"/>
@@ -535,7 +535,7 @@ D2: Poco conocimiento del software en el mercado</td>
       <b>Nombres y <br>apellidos:</b> Piero Valverde<br>
       <b>Edad: </b>20<br>
       <b>Distrito:</b> Independecia <br>
-      <b>Duración:</b>  03:45 
+      <b>Duración:</b>  07:27 minutos
     </td>
     <td align=center>
       <img src="./assets/Entrevista_PieroValverde.png" alt="img"  width="80%"/>
@@ -550,26 +550,70 @@ D2: Poco conocimiento del software en el mercado</td>
   </tr>
 </table>
 
-**Segmento 2:**
+**Segmento 2:** Jefes del área de seguridad
 
 <table border=1>
   <tr>
     <td>
-      <b>Nombres y apellidos:</b> Nombre <br>
-      <b>Edad:</b>  años <br>
-      <b>Distrito:</b> distrito <br>
+      <b>Nombres y apellidos:</b> Edfrank Martinez  <br>
+      <b>Edad:</b>  36 años <br>
+      <b>Distrito:</b> Magdalena del Mar <br>
       <b>Timing:</b> 00:00 - 00:00 <br>
-      <b>Duración:</b>  minutos 
+      <b>Duración:</b> 10:09 minutos 
     </td>
     <td align=center>
-      <img src="" alt="img"  width="80%"/>
+      <img src="./assets/entrevista-edfrank.png" alt="img"  width="80%"/>
     </td>
   </tr>
   <tr>
     <td colspan=2>
       <b>Enlace:</b> <a></a>
       <br>
-      <b>Resumen:</b> Resumen 
+      <b>Resumen:</b> Edfrank, de 36 años, trabaja actualmente como supervisor SSOMA. En la entrevista comenta que algunas de sus marcas preferidas para sus implementos de seguridad son 3M, Delta y Bata debido a su calidad. Suele utilizar redes como Instagram y TikTok para encontrar proveedores de EPPs. Respecto a su labor, menciona que se realizan supervisiones mensuales para asegurar que los implementos de seguridad están en buen estado. Uno de los desafíos que enfrenta es que los trabajadores nuevos no están acostumbrados al uso de los EPPs, razón por la cual no siempre se los colocan, por lo que considera importante capacitarlos y educarlos sobre la seguridad en el trabajo. En su día a día, se encarga de vigilar que los obreros tengan puestos todos sus EPPs, previamente entregados por los empleadores. Edfrank considera que un sistema de monitoreo debería tener la capacidad de identificar si los trabajadores están usando o no adecuadamente sus EPPs y enviar una alerta al dispositivo del supervisor, ya que no siempre existen suficientes supervisores para monitorear a todos en todo momento.
+    </td>
+  </tr>
+</table>
+
+<table border=1>
+  <tr>
+    <td>
+      <b>Nombres y apellidos:</b> Andrea Eguavil   <br>
+      <b>Edad:</b>  30 años <br>
+      <b>Distrito:</b> Callao <br>
+      <b>Timing:</b> 00:00 - 00:00 <br>
+      <b>Duración:</b> 11:25 minutos 
+    </td>
+    <td align=center>
+      <img src="./assets/entrevista-andrea.png" alt="img"  width="80%"/>
+    </td>
+  </tr>
+  <tr>
+    <td colspan=2>
+      <b>Enlace:</b> <a></a>
+      <br>
+      <b>Resumen:</b> Andrea es una supervisora SSOMA que labora en el Callao. Comenta que, en su centro de labor, se utilizan implementos de marca 3M, los cuales son renovados de acuerdo con su estado de uso. Suele utilizar redes sociales como Facebook, Instagram y TikTok. Andrea menciona que uno de los desafíos que enfrenta es que los trabajadores no siempre tienen colocados sus implementos de seguridad, por lo cual se les realizan amonestaciones. Se considera una persona estricta, pero trata de entender al personal y capacitarlo sobre la importancia del uso de las EPPs. En su día a día realiza inspecciones para asegurarse del uso adecuado de las EPPs. En cuanto a un sistema de monitoreo, le gustaría que se pueda supervisar a los trabajadores en cada área. Además, considera importante que el sistema sea rápido y eficaz para que las notificaciones lleguen a tiempo. 
+    </td>
+  </tr>
+</table>
+
+<table border=1>
+  <tr>
+    <td>
+      <b>Nombres y apellidos:</b> Ricardo Carlos  <br>
+      <b>Edad:</b>  42 años <br>
+      <b>Distrito:</b> Jesús María <br>
+      <b>Timing:</b> 00:00 - 00:00 <br>
+      <b>Duración:</b> 20:02 minutos 
+    </td>
+    <td align=center>
+      <img src="./assets/entrevista-ricardo.png" alt="img"  width="80%"/>
+    </td>
+  </tr>
+  <tr>
+    <td colspan=2>
+      <b>Enlace:</b> <a></a>
+      <br>
+      <b>Resumen:</b> Ricardo, de 42 años, ocupa el puesto de Jefe de Seguridad Salud Ocupacional y Medio Ambiente en su empresa. En la entrevista menciona que algunas de las marcas más utilizadas son 3M, Hawk, Clute, entre otras, dependiendo del tipo de EPP. Las redes sociales que más usa son LinkedIn para el contacto con proveedores, además de Whatsapp, donde suele unirse a grupos para compartir información sobre seguridad. Respecto a su labor, menciona que se realizan inspecciones programadas e inspecciones diarias inopinadas (al azar) para verificar el estado de los EPPs. Ricardo comenta haber presenciado casos en los que los obreros no utilizan adecuadamente los EPPs y algunas de las razones por las cuales tienen este tipo de comportamientos inseguros son factores psicológicos e incomodidad al usarlos. Ante ello, considera que es importante capacitar no solo a los trabajadores, sino a todos los niveles de la empresa. Por último, Ricardo menciona que un sistema de monitoreo debería ser permanente y tener la capacidad de permitir al supervisor elegir qué EPPs se deben supervisar en ciertos ambientes, ya que los requerimientos pueden variar en las distintas áreas de la obra. Por ejemplo, en algunos pisos se requiere el uso de arnés, mientras que al inicio de la obra no es necesario.
     </td>
   </tr>
 </table>
