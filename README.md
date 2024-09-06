@@ -756,9 +756,13 @@ D2: Poco conocimiento del software en el mercado</td>
 
 ## 3.1. To-Be Scenario Mapping
 
-![Impact Mapping](./assets/To-beSupervisor.jpg)
+**Segmento 1:** Trabajadores de almacenes o construcción civil
 
-![Impact Mapping](./assets/To-beTrabajador.jpg)
+![To Be Scenario Mapping](./assets/To-beSupervisor.jpg)
+
+**Segmento 2:** Jefes del área de seguridad
+
+![To Be Scenario Mapping](./assets/To-beTrabajador.jpg)
 
 ## 3.2. User Stories
 
