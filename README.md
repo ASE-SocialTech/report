@@ -42,6 +42,8 @@ Trujillo Lopez, Luis Alberto <br>
 
 URL del repositorio: https://github.com/ASE-SocialTech/report
 
+![Report Repository Insights](./assets/insights-tb1.png)
+
 ---
 
 
@@ -159,8 +161,8 @@ SocialTech es un startup creado por estudiantes de la UPC, dedicada al desarroll
     <tr>
         <td><b>Nombre:</b> Siancas Reategui, Luis Alberto<br>
             <b>Carrera:</b> Ingenieria de Software <br>
-        <b>Descripcion:</b> Descripción 
-        <td><img src="" alt="Luis Siancas" width="600"></td>
+        <b>Descripcion:</b> Soy estudiante de la carrera de Ingeniería de Software enfocado en el desarrollo backend. Me gusta crear API’s las cuales uso para mis proyectos, por otro lado, me gusta realizar el despliegue de mis aplicaciones así como también usar diferentes diseños de arquitectura para que mi aplicación tenga un funcionamiento estable y tenga alta disponibilidad. En cuanto a mis habilidades blandas, soy empático y tengo escucha activa, esto me ayuda en gran parte a la hora de trabajar en equipos ya que facilita la comunicación y por ende los resultados son mejores. 
+        <td><img src="./assets/luis_siancas.png" alt="Luis Siancas" width="600"></td>
     </tr>
     <tr>
         <td><b>Nombre:</b> Trujillo Lopez, Luis Alberto<br>
