@@ -627,21 +627,21 @@ D2: Poco conocimiento del software en el mercado</td>
 <table border=1>
   <tr>
     <td>
-      <b>Nombres y apellidos:</b> Nombre <br>
-      <b>Edad:</b>  edad <br>
-      <b>Distrito:</b> distrito <br>
+      <b>Nombres y apellidos:</b> William Ramos <br>
+      <b>Edad:</b>  28 <br>
+      <b>Distrito:</b> Miraflores <br>
       <b>Timing:</b> 0:11:15 - 0:19:36  <br>
       <b>Duración:</b>  8:21 minutos
     </td>
     <td align=center>
-      <img src="./assets/ItaloVargas-Entrevista.jpg" alt="img"  width="80%"/>
+      <img src="./assets/LiamEntrevista.png" alt="png"  width="80%"/>
     </td>
   </tr>
   <tr>
     <td colspan=2>
       <b>Enlace:</b> <a>https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211a452_upc_edu_pe/EYA63Hzg-k1Dk7dqBwwoU1UB45Nn96U2dYqSBtjv9TxVJA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7PE7je</a>
       <br>
-      <b>Resumen:</b> 
+      <b>Resumen:</b>  William es un trabajador más especializado que nos menciona que se encarga de supervisar las medidas y cantidades de los materiales en la hora de la construcción, se encarga precisamente de supervisar el correcto uso de los materiales en el proceso de una obra, en varias ocasiones nos comenta que vio a trabajadores que hacen uso de EPPs de forma incorrecta, sin tomarle tanta importancia prevaleciendo la comodidad al momento de trabajar antes que la seguridad, sobretodo en algunas zonas que puedan se peligrosas. Además comenta que ocurren accidentes relacionados a los EPPs que pueden ocasionar lesiones en la obra debido a un maluso de los implementos de seguridad dificultando el correcto proceso de la misma obra.
     </td>
   </tr>
 </table>
