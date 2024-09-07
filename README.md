@@ -42,6 +42,8 @@ Trujillo Lopez, Luis Alberto <br>
 
 URL del repositorio: https://github.com/ASE-SocialTech/report
 
+![Report Repository Insights](./assets/insights-tb1.png)
+
 ---
 
 
