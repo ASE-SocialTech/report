@@ -994,6 +994,27 @@ https://miro.com/app/board/uXjVKiSjLO0=/?share_link_id=691985821601
 
 ### 4.2.2. Candidate Context Discovery
 
+![EventStorming-Step1](/assets/Event-Step1.png)
+
+![EventStorming-Step2](/assets/Event-Step2.png)
+
+![EventStorming-Step3](/assets/Event-Step3.png)
+
+![EventStorming-Step4](/assets/Event-Step4.png)
+
+![EventStorming-Step5](/assets/Event-Step5.png)
+
+![EventStorming-Step6](/assets/Event-Step6.png)
+
+![EventStorming-Step7](/assets/Event-Step7.png)
+
+![EventStorming-Step8](/assets/Event-Step8.png)
+
+![EventStorming-Step9](/assets/Event-Step9.png)
+
+![EventStorming-Step10](/assets/Event-Step10.png)
+
+
 
 ### 4.2.3. Domain Message Flows Modeling
 
