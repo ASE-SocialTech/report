@@ -816,6 +816,18 @@ D2: Poco conocimiento del software en el mercado</td>
 
 ## 2.4. Ubiquitous Language
 
+| **Término**                        | **Definición**                                                                                                          |
+|---------------------------------|-------------------------------------------------------------------------------------------------------------------------|
+| **Personal Protective Equipment (PPE)** | Equipos que se usan para proteger a los trabajadores de peligros en el lugar de trabajo, como cascos, guantes, gafas de seguridad y chalecos reflectantes. |
+| **Compliance**                  | Cumplimiento con el uso adecuado del EPP según las regulaciones de seguridad.                                           |
+| **Monitoring**                  | Proceso de observar y verificar el uso del EPP entre los trabajadores para asegurar que se mantenga la seguridad.        |
+| **Worker**                      | Persona que realiza labores en un sitio de construcción o almacén y que debe usar el EPP para su protección.              |
+| **Report**                      | Documento que resume el estado del cumplimiento del EPP, incluyendo estadísticas y cualquier incidente relacionado.      |
+| **Hazard**                      | Condición o situación en el lugar de trabajo que puede causar daño y que puede requerir el uso de un tipo específico de EPP. |
+| **Incident**                    | Evento relacionado con el uso del EPP que ha ocurrido en el lugar de trabajo, incluyendo detalles sobre qué ocurrió y las acciones tomadas. |
+| **Regulations**                 | Reglas y directrices establecidas para el uso del EPP y la seguridad en el lugar de trabajo.                            |
+| **Training**                    | Capacitación proporcionada a los trabajadores sobre la importancia del EPP y cómo usarlo correctamente.                 |
+
 ---
 
 # Capítulo III: Requirements Specification
