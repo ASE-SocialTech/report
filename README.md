@@ -51,6 +51,11 @@ URL del repositorio: https://github.com/ASE-SocialTech/report
 
 ## Tabla de Contenidos
 
+- [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
+- [Project Report Collaboration Insights](#project-report-collaboration-insights)
+- [Contenido](#contenido)
+  - [Tabla de Contenidos](#tabla-de-contenidos)
+- [Student Outcome](#student-outcome)
 - [Capítulo I: Introducción](#capítulo-i-introducción)
   - [1.1. Startup Profile](#11-startup-profile)
     - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
@@ -63,8 +68,7 @@ URL del repositorio: https://github.com/ASE-SocialTech/report
       - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
       - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
   - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
-
-- [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis)
+- [Capítulo II: Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis)
   - [2.1. Competidores](#21-competidores)
     - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
     - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
@@ -78,19 +82,19 @@ URL del repositorio: https://github.com/ASE-SocialTech/report
     - [2.3.3. Empathy Mapping](#233-empathy-mapping)
     - [2.3.4. As-is Scenario Mapping](#234-as-is-scenario-mapping)
   - [2.4. Ubiquitous Language](#24-ubiquitous-language)
-
 - [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
   - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
   - [3.2. User Stories](#32-user-stories)
   - [3.3. Impact Mapping](#33-impact-mapping)
   - [3.4. Product Backlog](#34-product-backlog)
-
+- [Product Backlog](#product-backlog)
+  - [Tabla de Product Backlog](#tabla-de-product-backlog)
 - [Capítulo IV: Strategic-Level Software Design](#capítulo-iv-strategic-level-software-design)
   - [4.1. Strategic-Level Attribute-Driven Design](#41-strategic-level-attribute-driven-design)
     - [4.1.1. Design Purpose](#411-design-purpose)
     - [4.1.2. Attribute-Driven Design Inputs](#412-attribute-driven-design-inputs)
       - [4.1.2.1. Primary Functionality (Primary User Stories)](#4121-primary-functionality-primary-user-stories)
-      - [4.1.2.2. Quality attribute Scenarios](#4122-quality-attribute-scenarios)
+      - [4.1.2.2. Quality attribute](#4122-quality-attribute)
       - [4.1.2.3. Constraints](#4123-constraints)
     - [4.1.3. Architectural Drivers Backlog](#413-architectural-drivers-backlog)
     - [4.1.4. Architectural Design Decisions](#414-architectural-design-decisions)
@@ -985,14 +989,73 @@ Son las decisiones críticas que se toman durante el desarrollo de la arquitectu
 ## 4.2. Strategic-Level Domain-Driven Design
 
 ### 4.2.1. EventStorming
+![EventStorming](/assets/EventStorming.png)
+
+Enlace completo del Miroo:
+https://miro.com/app/board/uXjVKiSjLO0=/?share_link_id=691985821601 
 
 ### 4.2.2. Candidate Context Discovery
 
+![EventStorming-Step1](/assets/Event-Step1.png)
+
+![EventStorming-Step2](/assets/Event-Step2.png)
+
+![EventStorming-Step3](/assets/Event-Step3.png)
+
+![EventStorming-Step4](/assets/Event-Step4.png)
+
+![EventStorming-Step5](/assets/Event-Step5.png)
+
+![EventStorming-Step6](/assets/Event-Step6.png)
+
+![EventStorming-Step7](/assets/Event-Step7.png)
+
+![EventStorming-Step8](/assets/Event-Step8.png)
+
+![EventStorming-Step9](/assets/Event-Step9.png)
+
+![EventStorming-Step10](/assets/Event-Step10.png)
+
+Enlace completo del Miroo:
+https://miro.com/app/board/uXjVKiSjLO0=/?share_link_id=691985821601 
+
 ### 4.2.3. Domain Message Flows Modeling
 
+![Domain-Message-Flows-Modeling1](/assets/Domain-Message-Flow0.png)
+
+![Domain-Message-Flows-Modeling2](/assets/Domain-Message-Flow1.png)
+
+![Domain-Message-Flows-Modeling3](/assets/Domain-Message-Flow2.png)
+
+![Domain-Message-Flows-Modeling4](/assets/Domain-Message-Flow3.png)
+
+![Domain-Message-Flows-Modeling5](/assets/Domain-Message-Flow4.png)
+
+Enlace completo del Miroo:
+https://miro.com/app/board/uXjVKiV4G4c=/?share_link_id=415870075344 
+
 ### 4.2.4. Bounded Context Canvases
+![Bounded-Context-Canvases1](/assets/Bounded-Context-Canvases0.png)
+
+![Bounded-Context-Canvases2](/assets/Bounded-Context-Canvases1.png)
+
+![Bounded-Context-Canvases3](/assets/Bounded-Context-Canvases2.png)
+
+![Bounded-Context-Canvases4](/assets/Bounded-Context-Canvases3.png)
+
+![Bounded-Context-Canvases5](/assets/Bounded-Context-Canvases4.png)
+
+![Bounded-Context-Canvases6](/assets/Bounded-Context-Canvases5.png)
+
+Enlace completo del Miroo:
+https://miro.com/app/board/uXjVKiVZPPw=/?share_link_id=996437742111
 
 ### 4.2.5. Context Mapping
+
+![Context Mapping](/assets/Context-Mapping.png)
+
+Enlace completo del Miroo:
+https://miro.com/app/board/uXjVKiVZzx4=/?share_link_id=394583925589 
 
 ## 4.3. Software Architecture
 
