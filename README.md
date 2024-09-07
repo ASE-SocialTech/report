@@ -1014,13 +1014,35 @@ https://miro.com/app/board/uXjVKiSjLO0=/?share_link_id=691985821601
 
 ![EventStorming-Step10](/assets/Event-Step10.png)
 
-
+Enlace completo del Miroo:
+https://miro.com/app/board/uXjVKiSjLO0=/?share_link_id=691985821601 
 
 ### 4.2.3. Domain Message Flows Modeling
 
+![Domain-Message-Flows-Modeling1](/assets/Domain-Message-Flow0.png)
+
+![Domain-Message-Flows-Modeling2](/assets/Domain-Message-Flow1.png)
+
+![Domain-Message-Flows-Modeling3](/assets/Domain-Message-Flow2.png)
+
+![Domain-Message-Flows-Modeling4](/assets/Domain-Message-Flow3.png)
+
+![Domain-Message-Flows-Modeling5](/assets/Domain-Message-Flow4.png)
+
+Enlace completo del Miroo:
+https://miro.com/app/board/uXjVKiV4G4c=/?share_link_id=415870075344 
+
 ### 4.2.4. Bounded Context Canvases
 
+
+Enlace completo del Miroo:
+https://miro.com/app/board/uXjVKiVZPPw=/?share_link_id=996437742111
+
 ### 4.2.5. Context Mapping
+
+
+Enlace completo del Miroo:
+https://miro.com/app/board/uXjVKiVZzx4=/?share_link_id=394583925589 
 
 ## 4.3. Software Architecture
 
