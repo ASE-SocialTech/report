@@ -1050,6 +1050,7 @@ https://miro.com/app/board/uXjVKiVZPPw=/?share_link_id=996437742111
 
 ### 4.2.5. Context Mapping
 
+![Context Mapping](/assets/Context-Mapping.png)
 
 Enlace completo del Miroo:
 https://miro.com/app/board/uXjVKiVZzx4=/?share_link_id=394583925589 
