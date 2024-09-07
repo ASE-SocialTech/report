@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png" alt="logo"  width="50%"/>
+<img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png" alt="logo"  width="20%"/>
 
 **Universidad Peruana de Ciencias Aplicadas** <br>
 **Ingeniería de Software** <br>
@@ -34,27 +34,91 @@ Trujillo Lopez, Luis Alberto <br>
 
 | Versión | Fecha | Autor | Descripción de la modificación |
 | ------- | ----- | ----- | ------------------------------ |
-|   1.0     |      |     |         |
+|   1.0     |   06/09/2024   |  Achamizo Huamani Jean Carlos,  Aliaga Trevejo Lucía Guadalupe, Raymundo Guevara Rodrigo Alejandro, Siancas Reategui Luis Alberto, Trujillo Lopez Luis Alberto  |   Se añadieron los elementos correspondientes al entregable de la TB1 (capítulos 1 al 4)|
 
 ---
 
 # Project Report Collaboration Insights
+
+URL del repositorio: https://github.com/ASE-SocialTech/report
 
 ---
 
 
 # Contenido
 
-## Tabla de contenidos
+## Tabla de Contenidos
+
+- [Capítulo I: Introducción](#capítulo-i-introducción)
+  - [1.1. Startup Profile](#11-startup-profile)
+    - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
+    - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
+  - [1.2. Solution Profile](#12-solution-profile)
+    - [1.2.1 Antecedentes y problemática](#121-antecedentes-y-problemática)
+    - [1.2.2 Lean UX Process](#122-lean-ux-process)
+      - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
+      - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
+      - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
+      - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
+  - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
+
+- [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis)
+  - [2.1. Competidores](#21-competidores)
+    - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
+    - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
+  - [2.2. Entrevistas](#22-entrevistas)
+    - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
+    - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
+    - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
+  - [2.3. Needfinding](#23-needfinding)
+    - [2.3.1. User Personas](#231-user-personas)
+    - [2.3.2. User Task Matrix](#232-user-task-matrix)
+    - [2.3.3. Empathy Mapping](#233-empathy-mapping)
+    - [2.3.4. As-is Scenario Mapping](#234-as-is-scenario-mapping)
+  - [2.4. Ubiquitous Language](#24-ubiquitous-language)
+
+- [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
+  - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
+  - [3.2. User Stories](#32-user-stories)
+  - [3.3. Impact Mapping](#33-impact-mapping)
+  - [3.4. Product Backlog](#34-product-backlog)
+
+- [Capítulo IV: Strategic-Level Software Design](#capítulo-iv-strategic-level-software-design)
+  - [4.1. Strategic-Level Attribute-Driven Design](#41-strategic-level-attribute-driven-design)
+    - [4.1.1. Design Purpose](#411-design-purpose)
+    - [4.1.2. Attribute-Driven Design Inputs](#412-attribute-driven-design-inputs)
+      - [4.1.2.1. Primary Functionality (Primary User Stories)](#4121-primary-functionality-primary-user-stories)
+      - [4.1.2.2. Quality attribute Scenarios](#4122-quality-attribute-scenarios)
+      - [4.1.2.3. Constraints](#4123-constraints)
+    - [4.1.3. Architectural Drivers Backlog](#413-architectural-drivers-backlog)
+    - [4.1.4. Architectural Design Decisions](#414-architectural-design-decisions)
+    - [4.1.5. Quality Attribute Scenario Refinements](#415-quality-attribute-scenario-refinements)
+  - [4.2. Strategic-Level Domain-Driven Design](#42-strategic-level-domain-driven-design)
+    - [4.2.1. EventStorming](#421-eventstorming)
+    - [4.2.2. Candidate Context Discovery](#422-candidate-context-discovery)
+    - [4.2.3. Domain Message Flows Modeling](#423-domain-message-flows-modeling)
+    - [4.2.4. Bounded Context Canvases](#424-bounded-context-canvases)
+    - [4.2.5. Context Mapping](#425-context-mapping)
+  - [4.3. Software Architecture](#43-software-architecture)
+    - [4.3.1. Software Architecture System Landscape Diagram](#431-software-architecture-system-landscape-diagram)
+    - [4.3.2. Software Architecture Context Level Diagrams](#432-software-architecture-context-level-diagrams)
+    - [4.3.3. Software Architecture Container Level Diagrams](#433-software-architecture-container-level-diagrams)
+    - [4.3.4. Software Architecture Deployment Diagrams](#434-software-architecture-deployment-diagrams)
+- [Conclusiones](#conclusiones)
+- [Bibliografía](#bibliografía)
+- [Anexos](#anexos)
+  
+
 
 ---
 
 # Student Outcome
 
-| Criterio específico | Acciones realizadas | Conclusiones |
-| --- | --- | --- |
-|     |     |     |
-|     |     |     |
+| Criterio específico                                              | Acciones realizadas                                                                 | Conclusiones |
+|------------------------------------------------------------------|-------------------------------------------------------------------------------------|--------------|
+| Comunica oralmente con efectividad a diferentes rangos de audiencia | *Achamizo Huamani Jean Carlos* <br> TB1: <br> Durante la presentación del perfil de la startup SocialTech en la sección 1.1, me enfoqué en explicar la misión y visión de nuestra startup. Al describir el **Lean UX Canvas** (1.2.2.4), destaqué cómo nuestras hipótesis y suposiciones estaban alineadas con los problemas detectados en las entrevistas realizadas. Adapté mi discurso para diferentes audiencias, asegurándome de que tanto los stakeholders técnicos como los no técnicos comprendieran nuestro enfoque. <br><br> *Aliaga Trevejo Lucía Guadalupe* <br> TB1: <br> En las reuniones de presentación de los resultados del análisis competitivo (2.1.1), me encargué de comunicar cómo las **estrategias y tácticas frente a los competidores** (2.1.2) influenciaban el desarrollo de la solución. Expliqué con claridad los desafíos y oportunidades, asegurándome de que la audiencia comprendiera las ventajas competitivas de SocialTech. <br><br> *Raymundo Guevara Rodrigo Alejandro* <br> TB1: <br> Al presentar los resultados de las **entrevistas** (2.2), me aseguré de que los distintos perfiles de los usuarios potenciales, basados en el **Needfinding** (2.3), fueran comprendidos tanto por el equipo técnico como por los involucrados en la toma de decisiones. Utilicé ejemplos de las entrevistas y los **User Personas** (2.3.1) para conectar con el público. <br><br> *Siancas Reategui Luis Alberto* <br> TB1: <br> Mi presentación se centró en el mapeo de escenarios, donde describí tanto los **As-is** como los **To-be Scenarios** (2.3.4 y 3.1). Al comunicar las mejoras proyectadas para el sistema, ajusté mi lenguaje para que tanto los desarrolladores como los líderes de proyecto pudieran entender claramente los beneficios del diseño propuesto. <br><br> *Trujillo Lopez Luis Alberto* <br> TB1: <br> Durante las presentaciones sobre el **Impact Mapping** y la **Product Backlog** (3.3 y 3.4), destaqué cómo los **User Stories** (3.2) guiaban nuestro proceso de desarrollo. Adapté mi lenguaje para que el equipo técnico pudiera entender las historias de usuario y cómo estas reflejaban las necesidades identificadas en las entrevistas y el **Empathy Mapping** (2.3.3). <br><br>|  *TB1* <br> La comunicación oral fue efectiva en la transmisión de conceptos complejos y estratégicos a audiencias diversas, adaptando el lenguaje y las explicaciones según el nivel de conocimiento técnico de cada público. Esto facilitó la toma de decisiones y la alineación de los objetivos del proyecto entre las partes interesadas. |
+| Comunica por escrito con efectividad a diferentes rangos de audiencia | *Achamizo Huamani Jean Carlos* <br> TB1: <br> Al redactar la sección sobre el **Lean UX Canvas** (1.2.2.4) y el análisis de la problemática (1.2.1), me aseguré de utilizar un lenguaje accesible para describir los **Problem Statements** (1.2.2.1) y su relación con las necesidades detectadas en la fase de entrevistas. Mi objetivo fue que cualquier lector, independiente de su perfil, pudiera entender las hipótesis clave del proyecto. <br><br> *Aliaga Trevejo Lucía Guadalupe* <br> TB1: <br> En mi contribución escrita al **Análisis Competitivo** (2.1.1), detallé las fortalezas y debilidades de los competidores y cómo SocialTech podía diferenciarse. Me aseguré de que el informe explicara claramente las **estrategias** propuestas (2.1.2) para superar a nuestros competidores en términos de innovación tecnológica y accesibilidad. <br><br> *Raymundo Guevara Rodrigo Alejandro* <br> TB1: <br> Mi redacción sobre las **entrevistas** (2.2) fue clave para establecer una narrativa clara que conectara las necesidades del usuario con las soluciones propuestas. En particular, en la sección de **User Personas** (2.3.1), enfoqué mis escritos en describir los comportamientos y necesidades de cada segmento de usuarios de manera comprensible para el equipo de diseño y desarrollo. <br><br> *Siancas Reategui Luis Alberto* <br> TB1: <br> En la sección de **To-Be Scenario Mapping** (3.1), me aseguré de que las propuestas de escenarios futuros estuvieran claramente explicadas y justificadas en relación con los datos obtenidos del **Empathy Mapping** (2.3.3). Además, describí las mejoras proyectadas para el sistema en términos de impacto en la experiencia del usuario. <br><br> *Trujillo Lopez Luis Alberto* <br> TB1: <br> Al redactar la **Product Backlog** (3.4), me centré en asegurar que las **User Stories** (3.2) fueran claras y accesibles, de modo que el equipo de desarrollo pudiera priorizarlas fácilmente. También me aseguré de explicar cómo estas historias de usuario estaban alineadas con los resultados del **Impact Mapping** (3.3) y los requerimientos del cliente. <br><br>|   *TB1* <br> La comunicación escrita permitió detallar de forma clara los aspectos técnicos y estratégicos del proyecto, facilitando la comprensión y el alineamiento de las expectativas entre las partes interesadas. Se utilizó un lenguaje preciso y accesible que permitió a los equipos técnicos y no técnicos trabajar en conjunto de manera efectiva. |
+
 
 ---
 
@@ -77,32 +141,32 @@ SocialTech es un startup creado por estudiantes de la UPC, dedicada al desarroll
     <tr>
         <td><b>Nombre:</b> Achamizo Huamani, Jean Carlos<br>
             <b>Carrera:</b> Ingenieria de Software <br>
-        <b>Descripcion:</b> Descripción 
-        <td><img src="" alt="Jean Achamizo" width="150" height="200"></td>
+        <b>Descripcion:</b> Como estudiante de Ingeniería de Software en la Universidad UPC, mi entusiasmo por el aprendizaje constante me impulsa a buscar siempre nuevas maneras de perfeccionar mis habilidades académicas y aplicarlas en situaciones prácticas, también poseo aptitudes en comunicación asertiva y escucha activa. Reconozco la importancia de una comunicación clara y efectiva en cualquier proyecto de software, y cuento con la capacidad de escuchar de manera atenta para comprender las necesidades y expectativas de los clientes y colegas de equipo.  
+        <td><img src="./assets/JeanFoto.jpg" alt="Jean Achamizo" width="600"></td>
     </tr>
     <tr>
         <td><b>Nombre:</b> Aliaga Trevejo, Lucía Guadalupe <br>
             <b>Carrera:</b> Ingenieria de Software <br>
-        <b>Descripcion:</b> Descripción 
-        <td><img src="" alt="Lucía Aliaga" width="150" height="200"></td>
+        <b>Descripcion:</b> Soy una estudiante de Ingeniería de Software, actualmente interesada en el desarrollo web front y back end. Me gusta crear interfaces intuitivas y llamativas para mejorar la experiencia de usuario. Me considero una persona responsable y centrada. Mis habilidades blandas incluyen comunicación efectiva, trabajo en equipo, liderazgo y adaptabilidad. Aspiro a contribuir de manera significativa en proyectos innovadores para seguir expandiendo mis conocimientos técnicos y capacidades. 
+        <td><img src="./assets/Lucia-Aliaga.jpg" alt="Lucía Aliaga"  width="600"></td>
     </tr>
     <tr>
         <td><b>Nombre:</b> Raymundo Guevara, Rodrigo Alejandro <br>
             <b>Carrera:</b> Ingenieria de Software <br>
         <b>Descripcion:</b> Soy estudiante de la carrera de Ingeniería de Software y un apasionado de la tecnología. Me gusta descubrir nuevas formas de solucionar problemas con diversos frameworks y algoritmos. Me considero una persona responsable y empática. Me gusta mucho trabajar en equipo y ayudar a mis compañeros 
-        <td><img src="./assets/RodrigoFoto.jpg" alt="Rodrigo Raymundo" width="150" height="200"></td>
+        <td><img src="./assets/RodrigoFoto.jpg" alt="Rodrigo Raymundo"  width="600"></td>
     </tr>
     <tr>
         <td><b>Nombre:</b> Siancas Reategui, Luis Alberto<br>
             <b>Carrera:</b> Ingenieria de Software <br>
         <b>Descripcion:</b> Descripción 
-        <td><img src="" alt="Luis Siancas" width="150" height="200"></td>
+        <td><img src="" alt="Luis Siancas" width="600"></td>
     </tr>
     <tr>
         <td><b>Nombre:</b> Trujillo Lopez, Luis Alberto<br>
             <b>Carrera:</b> Ingenieria de Software <br>
         <b>Descripcion:</b> Descripción 
-        <td><img src="" alt="Luis Trujillo" width="150" height="200"></td>
+        <td><img src="" alt="Luis Trujillo" width="600"></td>
     </tr>
    <table>
 
@@ -112,25 +176,25 @@ SocialTech es un startup creado por estudiantes de la UPC, dedicada al desarroll
 
 La ausencia de Equipos de Protección Personal (EPP) adecuados incrementa significativamente la probabilidad de accidentes en el lugar de trabajo, lo que puede llevar a lesiones graves e incluso a la muerte. Los trabajadores que no utilizan cascos, guantes o botas de seguridad están más expuestos a caídas, cortes, quemaduras y otros peligros asociados con el trabajo en construcción. En muchas obras de construcción en Perú, especialmente en las pequeñas o informales, no existe una cultura sólida de seguridad. Los trabajadores a menudo no reciben capacitación adecuada sobre el uso de EPPs, y las empresas no siempre implementan sistemas efectivos para garantizar que se utilicen correctamente.
 
-What (Qué)
+**What (Qué)** <br>
 Actualmente existen algunas normativas y regulaciones que exigen el uso de EPPs, pero en la práctica no siempre se cumplen. Existen soluciones tradicionales para la gestión de la seguridad laboral, como auditorías manuales y capacitaciones, pero no están siendo suficientemente efectivas para garantizar el uso correcto y constante de los EPPs en los lugares de trabajo. Nuestra propuesta aborda este problema mediante el uso de tecnología de visión artificial para detectar en tiempo real si los trabajadores están utilizando correctamente los EPPs.
 
-When (Cuándo)
+**When (Cuándo)** <br>
 La problemática surge principalmente en el día a día de las actividades laborales en los sitios de construcción, cuando los trabajadores omiten o usan incorrectamente los EPPs. En muchos casos, los supervisores no pueden monitorear continuamente a todos los trabajadores debido a la carga de trabajo o a la cantidad de empleados. Esto pone en riesgo la seguridad de los trabajadores y expone a las empresas a sanciones legales y multas.
 
-Where (Dónde)
+**Where (Dónde)** <br>
 Nuestra solución se implementará inicialmente en sitios de construcción de Lima, Perú, tanto en proyectos de gran envergadura como en pequeñas obras, donde la falta de control y capacitación en el uso de EPPs es más evidente. Posteriormente, planeamos expandir nuestra solución a nivel nacional y, a largo plazo, a nivel internacional en regiones con problemáticas similares.
 
-Who (Quién)
+**Who (Quién)** <br>
 Nuestra plataforma está dirigida a empresas del sector de la construcción y otros sectores industriales que necesiten asegurar el cumplimiento de las normativas de seguridad laboral. Los usuarios principales incluyen supervisores de obra, encargados de seguridad y salud ocupacional, así como trabajadores que deseen mejorar la seguridad en su entorno laboral.
 
-Why (Por qué)
+**Why (Por qué)** <br>
 Planteamos esta solución porque queremos reducir el número de accidentes laborales relacionados con la falta de uso de EPPs y mejorar la cultura de seguridad en las empresas. El uso adecuado de los EPPs no solo protege la vida de los trabajadores, sino que también mejora la productividad y reduce los costos asociados a accidentes y sanciones por incumplimiento de normativas de seguridad.
 
-How (Cómo)
+**How (Cómo)** <br>
 Utilizaremos tecnología de visión artificial integrada a cámaras de vigilancia ya instaladas en los sitios de construcción, o cámaras especializadas si es necesario, para detectar en tiempo real si los trabajadores están usando correctamente los EPPs. Los responsables de seguridad recibirán alertas automáticas cuando se detecten infracciones, permitiendo una acción inmediata. Además, se generarán informes detallados para facilitar la gestión y cumplimiento de las normativas.
 
-How much (Cuánto)
+**How much (Cuánto)** <br>
 En el Perú, aunque existen algunas soluciones para la gestión de la seguridad laboral, ninguna ofrece la capacidad de detección en tiempo real del uso de EPPs mediante visión artificial. Nuestra solución busca cerrar esta brecha tecnológica, contribuyendo a una mejora significativa en la seguridad laboral y posicionando a Perú a la vanguardia de la innovación en seguridad industrial.
 
 ### 1.2.2 Lean UX Process
@@ -191,8 +255,29 @@ En el Perú, aunque existen algunas soluciones para la gestión de la seguridad 
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
-#### 1.2.2.4. Lean UX Canvas
+**H1: Monitoreo en Tiempo Real**
 
+Creemos que: Si implementamos un sistema de monitoreo en tiempo real para el uso de EPP, entonces los supervisores podrán detectar y corregir incumplimientos más rápidamente.
+
+Sabremos que habremos tenido éxito, cuando la tasa de incidentes relacionados con el uso incorrecto de EPP se reduzca en un 15% y la satisfacción de los supervisores con la rapidez y precisión del sistema supere el 80%.
+
+**H2: Notificaciones Instantáneas**
+
+Creemos que: Si el sistema envía notificaciones instantáneas a los supervisores cuando detecta un incumplimiento en el uso de EPP, entonces los supervisores podrán tomar medidas correctivas de manera más eficiente.
+
+Sabremos que habremos tenido éxito, cuando el tiempo de respuesta a las notificaciones sea menor a 5 segundos y al menos el 85% de las alertas resulten en una acción correctiva efectiva.
+
+**H3: Reportes Automáticos**
+
+Creemos que: Si el sistema genera reportes automáticos sobre el uso de EPP, entonces los supervisores podrán realizar auditorías más precisas y tomar decisiones basadas en datos relevantes.
+
+Sabremos que habremos tenido éxito, cuando la generación de reportes sea precisa y personalizable y la satisfacción del cliente con las funcionalidades de reporte sea superior al 85%.
+
+#### 1.2.2.4. Lean UX Canvas
+<table><tr><th colspan="1" valign="top"><p><b>Business Problem</b><br>  <br>` `Los trabajadores en entornos industriales enfrentan riesgos significativos debido al uso inadecuado o la falta de control sobre los Equipos de Protección Personal (EPP). Los supervisores carecen de herramientas efectivas para monitorear el cumplimiento de los EPP en tiempo real, lo que puede llevar a accidentes graves y violaciones de las normativas de seguridad.</p><p> </p></th><th colspan="1" rowspan="2" valign="top"><p><b>Solution Ideas</b></p><p>Monitorear el uso de EPP de los trabajadores en tiempo real.</p><p>Recibir notificaciones instantáneas en caso de incumplimientos.</p><p>Generar reportes automáticos sobre el uso de EPP.</p><p>Acceder al sistema desde múltiples dispositivos, incluyendo móviles y tabletas.</p></th><th colspan="1" valign="top"><p><b>Business Outcomes</b><br>Incrementar el cumplimiento de las normativas de seguridad en un 20% en las empresas que implementen el sistema.</p><p>Reducir los incidentes relacionados con el uso incorrecto de EPP en un 15% dentro de los primeros 6 meses de implementación.</p><p>Mejorar la retención de clientes gracias a la integración de nuevas funcionalidades como la generación de reportes automáticos sobre el uso de EPP.</b><br></p><p></p></th></tr>
+<tr><td colspan="1" valign="top"><p><b>User & Customers</b><br>`  `<b>Usuarios</b>: Supervisores de seguridad y trabajadores en entornos industriales de alto riesgo, como fábricas, construcciones y minería.</p><p><b>Clientes</b>: Empresas que buscan mejorar la seguridad laboral y el cumplimiento de las normativas de protección.</p></td><td colspan="1" valign="top"><p><b>User Benefits<br><br>Supervisores de Seguridad:</b> Mayor visibilidad y control sobre el uso de EPP, capacidad para tomar decisiones basadas en datos, y reducción en la necesidad de supervisión manual constante.</p><p><b>Trabajadores:</b> Notificaciones y recordatorios que ayudan a asegurar el uso adecuado de EPP, acceso a guías y recomendaciones para mejorar el cumplimiento.</p><p></p></td></tr>
+<tr><td colspan="1" valign="top"><p><b>Hypotheses</b><br>  <br>` `<b>Monitoreo en Tiempo Real:</b> Implementar un sistema de monitoreo en tiempo real reducirá los incidentes de EPP en un 15% y aumentará el cumplimiento de las normativas en un 20%.</p><p><b>Notificaciones Instantáneas:</b> Notificaciones instantáneas mejorarán la capacidad de los supervisores para responder rápidamente a incumplimientos, disminuyendo el riesgo de accidentes.</p><p><b>Reportes Automáticos:</b> La generación de reportes automáticos mejorará la toma de decisiones y la satisfacción del cliente, contribuyendo a la retención de clientes.</p></td><td colspan="1" valign="top"><p><b>What’s the most important</b><br>`  `<b>thing we need to learn</b><br>`  `<b>first?</b><br>  </p><p>Lo más importante que necesitamos aprender primero es: La eficacia del sistema de monitoreo en tiempo real para detectar y notificar incumplimientos de EPP.</p></td><td colspan="1" valign="top"><b>What’s the least amount of work</b><br>`  `<b>we need to do to learn the most</b><br>`  `<b>important</b> <b>thing?</b><br>  <br><b>Mínimo trabajo necesario:</b> Desarrollar un prototipo básico del sistema de monitoreo que incluya funcionalidades clave como monitoreo en tiempo real, notificaciones y generación de reportes. Realizar pruebas piloto en un entorno controlado para validar la efectividad del sistema y recopilar retroalimentación de los usuarios para iterar y mejorar el producto antes del lanzamiento completo.</td></tr>
+</table>
 ## 1.3. Segmentos objetivo
 
 **Segmento 1:** Trabajadores de almacenes o construcción civil
@@ -629,13 +714,143 @@ D2: Poco conocimiento del software en el mercado</td>
 
 ### 2.3.1. User Personas
 
+**Segmento 1:** Trabajadores de almacenes o construcción civil
+
+![User Persona Luis Martinez](./assets/user-persona-luis-martinez.png)
+
+**Segmento 2:** Jefes del área de seguridad
+
+![User Persona Santiago Fernandez](./assets/user-persona-santiago-fernandez.png)
+
+
 ### 2.3.2. User Task Matrix
+
+**Segmento 1:** Trabajadores de almacenes o construcción civil
+
+<table>
+  <tr>
+    <th>User Task</th>
+    <th colspan="2">Luis Martinez</th>
+  </tr>
+  <tr>
+    <th></th>
+    <th>Frequency</th>
+    <th>Importance</th>
+  </tr>
+  <tr>
+    <td>Colocarse correctamente todos los EPPs antes de iniciar su trabajo</td>
+    <td>SIEMPRE</td>
+    <td>ALTA</td>
+  </tr>
+  <tr>
+    <td>Informar a los supervisores sobre EPPs dañados o en mal estado</td>
+    <td>SIEMPRE</td>
+    <td>ALTA</td>
+  </tr>
+  <tr>
+    <td>Verificar el estado de los EPPs antes de usarlos</td>
+    <td>USUALMENTE</td>
+    <td>MEDIA</td>
+  </tr>
+  <tr>
+    <td>Asistir a capacitaciones sobre el uso de EPPs</td>
+    <td>A VECES</td>
+    <td>ALTA</td>
+  </tr>
+  <tr>
+    <td>Reportar cualquier incidente relacionado con el uso de EPPs</td>
+    <td>A VECES</td>
+    <td>ALTA</td>
+  </tr>
+  <tr>
+    <td>Mantener los EPPs en buen estado, limpiándolos y guardándolos adecuadamente</td>
+    <td>SIEMPRE</td>
+    <td>MEDIA</td>
+  </tr>
+</table>
+
+**Segmento 2:** Jefes del área de seguridad
+
+<table>
+  <tr>
+    <th>User Task</th>
+    <th colspan="2">Santiago Fernandez</th>
+  </tr>
+  <tr>
+    <th></th>
+    <th>Frequency</th>
+    <th>Importance</th>
+  </tr>
+  <tr>
+    <td>Planificar las estrategias de seguridad</td>
+    <td>USUALMENTE</td>
+    <td>ALTA</td>
+  </tr>
+  <tr>
+    <td>Realizar inspecciones para verificar el estado de los EPPs</td>
+    <td>USUALMENTE</td>
+    <td>ALTA</td>
+  </tr>
+  <tr>
+    <td>Supervisar el uso de EPPs en campo</td>
+    <td>SIEMPRE</td>
+    <td>ALTA</td>
+  </tr>
+  <tr>
+    <td>Organizar y conducir capacitaciones</td>
+     <td>SIEMPRE</td>
+    <td>ALTA</td>
+  </tr>
+  <tr>
+    <td>Gestionar relación con proveedores de EPPs</td>
+    <td>USUALMENTE</td>
+    <td>MEDIA</td>
+  </tr>
+  <tr>
+    <td>Reportar incidentes y aplicar medidas correctivas</td>
+    <td>SIEMPRE</td>
+    <td>ALTA</td>
+  </tr>
+  <tr>
+    <td>Implementar sistemas de monitoreo de seguridad</td>
+    <td>A VECES</td>
+    <td>ALTA</td>
+  </tr>
+</table>
 
 ### 2.3.3. Empathy Mapping
 
+**Segmento 1:** Trabajadores de almacenes o construcción civil
+
+![Empathy Mapping Luis Martinez](./assets/empathy-mapping-luis-martinez.png)
+
+**Segmento 2:** Jefes del área de seguridad
+
+![Empathy Mapping Santiago Fernandez](./assets/empathy-mapping-santiago-fernandez.png)
+
 ### 2.3.4. As-is Scenario Mapping
 
+**Segmento 1:** Trabajadores de almacenes o construcción civil
+
+![As Is Scenario Mapping Luis Martinez](./assets/asis-scenario-mapping-luis-martinez.jpg)
+
+**Segmento 2:** Jefes del área de seguridad
+
+![As Is Scenario Mapping Santiago Fernandez](./assets/asis-scenario-mapping-santiago-fernandez.jpg)
+
 ## 2.4. Ubiquitous Language
+
+| **Término**                        | **Definición**                                                                                                          |
+|---------------------------------|-------------------------------------------------------------------------------------------------------------------------|
+| **Personal Protective Equipment (PPE)** | Equipos que se usan para proteger a los trabajadores de peligros en el lugar de trabajo, como cascos, guantes, gafas de seguridad y chalecos reflectantes. |
+| **Compliance**                  | Cumplimiento con el uso adecuado del EPP según las regulaciones de seguridad.                                           |
+| **Monitoring**                  | Proceso de observar y verificar el uso del EPP entre los trabajadores para asegurar que se mantenga la seguridad.        |
+| **Worker**                      | Persona que realiza labores en un sitio de construcción o almacén y que debe usar el EPP para su protección.              |
+| **Report**                      | Documento que resume el estado del cumplimiento del EPP, incluyendo estadísticas y cualquier incidente relacionado.      |
+| **Hazard**                      | Condición o situación en el lugar de trabajo que puede causar daño y que puede requerir el uso de un tipo específico de EPP. |
+| **Incident**                    | Evento relacionado con el uso del EPP que ha ocurrido en el lugar de trabajo, incluyendo detalles sobre qué ocurrió y las acciones tomadas. |
+| **Regulations**                 | Reglas y directrices establecidas para el uso del EPP y la seguridad en el lugar de trabajo.                            |
+| **Training**                    | Capacitación proporcionada a los trabajadores sobre la importancia del EPP y cómo usarlo correctamente.                 |
 
 ---
 
@@ -643,9 +858,13 @@ D2: Poco conocimiento del software en el mercado</td>
 
 ## 3.1. To-Be Scenario Mapping
 
-![Impact Mapping](./assets/To-beSupervisor.jpg)
+**Segmento 1:** Trabajadores de almacenes o construcción civil
 
-![Impact Mapping](./assets/To-beTrabajador.jpg)
+![To Be Scenario Mapping](./assets/To-beSupervisor.jpg)
+
+**Segmento 2:** Jefes del área de seguridad
+
+![To Be Scenario Mapping](./assets/To-beTrabajador.jpg)
 
 ## 3.2. User Stories
 
@@ -707,16 +926,60 @@ En resumen, el propósito de nuestro proceso de diseño es crear una solución q
 
 #### 4.1.2.1. Primary Functionality (Primary User Stories)
 
+|**Epic / User Story ID**|**Título**|**Descripción**|**Criterios de Aceptación**|
+| :- | :- | :- | :- |
+|USC01|Notificación de no uso de EPP|Detectar automáticamente cuando un trabajador no esté utilizando el EPP requerido y enviar notificaciones en tiempo real|<p>Escenario 1: Cuando el sistema detecta que un trabajador no está usando el EPP correcto (ej. casco o guantes), debe generar una notificación en menos de 5 segundos.</p><p>Escenario 2: Cuando un trabajador corrige el uso del EPP, la notificación debe cesar y el sistema debe actualizar su estado a "cumplimiento".</p><p></p>|
+|USC06|Visualización de Incumplimientos|<p>Permitir a los supervisores visualizar una lista detallada de trabajadores que no están usando EPP correctamente, con alertas visuales en el panel de control.</p><p></p>|<p>Escenario 1: Cuando un trabajador no cumple con el uso de EPP, debe aparecer en una lista dentro del panel de control del supervisor, con detalles como nombre, ubicación y tipo de incumplimiento.</p><p>Escenario 2: Al hacer clic en un trabajador en la lista, se debe mostrar información detallada, incluyendo una foto del incumplimiento y el tiempo que lleva sin EPP adecuado.</p>|
+|USC07|Generación de Reportes Semanales|Generar automáticamente reportes personalizados sobre el uso de EPP, incluyendo estadísticas y gráficos detallados, descargables para auditorías.|---|
+|USC08|Monitorización en Tiempo Real|Proporcionar un flujo de vídeo en vivo de las áreas de trabajo con detección en tiempo real de incumplimientos.|Escenario 1: El sistema debe mostrar una transmisión en vivo de las cámaras de vigilancia instaladas en las zonas de riesgo.|
 #### 4.1.2.2. Quality attribute 
 
+|**Atributo**|**Fuente**|**Estímulo**|**Artefacto**|**Entorno**|**Respuesta**|**Medida**|
+| :- | :- | :- | :- | :- | :- | :- |
+|Seguridad|Gerente de IT	|Un usuario no autorizado intenta acceder al panel de control de seguridad.|Sistema de Gestión de EPP	|Entorno de producción	|El sistema debe bloquear el acceso no autorizado y generar una alerta.	|El acceso debe bloquearse en menos de 1 segundo tras la detección.|
+|Escalabilidad|Gerente de IT	|La cantidad de trabajadores monitoreados aumenta un 50% en un nuevo sitio de construcción|Sistema de Monitoreo de EPP	|Expansión del sistema a nuevos sitios	|El sistema debe continuar operando sin degradación en el rendimiento.	|El sistema debe escalar y mantener el rendimiento con hasta 500 usuarios concurrentes.|
+|Disponibilidad|Supervisor de seguridad|El sistema detecta que un trabajador no está usando el EPP correcto.|Sistema de Monitoreo de EPP|Operación normal	|El sistema debe enviar una notificación a los supervisores.|<p>El tiempo de respuesta debe ser menor a 5 segundos.</p><p></p>|
+|Usabilidad|Trabajador|Un trabajador intenta revisar el historial de notificaciones en la aplicación móvil.|Interfaz de usuario de la aplicación	|Uso en el sitio de trabajo	|El trabajador debe poder acceder y navegar por el historial fácilmente.	|El tiempo para acceder a la función no debe superar los 3 clics o 5 segundos.|
+|Fiabilidad|Supervisor de seguridad	|El sistema pierde la conexión a Internet durante 5 minutos.	|Sistema de Monitoreo de EPP	|Entorno de trabajo con pérdida de conexión	|El sistema debe continuar operando localmente y sincronizarse cuando se restablezca la conexión.	|La pérdida de datos no debe superar el 1% durante la desconexión|
+
 #### 4.1.2.3. Constraints
+Define las limitaciones técnicas, operativas y de diseño que influyen en las decisiones arquitectónicas y de desarrollo del sistema. Estas restricciones pueden ser impuestas por factores como el hardware, el software, la infraestructura, los recursos disponibles, la compatibilidad con tecnologías existentes o regulaciones de seguridad. Las restricciones ayudan a definir los límites dentro de los cuales debe operar el sistema, asegurando que el diseño cumpla con las expectativas y requerimientos predefinidos.
 
+|**Technical Story ID**|**Título**|**Descripción**|**Criterios de Aceptación**|
+| :- | :- | :- | :- |
+|TC-01|Limitaciones de Hardware|Integración con Dispositivos de Monitoreo y Sensores|El sistema debe ser capaz de integrarse con dispositivos de monitoreo de seguridad, como cámaras, sensores de movimiento y dispositivos portátiles, que puedan detectar el uso o no uso de EPP en tiempo real. Los dispositivos deben ser compatibles con las normativas de seguridad en entornos industriales.|
+|TC-02|Restricciones de Seguridad|Todos los datos capturados por el sistema deben ser almacenados y transmitidos utilizando protocolos de seguridad estándar, como encriptación de extremo a extremo, para garantizar la privacidad y la seguridad de los trabajadores y de las empresas que implementen el sistema.|<p>Los datos deben ser encriptados utilizando AES-256 tanto en reposo como en tránsito.</p><p>Cualquier intento no autorizado de acceso debe generar una alerta y registrar el incid</p>|
+|TC-03|Escalabilidad para Grandes Volúmenes de Usuarios|El sistema debe ser escalable para soportar grandes volúmenes de trabajadores y supervisores, sin afectar el rendimiento ni la capacidad de generar alertas en tiempo real.|<p>El sistema debe poder gestionar un mínimo de 1,000 trabajadores simultáneamente por sitio sin comprometer el tiempo de respuesta de las alertas (máximo 5 segundos de retraso).</p><p>La infraestructura debe ser capaz de escalar horizontalmente sin degradación del rendimiento para hasta 10,000 usuarios simultáneos en múltiples sitios.</p><p></p>|
 ### 4.1.3. Architectural Drivers Backlog
+l Architectural Drivers Backlog es una lista priorizada de los principales factores que influyen en el diseño arquitectónico del sistema. Los drivers son elementos clave como los requisitos funcionales, atributos de calidad, restricciones y cualquier otro aspecto que pueda impactar las decisiones técnicas y estructurales del proyecto. Esta lista permite al equipo de desarrollo enfocar los esfuerzos en los aspectos más críticos para cumplir con las expectativas de los stakeholders y asegurar que la solución técnica sea viable y sostenible.
 
+|**Driver ID**|**Título de Driver**|**Descripción**|**Importancia para Stakeholders**|**Impacto en Architecture Technical Complexity**|
+| :- | :- | :- | :- | :- |
+|AD-01|Monitoreo en Tiempo Real	|El sistema debe monitorear el uso de EPP en tiempo real, generando alertas inmediatas en caso de fallos.	|Alta|Requiere una arquitectura escalable con capacidad de procesamiento en tiempo real y detección de eventos.	|
+|AD-02|Notificaciones Automáticas	|Implementar notificaciones automáticas a supervisores y trabajadores cuando se detecten incumplimientos.	|Alta|Necesita integración con sistemas de notificación y procesamiento continuo para enviar alertas en tiempo real.	|
+|AD-03|Accesibilidad Multiplataforma	|La solución debe ser accesible desde dispositivos móviles, tabletas y estaciones de trabajo.	|Media|Afecta el diseño de la interfaz de usuario y requiere compatibilidad con varios tipos de dispositivos y sistemas operativos.	|
+|AD-04|Generación de Reportes	|Capacidad de generar reportes automáticos y personalizados para auditorías internas y externas.	|Alta |Necesita mecanismos eficientes para almacenar, acceder y procesar grandes volúmenes de datos históricos y generar reportes complejos.	|
+|AD-05|Seguridad de Datos	|Asegurar que todos los datos de los trabajadores y su EPP se manejen de forma segura y cumplan con normativas.	|ALta |Implica la integración de medidas de seguridad como cifrado, autenticación y autorización en la arquitectura del sistema.|
+|AD-06|Detección Automática de Incumplimientos	|El sistema debe identificar automáticamente cuando un trabajador entra en una zona de riesgo sin el EPP adecuado.	|Alta|Afecta directamente los algoritmos de detección y análisis de imágenes, y puede influir en el diseño del procesamiento de datos.	|
 ### 4.1.4. Architectural Design Decisions
-
+Son las decisiones críticas que se toman durante el desarrollo de la arquitectura del sistema para definir su estructura y comportamiento. Estas decisiones afectan aspectos clave del sistema, como su rendimiento, escalabilidad, seguridad y mantenibilidad. Cada decisión está basada en los drivers arquitectónicos, restricciones y requisitos del proyecto. Documentar estas decisiones ayuda a asegurar que las soluciones arquitectónicas elegidas sean claras y comprensibles para todos los involucrados.
+**Etapas de las Architectural Design Decisions:**
+- Identificación de los Drivers Arquitectónicos: Basado en los architectural drivers identificados en el backlog, el equipo determina las áreas clave donde se deben tomar decisiones de diseño, como rendimiento, seguridad o escalabilidad.
+- Evaluación de Alternativas: Para cada driver, se evalúan diferentes alternativas de diseño. Estas pueden incluir el uso de diferentes tecnologías, patrones de diseño o enfoques arquitectónicos (por ejemplo, arquitectura basada en microservicios vs. arquitectura monolítica).
+- Análisis de Impacto: Cada alternativa es analizada en términos de su impacto en los requisitos funcionales, no funcionales (atributos de calidad) y las restricciones técnicas. Esto incluye factores como la complejidad, costo, tiempo de implementación, riesgos técnicos, etc.
+- Selección de la Solución Óptima: Se selecciona la mejor solución basada en los análisis previos, tomando en cuenta las necesidades de los stakeholders, el impacto en la arquitectura y la viabilidad técnica.
+- Documentación de la Decisión: Una vez tomada la decisión, se documenta claramente para que todos los miembros del equipo y los stakeholders entiendan las razones detrás de la elección y su impacto en el proyecto. Esto asegura coherencia y facilita futuras revisiones o modificaciones.
+- Validación y Seguimiento: Finalmente, se valida la implementación de la decisión y se monitoriza su efectividad durante el desarrollo del sistema. Cualquier ajuste necesario se retroalimenta al proceso de toma de decisiones.
 ### 4.1.5. Quality Attribute Scenario Refinements
 
+|**Atributo**|**Fuente**|**Estímulo**|**Artefacto**|**Entorno**|**Respuesta**|**Medida de éxito**|
+| :- | :- | :- | :- | :- | :- | :- |
+|Rendimiento|Usuario|El usuario solicita una notificación en tiempo real cuando un trabajador no usa el EPP adecuado.	|Sistema de Notificaciones	|Operación normal con carga alta	|El sistema envía la notificación en menos de 2 segundos.	|Notificación enviada en ≤ 2 segundos en el 95% de los casos.|
+|Disponibilidad	|Sistema externo	|El sistema de autenticación externa (OAuth) se cae temporalmente.	|Módulo de autenticación	|Operación con falla de servicio externo	|El sistema debe permitir el acceso limitado usando credenciales almacenadas en caché.	|El sistema se recupera sin interrupciones mayores a 10 segundos.|
+|Escalabilidad|Admin|El número de trabajadores conectados se duplica durante una auditoría de seguridad.	|Sistema de Monitoreo en Tiempo Real	|Sobrecarga de usuarios	|El sistema sigue monitoreando y procesando los datos sin disminución perceptible.	|El sistema soporta hasta el doble de usuarios sin degradación en el rendimiento.|
+|Seguridad|Hacker	|Un atacante intenta acceder a los datos de EPP de los trabajadores mediante un ataque de fuerza bruta.	|Sistema de Autenticación	|Operación bajo ataque de seguridad	|El sistema detecta el ataque y bloquea el intento después de 3 intentos fallidos.	|<p>El 100% de los ataques de fuerza bruta son bloqueados sin comprometer datos.</p><p></p>|
+|Mantenibilidad|Equipo de desarrollo	|Un desarrollador necesita realizar una actualización del sistema sin interrumpir el servicio.	|Backend|Durante operación normal	|La actualización se implementa sin causar interrupciones a los usuarios.	|<p>El 95% de las actualizaciones se realizan sin tiempo de inactividad.</p><p></p>|
+|Usabilidad	|Trabajador|Un trabajador debe confirmar que está usando el EPP adecuado al entrar en una zona de riesgo.	|Interfaz de usuario	|Operación normal	|La interfaz guía al trabajador en menos de 3 pasos para verificar el uso de EPP.	|Los trabajadores completan la verificación en menos de 5 segundos el 90% de las veces.|
 ## 4.2. Strategic-Level Domain-Driven Design
 
 ### 4.2.1. EventStorming
@@ -745,7 +1008,7 @@ En resumen, el propósito de nuestro proceso de diseño es crear una solución q
 
 --- 
 
-# Bibiografía
+# Bibliografía
 
 
 Ministerio de Trabajo y Promoción del Empleo (MTPE). (2024). *Reporte del Mercado Laboral: Sector Construcción*. Recuperado de https://cdn.www.gob.pe/uploads/document/file/6565614/5716638-reporte-mercado-laboral-sector-construccion.pdf. 
