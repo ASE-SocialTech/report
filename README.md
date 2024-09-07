@@ -7,22 +7,22 @@
 
 <h4>Arquitecturas de Software Emergentes</h4>
 
-**Sección:** SW82
+**Sección:** WS82
 **Profesor:** Royer Edelwer Rojas Malasquez
 
 <h3>INFORME DEL TRABAJO FINAL</h3>
 
 **Startup:** SocialTech
 
-**Producto:**
+**Producto:** EPPEye
 
 **Integrantes:**
 
-Achamizo Huamani, Jean Carlos <br>
-Aliaga Trevejo, Lucía Guadalupe <br>
-Raymundo Guevara, Rodrigo Alejandro <br>
-Siancas Reategui, Luis Alberto <br>
-Trujillo Lopez, Luis Alberto <br>
+Achamizo Huamani, Jean Carlos (U202120841)<br>
+Aliaga Trevejo, Lucía Guadalupe (U20211A452)<br>
+Raymundo Guevara, Rodrigo Alejandro (U20181E098)<br>
+Siancas Reategui, Luis Alberto (U20211G156)<br>
+Trujillo Lopez, Luis Alberto (U20211C667)<br>
 
 **Setiembre, 2024**
 
@@ -42,6 +42,8 @@ Trujillo Lopez, Luis Alberto <br>
 
 URL del repositorio: https://github.com/ASE-SocialTech/report
 
+![Report Repository Insights](./assets/insights-tb1.PNG)
+
 ---
 
 
@@ -49,6 +51,11 @@ URL del repositorio: https://github.com/ASE-SocialTech/report
 
 ## Tabla de Contenidos
 
+- [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
+- [Project Report Collaboration Insights](#project-report-collaboration-insights)
+- [Contenido](#contenido)
+  - [Tabla de Contenidos](#tabla-de-contenidos)
+- [Student Outcome](#student-outcome)
 - [Capítulo I: Introducción](#capítulo-i-introducción)
   - [1.1. Startup Profile](#11-startup-profile)
     - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
@@ -61,8 +68,7 @@ URL del repositorio: https://github.com/ASE-SocialTech/report
       - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
       - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
   - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
-
-- [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis)
+- [Capítulo II: Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis)
   - [2.1. Competidores](#21-competidores)
     - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
     - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
@@ -76,19 +82,19 @@ URL del repositorio: https://github.com/ASE-SocialTech/report
     - [2.3.3. Empathy Mapping](#233-empathy-mapping)
     - [2.3.4. As-is Scenario Mapping](#234-as-is-scenario-mapping)
   - [2.4. Ubiquitous Language](#24-ubiquitous-language)
-
 - [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
   - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
   - [3.2. User Stories](#32-user-stories)
   - [3.3. Impact Mapping](#33-impact-mapping)
   - [3.4. Product Backlog](#34-product-backlog)
-
+- [Product Backlog](#product-backlog)
+  - [Tabla de Product Backlog](#tabla-de-product-backlog)
 - [Capítulo IV: Strategic-Level Software Design](#capítulo-iv-strategic-level-software-design)
   - [4.1. Strategic-Level Attribute-Driven Design](#41-strategic-level-attribute-driven-design)
     - [4.1.1. Design Purpose](#411-design-purpose)
     - [4.1.2. Attribute-Driven Design Inputs](#412-attribute-driven-design-inputs)
       - [4.1.2.1. Primary Functionality (Primary User Stories)](#4121-primary-functionality-primary-user-stories)
-      - [4.1.2.2. Quality attribute Scenarios](#4122-quality-attribute-scenarios)
+      - [4.1.2.2. Quality attribute](#4122-quality-attribute)
       - [4.1.2.3. Constraints](#4123-constraints)
     - [4.1.3. Architectural Drivers Backlog](#413-architectural-drivers-backlog)
     - [4.1.4. Architectural Design Decisions](#414-architectural-design-decisions)
@@ -165,8 +171,8 @@ SocialTech es un startup creado por estudiantes de la UPC, dedicada al desarroll
     <tr>
         <td><b>Nombre:</b> Trujillo Lopez, Luis Alberto<br>
             <b>Carrera:</b> Ingenieria de Software <br>
-        <b>Descripcion:</b> Descripción 
-        <td><img src="" alt="Luis Trujillo" width="600"></td>
+        <b>Descripcion:</b> Soy un estudiante de Ingeniería de Software interesado en las tecnologías de aprendizaje autónomo. Me gusta desarrollar en un entorno web páginas que se vean llamativas y que tengan múltiples funcionalidades enfocándome en la experiencia del usuario y en la creación de API’s. Poseo algunas habilidades que me permiten relacionarme en equipo, soy una persona responsable, con un enfoque centrado, comunicación asertiva, liderazgo y adaptabilidad. Mi meta es contribuir en el desarrollo de proyectos que me permitan mejorar y encontrar nuevas habilidades para adquirir mayores conocimientos laboral y profesionalmente.
+        <td><img src="./assets/Luis-Trujillo.png" alt="Luis Trujillo" width="600"></td>
     </tr>
    <table>
 
@@ -278,6 +284,7 @@ Sabremos que habremos tenido éxito, cuando la generación de reportes sea preci
 <tr><td colspan="1" valign="top"><p><b>User & Customers</b><br>`  `<b>Usuarios</b>: Supervisores de seguridad y trabajadores en entornos industriales de alto riesgo, como fábricas, construcciones y minería.</p><p><b>Clientes</b>: Empresas que buscan mejorar la seguridad laboral y el cumplimiento de las normativas de protección.</p></td><td colspan="1" valign="top"><p><b>User Benefits<br><br>Supervisores de Seguridad:</b> Mayor visibilidad y control sobre el uso de EPP, capacidad para tomar decisiones basadas en datos, y reducción en la necesidad de supervisión manual constante.</p><p><b>Trabajadores:</b> Notificaciones y recordatorios que ayudan a asegurar el uso adecuado de EPP, acceso a guías y recomendaciones para mejorar el cumplimiento.</p><p></p></td></tr>
 <tr><td colspan="1" valign="top"><p><b>Hypotheses</b><br>  <br>` `<b>Monitoreo en Tiempo Real:</b> Implementar un sistema de monitoreo en tiempo real reducirá los incidentes de EPP en un 15% y aumentará el cumplimiento de las normativas en un 20%.</p><p><b>Notificaciones Instantáneas:</b> Notificaciones instantáneas mejorarán la capacidad de los supervisores para responder rápidamente a incumplimientos, disminuyendo el riesgo de accidentes.</p><p><b>Reportes Automáticos:</b> La generación de reportes automáticos mejorará la toma de decisiones y la satisfacción del cliente, contribuyendo a la retención de clientes.</p></td><td colspan="1" valign="top"><p><b>What’s the most important</b><br>`  `<b>thing we need to learn</b><br>`  `<b>first?</b><br>  </p><p>Lo más importante que necesitamos aprender primero es: La eficacia del sistema de monitoreo en tiempo real para detectar y notificar incumplimientos de EPP.</p></td><td colspan="1" valign="top"><b>What’s the least amount of work</b><br>`  `<b>we need to do to learn the most</b><br>`  `<b>important</b> <b>thing?</b><br>  <br><b>Mínimo trabajo necesario:</b> Desarrollar un prototipo básico del sistema de monitoreo que incluya funcionalidades clave como monitoreo en tiempo real, notificaciones y generación de reportes. Realizar pruebas piloto en un entorno controlado para validar la efectividad del sistema y recopilar retroalimentación de los usuarios para iterar y mejorar el producto antes del lanzamiento completo.</td></tr>
 </table>
+
 ## 1.3. Segmentos objetivo
 
 **Segmento 1:** Trabajadores de almacenes o construcción civil
@@ -621,21 +628,21 @@ D2: Poco conocimiento del software en el mercado</td>
 <table border=1>
   <tr>
     <td>
-      <b>Nombres y apellidos:</b> Nombre <br>
-      <b>Edad:</b>  edad <br>
-      <b>Distrito:</b> distrito <br>
+      <b>Nombres y apellidos:</b> William Ramos <br>
+      <b>Edad:</b>  28 <br>
+      <b>Distrito:</b> Miraflores <br>
       <b>Timing:</b> 0:11:15 - 0:19:36  <br>
       <b>Duración:</b>  8:21 minutos
     </td>
     <td align=center>
-      <img src="./assets/ItaloVargas-Entrevista.jpg" alt="img"  width="80%"/>
+      <img src="./assets/LiamEntrevista.PNG" alt="png"  width="80%"/>
     </td>
   </tr>
   <tr>
     <td colspan=2>
       <b>Enlace:</b> <a>https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211a452_upc_edu_pe/EYA63Hzg-k1Dk7dqBwwoU1UB45Nn96U2dYqSBtjv9TxVJA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7PE7je</a>
       <br>
-      <b>Resumen:</b> 
+      <b>Resumen:</b>  William es un trabajador más especializado que nos menciona que se encarga de supervisar las medidas y cantidades de los materiales en la hora de la construcción, se encarga precisamente de supervisar el correcto uso de los materiales en el proceso de una obra, en varias ocasiones nos comenta que vio a trabajadores que hacen uso de EPPs de forma incorrecta, sin tomarle tanta importancia prevaleciendo la comodidad al momento de trabajar antes que la seguridad, sobretodo en algunas zonas que puedan se peligrosas. Además comenta que ocurren accidentes relacionados a los EPPs que pueden ocasionar lesiones en la obra debido a un maluso de los implementos de seguridad dificultando el correcto proceso de la misma obra.
     </td>
   </tr>
 </table>
@@ -709,6 +716,17 @@ D2: Poco conocimiento del software en el mercado</td>
 </table>
 
 ### 2.2.3. Análisis de entrevistas
+
+**Segmento 1:** Trabajadores de almacenes o construcción civil
+
+- El 66.7% trabajadores que reportan uso inadecuado de EPPs. 
+- El 100% de los entrevistados reportan que son necesarias mejoras en los EPPs debido al desgaste o defectos.
+- El 100% de los entrevistados considera relevante una mejora tecnológica para monitorear el uso de EPPs.
+
+**Segmento 2:** Jefes del área de seguridad
+- El 100% de los usuarios menciona que realiza supervisiones programadas y el 33.3% también realiza supervisiones inopinadas.
+- El 100% de los supervisores menciona que existe resistencia al uso de EPPs por parte de los trabajadores, ya sea por falta de costumbre, capacitación o factores psicológicos.
+- El 100% de los entrevistados considera útil un sistema que monitoree el uso adecuado de los EPPs y que pueda enviar alertas al detectar riesgos.
 
 ## 2.3. Needfinding
 
@@ -983,14 +1001,73 @@ Son las decisiones críticas que se toman durante el desarrollo de la arquitectu
 ## 4.2. Strategic-Level Domain-Driven Design
 
 ### 4.2.1. EventStorming
+![EventStorming](/assets/EventStorming.png)
+
+Enlace completo del Miroo:
+https://miro.com/app/board/uXjVKiSjLO0=/?share_link_id=691985821601 
 
 ### 4.2.2. Candidate Context Discovery
 
+![EventStorming-Step1](/assets/Event-Step1.png)
+
+![EventStorming-Step2](/assets/Event-Step2.png)
+
+![EventStorming-Step3](/assets/Event-Step3.png)
+
+![EventStorming-Step4](/assets/Event-Step4.png)
+
+![EventStorming-Step5](/assets/Event-Step5.png)
+
+![EventStorming-Step6](/assets/Event-Step6.png)
+
+![EventStorming-Step7](/assets/Event-Step7.png)
+
+![EventStorming-Step8](/assets/Event-Step8.png)
+
+![EventStorming-Step9](/assets/Event-Step9.png)
+
+![EventStorming-Step10](/assets/Event-Step10.png)
+
+Enlace completo del Miroo:
+https://miro.com/app/board/uXjVKiSjLO0=/?share_link_id=691985821601 
+
 ### 4.2.3. Domain Message Flows Modeling
 
+![Domain-Message-Flows-Modeling1](/assets/Domain-Message-Flow0.png)
+
+![Domain-Message-Flows-Modeling2](/assets/Domain-Message-Flow1.png)
+
+![Domain-Message-Flows-Modeling3](/assets/Domain-Message-Flow2.png)
+
+![Domain-Message-Flows-Modeling4](/assets/Domain-Message-Flow3.png)
+
+![Domain-Message-Flows-Modeling5](/assets/Domain-Message-Flow4.png)
+
+Enlace completo del Miroo:
+https://miro.com/app/board/uXjVKiV4G4c=/?share_link_id=415870075344 
+
 ### 4.2.4. Bounded Context Canvases
+![Bounded-Context-Canvases1](/assets/Bounded-Context-Canvases0.png)
+
+![Bounded-Context-Canvases2](/assets/Bounded-Context-Canvases1.png)
+
+![Bounded-Context-Canvases3](/assets/Bounded-Context-Canvases2.png)
+
+![Bounded-Context-Canvases4](/assets/Bounded-Context-Canvases3.png)
+
+![Bounded-Context-Canvases5](/assets/Bounded-Context-Canvases4.png)
+
+![Bounded-Context-Canvases6](/assets/Bounded-Context-Canvases5.png)
+
+Enlace completo del Miroo:
+https://miro.com/app/board/uXjVKiVZPPw=/?share_link_id=996437742111
 
 ### 4.2.5. Context Mapping
+
+![Context Mapping](/assets/Context-Mapping.png)
+
+Enlace completo del Miroo:
+https://miro.com/app/board/uXjVKiVZzx4=/?share_link_id=394583925589 
 
 ## 4.3. Software Architecture
 
@@ -1008,7 +1085,7 @@ Son las decisiones críticas que se toman durante el desarrollo de la arquitectu
 
 ### 4.3.4. Software Architecture Deployment Diagrams
 
-![Deployment Diagram](./assets/diagrama-despliegue.jpg)
+![Deployment Diagram](./assets/diagrama-despliegue.jpeg)
 
 ---
 
@@ -1019,7 +1096,11 @@ Son las decisiones críticas que se toman durante el desarrollo de la arquitectu
 # Bibliografía
 
 
-Ministerio de Trabajo y Promoción del Empleo (MTPE). (2024). *Reporte del Mercado Laboral: Sector Construcción*. Recuperado de https://cdn.www.gob.pe/uploads/document/file/6565614/5716638-reporte-mercado-laboral-sector-construccion.pdf. 
+Ministerio de Trabajo y Promoción del Empleo (MTPE). (2024). *Reporte del Mercado Laboral: Sector Construcción*. Recuperado de https://cdn.www.gob.pe/uploads/document/file/6565614/5716638-reporte-mercado-laboral-sector-construccion.pdf
+
+Eco Global Consultores(EGC). (2023). *Normas técnicas peruanas que deben cumplir los EPP's*. Recuperado de https://egcperu.com/seguridad-calidad-medio-ambiente/normas-tecnicas-peruanas-que-deben-cumplir-los-epps/.
+
+El Peruano. (2021). *Equipos de protección deben cumplir las normas técnicas*. Recuperado de https://elperuano.pe/noticia/123662-equipos-de-proteccion-deben-cumplir-las-normas-tecnicas 
 
 --- 
 
