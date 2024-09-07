@@ -996,11 +996,19 @@ Son las decisiones críticas que se toman durante el desarrollo de la arquitectu
 
 ### 4.3.1. Software Architecture System Landscape Diagram
 
+![System Landscape](./assets/structurizr-94925-Contexto.png)
+
 ### 4.3.2. Software Architecture Context Level Diagrams
+
+![Context Level](./assets/structurizr-94925-Contexto.png)
 
 ### 4.3.3. Software Architecture Container Level Diagrams
 
+![Container Level](./assets/structurizr-94925-Contenedor.png)
+
 ### 4.3.4. Software Architecture Deployment Diagrams
+
+![Deployment Diagram](./assets/diagrama-despliegue.jpg)
 
 ---
 
