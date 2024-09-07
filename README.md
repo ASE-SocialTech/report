@@ -171,8 +171,8 @@ SocialTech es un startup creado por estudiantes de la UPC, dedicada al desarroll
     <tr>
         <td><b>Nombre:</b> Trujillo Lopez, Luis Alberto<br>
             <b>Carrera:</b> Ingenieria de Software <br>
-        <b>Descripcion:</b> Soy un estudiante de Ingeniería de Software interesado en las tecnologías de aprendizaje autónomo. Me gusta desarrollar en un entorno web páginas que se vean llamativas y que tengan múltiples funcionalidades enfocándome en la experiencia del usuario y en la creación de API’s. Poseo algunas habilidades que me permiten relacionarme en equipo, soy una persona responsable, con un enfoque centrado, comunicación asertiva, liderazgo y adaptabilidad. Mi meta es contribuir en el desarrollo de proyectos que me permitan mejorar y encontrar nuevas habilidades para adquirir mayores conocimientos laboral y profesionalmente. 
-        <td><img src="./assets/Luis-Trujillo.jpg" alt="Luis Trujillo" width="600"></td>
+        <b>Descripcion:</b> Soy un estudiante de Ingeniería de Software interesado en las tecnologías de aprendizaje autónomo. Me gusta desarrollar en un entorno web páginas que se vean llamativas y que tengan múltiples funcionalidades enfocándome en la experiencia del usuario y en la creación de API’s. Poseo algunas habilidades que me permiten relacionarme en equipo, soy una persona responsable, con un enfoque centrado, comunicación asertiva, liderazgo y adaptabilidad. Mi meta es contribuir en el desarrollo de proyectos que me permitan mejorar y encontrar nuevas habilidades para adquirir mayores conocimientos laboral y profesionalmente.
+        <td><img src="./assets/Luis-Trujillo.png" alt="Luis Trujillo" width="600"></td>
     </tr>
    <table>
 
