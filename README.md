@@ -577,10 +577,33 @@ D2: Poco conocimiento del software en el mercado</td>
 <table border=1>
   <tr>
     <td>
+      <b>Nombres y <br>apellidos:</b> Piero Valverde<br>
+      <b>Edad: </b>20<br>
+      <b>Distrito:</b> Independecia <br>
+      <b>Timing:</b> 0:0:00 - 0:07:27  <br>
+      <b>Duración:</b>  07:27 minutos
+    </td>
+    <td align=center>
+      <img src="./assets/Entrevista_PieroValverde.png" alt="img"  width="80%"/>
+    </td>
+  </tr>
+  <tr>
+    <td colspan=2>
+      <b>Enlace:</b> <a>https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211a452_upc_edu_pe/EYA63Hzg-k1Dk7dqBwwoU1UB45Nn96U2dYqSBtjv9TxVJA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7PE7je</a>
+      <br>
+      <b>Resumen:</b> Piero Valverde, de 20 años, se desempeña actualmente como asistente de almacén en Sodimac. Durante la entrevista, nos comenta que las marcas más utilizadas por su empresa en cuanto a implementos de seguridad son 3M y Delta, debido a su alta calidad y reconocimiento. Piero se describe como una persona que sigue las normas al pie de la letra. Para comunicarse con sus compañeros de trabajo y mantenerse informado sobre los anuncios laborales, utiliza principalmente WhatsApp e Instagram. Sin embargo, menciona que en ocasiones los equipos de protección personal (EPP) que les proporcionan están algo anticuados y presentan defectos, como rajaduras. Además, admite que en algunas ocasiones ha trabajado sin EPPs debido a olvidos en la implementación, aunque al darse cuenta, se asegura de corregir la situación lo más rápido posible.
+    </td>
+  </tr>
+</table>
+
+<table border=1>
+  <tr>
+    <td>
       <b>Nombres y apellidos:</b> Italo Vargas <br>
-      <b>Edad:</b>  24 <br>
-      <b>Distrito:</b> Los olivos <br>
-      <b>Duración:</b>  03:45 minutos
+      <b>Edad:</b>  24 años <br>
+      <b>Distrito:</b> Los Olivos <br>
+      <b>Timing:</b> 0:07:27 - 0:11:15  <br>
+      <b>Duración:</b>  03:48 minutos
     </td>
     <td align=center>
       <img src="./assets/ItaloVargas-Entrevista.jpg" alt="img"  width="80%"/>
@@ -588,7 +611,7 @@ D2: Poco conocimiento del software en el mercado</td>
   </tr>
   <tr>
     <td colspan=2>
-      <b>Enlace:</b> <a>https://youtu.be/KiIsquJ4mMY</a>
+      <b>Enlace:</b> <a>https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211a452_upc_edu_pe/EYA63Hzg-k1Dk7dqBwwoU1UB45Nn96U2dYqSBtjv9TxVJA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7PE7je</a>
       <br>
       <b>Resumen:</b> El trabajador menciona que las marcas le dan los equipos de seguridad sin una marca en especifico y que al desgastarse se le renuevan los equipos. Tambien menciona que una aplicacion que ayude a mejorar su uso de los epps. Tambien quisiera que le llegara un reporte del dia sobre su uso correcto de epps.
     </td>
@@ -598,20 +621,21 @@ D2: Poco conocimiento del software en el mercado</td>
 <table border=1>
   <tr>
     <td>
-      <b>Nombres y <br>apellidos:</b> Piero Valverde<br>
-      <b>Edad: </b>20<br>
-      <b>Distrito:</b> Independecia <br>
-      <b>Duración:</b>  07:27 minutos
+      <b>Nombres y apellidos:</b> Nombre <br>
+      <b>Edad:</b>  edad <br>
+      <b>Distrito:</b> distrito <br>
+      <b>Timing:</b> 0:11:15 - 0:19:36  <br>
+      <b>Duración:</b>  8:21 minutos
     </td>
     <td align=center>
-      <img src="./assets/Entrevista_PieroValverde.png" alt="img"  width="80%"/>
+      <img src="./assets/ItaloVargas-Entrevista.jpg" alt="img"  width="80%"/>
     </td>
   </tr>
   <tr>
     <td colspan=2>
-      <b>Enlace:</b> <a></a>
+      <b>Enlace:</b> <a>https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211a452_upc_edu_pe/EYA63Hzg-k1Dk7dqBwwoU1UB45Nn96U2dYqSBtjv9TxVJA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7PE7je</a>
       <br>
-      <b>Resumen:</b> Piero Valverde, de 20 años, se desempeña actualmente como asistente de almacén en Sodimac. Durante la entrevista, nos comenta que las marcas más utilizadas por su empresa en cuanto a implementos de seguridad son 3M y Delta, debido a su alta calidad y reconocimiento. Piero se describe como una persona que sigue las normas al pie de la letra. Para comunicarse con sus compañeros de trabajo y mantenerse informado sobre los anuncios laborales, utiliza principalmente WhatsApp e Instagram. Sin embargo, menciona que en ocasiones los equipos de protección personal (EPP) que les proporcionan están algo anticuados y presentan defectos, como rajaduras. Además, admite que en algunas ocasiones ha trabajado sin EPPs debido a olvidos en la implementación, aunque al darse cuenta, se asegura de corregir la situación lo más rápido posible.
+      <b>Resumen:</b> 
     </td>
   </tr>
 </table>
@@ -624,7 +648,7 @@ D2: Poco conocimiento del software en el mercado</td>
       <b>Nombres y apellidos:</b> Edfrank Martinez  <br>
       <b>Edad:</b>  36 años <br>
       <b>Distrito:</b> Magdalena del Mar <br>
-      <b>Timing:</b> 00:00 - 00:00 <br>
+      <b>Timing:</b> 0:19:36 - 0:29:45  <br>
       <b>Duración:</b> 10:09 minutos 
     </td>
     <td align=center>
@@ -633,7 +657,7 @@ D2: Poco conocimiento del software en el mercado</td>
   </tr>
   <tr>
     <td colspan=2>
-      <b>Enlace:</b> <a></a>
+      <b>Enlace:</b> <a>https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211a452_upc_edu_pe/EYA63Hzg-k1Dk7dqBwwoU1UB45Nn96U2dYqSBtjv9TxVJA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7PE7je</a>
       <br>
       <b>Resumen:</b> Edfrank, de 36 años, trabaja actualmente como supervisor SSOMA. En la entrevista comenta que algunas de sus marcas preferidas para sus implementos de seguridad son 3M, Delta y Bata debido a su calidad. Suele utilizar redes como Instagram y TikTok para encontrar proveedores de EPPs. Respecto a su labor, menciona que se realizan supervisiones mensuales para asegurar que los implementos de seguridad están en buen estado. Uno de los desafíos que enfrenta es que los trabajadores nuevos no están acostumbrados al uso de los EPPs, razón por la cual no siempre se los colocan, por lo que considera importante capacitarlos y educarlos sobre la seguridad en el trabajo. En su día a día, se encarga de vigilar que los obreros tengan puestos todos sus EPPs, previamente entregados por los empleadores. Edfrank considera que un sistema de monitoreo debería tener la capacidad de identificar si los trabajadores están usando o no adecuadamente sus EPPs y enviar una alerta al dispositivo del supervisor, ya que no siempre existen suficientes supervisores para monitorear a todos en todo momento.
     </td>
@@ -646,7 +670,7 @@ D2: Poco conocimiento del software en el mercado</td>
       <b>Nombres y apellidos:</b> Andrea Eguavil   <br>
       <b>Edad:</b>  30 años <br>
       <b>Distrito:</b> Callao <br>
-      <b>Timing:</b> 00:00 - 00:00 <br>
+      <b>Timing:</b> 0:29:45 - 0:41:10  <br>
       <b>Duración:</b> 11:25 minutos 
     </td>
     <td align=center>
@@ -655,7 +679,7 @@ D2: Poco conocimiento del software en el mercado</td>
   </tr>
   <tr>
     <td colspan=2>
-      <b>Enlace:</b> <a></a>
+      <b>Enlace:</b> <a>https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211a452_upc_edu_pe/EYA63Hzg-k1Dk7dqBwwoU1UB45Nn96U2dYqSBtjv9TxVJA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7PE7je</a>
       <br>
       <b>Resumen:</b> Andrea es una supervisora SSOMA que labora en el Callao. Comenta que, en su centro de labor, se utilizan implementos de marca 3M, los cuales son renovados de acuerdo con su estado de uso. Suele utilizar redes sociales como Facebook, Instagram y TikTok. Andrea menciona que uno de los desafíos que enfrenta es que los trabajadores no siempre tienen colocados sus implementos de seguridad, por lo cual se les realizan amonestaciones. Se considera una persona estricta, pero trata de entender al personal y capacitarlo sobre la importancia del uso de las EPPs. En su día a día realiza inspecciones para asegurarse del uso adecuado de las EPPs. En cuanto a un sistema de monitoreo, le gustaría que se pueda supervisar a los trabajadores en cada área. Además, considera importante que el sistema sea rápido y eficaz para que las notificaciones lleguen a tiempo. 
     </td>
@@ -668,7 +692,7 @@ D2: Poco conocimiento del software en el mercado</td>
       <b>Nombres y apellidos:</b> Ricardo Carlos  <br>
       <b>Edad:</b>  42 años <br>
       <b>Distrito:</b> Jesús María <br>
-      <b>Timing:</b> 00:00 - 00:00 <br>
+      <b>Timing:</b> 0:41:10 - 1:01:14  <br>
       <b>Duración:</b> 20:02 minutos 
     </td>
     <td align=center>
@@ -677,7 +701,7 @@ D2: Poco conocimiento del software en el mercado</td>
   </tr>
   <tr>
     <td colspan=2>
-      <b>Enlace:</b> <a></a>
+      <b>Enlace:</b> <a>https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211a452_upc_edu_pe/EYA63Hzg-k1Dk7dqBwwoU1UB45Nn96U2dYqSBtjv9TxVJA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7PE7je</a>
       <br>
       <b>Resumen:</b> Ricardo, de 42 años, ocupa el puesto de Jefe de Seguridad Salud Ocupacional y Medio Ambiente en su empresa. En la entrevista menciona que algunas de las marcas más utilizadas son 3M, Hawk, Clute, entre otras, dependiendo del tipo de EPP. Las redes sociales que más usa son LinkedIn para el contacto con proveedores, además de Whatsapp, donde suele unirse a grupos para compartir información sobre seguridad. Respecto a su labor, menciona que se realizan inspecciones programadas e inspecciones diarias inopinadas (al azar) para verificar el estado de los EPPs. Ricardo comenta haber presenciado casos en los que los obreros no utilizan adecuadamente los EPPs y algunas de las razones por las cuales tienen este tipo de comportamientos inseguros son factores psicológicos e incomodidad al usarlos. Ante ello, considera que es importante capacitar no solo a los trabajadores, sino a todos los niveles de la empresa. Por último, Ricardo menciona que un sistema de monitoreo debería ser permanente y tener la capacidad de permitir al supervisor elegir qué EPPs se deben supervisar en ciertos ambientes, ya que los requerimientos pueden variar en las distintas áreas de la obra. Por ejemplo, en algunos pisos se requiere el uso de arnés, mientras que al inicio de la obra no es necesario.
     </td>
