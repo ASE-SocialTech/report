@@ -7,7 +7,7 @@
 
 <h4>Arquitecturas de Software Emergentes</h4>
 
-**Sección:** SW82
+**Sección:** WS82
 **Profesor:** Royer Edelwer Rojas Malasquez
 
 <h3>INFORME DEL TRABAJO FINAL</h3>
@@ -635,7 +635,7 @@ D2: Poco conocimiento del software en el mercado</td>
       <b>Duración:</b>  8:21 minutos
     </td>
     <td align=center>
-      <img src="./assets/LiamEntrevista.png" alt="png"  width="80%"/>
+      <img src="./assets/LiamEntrevista.PNG" alt="png"  width="80%"/>
     </td>
   </tr>
   <tr>
