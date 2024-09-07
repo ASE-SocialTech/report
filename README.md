@@ -284,6 +284,7 @@ Sabremos que habremos tenido éxito, cuando la generación de reportes sea preci
 <tr><td colspan="1" valign="top"><p><b>User & Customers</b><br>`  `<b>Usuarios</b>: Supervisores de seguridad y trabajadores en entornos industriales de alto riesgo, como fábricas, construcciones y minería.</p><p><b>Clientes</b>: Empresas que buscan mejorar la seguridad laboral y el cumplimiento de las normativas de protección.</p></td><td colspan="1" valign="top"><p><b>User Benefits<br><br>Supervisores de Seguridad:</b> Mayor visibilidad y control sobre el uso de EPP, capacidad para tomar decisiones basadas en datos, y reducción en la necesidad de supervisión manual constante.</p><p><b>Trabajadores:</b> Notificaciones y recordatorios que ayudan a asegurar el uso adecuado de EPP, acceso a guías y recomendaciones para mejorar el cumplimiento.</p><p></p></td></tr>
 <tr><td colspan="1" valign="top"><p><b>Hypotheses</b><br>  <br>` `<b>Monitoreo en Tiempo Real:</b> Implementar un sistema de monitoreo en tiempo real reducirá los incidentes de EPP en un 15% y aumentará el cumplimiento de las normativas en un 20%.</p><p><b>Notificaciones Instantáneas:</b> Notificaciones instantáneas mejorarán la capacidad de los supervisores para responder rápidamente a incumplimientos, disminuyendo el riesgo de accidentes.</p><p><b>Reportes Automáticos:</b> La generación de reportes automáticos mejorará la toma de decisiones y la satisfacción del cliente, contribuyendo a la retención de clientes.</p></td><td colspan="1" valign="top"><p><b>What’s the most important</b><br>`  `<b>thing we need to learn</b><br>`  `<b>first?</b><br>  </p><p>Lo más importante que necesitamos aprender primero es: La eficacia del sistema de monitoreo en tiempo real para detectar y notificar incumplimientos de EPP.</p></td><td colspan="1" valign="top"><b>What’s the least amount of work</b><br>`  `<b>we need to do to learn the most</b><br>`  `<b>important</b> <b>thing?</b><br>  <br><b>Mínimo trabajo necesario:</b> Desarrollar un prototipo básico del sistema de monitoreo que incluya funcionalidades clave como monitoreo en tiempo real, notificaciones y generación de reportes. Realizar pruebas piloto en un entorno controlado para validar la efectividad del sistema y recopilar retroalimentación de los usuarios para iterar y mejorar el producto antes del lanzamiento completo.</td></tr>
 </table>
+
 ## 1.3. Segmentos objetivo
 
 **Segmento 1:** Trabajadores de almacenes o construcción civil
@@ -716,6 +717,17 @@ D2: Poco conocimiento del software en el mercado</td>
 
 ### 2.2.3. Análisis de entrevistas
 
+**Segmento 1:** Trabajadores de almacenes o construcción civil
+
+- El 66.7% trabajadores que reportan uso inadecuado de EPPs. 
+- El 100% de los entrevistados reportan que son necesarias mejoras en los EPPs debido al desgaste o defectos.
+- El 100% de los entrevistados considera relevante una mejora tecnológica para monitorear el uso de EPPs.
+
+**Segmento 2:** Jefes del área de seguridad
+- El 100% de los usuarios menciona que realiza supervisiones programadas y el 33.3% también realiza supervisiones inopinadas.
+- El 100% de los supervisores menciona que existe resistencia al uso de EPPs por parte de los trabajadores, ya sea por falta de costumbre, capacitación o factores psicológicos.
+- El 100% de los entrevistados considera útil un sistema que monitoree el uso adecuado de los EPPs y que pueda enviar alertas al detectar riesgos.
+
 ## 2.3. Needfinding
 
 ### 2.3.1. User Personas
@@ -1073,7 +1085,7 @@ https://miro.com/app/board/uXjVKiVZzx4=/?share_link_id=394583925589
 
 ### 4.3.4. Software Architecture Deployment Diagrams
 
-![Deployment Diagram](./assets/diagrama-despliegue.jpg)
+![Deployment Diagram](./assets/diagrama-despliegue.jpeg)
 
 ---
 
@@ -1084,7 +1096,11 @@ https://miro.com/app/board/uXjVKiVZzx4=/?share_link_id=394583925589
 # Bibliografía
 
 
-Ministerio de Trabajo y Promoción del Empleo (MTPE). (2024). *Reporte del Mercado Laboral: Sector Construcción*. Recuperado de https://cdn.www.gob.pe/uploads/document/file/6565614/5716638-reporte-mercado-laboral-sector-construccion.pdf. 
+Ministerio de Trabajo y Promoción del Empleo (MTPE). (2024). *Reporte del Mercado Laboral: Sector Construcción*. Recuperado de https://cdn.www.gob.pe/uploads/document/file/6565614/5716638-reporte-mercado-laboral-sector-construccion.pdf
+
+Eco Global Consultores(EGC). (2023). *Normas técnicas peruanas que deben cumplir los EPP's*. Recuperado de https://egcperu.com/seguridad-calidad-medio-ambiente/normas-tecnicas-peruanas-que-deben-cumplir-los-epps/.
+
+El Peruano. (2021). *Equipos de protección deben cumplir las normas técnicas*. Recuperado de https://elperuano.pe/noticia/123662-equipos-de-proteccion-deben-cumplir-las-normas-tecnicas 
 
 --- 
 
