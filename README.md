@@ -1033,7 +1033,17 @@ Enlace completo del Miroo:
 https://miro.com/app/board/uXjVKiV4G4c=/?share_link_id=415870075344 
 
 ### 4.2.4. Bounded Context Canvases
+![Bounded-Context-Canvases1](/assets/Bounded-Context-Canvases0.png)
 
+![Bounded-Context-Canvases2](/assets/Bounded-Context-Canvases1.png)
+
+![Bounded-Context-Canvases3](/assets/Bounded-Context-Canvases2.png)
+
+![Bounded-Context-Canvases4](/assets/Bounded-Context-Canvases3.png)
+
+![Bounded-Context-Canvases5](/assets/Bounded-Context-Canvases4.png)
+
+![Bounded-Context-Canvases6](/assets/Bounded-Context-Canvases5.png)
 
 Enlace completo del Miroo:
 https://miro.com/app/board/uXjVKiVZPPw=/?share_link_id=996437742111
