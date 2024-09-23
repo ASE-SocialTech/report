@@ -2287,6 +2287,196 @@ Estas clases en la *Infrastructure Layer* permiten la interacción con servicios
 
 ![Alert Database Diagram](./assets/DatabaseDiagramAlert.png)
 
+# Capítulo VI: Solution UX Design
+
+## 6.1. Style Guidelines
+### 6.1.1. General Style Guidelines
+
+#### Brand Overview
+En un entorno donde la seguridad y la correcta utilización de los Equipos de Protección Personal (EPP) son fundamentales para la protección de los trabajadores y el cumplimiento de las normativas de seguridad, **EPPEye** surge como una solución tecnológica avanzada. Nuestra plataforma combina la potencia de la visión artificial y el aprendizaje automático para monitorear y garantizar el uso adecuado de los EPP en tiempo real, brindando a las empresas industriales la tranquilidad y confianza necesarias para proteger a su personal y cumplir con los requisitos de seguridad.
+
+**EPPEye** se concibe como la respuesta a la necesidad crítica de una supervisión más precisa y proactiva del uso de EPP en entornos de trabajo. Mediante la implementación de algoritmos de inteligencia artificial y sistemas de monitoreo visual, aseguramos que cada trabajador utilice correctamente su equipo de protección, minimizando los riesgos de accidentes laborales y optimizando el cumplimiento de las regulaciones de seguridad.
+
+Nuestro equipo se compromete a ofrecer una experiencia excepcional para las empresas, supervisores y trabajadores, con una interfaz intuitiva y fácil de usar que permite monitorear el estado del cumplimiento en tiempo real. Nos esforzamos por proporcionar alertas oportunas y reportes detallados sobre el uso de EPP, facilitando la toma de decisiones informadas y la mejora continua de los procesos de seguridad laboral.
+
+**EPPEye** se posiciona como la herramienta esencial para cualquier organización que valore la seguridad y la integridad de su fuerza laboral. Con nuestro enfoque en la innovación tecnológica y la calidad del servicio, estamos transformando la manera en que las empresas gestionan la seguridad de sus trabajadores, garantizando un entorno laboral más seguro y conforme a las normativas vigentes.
+
+#### Brand Name (EPPEye)
+El nombre **EPPEye** combina "EPP" (Equipo de Protección Personal) y "Eye" (ojo en inglés), simbolizando la capacidad de observación y supervisión del sistema sobre el uso correcto de los equipos de protección. Se eligió este nombre en inglés para destacar la naturaleza tecnológica y global del producto, asegurando que sea fácilmente reconocible y memorable para usuarios potenciales en todo el mundo. Al escuchar el nombre "EPPEye", los usuarios deben asociar el servicio con la supervisión precisa y proactiva del uso de EPP, reflejando así los valores de seguridad, eficiencia y cumplimiento que definen nuestra plataforma.
+
+A continuación, se presenta el logo o marca de nuestra solución propuesta.
+
+![EPPEye Logo](./assets/EPPEye-Logo.png)
+
+#### Typography
+
+La tipografía es necesaria para estructurar y organizar el lenguaje visual de todas las plataformas que se desarrollarán para cumplir con las características principales de la aplicación. Se ha tomado en cuenta que las fuentes deben ser legibles y deben aportar a la experiencia del usuario, por ello se optó por el tipo de letra **K2D** de Google Fonts.
+
+**K2D** es una fuente moderna y versátil que combina legibilidad y elegancia, ideal para interfaces de usuario. Su diseño claro y profesional se adapta perfectamente a la identidad visual de **EPPEye**, facilitando la lectura de textos en distintos tamaños y dispositivos. Esta tipografía se utilizará de manera consistente en toda la plataforma para garantizar una experiencia visual coherente y agradable para los usuarios.
+
+#### Color Palette
+
+![Color Palette](./assets/ColorPalette.png)
+
+La paleta de colores para **EPPEye** ha sido cuidadosamente seleccionada para transmitir calidez, accesibilidad y modernidad en el diseño de la plataforma. Estos colores ayudan a crear una interfaz intuitiva y agradable para el usuario, alineada con la identidad de la marca.
+
+- **Color Principal 1: Rust** (`#B03D13`)  
+  Representa estabilidad y seriedad para destacar acciones importantes dentro de la aplicación.
+
+- **Color Principal 2: Coral** (`#FD8356`)  
+  Simboliza vitalidad y energía a la acción que requieren la atención inmediata del usuario.
+
+- **Color Secundario 1: Misty Rose** (`#FFE5DB`)  
+  Un tono suave y neutral creando un ambiente visualmente ligero y acogedor.
+
+- **Color Secundario 2: Battleship Gray** (`#959595`)  
+  Un color gris neutro que se emplea en elementos que no deben competir visualmente con los colores principales.
+
+- **Color de Fondo: White** (`#FFFFFF`)  
+  Un color limpio y minimalista que se utiliza como fondo principal de la interfaz, permitiendo que los colores primarios y secundarios resalten con claridad.
+
+Esta paleta garantiza una experiencia visual coherente y atractiva en toda la plataforma de **EPPEye**, facilitando la navegación y asegurando que los elementos importantes se destaquen de manera efectiva. Cada color ha sido seleccionado para complementar la identidad de la marca y mejorar la experiencia del usuario en todas las plataformas.
+
+
+### 6.1.2. Web, Mobile & Devices Style Guidelines
+
+### 6.1.2. Web, Mobile & Devices Style Guidelines
+
+#### Web and Mobile Style Guide
+
+En esta sección se explica e ilustra las decisiones sobre los estándares visuales y de interacción para aplicaciones móviles nativas de **EPPEye**. Se han establecido lineamientos específicos para asegurar una experiencia de usuario consistente y optimizada en todos los dispositivos.
+
+#### Native Mobile Interfaces
+
+Para las aplicaciones móviles nativas de **EPPEye**, se han adoptado estándares específicos para iOS y Android, manteniendo la consistencia visual y funcional en ambas plataformas:
+
+1. **Diseño Nativo:**
+   - Uso de componentes nativos de interfaz de usuario (UI) para cada plataforma, respetando las guías de diseño de iOS (Human Interface Guidelines) y Android (Material Design).
+   - Integración de gestos táctiles específicos para navegación y acciones, como deslizamientos y presiones largas.
+
+2. **Navegación y Jerarquía de Información:**
+   - Navegación basada en tabs para facilitar el acceso a las principales secciones de la aplicación.
+   - Uso de listas y tarjetas para presentar información de manera clara y accesible, con detalles expandibles y acciones contextuales.
+
+3. **Tipografía y Tamaño de Texto:**
+   - Adaptación de la tipografía **K2D** a tamaños apropiados para pantallas móviles, asegurando la legibilidad en diferentes densidades de píxeles.
+   - Ajustes dinámicos de tamaño de texto para asegurar la legibilidad en dispositivos con diferentes configuraciones de accesibilidad.
+
+4. **Iconografía y Colores:**
+   - Iconos claros y consistentes que representan las acciones principales de la aplicación, alineados con la paleta de colores de **EPPEye**.
+   - Colores de alerta y confirmación (como Rust y Coral) utilizados para destacar notificaciones y mensajes importantes.
+
+5. **Interacciones y Feedback:**
+   - Feedback visual y táctil (haptic feedback) en botones y acciones críticas para mejorar la experiencia del usuario.
+   - Animaciones sutiles para transiciones entre pantallas, proporcionando una experiencia fluida y agradable.
+
+Estas guías aseguran que la experiencia de **EPPEye** sea intuitiva, consistente y accesible en cualquier dispositivo, permitiendo a los usuarios interactuar con la plataforma de manera eficiente y efectiva, ya sea en una interfaz web o en una aplicación móvil nativa.
+
+
+## 6.2. Information Architecture
+### 6.2.1. Labeling Systems
+
+El sistema de etiquetado en **EPPEye** se diseñará para garantizar que los usuarios puedan identificar y comprender fácilmente la información presentada, evitando confusión y facilitando la navegación. Se utilizarán etiquetas claras y concisas con el menor número de palabras posible, optimizando la experiencia del usuario.
+
+1. **Etiquetas de Secciones Principales:**
+   - **Dashboard:** Resumen general de métricas y alertas relevantes.
+   - **Alertas:** Notificaciones sobre incumplimientos detectados en el uso de EPP.
+   - **Reportes:** Generación y visualización de informes de cumplimiento.
+   - **Configuración:** Opciones para personalizar las alertas y ajustar las configuraciones de la aplicación.
+   - **Ayuda:** Recursos de asistencia y guías de uso de la plataforma.
+
+2. **Etiquetas en Formularios:**
+   - Se utilizarán etiquetas cortas y descriptivas, como "Nombre", "Correo Electrónico", "Zona de Trabajo", y "Tipo de EPP".
+   - Se evitará el uso de términos técnicos o jerga innecesaria para asegurar la comprensión por parte de todos los usuarios.
+
+3. **Etiquetas en Tablas y Listados:**
+   - Se utilizarán encabezados de columnas claros, como "Fecha", "Zona", "Incidencia", "Estado", y "Acciones".
+   - Para cada registro, se proporcionará una breve descripción de la alerta o reporte correspondiente.
+
+4. **Etiquetas de Navegación:**
+   - Se emplearán nombres de menús y botones fáciles de entender, como "Inicio", "Alertas Recientes", "Ver Reportes", "Ajustes" y "Salir".
+
+Este sistema de etiquetado busca facilitar la navegación y comprensión del contenido en toda la plataforma, asegurando una experiencia de usuario fluida y sin complicaciones.
+
+### 6.2.2. Searching Systems
+
+El sistema de búsqueda en **EPPEye** se ha diseñado para ayudar a los usuarios a encontrar rápidamente la información que necesitan, evitando que se sientan perdidos en el volumen de datos disponibles. Las características principales de este sistema incluyen:
+
+1. **Barra de Búsqueda Global:**
+   - Una barra de búsqueda presente en todas las pantallas principales de la aplicación, permitiendo a los usuarios buscar alertas, reportes o configuraciones específicas.
+   - La búsqueda se realiza por palabras clave, como "zona", "fecha", "tipo de EPP" o "estado de cumplimiento".
+
+2. **Filtros de Búsqueda Avanzada:**
+   - Los usuarios pueden refinar su búsqueda utilizando filtros específicos, tales como:
+     - **Rango de Fechas:** Buscar datos en un periodo específico.
+     - **Zona de Trabajo:** Filtrar información según la ubicación o zona específica.
+     - **Tipo de EPP:** Encontrar incidencias relacionadas con un tipo particular de EPP.
+     - **Estado:** Ver solo alertas activas o reportes pendientes de revisión.
+
+3. **Sugerencias de Búsqueda:**
+   - Al escribir en la barra de búsqueda, se mostrarán sugerencias basadas en coincidencias anteriores y términos populares.
+   - Las sugerencias incluyen alertas recientes, reportes generados y configuraciones de EPP.
+
+4. **Resultados de Búsqueda:**
+   - Los resultados se muestran de manera clara y organizada, destacando las coincidencias más relevantes primero.
+   - Cada resultado incluye un resumen con la información principal y opciones para ver más detalles o tomar acciones inmediatas.
+
+Este sistema de búsqueda está diseñado para proporcionar una experiencia de usuario eficiente y satisfactoria, permitiendo a los usuarios encontrar fácilmente la información que buscan.
+
+### 6.2.3. SEO Tags and Meta Tags
+
+Para optimizar la visibilidad de **EPPEye** en motores de búsqueda y mejorar la experiencia de los usuarios en el sitio web, se definirán los siguientes SEO Tags y Meta Tags:
+
+1. **Landing Page:**
+   - **Title:** "EPPEye - Monitoreo Inteligente de EPP en Tiempo Real"
+   - **Meta Description:** "EPPEye es una plataforma avanzada que utiliza inteligencia artificial y visión artificial para monitorear el uso adecuado de Equipos de Protección Personal (EPP) en entornos laborales. Mejore la seguridad y cumpla con las normativas de seguridad industrial."
+   - **Keywords:** "EPP, seguridad industrial, monitoreo de EPP, visión artificial, cumplimiento de normativas, EPPEye"
+   - **Author:** "EPPEye Team"
+
+2. **Web Application:**
+   - **Title:** "EPPEye Web App - Gestión y Monitoreo de EPP"
+   - **Meta Description:** "Acceda a la plataforma de gestión y monitoreo de EPPEye para visualizar alertas, generar reportes y asegurar el cumplimiento en tiempo real del uso de EPP en su organización."
+   - **Keywords:** "gestión de EPP, alertas de seguridad, reportes de EPP, cumplimiento de seguridad"
+   - **Author:** "EPPEye Team"
+
+3. **SEO para Páginas de Contenido:**
+   - **Title:** "Blog EPPEye - Mejores Prácticas de Seguridad con EPP"
+   - **Meta Description:** "Descubra artículos y guías sobre el uso adecuado de EPP y cómo la tecnología de monitoreo en tiempo real puede mejorar la seguridad en el lugar de trabajo."
+   - **Keywords:** "mejores prácticas de EPP, tecnología de monitoreo, seguridad laboral"
+   - **Author:** "EPPEye Team"
+
+4. **ASO (App Store Optimization) para Aplicaciones Móviles:**
+   - **App Title:** "EPPEye - Monitoreo de EPP"
+   - **App Keywords:** "EPP, seguridad laboral, monitoreo de EPP, alertas de seguridad, cumplimiento de normativas"
+   - **App Subtitle:** "Supervisión de EPP en tiempo real para entornos laborales"
+   - **App Description:** "EPPEye utiliza visión artificial y aprendizaje automático para monitorear el uso adecuado de Equipos de Protección Personal (EPP) en tiempo real. Reciba alertas y genere reportes para asegurar el cumplimiento y mejorar la seguridad de su organización."
+
+Estos elementos SEO y ASO asegurarán que **EPPEye** sea fácilmente encontrado por usuarios potenciales y optimizarán la visibilidad de la plataforma en motores de búsqueda y tiendas de aplicaciones.
+
+### 6.2.4. Navigation Systems
+
+El sistema de navegación en **EPPEye** se ha diseñado para guiar a los usuarios de manera eficiente a través de la plataforma, permitiéndoles acceder rápidamente a la información que necesitan y cumplir sus objetivos de manera efectiva.
+
+1. **Estructura de Navegación:**
+   - **Menú Principal:** Un menú superior fijo con enlaces a las secciones principales: Dashboard, Alertas, Reportes, Configuración y Ayuda.
+   - **Menú de Navegación Lateral (para versión web):** Un menú lateral que se despliega para mostrar subcategorías y opciones adicionales dentro de cada sección principal.
+   - **Breadcrumbs:** Se utiliza un sistema de migas de pan para indicar la ubicación del usuario dentro de la estructura de la plataforma y permitir una navegación rápida hacia niveles superiores.
+
+2. **Navegación en Dispositivos Móviles:**
+   - **Menú de Hamburguesa:** Un menú desplegable accesible desde el icono de hamburguesa en la esquina superior izquierda, mostrando todas las opciones de navegación principales y subcategorías.
+   - **Navegación por Gestos:** Los usuarios pueden deslizar hacia la izquierda o derecha para moverse entre secciones, como Dashboard, Alertas y Reportes.
+
+3. **Elementos de Navegación Interactivos:**
+   - **Botones de Acción Rápida:** Botones flotantes en la parte inferior derecha para realizar acciones frecuentes como generar un nuevo reporte o ver alertas recientes.
+   - **Enlaces Contextuales:** Enlaces dentro del contenido que guían al usuario a más información relevante o permiten realizar acciones relacionadas con el contenido visualizado.
+
+4. **Guías y Asistencia:**
+   - **Tours Guiados:** Tours interactivos que aparecen la primera vez que el usuario accede a una sección nueva, explicando las funcionalidades clave y cómo navegar por la interfaz.
+   - **Punto de Asistencia:** Un ícono de ayuda siempre visible que permite acceder a recursos adicionales y soporte en caso de dudas.
+
+Estos sistemas de navegación garantizan que los usuarios de **EPPEye** puedan desplazarse fácilmente por la plataforma, encontrar rápidamente la información que necesitan y realizar sus tareas de manera eficiente, mejorando así la experiencia general del usuario.
+
+
 # Conclusiones
 
 --- 
