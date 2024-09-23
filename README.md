@@ -2516,6 +2516,26 @@ Reports
 
 ### 6.3.1. Applications Wireflow Diagrams
 
+Goal:  Realizar el Iniciar Sesión
+
+![EPPEye Login Wireflow](./assets/wireflow-login.png)
+
+Goal:  Realizar el registro de usuario
+
+![EPPEye Register Wireflow](./assets/wireflow-register.png)
+
+Goal:  Obserbvar el dashboard de una camara en especifica
+
+![EPPEye Dashboard Wireflow](./assets/wireflow-dashboard.png)
+
+Goal:  Configurar las alertas según epp
+
+![EPPEye Views Wireflow](./assets/wireflow-alert.png)
+
+Goal:  Generar reporte
+
+![EPPEye Reports Wireflow](./assets/wireflow-reports.png)
+
 # Conclusiones
 
 --- 
