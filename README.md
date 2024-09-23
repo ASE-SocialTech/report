@@ -885,22 +885,20 @@ D2: Poco conocimiento del software en el mercado</td>
 ![To Be Scenario Mapping](./assets/To-beTrabajador.jpg)
 
 ## 3.2. User Stories
-
-| **Epic / User Story ID** | **Título**                                    | **Descripción**                                                                                                                                                                                                                             | **Criterios de Aceptación**                                                                                                                                                                                                                                                                                                          | **Relacionado con (Epic ID)** |
-|---------------------------|-----------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------|
-| **EP01**                  | **Monitoreo de Cumplimiento de EPP**          | Implementar funcionalidades para detectar y notificar incumplimientos en el uso de equipo de protección personal (EPP) por parte de los trabajadores.                                                                                      |                                                                                                                                                                                                                                                                                                                |                               |
-| **US01**                  | **Notificación de EPP Incorrecto**            | Como trabajador, quiero recibir notificaciones si no estoy usando correctamente mi EPP para poder corregir el problema de inmediato.                                                                                                       | - **Escenario 1:** Dado que el sistema detecta que no estoy usando correctamente mi casco, cuando estoy en una zona de trabajo, entonces recibo una notificación en mi dispositivo móvil indicando el error.<br> - **Escenario 2:** Dado que recibo una notificación sobre el uso incorrecto de mi EPP, cuando corrijo el error, entonces el sistema deja de enviar alertas y actualiza mi estado a cumplimiento. | EP01                          |
-| **US02**                  | **Historial de Notificaciones**               | Como trabajador, quiero revisar mi historial de notificaciones sobre el uso de EPP para entender y corregir mis errores pasados.                                                                                                         | - **Escenario 1:** Dado que quiero revisar mi historial, cuando accedo a la sección de notificaciones en la aplicación, entonces puedo ver todas las alertas que he recibido con fechas y detalles específicos.<br> - **Escenario 2:** Dado que he corregido el uso de mi EPP después de recibir notificaciones, cuando reviso el historial, entonces se indica claramente qué alertas ya han sido resueltas. | EP01                          |
-| **US03**                  | **Confirmación de Cumplimiento de EPP**       | Como trabajador, quiero confirmar que estoy usando el EPP correcto al inicio de mi jornada para evitar problemas futuros.                                                                                                                | - **Escenario 1:** Dado que estoy por iniciar una jornada de trabajo, cuando me preparo para comenzar, entonces recibo un recordatorio en la aplicación para verificar mi EPP.<br> - **Escenario 2:** Dado que verifico mi EPP, cuando confirmo en la aplicación que todo está en orden, entonces el sistema registra mi cumplimiento y no emite más recordatorios para esa jornada. | EP01                          |
-| **US04**                  | **Guía de Uso de EPP**                       | Como trabajador, quiero acceder a una guía interactiva sobre el uso de EPP para asegurarme de que estoy utilizando el equipo correctamente.                                                                                                 | - **Escenario 1:** Dado que quiero aprender a usar correctamente mi EPP, cuando accedo a la guía en la aplicación, entonces puedo ver videos y tutoriales interactivos sobre el uso adecuado de cada tipo de EPP.<br> - **Escenario 2:** Dado que necesito revisar un procedimiento específico, cuando selecciono un tema en la guía, entonces el sistema me lleva directamente al video o tutorial relacionado con ese tema. | EP01                          |
-| **US05**                  | **Recomendaciones Personalizadas**           | Como trabajador, quiero recibir recomendaciones personalizadas basadas en mi historial de cumplimiento para mejorar mi uso de EPP.                                                                                                       | - **Escenario 1:** Dado que he tenido varios incumplimientos, cuando reviso mis notificaciones, entonces puedo ver recomendaciones personalizadas para mejorar mi cumplimiento en el uso de EPP.<br> - **Escenario 2:** Dado que sigo las recomendaciones, cuando reviso mi estado de cumplimiento posteriormente, entonces veo una mejora en mis estadísticas de uso de EPP. | EP01                          |
-| **EP02**                  | **Gestión de Alertas y Auditorías**           | Implementar funcionalidades para gestionar alertas relacionadas con el incumplimiento de EPP y realizar auditorías para asegurar el cumplimiento de las normas de seguridad.                                                               |                                                                                                                                                                                                                                                                                                                |                               |
-| **US06**                  | **Visualización de Incumplimientos**          | Como jefe de seguridad, quiero ver una lista de trabajadores que no están usando EPP correctamente para tomar medidas correctivas.                                                                                                        | - **Escenario 1:** Dado que el sistema detecta varios trabajadores sin EPP, cuando accedo al panel de seguridad, entonces puedo ver una lista con los nombres y ubicaciones de los trabajadores afectados.<br> - **Escenario 2:** Dado que quiero ver los detalles de un trabajador en particular, cuando selecciono su nombre en la lista, entonces se muestra información detallada sobre sus incumplimientos y su ubicación exacta en el sitio. | EP02                          |
-| **US07**                  | **Generación de Reportes Semanales**          | Como jefe de seguridad, quiero generar reportes semanales sobre el uso de EPP para analizar el cumplimiento general y tomar decisiones basadas en datos.                                                                                  | - **Escenario 1:** Dado que es el final de la semana, cuando genero un reporte, entonces puedo ver un resumen de todos los incidentes relacionados con el EPP, incluidos detalles de fechas, horas, y trabajadores involucrados.<br> - **Escenario 2:** Dado que necesito presentar el reporte a la gerencia, cuando exporto el reporte, entonces se genera un archivo PDF con todos los detalles y gráficos relevantes. | EP02                          |
-| **US08**                  | **Monitorización en Tiempo Real**             | Como jefe de seguridad, quiero ver un flujo en vivo de las áreas de trabajo para detectar incumplimientos de EPP en tiempo real.                                                                                                         | - **Escenario 1:** Dado que estoy supervisando la seguridad en el sitio, cuando accedo al panel de monitorización, entonces puedo ver un flujo en vivo de las áreas de trabajo con indicaciones visuales de incumplimientos de EPP.<br> - **Escenario 2:** Dado que detecto un incumplimiento en tiempo real, cuando selecciono la alerta, entonces puedo ver detalles específicos del trabajador y del equipo que no está siendo utilizado correctamente. | EP02                          |
-| **US09**                  | **Configuración de Alertas**                 | Como jefe de seguridad, quiero configurar alertas personalizadas para el incumplimiento de EPP para adaptarlas a las necesidades específicas del sitio de trabajo.                                                                       | - **Escenario 1:** Dado que quiero configurar alertas, cuando accedo a la sección de configuración de alertas, entonces puedo seleccionar los tipos de EPP y las condiciones específicas para emitir alertas.<br> - **Escenario 2:** Dado que he configurado alertas personalizadas, cuando un trabajador incumple con el EPP, entonces recibo una notificación basada en las condiciones que he especificado. | EP02                          |
-| **US10**                  | **Análisis de Tendencias**                   | Como jefe de seguridad, quiero analizar las tendencias en el uso de EPP para identificar patrones y áreas de mejora.                                                                                                                     | - **Escenario 1:** Dado que quiero analizar las tendencias, cuando accedo a la sección de análisis, entonces puedo ver gráficos y estadísticas sobre el uso de EPP por parte de los trabajadores durante un periodo específico.<br> - **Escenario 2:** Dado que quiero enfocar el análisis en una zona específica, cuando selecciono esa zona en el sistema, entonces los gráficos y estadísticas se actualizan para reflejar los datos de esa área en particular. | EP02                          |
-
+| **Epic / User Story ID** | **Título**                                    | **Descripción**                                                                                                                                                                                                                            | **Criterios de Aceptación**                                                                                                                                                                                                                                                                                                                                                          | **Relacionado con (Epic ID)** |
+|--------------------------|-----------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------|
+| **EP01**                 | **Monitoreo de Cumplimiento de EPP**          | Implementar funcionalidades para detectar y notificar incumplimientos en el uso de equipo de protección personal (EPP) por parte de los trabajadores.                                                                                       |                                                                                                                                                                                                                                                                                                                                                                                                                         |                               |
+| **US01**                 | **Notificación de EPP Incorrecto**            | Como jefe de seguridad, quiero recibir notificaciones si se detectan incumplimientos en el uso de EPP en alguna zona de trabajo para poder tomar medidas inmediatas.                                                                        | - **Escenario 1:** Dado que el sistema detecta que no se está utilizando correctamente el EPP en una zona de trabajo específica, cuando se produce el incumplimiento, entonces recibo una notificación en el panel indicando la zona afectada y la naturaleza del problema.<br> - **Escenario 2:** Dado que recibo una notificación sobre el uso incorrecto del EPP en una zona, cuando la incidencia es corregida, entonces el sistema deja de enviar alertas para esa zona y actualiza el estado de cumplimiento en el panel.                                                                                                           | EP01                          |
+| **US02**                 | **Historial de Notificaciones**               | Como jefe de seguridad, quiero revisar el historial de notificaciones sobre el uso de EPP en diferentes zonas de trabajo para entender y corregir errores recurrentes.                                                                      | - **Escenario 1:** Dado que quiero revisar el historial de notificaciones, cuando accedo a la sección de historial en la aplicación, entonces puedo ver todas las alertas generadas con fechas y detalles específicos de cada zona afectada.<br> - **Escenario 2:** Dado que se ha corregido el uso de EPP en una zona, cuando reviso el historial, entonces se indica claramente qué alertas han sido resueltas.                                                                                                                                          | EP01                          |
+| **US03**                 | **Confirmación de Cumplimiento de EPP**       | Como jefe de seguridad, quiero recibir confirmaciones de cumplimiento del uso de EPP al inicio de la jornada en cada zona de trabajo para evitar problemas futuros.                                                                         | - **Escenario 1:** Dado que se va a iniciar una jornada de trabajo, cuando comienza el día laboral, entonces recibo un reporte en la aplicación confirmando que todas las zonas han verificado el uso adecuado del EPP.<br> - **Escenario 2:** Dado que se ha confirmado el uso adecuado de EPP en todas las zonas, cuando reviso el panel de cumplimiento, entonces el estado de cada zona se muestra en verde.                                                                                                                                                               | EP01                          |
+| **US04**                 | **Guía de Uso de EPP**                        | Como jefe de seguridad, quiero tener acceso a una guía interactiva sobre el uso de EPP para asegurarme de que se están cumpliendo los requisitos en cada zona.                                                                              | - **Escenario 1:** Dado que quiero asegurarme de que las zonas cumplen con los requisitos de EPP, cuando accedo a la guía en la aplicación, entonces puedo ver videos y tutoriales interactivos sobre el uso adecuado de cada tipo de EPP.<br> - **Escenario 2:** Dado que necesito revisar un procedimiento específico, cuando selecciono un tema en la guía, entonces el sistema me lleva directamente al video o tutorial relacionado con ese tema.                                                                                                           | EP01                          |
+| **US05**                 | **Recomendaciones Personalizadas**            | Como jefe de seguridad, quiero recibir recomendaciones personalizadas basadas en el historial de cumplimiento por zonas para mejorar el uso de EPP en el sitio.                                                                            | - **Escenario 1:** Dado que he tenido varios incumplimientos en ciertas zonas, cuando reviso mis notificaciones, entonces puedo ver recomendaciones personalizadas para mejorar el cumplimiento en el uso de EPP en esas áreas.<br> - **Escenario 2:** Dado que sigo las recomendaciones, cuando reviso el estado de cumplimiento posteriormente, entonces veo una mejora en las estadísticas de uso de EPP en las zonas afectadas.                                                                                                                                                       | EP01                          |
+| **EP02**                 | **Gestión de Alertas y Auditorías**           | Implementar funcionalidades para gestionar alertas relacionadas con el incumplimiento de EPP y realizar auditorías para asegurar el cumplimiento de las normas de seguridad.                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                         |                               |
+| **US06**                 | **Visualización de Incumplimientos**          | Como jefe de seguridad, quiero recibir alertas de zonas de trabajo donde se detecten incumplimientos en el uso de EPP para tomar medidas correctivas generales.                                                                            | - **Escenario 1:** Dado que el sistema detecta incumplimientos en el uso de EPP en varias zonas, cuando accedo al panel de seguridad, entonces puedo ver un resumen con el número de incidentes y las zonas afectadas, sin detallar trabajadores específicos.<br> - **Escenario 2:** Dado que quiero ver detalles de un incidente en una zona, cuando selecciono la zona en el resumen, entonces se muestra información detallada del tipo de incumplimiento y las condiciones en las que se produjo.                                                                                                                | EP02                          |
+| **US07**                 | **Generación de Reportes Semanales**          | Como jefe de seguridad, quiero generar reportes semanales sobre el uso de EPP para analizar el cumplimiento general por zona y tomar decisiones basadas en datos.                                                                           | - **Escenario 1:** Dado que es el final de la semana, cuando genero un reporte, entonces puedo ver un resumen de todos los incidentes relacionados con el EPP, incluidos detalles de fechas, horas y zonas involucradas.<br> - **Escenario 2:** Dado que necesito presentar el reporte a la gerencia, cuando exporto el reporte, entonces se genera un archivo PDF con todos los detalles y gráficos relevantes por zona.                                                                                                                                                         | EP02                          |
+| **US08**                 | **Monitorización en Tiempo Real**             | Como jefe de seguridad, quiero ver un flujo en vivo de las áreas de trabajo para detectar incumplimientos de EPP en tiempo real por zona.                                                                                                   | - **Escenario 1:** Dado que estoy supervisando la seguridad en el sitio, cuando accedo al panel de monitorización, entonces puedo ver un flujo en vivo de las áreas de trabajo con indicaciones visuales de incumplimientos de EPP en diferentes zonas.<br> - **Escenario 2:** Dado que detecto un incumplimiento en tiempo real en una zona, cuando selecciono la alerta, entonces puedo ver detalles específicos del tipo de incumplimiento y las condiciones de la zona afectada.                                                                                       | EP02                          |
+| **US09**                 | **Configuración de Alertas**                  | Como jefe de seguridad, quiero configurar alertas personalizadas para el incumplimiento de EPP por zona para adaptarlas a las necesidades específicas del sitio.                                                                            | - **Escenario 1:** Dado que quiero configurar alertas, cuando accedo a la sección de configuración de alertas, entonces puedo seleccionar las zonas, tipos de EPP y las condiciones específicas para emitir alertas.<br> - **Escenario 2:** Dado que he configurado alertas personalizadas por zona, cuando se incumple con el EPP en una de las zonas especificadas, entonces recibo una notificación basada en las condiciones que he especificado.                                                                                                           | EP02                          |
+| **US10**                 | **Análisis de Tendencias**                    | Como jefe de seguridad, quiero analizar las tendencias en el uso de EPP por zona para identificar patrones y áreas de mejora.                                                                                                              | - **Escenario 1:** Dado que quiero analizar las tendencias, cuando accedo a la sección de análisis, entonces puedo ver gráficos y estadísticas sobre el uso de EPP por zonas durante un periodo específico.<br> - **Escenario 2:** Dado que quiero enfocar el análisis en una zona específica, cuando selecciono esa zona en el sistema, entonces los gráficos y estadísticas se actualizan para reflejar los datos de esa área en particular.                                                                                                           | EP02                          |
 
 ## 3.3. Impact Mapping
 
@@ -913,17 +911,17 @@ D2: Poco conocimiento del software en el mercado</td>
 ## Tabla de Product Backlog
 
 | **Orden** | **User Story Id** | **Título**                                    | **Descripción**                                                                                                                                                                                                                             | **Story Points** |
-|-----------|----------------|-----------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------|
-| 1         | US01| Notificación de EPP Incorrecto                | Como trabajador, quiero recibir notificaciones si no estoy usando correctamente mi EPP para poder corregir el problema de inmediato.                                                                                                       | 5                |
-| 2         | US02|Historial de Notificaciones                   | Como trabajador, quiero revisar mi historial de notificaciones sobre el uso de EPP para entender y corregir mis errores pasados.                                                                                                         | 3                |
-| 3         | US03| Confirmación de Cumplimiento de EPP           | Como trabajador, quiero confirmar que estoy usando el EPP correcto al inicio de mi jornada para evitar problemas futuros.                                                                                                                | 3                |
-| 4         | US04| Guía de Uso de EPP                           | Como trabajador, quiero acceder a una guía interactiva sobre el uso de EPP para asegurarme de que estoy utilizando el equipo correctamente.                                                                                                 | 5                |
-| 5         | US05| Recomendaciones Personalizadas               | Como trabajador, quiero recibir recomendaciones personalizadas basadas en mi historial de cumplimiento para mejorar mi uso de EPP.                                                                                                       | 5                |
-| 6         | US06| Visualización de Incumplimientos              | Como jefe de seguridad, quiero ver una lista de trabajadores que no están usando EPP correctamente para tomar medidas correctivas.                                                                                                        | 8                |
-| 7         | US07| Generación de Reportes Semanales              | Como jefe de seguridad, quiero generar reportes semanales sobre el uso de EPP para analizar el cumplimiento general y tomar decisiones basadas en datos.                                                                                  | 8                |
-| 8         | US08| Monitorización en Tiempo Real                 | Como jefe de seguridad, quiero ver un flujo en vivo de las áreas de trabajo para detectar incumplimientos de EPP en tiempo real.                                                                                                         | 8                |
-| 9         | US09| Configuración de Alertas                     | Como jefe de seguridad, quiero configurar alertas personalizadas para el incumplimiento de EPP para adaptarlas a las necesidades específicas del sitio de trabajo.                                                                       | 5                |
-| 10        | US10| Análisis de Tendencias                       | Como jefe de seguridad, quiero analizar las tendencias en el uso de EPP para identificar patrones y áreas de mejora.                                                                                                                     | 5                |
+|-----------|-------------------|-----------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------|
+| 1         | US01              | Notificación de EPP Incorrecto                | Como jefe de seguridad, quiero recibir notificaciones si se detectan incumplimientos en el uso de EPP en alguna zona de trabajo para poder tomar medidas inmediatas.                                                                        | 5                |
+| 2         | US02              | Historial de Notificaciones                   | Como jefe de seguridad, quiero revisar el historial de notificaciones sobre el uso de EPP en diferentes zonas de trabajo para entender y corregir errores recurrentes.                                                                      | 3                |
+| 3         | US03              | Confirmación de Cumplimiento de EPP           | Como jefe de seguridad, quiero recibir confirmaciones de cumplimiento del uso de EPP al inicio de la jornada en cada zona de trabajo para evitar problemas futuros.                                                                         | 3                |
+| 4         | US04              | Guía de Uso de EPP                            | Como jefe de seguridad, quiero tener acceso a una guía interactiva sobre el uso de EPP para asegurarme de que se están cumpliendo los requisitos en cada zona.                                                                              | 5                |
+| 5         | US05              | Recomendaciones Personalizadas                | Como jefe de seguridad, quiero recibir recomendaciones personalizadas basadas en el historial de cumplimiento por zonas para mejorar el uso de EPP en el sitio.                                                                            | 5                |
+| 6         | US06              | Visualización de Incumplimientos              | Como jefe de seguridad, quiero recibir alertas de zonas de trabajo donde se detecten incumplimientos en el uso de EPP para tomar medidas correctivas generales.                                                                            | 8                |
+| 7         | US07              | Generación de Reportes Semanales              | Como jefe de seguridad, quiero generar reportes semanales sobre el uso de EPP para analizar el cumplimiento general por zona y tomar decisiones basadas en datos.                                                                           | 8                |
+| 8         | US08              | Monitorización en Tiempo Real                 | Como jefe de seguridad, quiero ver un flujo en vivo de las áreas de trabajo para detectar incumplimientos de EPP en tiempo real por zona.                                                                                                   | 8                |
+| 9         | US09              | Configuración de Alertas                      | Como jefe de seguridad, quiero configurar alertas personalizadas para el incumplimiento de EPP por zona para adaptarlas a las necesidades específicas del sitio de trabajo.                                                                | 5                |
+| 10        | US10              | Análisis de Tendencias                        | Como jefe de seguridad, quiero analizar las tendencias en el uso de EPP por zona para identificar patrones y áreas de mejora.                                                                                                               | 5                |
 
 
 # Capítulo IV: Strategic-Level Software Design
@@ -1088,6 +1086,1206 @@ https://miro.com/app/board/uXjVKiVZzx4=/?share_link_id=394583925589
 ![Deployment Diagram](./assets/diagrama-despliegue.jpeg)
 
 ---
+
+# Capítulo V: Bounded Contexts
+
+## 5.1. Bounded Context: Account
+
+Este contexto se encarga de la gestión de cuentas de usuario, incluyendo el registro, el acceso y la administración de roles dentro de la plataforma. Controla el flujo de registro de usuarios, la verificación de credenciales, la asignación de roles, y la notificación de cambios importantes, como recuperación de contraseñas o bloqueos de acceso tras intentos fallidos.
+
+### Clases Identificadas
+
+| **Clase**       | **User**                                                      |
+|-----------------|---------------------------------------------------------------|
+| **Propósito**   | Representa a un usuario registrado en la plataforma.          |
+| **Atributos**   |                                                               |
+| - `userID`      | Identificador único del usuario.                              |
+| - `username`    | Nombre de usuario para acceso.                                |
+| - `password`    | Contraseña encriptada.                                        |
+| - `email`       | Correo electrónico asociado al usuario.                       |
+| - `status`      | Estado de la cuenta (activo, inactivo, bloqueado).            |
+| - `role`        | Rol asignado al usuario que determina sus permisos.           |
+| **Métodos**     |                                                               |
+| - `authenticate(password: String)` | Verifica si la contraseña proporcionada coincide con la almacenada. |
+| - `changePassword(newPassword: String)` | Permite al usuario cambiar su contraseña.                    |
+| - `updateEmail(newEmail: String)`   | Actualiza el correo electrónico del usuario.                    |
+| - `deactivate()`                    | Cambia el estado del usuario a inactivo.                        |
+| **Relaciones**  |                                                               |
+| - `User` tiene una relación de agregación con `Role`.                           |
+
+
+| **Clase**       | **Role**                                                      |
+|-----------------|---------------------------------------------------------------|
+| **Propósito**   | Define el conjunto de permisos y acceso del usuario en la plataforma. |
+| **Atributos**   |                                                               |
+| - `roleID`      | Identificador único del rol.                                  |
+| - `name`        | Nombre del rol (e.g., Admin, User).                           |
+| - `permissions` | Lista de permisos asociados al rol.                           |
+| **Métodos**     |                                                               |
+| - `addPermission(permission: String)`   | Agrega un permiso al rol.                  |
+| - `removePermission(permission: String)` | Remueve un permiso del rol.                |
+| - `hasPermission(permission: String)`    | Verifica si el rol tiene un permiso específico. |
+| **Relaciones**  |                                                               |
+| - Un `Role` puede ser asignado a uno o varios `User`.                           |
+
+
+| **Clase**       | **AuthenticationToken**                                       |
+|-----------------|---------------------------------------------------------------|
+| **Propósito**   | Representa un token de autenticación generado al iniciar sesión, utilizado para validar las solicitudes del usuario. |
+| **Atributos**   |                                                               |
+| - `token`       | Cadena única que representa el token de autenticación.        |
+| - `user`        | Usuario al que pertenece el token.                            |
+| - `expirationDate` | Fecha de expiración del token.                             |
+| **Métodos**     |                                                               |
+| - `isValid()`   | Verifica si el token es válido en base a su fecha de expiración. |
+| - `invalidate()`| Marca el token como inválido, forzando al usuario a iniciar sesión nuevamente. |
+| **Relaciones**  |                                                               |
+| - Un `User` puede tener uno o varios `AuthenticationToken` activos.             |
+
+### 5.1.1. Domain Layer
+
+En esta capa se definen las clases que representan el núcleo de la aplicación y las reglas de negocio específicas del contexto `Account`. Estas clases incluyen **entities, value objects, aggregates, factories, domain services, and repositories**. A continuación, se detallan las clases principales:
+
+#### **Entities**
+
+| **Clase**       | **User**                                                      |
+|-----------------|---------------------------------------------------------------|
+| **Propósito**   | Representa a un usuario registrado en la plataforma, gestionando sus datos y estado dentro del sistema. |
+| **Atributos**   |                                                               |
+| - `userID`      | Identificador único del usuario.                              |
+| - `username`    | Nombre de usuario para acceso.                                |
+| - `password`    | Contraseña encriptada.                                        |
+| - `email`       | Correo electrónico asociado al usuario.                       |
+| - `status`      | Estado de la cuenta (activo, inactivo, bloqueado).            |
+| - `role`        | Rol asignado al usuario que determina sus permisos.           |
+| **Métodos**     |                                                               |
+| - `authenticate(password: String)` | Verifica si la contraseña proporcionada coincide con la almacenada. |
+| - `changePassword(newPassword: String)` | Permite al usuario cambiar su contraseña.                    |
+| - `updateEmail(newEmail: String)`   | Actualiza el correo electrónico del usuario.                    |
+| - `deactivate()`                    | Cambia el estado del usuario a inactivo.                        |
+
+| **Clase**       | **Role**                                                      |
+|-----------------|---------------------------------------------------------------|
+| **Propósito**   | Define el conjunto de permisos y acceso del usuario en la plataforma. |
+| **Atributos**   |                                                               |
+| - `roleID`      | Identificador único del rol.                                  |
+| - `name`        | Nombre del rol (e.g., Admin, User).                           |
+| - `permissions` | Lista de permisos asociados al rol.                           |
+| **Métodos**     |                                                               |
+| - `addPermission(permission: String)`   | Agrega un permiso al rol.                  |
+| - `removePermission(permission: String)` | Remueve un permiso del rol.                |
+| - `hasPermission(permission: String)`    | Verifica si el rol tiene un permiso específico. |
+
+#### **Value Objects**
+
+| **Clase**       | **Email**                                                     |
+|-----------------|---------------------------------------------------------------|
+| **Propósito**   | Representa el valor del correo electrónico del usuario, garantizando su validez y formato correcto. |
+| **Atributos**   |                                                               |
+| - `address`     | Dirección de correo electrónico del usuario.                  |
+| **Métodos**     |                                                               |
+| - `validate()`  | Verifica que la dirección de correo tenga un formato válido.  |
+
+#### **Aggregates**
+
+| **Aggregate Root** | **User**                                                   |
+|--------------------|------------------------------------------------------------|
+| **Descripción**    | `User` actúa como la raíz del agregado, garantizando la consistencia de las operaciones que involucran entidades relacionadas como `Role`. |
+
+#### **Factories**
+
+| **Clase**       | **UserFactory**                                               |
+|-----------------|---------------------------------------------------------------|
+| **Propósito**   | Facilita la creación de objetos `User` asegurando que se respeten las reglas de negocio y consistencia de datos. |
+| **Métodos**     |                                                               |
+| - `createUser(username: String, password: String, email: String, role: Role)` | Crea un nuevo usuario con los valores proporcionados y lo asocia a un rol específico. |
+
+#### **Domain Services**
+
+| **Clase**       | **AuthenticationService**                                     |
+|-----------------|---------------------------------------------------------------|
+| **Propósito**   | Proporciona lógica de negocio compleja relacionada con la autenticación de usuarios, gestionando la validación de credenciales y generación de tokens. |
+| **Métodos**     |                                                               |
+| - `authenticate(username: String, password: String)` | Verifica las credenciales del usuario y genera un token de autenticación en caso de éxito. |
+
+#### **Repositories**
+
+| **Interfaz**    | **UserRepository**                                            |
+|-----------------|---------------------------------------------------------------|
+| **Propósito**   | Define los métodos necesarios para la persistencia y recuperación de objetos `User` en la base de datos. |
+| **Métodos**     |                                                               |
+| - `findByID(userID: String)`     | Devuelve un usuario por su identificador.                           |
+| - `findByUsername(username: String)` | Busca un usuario por nombre de usuario.                            |
+| - `save(user: User)`            | Guarda o actualiza un usuario en la base de datos.                   |
+| - `delete(userID: String)`      | Elimina un usuario de la base de datos por su identificador.         |
+
+
+### 5.1.2. Interface Layer
+
+En esta sección, el equipo introduce, presenta y explica las clases que forman parte de la **Interface/Presentation Layer** para el contexto `Account`. Estas clases incluyen controladores (Controllers) y consumidores (Consumers) que se encargan de gestionar la interacción entre el usuario y la lógica de aplicación, así como la comunicación con otros sistemas. A continuación, se detallan las clases principales:
+
+#### **Controllers**
+
+| **Clase**       | **AccountController**                                         |
+|-----------------|---------------------------------------------------------------|
+| **Propósito**   | Gestiona las solicitudes relacionadas con la administración de cuentas de usuario, incluyendo registro, inicio de sesión, y actualización de información. |
+| **Métodos**     |                                                               |
+| - `registerUser(request: RegisterUserRequest)`  | Procesa la solicitud de registro de un nuevo usuario. Valida la información proporcionada y utiliza el `UserService` para crear un nuevo usuario. |
+| - `login(request: LoginRequest)`                | Autentica al usuario en la plataforma. Valida las credenciales y genera un token de sesión si son correctas. |
+| - `updateProfile(request: UpdateProfileRequest)`| Permite al usuario actualizar su información de perfil, como correo electrónico y contraseña. |
+| - `deactivateAccount(userID: String)`           | Desactiva la cuenta del usuario especificado, cambiando su estado a inactivo. |
+
+#### **Consumers**
+
+| **Clase**       | **SubscriptionStatusConsumer**                                |
+|-----------------|---------------------------------------------------------------|
+| **Propósito**   | Escucha y procesa mensajes provenientes del contexto `Payment Subscription` para verificar el estado de suscripción del usuario. Esto asegura que solo los usuarios con suscripciones activas puedan acceder a ciertas funcionalidades de la plataforma. |
+| **Métodos**     |                                                               |
+| - `consume(subscriptionStatusMessage: SubscriptionStatusMessage)` | Procesa el mensaje recibido. Actualiza el estado de suscripción del usuario y notifica al `AccountController` para que limite el acceso si la suscripción ha expirado. |
+
+#### **Requests & Responses**
+
+| **Clase**       | **RegisterUserRequest**                                       |
+|-----------------|---------------------------------------------------------------|
+| **Propósito**   | Estructura los datos necesarios para registrar un nuevo usuario en la plataforma. |
+| **Atributos**   |                                                               |
+| - `username`    | Nombre de usuario deseado.                                    |
+| - `password`    | Contraseña para el nuevo usuario.                             |
+| - `email`       | Correo electrónico del usuario.                               |
+| - `role`        | Rol inicial asignado al usuario.                              |
+
+| **Clase**       | **LoginRequest**                                              |
+|-----------------|---------------------------------------------------------------|
+| **Propósito**   | Estructura los datos necesarios para autenticar a un usuario en la plataforma. |
+| **Atributos**   |                                                               |
+| - `username`    | Nombre de usuario.                                            |
+| - `password`    | Contraseña del usuario.                                       |
+
+| **Clase**       | **UpdateProfileRequest**                                      |
+|-----------------|---------------------------------------------------------------|
+| **Propósito**   | Estructura los datos necesarios para que un usuario actualice su perfil. |
+| **Atributos**   |                                                               |
+| - `userID`      | Identificador único del usuario.                              |
+| - `newEmail`    | Nuevo correo electrónico (opcional).                          |
+| - `newPassword` | Nueva contraseña (opcional).                                  |
+
+| **Clase**       | **SubscriptionStatusMessage**                                 |
+|-----------------|---------------------------------------------------------------|
+| **Propósito**   | Representa el mensaje recibido desde el contexto `Payment Subscription` con la información del estado de suscripción del usuario. |
+| **Atributos**   |                                                               |
+| - `userID`      | Identificador único del usuario.                              |
+| - `subscriptionStatus` | Estado de la suscripción (activa, inactiva, cancelada).                    |
+
+Estas clases en el *Interface Layer* permiten la interacción con los usuarios y otros sistemas, manejando la entrada y salida de datos y coordinando las solicitudes de los usuarios con la lógica de aplicación subyacente.
+
+### 5.1.3. Application Layer
+
+En esta sección se describen las clases que manejan los flujos de procesos del negocio dentro del contexto `Account`. Estas clases implementan la lógica de aplicación que coordina las interacciones entre la capa de dominio y la capa de presentación o interfaz. Se incluyen clases del tipo `Command Handlers` e `Event Handlers` para gestionar comandos y eventos específicos del contexto, asegurando que se respeten las reglas del negocio y que se implementen las capacidades de la aplicación en relación con el contexto `Account`.
+
+#### **Command Handlers**
+
+| **Clase**       | **RegisterUserCommandHandler**                                |
+|-----------------|---------------------------------------------------------------|
+| **Propósito**   | Maneja el proceso de registro de un nuevo usuario. Valida los datos del comando, crea el usuario utilizando el `UserFactory` y guarda el nuevo usuario en el repositorio correspondiente. |
+| **Métodos**     |                                                               |
+| - `handle(command: RegisterUserCommand)` | Ejecuta el proceso de registro de un nuevo usuario, asegurando que los datos proporcionados sean válidos y que el usuario no exista previamente en el sistema. |
+
+| **Comando Asociado** | **RegisterUserCommand**                                  |
+|----------------------|----------------------------------------------------------|
+| **Propósito**        | Representa el comando que inicia el proceso de registro de un nuevo usuario en la plataforma. |
+| **Atributos**        |                                                          |
+| - `username`         | Nombre de usuario deseado.                               |
+| - `password`         | Contraseña para el nuevo usuario.                        |
+| - `email`            | Correo electrónico del usuario.                          |
+| - `role`             | Rol asignado al usuario (opcional).                      |
+
+| **Clase**       | **UpdateUserProfileCommandHandler**                           |
+|-----------------|---------------------------------------------------------------|
+| **Propósito**   | Gestiona el proceso de actualización del perfil de usuario. Valida los datos del comando, actualiza la información del usuario y guarda los cambios en el repositorio. |
+| **Métodos**     |                                                               |
+| - `handle(command: UpdateUserProfileCommand)` | Procesa la actualización del perfil de usuario, garantizando la consistencia y validez de los datos modificados. |
+
+| **Comando Asociado** | **UpdateUserProfileCommand**                             |
+|----------------------|----------------------------------------------------------|
+| **Propósito**        | Representa el comando para actualizar los datos de perfil de un usuario en la plataforma. |
+| **Atributos**        |                                                          |
+| - `userID`           | Identificador único del usuario.                         |
+| - `newEmail`         | Nuevo correo electrónico (opcional).                     |
+| - `newPassword`      | Nueva contraseña (opcional).                             |
+
+| **Clase**       | **DeactivateUserCommandHandler**                              |
+|-----------------|---------------------------------------------------------------|
+| **Propósito**   | Maneja el proceso de desactivación de una cuenta de usuario. Verifica la validez del comando, busca al usuario y actualiza su estado a inactivo en el sistema. |
+| **Métodos**     |                                                               |
+| - `handle(command: DeactivateUserCommand)` | Procesa la desactivación de la cuenta de usuario, asegurando que no haya restricciones antes de realizar la operación. |
+
+| **Comando Asociado** | **DeactivateUserCommand**                                |
+|----------------------|----------------------------------------------------------|
+| **Propósito**        | Representa el comando para desactivar una cuenta de usuario en la plataforma. |
+| **Atributos**        |                                                          |
+| - `userID`           | Identificador único del usuario.                         |
+
+#### **Event Handlers**
+
+| **Clase**       | **UserRegisteredEventHandler**                                |
+|-----------------|---------------------------------------------------------------|
+| **Propósito**   | Escucha el evento de usuario registrado y ejecuta acciones relacionadas, como enviar un correo de bienvenida o notificar a otros servicios. |
+| **Métodos**     |                                                               |
+| - `handle(event: UserRegisteredEvent)` | Procesa el evento de registro de usuario y ejecuta las tareas necesarias, como enviar notificaciones. |
+
+| **Evento Asociado** | **UserRegisteredEvent**                                   |
+|---------------------|-----------------------------------------------------------|
+| **Propósito**       | Representa el evento que se dispara cuando un usuario ha sido registrado exitosamente en la plataforma. |
+| **Atributos**       |                                                           |
+| - `userID`          | Identificador único del usuario registrado.               |
+| - `username`        | Nombre de usuario registrado.                             |
+| - `email`           | Correo electrónico del usuario registrado.                |
+
+| **Clase**       | **UserSubscriptionUpdatedEventHandler**                       |
+|-----------------|---------------------------------------------------------------|
+| **Propósito**   | Maneja el evento relacionado con la actualización del estado de suscripción del usuario. Ajusta el estado del usuario y notifica a otros servicios según sea necesario. |
+| **Métodos**     |                                                               |
+| - `handle(event: UserSubscriptionUpdatedEvent)` | Procesa el evento de actualización de suscripción y toma las acciones correspondientes, como limitar el acceso a ciertas funcionalidades. |
+
+| **Evento Asociado** | **UserSubscriptionUpdatedEvent**                          |
+|---------------------|-----------------------------------------------------------|
+| **Propósito**       | Representa el evento que se dispara cuando el estado de la suscripción de un usuario cambia en el contexto `Payment Subscription`. |
+| **Atributos**       |                                                           |
+| - `userID`          | Identificador único del usuario.                          |
+| - `subscriptionStatus` | Estado de la suscripción (activa, inactiva, cancelada).                     |
+
+Estas clases en la *Application Layer* implementan la lógica de negocio de alto nivel para gestionar los flujos de proceso del contexto `Account`, asegurando que se respeten las reglas del negocio y que las acciones se ejecuten de manera consistente y coordinada en toda la aplicación.
+
+### 5.1.4. Infrastructure Layer
+
+En esta capa se presentan las clases que acceden a servicios externos, como bases de datos, sistemas de mensajería o servicios de correo electrónico. Aquí se encuentra la implementación de repositorios para las interfaces definidas en el *Domain Layer*, así como la integración con sistemas externos a través de brokers de mensajes y otros servicios de infraestructura. A continuación, se detallan las clases principales:
+
+#### **Repositories Implementation**
+
+| **Clase**       | **UserRepositoryImpl**                                        |
+|-----------------|---------------------------------------------------------------|
+| **Propósito**   | Implementación de la interfaz `UserRepository` definida en el *Domain Layer*. Se encarga de la persistencia y recuperación de datos de los usuarios en la base de datos. |
+| **Métodos**     |                                                               |
+| - `findByID(userID: String)`     | Busca y devuelve un usuario por su identificador único desde la base de datos. |
+| - `findByUsername(username: String)` | Busca y devuelve un usuario por su nombre de usuario.                      |
+| - `save(user: User)`            | Guarda o actualiza un usuario en la base de datos.                           |
+| - `delete(userID: String)`      | Elimina un usuario de la base de datos por su identificador único.           |
+| **Dependencias**|                                                               |
+| - `DatabaseConnection`: Objeto que maneja la conexión con la base de datos.     |
+
+| **Clase**       | **RoleRepositoryImpl**                                        |
+|-----------------|---------------------------------------------------------------|
+| **Propósito**   | Implementación de la interfaz `RoleRepository`. Gestiona la persistencia de roles y permisos en la base de datos. |
+| **Métodos**     |                                                               |
+| - `findByID(roleID: String)`     | Busca y devuelve un rol por su identificador único.                         |
+| - `findByName(name: String)`     | Busca un rol por su nombre.                                                 |
+| - `save(role: Role)`             | Guarda o actualiza un rol en la base de datos.                              |
+| - `delete(roleID: String)`       | Elimina un rol de la base de datos por su identificador único.              |
+| **Dependencias**|                                                               |
+| - `DatabaseConnection`: Objeto que maneja la conexión con la base de datos.     |
+
+#### **Messaging Systems**
+
+| **Clase**       | **MessageBrokerService**                                      |
+|-----------------|---------------------------------------------------------------|
+| **Propósito**   | Interactúa con el sistema de mensajería para enviar y recibir mensajes entre los diferentes contextos de la aplicación. |
+| **Métodos**     |                                                               |
+| - `publishMessage(topic: String, message: Object)` | Publica un mensaje en un tópico específico para que otros contextos lo consuman. |
+| - `subscribe(topic: String, handler: Function)`    | Se suscribe a un tópico específico y define un manejador para procesar los mensajes entrantes. |
+| **Dependencias**|                                                               |
+| - `MessageBrokerClient`: Cliente para interactuar con el sistema de mensajería (e.g., Kafka, RabbitMQ). |
+
+| **Clase**       | **SubscriptionEventPublisher**                                 |
+|-----------------|---------------------------------------------------------------|
+| **Propósito**   | Publica eventos relacionados con cambios en la suscripción de usuarios, como activación, renovación o cancelación de suscripciones. |
+| **Métodos**     |                                                               |
+| - `publishSubscriptionStatusChange(userID: String, status: String)` | Publica un evento cuando el estado de la suscripción de un usuario cambia. |
+| **Dependencias**|                                                               |
+| - `MessageBrokerService`: Servicio que maneja la interacción con el sistema de mensajería. |
+
+#### **Email Services**
+
+| **Clase**       | **EmailService**                                              |
+|-----------------|---------------------------------------------------------------|
+| **Propósito**   | Proporciona funcionalidades para enviar correos electrónicos, como notificaciones de registro o alertas de cambios en la cuenta. |
+| **Métodos**     |                                                               |
+| - `sendWelcomeEmail(user: User)`            | Envía un correo electrónico de bienvenida al usuario registrado.            |
+| - `sendPasswordResetEmail(user: User)`      | Envía un correo electrónico con instrucciones para restablecer la contraseña. |
+| - `sendSubscriptionUpdateEmail(user: User)` | Envía un correo electrónico notificando cambios en la suscripción del usuario. |
+| **Dependencias**|                                                               |
+| - `EmailClient`: Cliente que interactúa con un servicio de correo electrónico externo (e.g., SMTP, AWS SES). |
+
+#### **External Services Integration**
+
+| **Clase**       | **ExternalUserVerificationService**                           |
+|-----------------|---------------------------------------------------------------|
+| **Propósito**   | Proporciona integración con servicios externos para la verificación de usuarios, como validación de identidad o autenticación multifactor. |
+| **Métodos**     |                                                               |
+| - `verifyIdentity(userID: String)`            | Verifica la identidad del usuario utilizando un servicio externo.             |
+| - `sendVerificationCode(user: User)`          | Envía un código de verificación al usuario a través de un servicio externo.   |
+| **Dependencias**|                                                               |
+| - `VerificationClient`: Cliente que se conecta con el servicio externo de verificación. |
+
+Estas clases en la *Infrastructure Layer* permiten la interacción con servicios externos, proporcionando la implementación necesaria para la persistencia de datos, la mensajería entre contextos y el envío de correos electrónicos. Además, facilitan la integración con servicios externos necesarios para soportar las operaciones del contexto `Account`.
+
+### 5.1.6. Bounded Context Software Architecture Component Level Diagrams
+
+![Account Software Architecture Component Level Diagrams](./assets/SoftwareArchitectureAccount.png)
+
+### 5.1.7. Bounded Context Software Architecture Code Level Diagrams
+#### 5.1.7.1. Bounded Context Domain Layer Class Diagrams
+
+![Account UML Diagram](./assets/UMLDiagramAccount.png)
+
+#### 5.1.7.2. Bounded Context Database Design Diagram
+
+![Account Database Diagram](./assets/DatabaseDiagramAccount.png)
+
+## 5.2. Bounded Context: Payment Subscription
+
+Este contexto maneja todo lo relacionado con la gestión de suscripciones y pagos en la plataforma. Abarca desde la suscripción inicial de los usuarios, la actualización de planes, la facturación periódica, la cancelación de suscripciones y el procesamiento de recordatorios de pago. Además, se encarga de asegurar la integración con sistemas de pago externos como PayPal.
+
+### 5.2.1. Domain Layer
+
+En esta capa se definen las clases que representan el núcleo del negocio y las reglas del dominio para la gestión de suscripciones y pagos. Incluye **entities, value objects, aggregates y domain services**. A continuación, se detallan las principales clases del dominio:
+
+#### **Entities**
+
+| **Clase**       | **Subscription**                                              |
+|-----------------|---------------------------------------------------------------|
+| **Propósito**   | Representa la suscripción de un usuario a un plan específico, incluyendo su estado, fechas de inicio y fin, y tipo de plan. |
+| **Atributos**   |                                                               |
+| - `subscriptionID` | Identificador único de la suscripción.                     |
+| - `userID`         | Identificador del usuario asociado.                        |
+| - `plan`           | Plan al que está suscrito el usuario.                      |
+| - `startDate`      | Fecha de inicio de la suscripción.                         |
+| - `endDate`        | Fecha de finalización de la suscripción.                   |
+| - `status`         | Estado de la suscripción (activa, pendiente, cancelada).   |
+| **Métodos**     |                                                               |
+| - `activate()`       | Activa la suscripción.                                   |
+| - `cancel()`         | Cancela la suscripción.                                  |
+| - `upgrade(plan: Plan)` | Mejora la suscripción a un nuevo plan.               |
+
+| **Clase**       | **Plan**                                                      |
+|-----------------|---------------------------------------------------------------|
+| **Propósito**   | Representa un plan de suscripción disponible para los usuarios. Cada plan tiene diferentes características y precios. |
+| **Atributos**   |                                                               |
+| - `planID`         | Identificador único del plan.                              |
+| - `name`           | Nombre del plan (e.g., Básico, Premium).                   |
+| - `description`    | Descripción del plan.                                      |
+| - `price`          | Precio del plan.                                           |
+| - `duration`       | Duración del plan (e.g., 1 mes, 1 año).                    |
+| **Métodos**     |                                                               |
+| - `getDetails()`   | Retorna los detalles del plan.                             |
+
+#### **Aggregates**
+
+| **Aggregate Root** | **Subscription**                                           |
+|--------------------|------------------------------------------------------------|
+| **Descripción**    | `Subscription` actúa como la raíz del agregado, garantizando la consistencia de las operaciones que involucran entidades relacionadas como `Plan`. |
+
+#### **Value Objects**
+
+| **Clase**       | **PaymentDetails**                                            |
+|-----------------|---------------------------------------------------------------|
+| **Propósito**   | Representa los detalles del pago, incluyendo método de pago, monto y fecha de pago. |
+| **Atributos**   |                                                               |
+| - `paymentMethod`   | Método de pago (e.g., PayPal, Tarjeta de Crédito).        |
+| - `amount`          | Monto del pago.                                           |
+| - `paymentDate`     | Fecha en la que se realizó el pago.                       |
+| **Métodos**     |                                                               |
+| - `validate()`      | Valida la información de pago.                            |
+
+### 5.2.2. Interface Layer
+
+En esta sección, se presentan las clases que forman parte de la **Interface/Presentation Layer** para el contexto `Payment Subscription`. Estas clases incluyen `Controllers` y `Consumers` que gestionan la interacción entre los usuarios, los sistemas externos y la lógica de aplicación.
+
+#### **Controllers**
+
+| **Clase**       | **SubscriptionController**                                    |
+|-----------------|---------------------------------------------------------------|
+| **Propósito**   | Gestiona las solicitudes relacionadas con la suscripción, como la creación, actualización, y cancelación de suscripciones. |
+| **Métodos**     |                                                               |
+| - `createSubscription(request: CreateSubscriptionRequest)` | Crea una nueva suscripción para un usuario. |
+| - `updateSubscription(request: UpdateSubscriptionRequest)` | Actualiza los detalles de una suscripción existente. |
+| - `cancelSubscription(request: CancelSubscriptionRequest)` | Cancela una suscripción activa. |
+
+#### **Consumers**
+
+| **Clase**       | **PaymentConfirmationConsumer**                               |
+|-----------------|---------------------------------------------------------------|
+| **Propósito**   | Escucha mensajes provenientes de sistemas de pago externos (e.g., PayPal) para confirmar los pagos y actualizar el estado de las suscripciones. |
+| **Métodos**     |                                                               |
+| - `consume(paymentConfirmationMessage: PaymentConfirmationMessage)` | Procesa el mensaje recibido. Actualiza el estado de la suscripción y notifica al `SubscriptionController`. |
+
+### 5.2.3. Application Layer
+
+En esta sección se describen las clases que manejan los flujos de procesos del negocio dentro del contexto `Payment Subscription`. Estas clases implementan la lógica de aplicación que coordina las interacciones entre la capa de dominio y la capa de interfaz. Se incluyen clases del tipo `Command Handlers` e `Event Handlers`.
+
+#### **Command Handlers**
+
+| **Clase**       | **CreateSubscriptionCommandHandler**                          |
+|-----------------|---------------------------------------------------------------|
+| **Propósito**   | Maneja el proceso de creación de una nueva suscripción. Valida los datos del comando, crea la suscripción y la guarda en el repositorio. |
+| **Métodos**     |                                                               |
+| - `handle(command: CreateSubscriptionCommand)` | Ejecuta el proceso de creación de una nueva suscripción, asegurando que los datos proporcionados sean válidos y que el plan exista. |
+
+| **Comando Asociado** | **CreateSubscriptionCommand**                             |
+|----------------------|----------------------------------------------------------|
+| **Propósito**        | Representa el comando que inicia el proceso de creación de una nueva suscripción. |
+| **Atributos**        |                                                          |
+| - `userID`           | Identificador del usuario.                               |
+| - `planID`           | Identificador del plan al que se desea suscribir.        |
+| - `paymentDetails`   | Detalles del pago realizado.                             |
+
+#### **Event Handlers**
+
+| **Clase**       | **SubscriptionUpdatedEventHandler**                           |
+|-----------------|---------------------------------------------------------------|
+| **Propósito**   | Escucha el evento de actualización de suscripción y ejecuta acciones relacionadas, como el envío de notificaciones o la actualización del estado de los servicios asociados. |
+| **Métodos**     |                                                               |
+| - `handle(event: SubscriptionUpdatedEvent)` | Procesa el evento de actualización de suscripción y toma las acciones correspondientes, como enviar notificaciones al usuario. |
+
+| **Evento Asociado** | **SubscriptionUpdatedEvent**                              |
+|---------------------|-----------------------------------------------------------|
+| **Propósito**       | Representa el evento que se dispara cuando una suscripción ha sido actualizada exitosamente en la plataforma. |
+| **Atributos**       |                                                           |
+| - `subscriptionID`  | Identificador único de la suscripción actualizada.        |
+| - `status`          | Nuevo estado de la suscripción.                           |
+| - `details`         | Detalles de la actualización realizada.                   |
+
+### 5.2.4. Infrastructure Layer
+
+En esta capa se presentan las clases que acceden a servicios externos, como bases de datos, sistemas de mensajería o servicios de pago. Aquí se encuentra la implementación de repositorios para las interfaces definidas en el *Domain Layer*, así como la integración con sistemas externos a través de brokers de mensajes y otros servicios de infraestructura.
+
+#### **Repositories Implementation**
+
+| **Clase**       | **SubscriptionRepositoryImpl**                                |
+|-----------------|---------------------------------------------------------------|
+| **Propósito**   | Implementación de la interfaz `SubscriptionRepository` definida en el *Domain Layer*. Se encarga de la persistencia y recuperación de datos de suscripciones en la base de datos. |
+| **Métodos**     |                                                               |
+| - `findByID(subscriptionID: String)`     | Busca y devuelve una suscripción por su identificador único desde la base de datos. |
+| - `findByUserID(userID: String)`         | Busca y devuelve las suscripciones de un usuario específico.              |
+| - `save(subscription: Subscription)`     | Guarda o actualiza una suscripción en la base de datos.                           |
+| - `delete(subscriptionID: String)`       | Elimina una suscripción de la base de datos por su identificador único.           |
+| **Dependencias**|                                                               |
+| - `DatabaseConnection`: Objeto que maneja la conexión con la base de datos.     |
+
+#### **Messaging Systems**
+
+| **Clase**       | **PaymentBrokerService**                                      |
+|-----------------|---------------------------------------------------------------|
+| **Propósito**   | Interactúa con el sistema de mensajería para enviar y recibir mensajes de confirmación de pago entre los diferentes contextos de la aplicación y sistemas externos como PayPal. |
+| **Métodos**     |                                                               |
+| - `publishMessage(topic: String, message: Object)` | Publica un mensaje en un tópico específico para confirmar pagos. |
+| - `subscribe(topic: String, handler: Function)`    | Se suscribe a un tópico específico y define un manejador para procesar los mensajes entrantes relacionados con pagos. |
+| **Dependencias**|                                                               |
+| - `MessageBrokerClient`: Cliente para interactuar con el sistema de mensajería (e.g., Kafka, RabbitMQ). |
+
+#### **External Payment Services Integration**
+
+| **Clase**       | **PayPalIntegrationService**                                  |
+|-----------------|---------------------------------------------------------------|
+| **Propósito**   | Proporciona integración con el sistema de pago externo PayPal para la gestión de pagos, reembolsos y validación de transacciones. |
+| **Métodos**     |                                                               |
+| - `processPayment(paymentDetails: PaymentDetails)` | Procesa un pago a través de la API de PayPal.                       |
+| - `refundPayment(transactionID: String)`          | Realiza un reembolso de una transacción específica.               |
+| - `validateTransaction(transactionID: String)`    | Valida una transacción para verificar su autenticidad.            |
+| **Dependencias**|                                                               |
+| - `PayPalAPI`: Cliente que se conecta con la API de PayPal para realizar operaciones. |
+
+Estas clases en la *Infrastructure Layer* permiten la interacción con servicios externos, proporcionando la implementación necesaria para la persistencia de datos, la mensajería entre contextos y la integración con sistemas de pago externos.
+
+### 5.2.6. Bounded Context Software Architecture Component Level Diagrams
+
+![Payment Software Architecture Component Level Diagrams](./assets/SoftwareArchitecturePayment.png)
+
+### 5.2.7. Bounded Context Software Architecture Code Level Diagrams
+#### 5.2.7.1. Bounded Context Domain Layer Class Diagrams
+
+![Payment UML Diagram](./assets/UMLDiagramPayment.png)
+
+#### 5.2.7.2. Bounded Context Database Design Diagram
+
+![Payment Database Diagram](./assets/DatabaseDiagramPayment.png)
+
+## 5.3. Bounded Context: Configuration
+
+Este contexto se encarga de la configuración y personalización de los requisitos de PPE (Personal Protective Equipment) en diferentes áreas de trabajo y roles. Administra la validación de los requisitos de PPE, la actualización de estándares de seguridad y garantiza el cumplimiento con las regulaciones locales. Además, gestiona la adición y eliminación de equipos de protección personal a medida que cambian los requisitos.
+
+### 5.3.1. Domain Layer
+
+En esta capa se definen las clases que representan el núcleo del negocio y las reglas del dominio para la gestión de la configuración de PPE. Incluye **entities, value objects, aggregates y domain services**. A continuación, se detallan las principales clases del dominio:
+
+#### **Entities**
+
+| **Clase**       | **PPEConfiguration**                                           |
+|-----------------|----------------------------------------------------------------|
+| **Propósito**   | Representa la configuración de PPE para una determinada área de trabajo o rol, incluyendo los requisitos específicos de EPP. |
+| **Atributos**   |                                                                |
+| - `configurationID` | Identificador único de la configuración.                   |
+| - `areaID`          | Identificador del área de trabajo asociado.                |
+| - `roleID`          | Identificador del rol asociado a la configuración.         |
+| - `ppeRequirements` | Lista de requisitos de PPE para el área y rol especificados. |
+| **Métodos**     |                                                                |
+| - `addRequirement(requirement: PPERequirement)` | Agrega un nuevo requisito de PPE.                          |
+| - `removeRequirement(requirementID: String)`   | Elimina un requisito de PPE.                               |
+| - `updateRequirement(requirement: PPERequirement)` | Actualiza un requisito existente.                      |
+
+| **Clase**       | **PPERequirement**                                             |
+|-----------------|----------------------------------------------------------------|
+| **Propósito**   | Define un requisito específico de EPP, como el tipo de equipo, cantidad mínima y estándares de seguridad aplicables. |
+| **Atributos**   |                                                                |
+| - `requirementID`    | Identificador único del requisito.                        |
+| - `type`             | Tipo de equipo de protección personal (e.g., casco, guantes). |
+| - `quantity`         | Cantidad mínima requerida.                                |
+| - `safetyStandards`  | Estándares de seguridad aplicables (e.g., OSHA, ISO).     |
+| **Métodos**     |                                                                |
+| - `validate()`       | Valida que el requisito cumpla con los estándares especificados. |
+
+#### **Aggregates**
+
+| **Aggregate Root** | **PPEConfiguration**                                        |
+|--------------------|-------------------------------------------------------------|
+| **Descripción**    | `PPEConfiguration` actúa como la raíz del agregado, garantizando la consistencia de los requisitos de PPE para un área de trabajo y rol específicos. |
+
+#### **Value Objects**
+
+| **Clase**       | **SafetyStandard**                                             |
+|-----------------|----------------------------------------------------------------|
+| **Propósito**   | Representa un estándar de seguridad aplicable a un tipo de EPP, como normas internacionales y locales. |
+| **Atributos**   |                                                                |
+| - `standardID`       | Identificador único del estándar de seguridad.            |
+| - `description`      | Descripción del estándar.                                 |
+| **Métodos**     |                                                                |
+| - `isApplicable(equipmentType: String)` | Verifica si el estándar es aplicable a un tipo de equipo específico. |
+
+### 5.3.2. Interface Layer
+
+En esta sección se presentan las clases que forman parte de la **Interface/Presentation Layer** para el contexto `Configuration`. Estas clases incluyen `Controllers` y `Consumers` que gestionan la interacción entre los usuarios, los sistemas externos y la lógica de aplicación.
+
+#### **Controllers**
+
+| **Clase**       | **ConfigurationController**                                    |
+|-----------------|----------------------------------------------------------------|
+| **Propósito**   | Gestiona las solicitudes relacionadas con la configuración de PPE, como la creación, actualización y validación de configuraciones. |
+| **Métodos**     |                                                                |
+| - `createConfiguration(request: CreateConfigurationRequest)` | Crea una nueva configuración de PPE para un área de trabajo o rol. |
+| - `updateConfiguration(request: UpdateConfigurationRequest)` | Actualiza una configuración existente.             |
+| - `validateConfiguration(request: ValidateConfigurationRequest)` | Valida una configuración de PPE según los estándares de seguridad. |
+
+#### **Consumers**
+
+| **Clase**       | **StandardsUpdateConsumer**                                    |
+|-----------------|----------------------------------------------------------------|
+| **Propósito**   | Escucha mensajes relacionados con actualizaciones de estándares de seguridad y ajusta las configuraciones de PPE según sea necesario. |
+| **Métodos**     |                                                                |
+| - `consume(standardsUpdateMessage: StandardsUpdateMessage)` | Procesa el mensaje recibido y ajusta las configuraciones de PPE para asegurar el cumplimiento con las nuevas normas. |
+
+### 5.3.3. Application Layer
+
+En esta sección se describen las clases que manejan los flujos de procesos del negocio dentro del contexto `Configuration`. Estas clases implementan la lógica de aplicación que coordina las interacciones entre la capa de dominio y la capa de interfaz. Se incluyen clases del tipo `Command Handlers` e `Event Handlers`.
+
+#### **Command Handlers**
+
+| **Clase**       | **CreateConfigurationCommandHandler**                          |
+|-----------------|----------------------------------------------------------------|
+| **Propósito**   | Maneja el proceso de creación de una nueva configuración de PPE. Valida los datos del comando, crea la configuración y la guarda en el repositorio. |
+| **Métodos**     |                                                                |
+| - `handle(command: CreateConfigurationCommand)` | Ejecuta el proceso de creación de una nueva configuración, asegurando que los datos proporcionados sean válidos y que los requisitos de PPE cumplan con los estándares. |
+
+| **Comando Asociado** | **CreateConfigurationCommand**                             |
+|----------------------|-----------------------------------------------------------|
+| **Propósito**        | Representa el comando que inicia el proceso de creación de una nueva configuración de PPE. |
+| **Atributos**        |                                                           |
+| - `areaID`           | Identificador del área de trabajo.                        |
+| - `roleID`           | Identificador del rol.                                    |
+| - `ppeRequirements`  | Lista de requisitos de PPE para la configuración.         |
+
+#### **Event Handlers**
+
+| **Clase**       | **ConfigurationUpdatedEventHandler**                           |
+|-----------------|----------------------------------------------------------------|
+| **Propósito**   | Escucha el evento de actualización de configuración y ejecuta acciones relacionadas, como la notificación a otros contextos o la actualización de reportes. |
+| **Métodos**     |                                                                |
+| - `handle(event: ConfigurationUpdatedEvent)` | Procesa el evento de actualización de configuración y toma las acciones correspondientes, como enviar notificaciones a sistemas relacionados. |
+
+| **Evento Asociado** | **ConfigurationUpdatedEvent**                              |
+|---------------------|------------------------------------------------------------|
+| **Propósito**       | Representa el evento que se dispara cuando una configuración de PPE ha sido actualizada exitosamente en la plataforma. |
+| **Atributos**       |                                                            |
+| - `configurationID` | Identificador único de la configuración actualizada.       |
+| - `changes`         | Detalles de los cambios realizados en la configuración.    |
+
+### 5.3.4. Infrastructure Layer
+
+En esta capa se presentan las clases que acceden a servicios externos, como bases de datos, sistemas de mensajería o servicios de actualización de estándares. Aquí se encuentra la implementación de repositorios para las interfaces definidas en el *Domain Layer*, así como la integración con sistemas externos a través de brokers de mensajes y otros servicios de infraestructura.
+
+#### **Repositories Implementation**
+
+| **Clase**       | **ConfigurationRepositoryImpl**                                |
+|-----------------|----------------------------------------------------------------|
+| **Propósito**   | Implementación de la interfaz `ConfigurationRepository` definida en el *Domain Layer*. Se encarga de la persistencia y recuperación de datos de configuraciones de PPE en la base de datos. |
+| **Métodos**     |                                                                |
+| - `findByID(configurationID: String)`     | Busca y devuelve una configuración por su identificador único desde la base de datos. |
+| - `findByAreaAndRole(areaID: String, roleID: String)` | Busca y devuelve configuraciones específicas para un área y rol. |
+| - `save(configuration: PPEConfiguration)`     | Guarda o actualiza una configuración en la base de datos.                    |
+| - `delete(configurationID: String)`       | Elimina una configuración de la base de datos por su identificador único.    |
+| **Dependencias**|                                                                |
+| - `DatabaseConnection`: Objeto que maneja la conexión con la base de datos.      |
+
+#### **Messaging Systems**
+
+| **Clase**       | **StandardsUpdateBrokerService**                               |
+|-----------------|----------------------------------------------------------------|
+| **Propósito**   | Interactúa con el sistema de mensajería para enviar y recibir mensajes relacionados con actualizaciones de estándares de seguridad entre los diferentes contextos de la aplicación. |
+| **Métodos**     |                                                                |
+| - `publishMessage(topic: String, message: Object)` | Publica un mensaje en un tópico específico para notificar cambios en estándares de seguridad. |
+| - `subscribe(topic: String, handler: Function)`    | Se suscribe a un tópico específico y define un manejador para procesar los mensajes entrantes relacionados con actualizaciones de estándares. |
+| **Dependencias**|                                                                |
+| - `MessageBrokerClient`: Cliente para interactuar con el sistema de mensajería (e.g., Kafka, RabbitMQ). |
+
+#### **External Standards Services Integration**
+
+| **Clase**       | **SafetyStandardsIntegrationService**                          |
+|-----------------|----------------------------------------------------------------|
+| **Propósito**   | Proporciona integración con servicios externos de estándares de seguridad para la gestión de actualizaciones y validación de normas aplicables a EPP. |
+| **Métodos**     |                                                                |
+| - `fetchStandards()` | Recupera la lista de estándares de seguridad actualizados desde un sistema externo. |
+| - `validateStandard(standardID: String)` | Valida un estándar de seguridad para verificar su aplicabilidad a una configuración. |
+| **Dependencias**|                                                                |
+| - `StandardsAPI`: Cliente que se conecta con la API externa de estándares de seguridad para realizar operaciones. |
+
+Estas clases en la *Infrastructure Layer* permiten la interacción con servicios externos, proporcionando la implementación necesaria para la persistencia de datos, la mensajería entre contextos y la integración con servicios externos de estándares de seguridad.
+
+### 5.3.6. Bounded Context Software Architecture Component Level Diagrams
+
+![Configuration Software Architecture Component Level Diagrams](./assets/SoftwareArchitectureConfiguration.png)
+
+### 5.3.7. Bounded Context Software Architecture Code Level Diagrams
+#### 5.3.7.1. Bounded Context Domain Layer Class Diagrams
+
+![Configuration UML Diagram](./assets/UMLDiagramConfiguration.png)
+
+#### 5.3.7.2. Bounded Context Database Design Diagram
+
+![Configuration Database Diagram](./assets/DatabaseDiagramConfiguration.png)
+
+## 5.4. Bounded Context: Support and Maintenance
+
+Este contexto se encarga del soporte y mantenimiento continuo de la plataforma. Incluye la gestión de problemas técnicos reportados, la planificación y ejecución de actualizaciones de la plataforma, así como el envío de alertas de mantenimiento. Además, este contexto coordina la automatización de las actualizaciones de software y seguridad, asegurando que los usuarios estén informados de cualquier interrupción o mejora del sistema.
+
+### 5.4.1. Domain Layer
+
+En esta capa se definen las clases que representan el núcleo del negocio y las reglas del dominio para la gestión de soporte y mantenimiento de la plataforma. Incluye **entities, value objects, aggregates y domain services**. A continuación, se detallan las principales clases del dominio:
+
+#### **Entities**
+
+| **Clase**       | **IncidentReport**                                            |
+|-----------------|----------------------------------------------------------------|
+| **Propósito**   | Representa un informe de incidente técnico reportado en la plataforma, incluyendo detalles del problema y su estado de resolución. |
+| **Atributos**   |                                                                |
+| - `incidentID`       | Identificador único del incidente.                       |
+| - `description`      | Descripción detallada del incidente reportado.           |
+| - `status`           | Estado del incidente (pendiente, en progreso, resuelto). |
+| - `reportedDate`     | Fecha en la que se reportó el incidente.                 |
+| - `resolvedDate`     | Fecha en la que se resolvió el incidente.                |
+| **Métodos**     |                                                                |
+| - `updateStatus(status: String)` | Actualiza el estado del incidente.                              |
+| - `closeIncident()`   | Cierra el incidente marcándolo como resuelto.           |
+
+| **Clase**       | **MaintenanceSchedule**                                       |
+|-----------------|----------------------------------------------------------------|
+| **Propósito**   | Representa un calendario de mantenimiento programado para la plataforma, incluyendo el tipo de mantenimiento y su frecuencia. |
+| **Atributos**   |                                                                |
+| - `scheduleID`      | Identificador único del calendario de mantenimiento.      |
+| - `type`            | Tipo de mantenimiento (software, seguridad, infraestructura). |
+| - `frequency`       | Frecuencia del mantenimiento (diaria, semanal, mensual).  |
+| - `nextMaintenance` | Fecha del próximo mantenimiento programado.               |
+| **Métodos**     |                                                                |
+| - `scheduleMaintenance(date: Date)` | Programa un mantenimiento en una fecha específica.              |
+| - `cancelMaintenance()` | Cancela el mantenimiento programado.                  |
+
+#### **Aggregates**
+
+| **Aggregate Root** | **IncidentReport**                                          |
+|--------------------|-------------------------------------------------------------|
+| **Descripción**    | `IncidentReport` actúa como la raíz del agregado, garantizando la consistencia de las operaciones que involucran informes de incidentes y su resolución. |
+
+#### **Value Objects**
+
+| **Clase**       | **UpdateDetails**                                             |
+|-----------------|----------------------------------------------------------------|
+| **Propósito**   | Representa los detalles de una actualización de software o seguridad, como la versión y las características incluidas. |
+| **Atributos**   |                                                                |
+| - `updateID`          | Identificador único de la actualización.                |
+| - `version`           | Versión de la actualización.                            |
+| - `description`       | Descripción de las características y mejoras incluidas. |
+| **Métodos**     |                                                                |
+| - `getUpdateInfo()`   | Retorna la información detallada de la actualización.   |
+
+### 5.4.2. Interface Layer
+
+En esta sección se presentan las clases que forman parte de la **Interface/Presentation Layer** para el contexto `Support and Maintenance`. Estas clases incluyen `Controllers` y `Consumers` que gestionan la interacción entre los usuarios, los sistemas externos y la lógica de aplicación.
+
+#### **Controllers**
+
+| **Clase**       | **IncidentController**                                         |
+|-----------------|----------------------------------------------------------------|
+| **Propósito**   | Gestiona las solicitudes relacionadas con la creación, actualización y resolución de incidentes técnicos en la plataforma. |
+| **Métodos**     |                                                                |
+| - `createIncident(request: CreateIncidentRequest)` | Crea un nuevo informe de incidente.                      |
+| - `updateIncident(request: UpdateIncidentRequest)` | Actualiza los detalles o el estado de un incidente existente. |
+| - `resolveIncident(request: ResolveIncidentRequest)` | Marca un incidente como resuelto y cierra el informe. |
+
+| **Clase**       | **MaintenanceController**                                      |
+|-----------------|----------------------------------------------------------------|
+| **Propósito**   | Gestiona las solicitudes relacionadas con la programación y actualización de calendarios de mantenimiento de la plataforma. |
+| **Métodos**     |                                                                |
+| - `scheduleMaintenance(request: ScheduleMaintenanceRequest)` | Programa un nuevo mantenimiento en el calendario.   |
+| - `updateMaintenance(request: UpdateMaintenanceRequest)` | Actualiza los detalles de un mantenimiento programado.   |
+| - `cancelMaintenance(request: CancelMaintenanceRequest)` | Cancela un mantenimiento programado.                  |
+
+#### **Consumers**
+
+| **Clase**       | **ConfigurationUpdateConsumer**                                |
+|-----------------|----------------------------------------------------------------|
+| **Propósito**   | Escucha mensajes relacionados con cambios de configuración que podrían requerir actualizaciones o ajustes en la plataforma. |
+| **Métodos**     |                                                                |
+| - `consume(configurationUpdateMessage: ConfigurationUpdateMessage)` | Procesa el mensaje recibido y ajusta el calendario de mantenimiento o ejecuta actualizaciones necesarias. |
+
+### 5.4.3. Application Layer
+
+En esta sección se describen las clases que manejan los flujos de procesos del negocio dentro del contexto `Support and Maintenance`. Estas clases implementan la lógica de aplicación que coordina las interacciones entre la capa de dominio y la capa de interfaz. Se incluyen clases del tipo `Command Handlers` e `Event Handlers`.
+
+#### **Command Handlers**
+
+| **Clase**       | **CreateIncidentCommandHandler**                               |
+|-----------------|----------------------------------------------------------------|
+| **Propósito**   | Maneja el proceso de creación de un nuevo informe de incidente. Valida los datos del comando y crea el informe en el repositorio. |
+| **Métodos**     |                                                                |
+| - `handle(command: CreateIncidentCommand)` | Ejecuta el proceso de creación de un nuevo informe de incidente, asegurando que los datos proporcionados sean válidos. |
+
+| **Comando Asociado** | **CreateIncidentCommand**                                 |
+|----------------------|-----------------------------------------------------------|
+| **Propósito**        | Representa el comando que inicia el proceso de creación de un nuevo informe de incidente. |
+| **Atributos**        |                                                           |
+| - `description`      | Descripción detallada del incidente reportado.            |
+| - `reportedDate`     | Fecha en la que se reportó el incidente.                  |
+
+#### **Event Handlers**
+
+| **Clase**       | **MaintenanceScheduledEventHandler**                           |
+|-----------------|----------------------------------------------------------------|
+| **Propósito**   | Escucha el evento de programación de mantenimiento y ejecuta acciones relacionadas, como la notificación a otros contextos o la actualización de calendarios. |
+| **Métodos**     |                                                                |
+| - `handle(event: MaintenanceScheduledEvent)` | Procesa el evento de programación de mantenimiento y toma las acciones correspondientes, como enviar notificaciones a sistemas relacionados. |
+
+| **Evento Asociado** | **MaintenanceScheduledEvent**                              |
+|---------------------|------------------------------------------------------------|
+| **Propósito**       | Representa el evento que se dispara cuando un mantenimiento ha sido programado exitosamente en la plataforma. |
+| **Atributos**       |                                                            |
+| - `scheduleID`      | Identificador único del calendario de mantenimiento.       |
+| - `type`            | Tipo de mantenimiento programado.                          |
+| - `scheduledDate`   | Fecha del mantenimiento programado.                        |
+
+### 5.4.4. Infrastructure Layer
+
+En esta capa se presentan las clases que acceden a servicios externos, como bases de datos, sistemas de mensajería o servicios de notificación. Aquí se encuentra la implementación de repositorios para las interfaces definidas en el *Domain Layer*, así como la integración con sistemas externos a través de brokers de mensajes y otros servicios de infraestructura.
+
+#### **Repositories Implementation**
+
+| **Clase**       | **IncidentRepositoryImpl**                                     |
+|-----------------|----------------------------------------------------------------|
+| **Propósito**   | Implementación de la interfaz `IncidentRepository` definida en el *Domain Layer*. Se encarga de la persistencia y recuperación de datos de informes de incidentes en la base de datos. |
+| **Métodos**     |                                                                |
+| - `findByID(incidentID: String)`     | Busca y devuelve un informe de incidente por su identificador único desde la base de datos. |
+| - `findAllOpenIncidents()`           | Busca y devuelve todos los incidentes abiertos en la plataforma.    |
+| - `save(incident: IncidentReport)`   | Guarda o actualiza un informe de incidente en la base de datos.     |
+| - `delete(incidentID: String)`       | Elimina un informe de incidente de la base de datos por su identificador único. |
+| **Dependencias**|                                                                |
+| - `DatabaseConnection`: Objeto que maneja la conexión con la base de datos.      |
+
+#### **Messaging Systems**
+
+| **Clase**       | **MaintenanceNotificationService**                             |
+|-----------------|----------------------------------------------------------------|
+| **Propósito**   | Interactúa con el sistema de mensajería para enviar y recibir mensajes relacionados con actualizaciones de mantenimiento y notificaciones de incidentes. |
+| **Métodos**     |                                                                |
+| - `publishMessage(topic: String, message: Object)` | Publica un mensaje en un tópico específico para notificar actualizaciones de mantenimiento. |
+| - `subscribe(topic: String, handler: Function)`    | Se suscribe a un tópico específico y define un manejador para procesar los mensajes entrantes relacionados con incidentes. |
+| **Dependencias**|                                                                |
+| - `MessageBrokerClient`: Cliente para interactuar con el sistema de mensajería (e.g., Kafka, RabbitMQ). |
+
+#### **Notification Services Integration**
+
+| **Clase**       | **UserNotificationService**                                    |
+|-----------------|----------------------------------------------------------------|
+| **Propósito**   | Proporciona integración con servicios de notificación externos para enviar alertas y actualizaciones a los usuarios sobre el estado de la plataforma y mantenimiento. |
+| **Métodos**     |                                                                |
+| - `sendNotification(userID: String, message: String)` | Envía una notificación a un usuario específico.          |
+| - `broadcastMessage(message: String)`                | Envía una notificación a todos los usuarios.            |
+| **Dependencias**|                                                                |
+| - `NotificationAPI`: Cliente que se conecta con la API de notificaciones externas para realizar operaciones. |
+
+Estas clases en la *Infrastructure Layer* permiten la interacción con servicios externos, proporcionando la implementación necesaria para la persistencia de datos, la mensajería entre contextos y la integración con servicios externos de notificación y soporte.
+
+### 5.4.6. Bounded Context Software Architecture Component Level Diagrams
+
+![Support Software Architecture Component Level Diagrams](./assets/SoftwareArchitectureSupport.png)
+
+### 5.4.7. Bounded Context Software Architecture Code Level Diagrams
+#### 5.4.7.1. Bounded Context Domain Layer Class Diagrams
+
+![Support UML Diagram](./assets/UMLDiagramSupport.png)
+
+#### 5.4.7.2. Bounded Context Database Design Diagram
+
+![Support Database Diagram](./assets/DatabaseDiagramSupport.png)
+
+## 5.5. Bounded Context: Monitoring
+
+El contexto de Monitoring se encarga de la supervisión en tiempo real del uso del equipo de protección personal por parte de los trabajadores. Monitorea si los trabajadores están usando correctamente el EPP y genera alertas automáticas en caso de incumplimiento. También gestiona el envío de notificaciones para que los trabajadores corrijan su uso de EPP y mantiene un registro de cumplimiento para futuras auditorías y análisis.
+
+### 5.5.1. Domain Layer
+
+En esta capa se definen las clases que representan el núcleo del negocio y las reglas del dominio para la supervisión y monitoreo del uso del EPP en tiempo real. Incluye **entities, value objects, aggregates y domain services**. A continuación, se detallan las principales clases del dominio:
+
+#### **Entities**
+
+| **Clase**       | **MonitoringSession**                                          |
+|-----------------|----------------------------------------------------------------|
+| **Propósito**   | Representa una sesión de monitoreo en tiempo real del uso de EPP, incluyendo el estado de los trabajadores y cualquier incidente detectado. |
+| **Atributos**   |                                                                |
+| - `sessionID`        | Identificador único de la sesión de monitoreo.            |
+| - `startTime`        | Hora de inicio de la sesión de monitoreo.                 |
+| - `endTime`          | Hora de finalización de la sesión de monitoreo.           |
+| - `workerID`         | Identificador del trabajador monitoreado.                 |
+| - `status`           | Estado de cumplimiento del EPP (cumple, no cumple).       |
+| - `incidents`        | Lista de incidentes detectados durante la sesión.         |
+| **Métodos**     |                                                                |
+| - `addIncident(incident: MonitoringIncident)` | Agrega un nuevo incidente a la sesión.                      |
+| - `closeSession(endTime: Date)` | Finaliza la sesión de monitoreo.               |
+
+| **Clase**       | **MonitoringIncident**                                         |
+|-----------------|----------------------------------------------------------------|
+| **Propósito**   | Define un incidente detectado durante una sesión de monitoreo, como el uso incorrecto o la ausencia de EPP. |
+| **Atributos**   |                                                                |
+| - `incidentID`       | Identificador único del incidente.                       |
+| - `incidentType`     | Tipo de incidente (e.g., falta de casco, uso incorrecto de guantes). |
+| - `detectedTime`     | Hora en la que se detectó el incidente.                  |
+| - `description`      | Descripción del incidente.                               |
+| **Métodos**     |                                                                |
+| - `resolveIncident()` | Marca el incidente como resuelto.                       |
+
+#### **Aggregates**
+
+| **Aggregate Root** | **MonitoringSession**                                       |
+|--------------------|-------------------------------------------------------------|
+| **Descripción**    | `MonitoringSession` actúa como la raíz del agregado, garantizando la consistencia de las operaciones que involucran la supervisión y detección de incidentes durante la sesión de monitoreo. |
+
+#### **Value Objects**
+
+| **Clase**       | **ComplianceStatus**                                           |
+|-----------------|----------------------------------------------------------------|
+| **Propósito**   | Representa el estado de cumplimiento del EPP para un trabajador durante una sesión de monitoreo. |
+| **Atributos**   |                                                                |
+| - `statusID`         | Identificador único del estado de cumplimiento.           |
+| - `isCompliant`      | Indica si el trabajador cumple con el uso de EPP.         |
+| - `description`      | Descripción del estado de cumplimiento.                   |
+| **Métodos**     |                                                                |
+| - `checkCompliance()` | Verifica si el estado cumple con los requisitos establecidos. |
+
+### 5.5.2. Interface Layer
+
+En esta sección se presentan las clases que forman parte de la **Interface/Presentation Layer** para el contexto `Monitoring`. Estas clases incluyen `Controllers` y `Consumers` que gestionan la interacción entre los usuarios, los sistemas externos y la lógica de aplicación.
+
+#### **Controllers**
+
+| **Clase**       | **MonitoringController**                                       |
+|-----------------|----------------------------------------------------------------|
+| **Propósito**   | Gestiona las solicitudes relacionadas con la creación, actualización y cierre de sesiones de monitoreo, así como la generación de reportes de cumplimiento. |
+| **Métodos**     |                                                                |
+| - `startMonitoring(request: StartMonitoringRequest)` | Inicia una nueva sesión de monitoreo en tiempo real.         |
+| - `updateMonitoring(request: UpdateMonitoringRequest)` | Actualiza los detalles de una sesión de monitoreo en curso. |
+| - `closeMonitoring(request: CloseMonitoringRequest)` | Finaliza una sesión de monitoreo y genera el reporte.      |
+
+| **Clase**       | **IncidentController**                                         |
+|-----------------|----------------------------------------------------------------|
+| **Propósito**   | Gestiona las solicitudes relacionadas con la creación y resolución de incidentes detectados durante el monitoreo. |
+| **Métodos**     |                                                                |
+| - `reportIncident(request: ReportIncidentRequest)` | Reporta un nuevo incidente durante una sesión de monitoreo.  |
+| - `resolveIncident(request: ResolveIncidentRequest)` | Marca un incidente como resuelto y cierra el reporte.       |
+
+#### **Consumers**
+
+| **Clase**       | **ConfigurationConsumer**                                      |
+|-----------------|----------------------------------------------------------------|
+| **Propósito**   | Escucha mensajes relacionados con cambios en la configuración del EPP para verificar que el monitoreo se ajuste a los requisitos más recientes. |
+| **Métodos**     |                                                                |
+| - `consume(configurationMessage: ConfigurationMessage)` | Procesa el mensaje recibido y ajusta las sesiones de monitoreo según los nuevos requisitos. |
+
+### 5.5.3. Application Layer
+
+En esta sección se describen las clases que manejan los flujos de procesos del negocio dentro del contexto `Monitoring`. Estas clases implementan la lógica de aplicación que coordina las interacciones entre la capa de dominio y la capa de interfaz. Se incluyen clases del tipo `Command Handlers` e `Event Handlers`.
+
+#### **Command Handlers**
+
+| **Clase**       | **StartMonitoringCommandHandler**                               |
+|-----------------|----------------------------------------------------------------|
+| **Propósito**   | Maneja el proceso de inicio de una nueva sesión de monitoreo, validando los datos del comando y creando la sesión en el repositorio. |
+| **Métodos**     |                                                                |
+| - `handle(command: StartMonitoringCommand)` | Ejecuta el proceso de inicio de una nueva sesión de monitoreo, asegurando que los datos proporcionados sean válidos. |
+
+| **Comando Asociado** | **StartMonitoringCommand**                                 |
+|----------------------|-----------------------------------------------------------|
+| **Propósito**        | Representa el comando que inicia el proceso de una nueva sesión de monitoreo. |
+| **Atributos**        |                                                           |
+| - `workerID`         | Identificador del trabajador a monitorear.                |
+| - `startTime`        | Hora de inicio de la sesión de monitoreo.                 |
+| - `configID`         | Identificador de la configuración de EPP aplicada.        |
+
+#### **Event Handlers**
+
+| **Clase**       | **IncidentReportedEventHandler**                                |
+|-----------------|----------------------------------------------------------------|
+| **Propósito**   | Escucha el evento de reporte de incidente durante una sesión de monitoreo y ejecuta acciones relacionadas, como la notificación a otros contextos o la actualización de registros. |
+| **Métodos**     |                                                                |
+| - `handle(event: IncidentReportedEvent)` | Procesa el evento de reporte de incidente y toma las acciones correspondientes, como enviar notificaciones a sistemas relacionados. |
+
+| **Evento Asociado** | **IncidentReportedEvent**                                   |
+|---------------------|------------------------------------------------------------|
+| **Propósito**       | Representa el evento que se dispara cuando un incidente ha sido reportado durante una sesión de monitoreo. |
+| **Atributos**       |                                                            |
+| - `incidentID`      | Identificador único del incidente reportado.               |
+| - `workerID`        | Identificador del trabajador involucrado.                  |
+| - `detectedTime`    | Hora en la que se detectó el incidente.                    |
+
+### 5.5.4. Infrastructure Layer
+
+En esta capa se presentan las clases que acceden a servicios externos, como bases de datos, sistemas de mensajería o servicios de notificación. Aquí se encuentra la implementación de repositorios para las interfaces definidas en el *Domain Layer*, así como la integración con sistemas externos a través de brokers de mensajes y otros servicios de infraestructura.
+
+#### **Repositories Implementation**
+
+| **Clase**       | **MonitoringSessionRepositoryImpl**                             |
+|-----------------|----------------------------------------------------------------|
+| **Propósito**   | Implementación de la interfaz `MonitoringSessionRepository` definida en el *Domain Layer*. Se encarga de la persistencia y recuperación de datos de sesiones de monitoreo en la base de datos. |
+| **Métodos**     |                                                                |
+| - `findByID(sessionID: String)`     | Busca y devuelve una sesión de monitoreo por su identificador único desde la base de datos. |
+| - `findByWorkerID(workerID: String)` | Busca y devuelve todas las sesiones de monitoreo asociadas a un trabajador. |
+| - `save(session: MonitoringSession)` | Guarda o actualiza una sesión de monitoreo en la base de datos.           |
+| - `delete(sessionID: String)`       | Elimina una sesión de monitoreo de la base de datos por su identificador único. |
+| **Dependencias**|                                                                |
+| - `DatabaseConnection`: Objeto que maneja la conexión con la base de datos.      |
+
+#### **Messaging Systems**
+
+| **Clase**       | **AlertNotificationService**                                   |
+|-----------------|----------------------------------------------------------------|
+| **Propósito**   | Interactúa con el sistema de mensajería para enviar y recibir mensajes relacionados con alertas generadas durante el monitoreo. |
+| **Métodos**     |                                                                |
+| - `publishMessage(topic: String, message: Object)` | Publica un mensaje en un tópico específico para notificar alertas generadas. |
+| - `subscribe(topic: String, handler: Function)`    | Se suscribe a un tópico específico y define un manejador para procesar los mensajes entrantes relacionados con alertas de monitoreo. |
+| **Dependencias**|                                                                |
+| - `MessageBrokerClient`: Cliente para interactuar con el sistema de mensajería (e.g., Kafka, RabbitMQ). |
+
+#### **Notification Services Integration**
+
+| **Clase**       | **WorkerNotificationService**                                  |
+|-----------------|----------------------------------------------------------------|
+| **Propósito**   | Proporciona integración con servicios de notificación externos para enviar alertas a los trabajadores sobre incumplimientos detectados en el uso de EPP. |
+| **Métodos**     |                                                                |
+| - `sendNotification(workerID: String, message: String)` | Envía una notificación a un trabajador específico.           |
+| - `broadcastAlert(message: String)`                | Envía una alerta a todos los trabajadores sobre una posible incidencia general. |
+| **Dependencias**|                                                                |
+| - `NotificationAPI`: Cliente que se conecta con la API de notificaciones externas para realizar operaciones. |
+
+Estas clases en la *Infrastructure Layer* permiten la interacción con servicios externos, proporcionando la implementación necesaria para la persistencia de datos, la mensajería entre contextos y la integración con servicios externos de notificación y monitoreo.
+
+### 5.5.6. Bounded Context Software Architecture Component Level Diagrams
+
+![Monitoring Software Architecture Component Level Diagrams](./assets/SoftwareArchitectureMonitoring.png)
+
+### 5.5.7. Bounded Context Software Architecture Code Level Diagrams
+#### 5.5.7.1. Bounded Context Domain Layer Class Diagrams
+
+![Monitoring UML Diagram](./assets/UMLDiagramMonitoring.png)
+
+#### 5.5.7.2. Bounded Context Database Design Diagram
+
+![Monitoring Database Diagram](./assets/DatabaseDiagramMonitoring.png)
+
+## 5.6. Bounded Context: Reports and Alerts
+
+El contexto de Reports and Alerts se encarga de la generación de reportes periódicos sobre el uso del EPP y de las alertas emitidas. Utiliza los datos de monitoreo para identificar patrones generales de incumplimiento y crear informes detallados que se envían a las empresas para el análisis de cumplimiento. También permite a los supervisores recibir alertas en tiempo real sobre incumplimientos críticos a nivel general sin focalizarse en trabajadores individuales.
+
+### 5.6.1. Domain Layer
+
+En esta capa se definen las clases que representan el núcleo del negocio y las reglas del dominio para la generación de reportes y gestión de alertas. Incluye **entities, value objects, aggregates y domain services**. A continuación, se detallan las principales clases del dominio:
+
+#### **Entities**
+
+| **Clase**       | **ComplianceReport**                                          |
+|-----------------|----------------------------------------------------------------|
+| **Propósito**   | Representa un reporte de cumplimiento generado a partir de los datos de monitoreo del uso de EPP, incluyendo estadísticas generales y patrones de incumplimiento. |
+| **Atributos**   |                                                                |
+| - `reportID`        | Identificador único del reporte.                          |
+| - `generatedDate`   | Fecha en la que se generó el reporte.                      |
+| - `summary`         | Resumen del reporte con las principales estadísticas y hallazgos. |
+| - `details`         | Detalle del reporte con datos generales por área o tipo de incumplimiento. |
+| **Métodos**     |                                                                |
+| - `generateSummary()` | Genera un resumen del reporte con las estadísticas principales. |
+| - `addDetail(detail: ReportDetail)` | Agrega un detalle específico al reporte.             |
+
+| **Clase**       | **Alert**                                                     |
+|-----------------|----------------------------------------------------------------|
+| **Propósito**   | Define una alerta generada durante el monitoreo, como la detección de patrones críticos de incumplimiento o la falta de respuesta ante incidentes reportados. |
+| **Atributos**   |                                                                |
+| - `alertID`         | Identificador único de la alerta.                         |
+| - `alertType`       | Tipo de alerta (e.g., incumplimiento crítico, ausencia de reporte). |
+| - `detectedDate`    | Fecha en la que se detectó la situación que generó la alerta. |
+| - `description`     | Descripción de la alerta generada.                        |
+| **Métodos**     |                                                                |
+| - `resolveAlert()` | Marca la alerta como resuelta.                             |
+
+#### **Aggregates**
+
+| **Aggregate Root** | **ComplianceReport**                                       |
+|--------------------|-------------------------------------------------------------|
+| **Descripción**    | `ComplianceReport` actúa como la raíz del agregado, garantizando la consistencia de las operaciones que involucran la generación y gestión de reportes de cumplimiento. |
+
+#### **Value Objects**
+
+| **Clase**       | **ReportDetail**                                              |
+|-----------------|----------------------------------------------------------------|
+| **Propósito**   | Representa un detalle específico dentro de un reporte de cumplimiento, asociado a un área, categoría de incumplimiento o incidente específico. |
+| **Atributos**   |                                                                |
+| - `detailID`         | Identificador único del detalle de reporte.              |
+| - `incidentType`     | Tipo de incidente o incumplimiento (e.g., falta de casco). |
+| - `incidentCount`    | Número de incidentes relacionados con el detalle.        |
+| - `comments`         | Comentarios adicionales sobre el detalle.                |
+| **Métodos**     |                                                                |
+| - `addComment(comment: String)` | Agrega un comentario adicional al detalle.    |
+
+### 5.6.2. Interface Layer
+
+En esta sección se presentan las clases que forman parte de la **Interface/Presentation Layer** para el contexto `Reports and Alerts`. Estas clases incluyen `Controllers` y `Consumers` que gestionan la interacción entre los usuarios, los sistemas externos y la lógica de aplicación.
+
+#### **Controllers**
+
+| **Clase**       | **ReportController**                                          |
+|-----------------|----------------------------------------------------------------|
+| **Propósito**   | Gestiona las solicitudes relacionadas con la generación de reportes de cumplimiento, la consulta de reportes existentes y la solicitud de reportes personalizados. |
+| **Métodos**     |                                                                |
+| - `generateReport(request: GenerateReportRequest)` | Genera un nuevo reporte de cumplimiento basado en los datos de monitoreo. |
+| - `getReport(request: GetReportRequest)`         | Devuelve un reporte de cumplimiento específico.        |
+| - `getCustomReport(request: GetCustomReportRequest)` | Devuelve un reporte personalizado basado en criterios específicos. |
+
+| **Clase**       | **AlertController**                                           |
+|-----------------|----------------------------------------------------------------|
+| **Propósito**   | Gestiona las solicitudes relacionadas con la creación, actualización y cierre de alertas generadas durante el monitoreo. |
+| **Métodos**     |                                                                |
+| - `createAlert(request: CreateAlertRequest)`   | Crea una nueva alerta en el sistema basada en un evento detectado. |
+| - `updateAlert(request: UpdateAlertRequest)`   | Actualiza la información de una alerta existente.      |
+| - `resolveAlert(request: ResolveAlertRequest)` | Marca una alerta como resuelta y cierra el ciclo de notificación. |
+
+#### **Consumers**
+
+| **Clase**       | **MonitoringConsumer**                                        |
+|-----------------|----------------------------------------------------------------|
+| **Propósito**   | Escucha mensajes relacionados con datos de monitoreo y alertas generadas, y los procesa para la generación de reportes y notificaciones de cumplimiento. |
+| **Métodos**     |                                                                |
+| - `consume(monitoringMessage: MonitoringMessage)` | Procesa el mensaje recibido y actualiza los reportes y alertas de cumplimiento. |
+
+### 5.6.3. Application Layer
+
+En esta sección se describen las clases que manejan los flujos de procesos del negocio dentro del contexto `Reports and Alerts`. Estas clases implementan la lógica de aplicación que coordina las interacciones entre la capa de dominio y la capa de interfaz. Se incluyen clases del tipo `Command Handlers` e `Event Handlers`.
+
+#### **Command Handlers**
+
+| **Clase**       | **GenerateReportCommandHandler**                               |
+|-----------------|----------------------------------------------------------------|
+| **Propósito**   | Maneja el proceso de generación de un nuevo reporte de cumplimiento, validando los datos del comando y generando el reporte en el repositorio. |
+| **Métodos**     |                                                                |
+| - `handle(command: GenerateReportCommand)` | Ejecuta el proceso de generación de un nuevo reporte de cumplimiento, asegurando que los datos proporcionados sean válidos. |
+
+| **Comando Asociado** | **GenerateReportCommand**                                  |
+|----------------------|-----------------------------------------------------------|
+| **Propósito**        | Representa el comando que inicia el proceso de generación de un nuevo reporte de cumplimiento. |
+| **Atributos**        |                                                           |
+| - `monitoringData`   | Datos de monitoreo que se utilizarán para generar el reporte. |
+| - `startDate`        | Fecha de inicio del periodo del reporte.                  |
+| - `endDate`          | Fecha de fin del periodo del reporte.                     |
+
+#### **Event Handlers**
+
+| **Clase**       | **AlertCreatedEventHandler**                                   |
+|-----------------|----------------------------------------------------------------|
+| **Propósito**   | Escucha el evento de creación de alerta y ejecuta acciones relacionadas, como la notificación a otros contextos o la generación de reportes adicionales. |
+| **Métodos**     |                                                                |
+| - `handle(event: AlertCreatedEvent)` | Procesa el evento de creación de alerta y toma las acciones correspondientes, como enviar notificaciones a sistemas relacionados. |
+
+| **Evento Asociado** | **AlertCreatedEvent**                                       |
+|---------------------|------------------------------------------------------------|
+| **Propósito**       | Representa el evento que se dispara cuando se ha creado una nueva alerta durante el monitoreo. |
+| **Atributos**       |                                                            |
+| - `alertID`         | Identificador único de la alerta creada.                   |
+| - `alertType`       | Tipo de alerta creada.                                     |
+| - `detectedDate`    | Fecha en la que se detectó la situación que generó la alerta. |
+
+### 5.6.4. Infrastructure Layer
+
+En esta capa se presentan las clases que acceden a servicios externos, como bases de datos, sistemas de mensajería o servicios de notificación. Aquí se encuentra la implementación de repositorios para las interfaces definidas en el *Domain Layer*, así como la integración con sistemas externos a través de brokers de mensajes y otros servicios de infraestructura.
+
+#### **Repositories Implementation**
+
+| **Clase**       | **ReportRepositoryImpl**                                       |
+|-----------------|----------------------------------------------------------------|
+| **Propósito**   | Implementación de la interfaz `ReportRepository` definida en el *Domain Layer*. Se encarga de la persistencia y recuperación de datos de reportes de cumplimiento en la base de datos. |
+| **Métodos**     |                                                                |
+| - `findByID(reportID: String)`     | Busca y devuelve un reporte de cumplimiento por su identificador único desde la base de datos. |
+| - `findByDateRange(startDate: Date, endDate: Date)` | Busca y devuelve todos los reportes generados dentro de un rango de fechas. |
+| - `save(report: ComplianceReport)` | Guarda o actualiza un reporte de cumplimiento en la base de datos. |
+| - `delete(reportID: String)`       | Elimina un reporte de cumplimiento de la base de datos por su identificador único. |
+| **Dependencias**|                                                                |
+| - `DatabaseConnection`: Objeto que maneja la conexión con la base de datos.      |
+
+#### **Messaging Systems**
+
+| **Clase**       | **AlertNotificationService**                                   |
+|-----------------|----------------------------------------------------------------|
+| **Propósito**   | Interactúa con el sistema de mensajería para enviar y recibir mensajes relacionados con alertas generadas y notificaciones de cumplimiento. |
+| **Métodos**     |                                                                |
+| - `publishMessage(topic: String, message: Object)` | Publica un mensaje en un tópico específico para notificar alertas y cumplimiento. |
+| - `subscribe(topic: String, handler: Function)`    | Se suscribe a un tópico específico y define un manejador para procesar los mensajes entrantes relacionados con alertas y cumplimiento. |
+| **Dependencias**|                                                                |
+| - `MessageBrokerClient`: Cliente para interactuar con el sistema de mensajería (e.g., Kafka, RabbitMQ). |
+
+#### **Notification Services Integration**
+
+| **Clase**       | **SupervisorNotificationService**                              |
+|-----------------|----------------------------------------------------------------|
+| **Propósito**   | Proporciona integración con servicios de notificación externos para enviar alertas y reportes a los supervisores sobre el cumplimiento general y patrones críticos detectados a nivel de área o proceso. |
+| **Métodos**     |                                                                |
+| - `sendNotification(supervisorID: String, message: String)` | Envía una notificación a un supervisor específico.           |
+| - `broadcastAlert(message: String)`                | Envía una alerta a todos los supervisores sobre una posible incidencia general. |
+| **Dependencias**|                                                                |
+| - `NotificationAPI`: Cliente que se conecta con la API de notificaciones externas para realizar operaciones. |
+
+Estas clases en la *Infrastructure Layer* permiten la interacción con servicios externos, proporcionando la implementación necesaria para la persistencia de datos, la mensajería entre contextos y la integración con servicios externos de notificación y monitoreo.
+
+### 5.6.6. Bounded Context Software Architecture Component Level Diagrams
+
+![Alert Software Architecture Component Level Diagrams](./assets/SoftwareArchitectureAlert.png)
+
+### 5.6.7. Bounded Context Software Architecture Code Level Diagrams
+#### 5.6.7.1. Bounded Context Domain Layer Class Diagrams
+
+![Alert UML Diagram](./assets/UMLDiagramAlert.png)
+
+#### 5.6.7.2. Bounded Context Database Design Diagram
+
+![Alert Database Diagram](./assets/DatabaseDiagramAlert.png)
 
 # Conclusiones
 
