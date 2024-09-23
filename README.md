@@ -2476,6 +2476,45 @@ El sistema de navegación en **EPPEye** se ha diseñado para guiar a los usuario
 
 Estos sistemas de navegación garantizan que los usuarios de **EPPEye** puedan desplazarse fácilmente por la plataforma, encontrar rápidamente la información que necesitan y realizar sus tareas de manera eficiente, mejorando así la experiencia general del usuario.
 
+# 6.3. Landing Page UI Design
+
+### 6.3.1. Lading Page Wireframe
+
+![EPPEye Landing Page Wireframe](./assets/wireframe-landingpage-1.png)
+![EPPEye Landing Page Wireframe](./assets/wireframe-landingpage-2.png)
+
+### 6.3.2. Landing Page Mockup
+
+![EPPEye Landing Page Mockup](./assets/mockup-landingpage-1.png)
+![EPPEye Landing Page Mockup](./assets/mockup-landingpage-2.png)
+
+# 6.3. Applications UX/UI Design
+
+### 6.3.1. Applications Wireframes
+
+##### Mobile Application Wireframes
+
+Login
+
+![EPPEye Login Wireframes](./assets/wireframes-login.jpg)
+
+Register
+
+![EPPEye Register Wireframes](./assets/wireframes-register.jpg)
+
+Dashboard
+
+![EPPEye Dashboard Wireframes](./assets/wireframes-dashboard.jpg)
+
+Views
+
+![EPPEye Views Wireframes](./assets/wireframes-views.jpg)
+Reports
+
+![EPPEye Reports Wireframes](./assets/wireframes-reports.jpg)
+
+
+### 6.3.1. Applications Wireflow Diagrams
 
 # Conclusiones
 
