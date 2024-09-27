@@ -2536,6 +2536,8 @@ Goal:  Generar reporte
 
 # Conclusiones
 
+El desarrollo de mockups, wireframes y el bounded context es fundamental para asegurar una comunicación efectiva y una implementación precisa del sistema. Los mockups permiten visualizar la interfaz y experiencia de usuario, facilitando la identificación de elementos clave como las alertas y notificaciones cuando se detectan infracciones en el uso del EPP. Los wireframes, por su parte, proporcionan un esquema estructural de la aplicación, detallando los flujos de interacción y la disposición de los componentes de monitoreo, asegurando que la experiencia del usuario sea intuitiva y eficiente. Finalmente, el bounded context define claramente las responsabilidades y las interacciones entre los módulos del sistema, estableciendo límites precisos entre la captura de imágenes, el procesamiento de datos de visión artificial y la generación de reportes y alertas. Esta estructura facilita la alineación entre los equipos de desarrollo y los stakeholders, minimizando malentendidos y garantizando que la solución final cumpla con los requisitos de seguridad y usabilidad en el entorno de construcción.
+
 --- 
 
 # Bibliografía
