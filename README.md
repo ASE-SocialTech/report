@@ -31,12 +31,10 @@ Trujillo Lopez, Luis Alberto (U20211C667)<br>
 ---
 
 # Registro de Versiones del Informe
-
-| Versión | Fecha | Autor | Descripción de la modificación |
-| ------- | ----- | ----- | ------------------------------ |
-|   1.0     |   06/09/2024   |  Achamizo Huamani Jean Carlos,  Aliaga Trevejo Lucía Guadalupe, Raymundo Guevara Rodrigo Alejandro, Siancas Reategui Luis Alberto, Trujillo Lopez Luis Alberto  |   Se añadieron los elementos correspondientes al entregable de la TB1 (capítulos 1 al 4)|
-
----
+| Versión | Fecha      | Autor                                                                                                      | Descripción de la modificación                                         |
+| ------- | ---------- | --------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
+| 1.0     | 06/09/2024 | Achamizo Huamani Jean Carlos, Aliaga Trevejo Lucía Guadalupe, Raymundo Guevara Rodrigo Alejandro, Siancas Reategui Luis Alberto, Trujillo Lopez Luis Alberto | Se añadieron los elementos correspondientes al entregable de la TB1 (capítulos 1 al 4). |
+| 2.0     | 22/09/2024 | Achamizo Huamani Jean Carlos, Aliaga Trevejo Lucía Guadalupe, Raymundo Guevara Rodrigo Alejandro, Siancas Reategui Luis Alberto, Trujillo Lopez Luis Alberto | Se añadieron los elementos correspondientes a los capítulos 5 y 6.     |
 
 # Project Report Collaboration Insights
 
