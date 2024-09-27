@@ -46,7 +46,7 @@ URL del repositorio: https://github.com/ASE-SocialTech/report
 
 **TP1**
 
-![Report Repository Insights](./assets/insights-tp.PNG)
+![Report Repository Insights](./assets/insights-tp.png)
 
 ---
 
