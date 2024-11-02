@@ -40,9 +40,14 @@ Trujillo Lopez, Luis Alberto (U20211C667)<br>
 
 URL del repositorio: https://github.com/ASE-SocialTech/report
 
-![Report Repository Insights](./assets/insights-tb1.PNG)
+**TB1**
 
 ![Report Repository Insights](./assets/insights-tb1.PNG)
+
+**TP1**
+
+![Report Repository Insights](./assets/insights-tp.png)
+
 ---
 
 
@@ -109,6 +114,84 @@ URL del repositorio: https://github.com/ASE-SocialTech/report
     - [4.3.2. Software Architecture Context Level Diagrams](#432-software-architecture-context-level-diagrams)
     - [4.3.3. Software Architecture Container Level Diagrams](#433-software-architecture-container-level-diagrams)
     - [4.3.4. Software Architecture Deployment Diagrams](#434-software-architecture-deployment-diagrams)
+- [Capítulo V: Bounded Contexts](#capítulo-v-bounded-contexts)  
+    - [5.1. Bounded Context: Account](#51-bounded-context-account)  
+        - [5.1.1. Domain Layer](#511-domain-layer)  
+        - [5.1.2. Interface Layer](#512-interface-layer)  
+        - [5.1.3. Application Layer](#513-application-layer)  
+        - [5.1.4. Infrastructure Layer](#514-infrastructure-layer)  
+        - [5.1.6. Bounded Context Software Architecture Component Level Diagrams](#516-bounded-context-software-architecture-component-level-diagrams)  
+        - [5.1.7. Bounded Context Software Architecture Code Level Diagrams](#517-bounded-context-software-architecture-code-level-diagrams)  
+          - [5.1.7.1. Bounded Context Domain Layer Class Diagrams](#5171-bounded-context-domain-layer-class-diagrams)  
+          - [5.1.7.2. Bounded Context Database Design Diagram](#5172-bounded-context-database-design-diagram)  
+
+    - [5.2. Bounded Context: Payment Subscription](#52-bounded-context-payment-subscription)  
+        - [5.2.1. Domain Layer](#521-domain-layer)  
+        - [5.2.2. Interface Layer](#522-interface-layer)  
+        - [5.2.3. Application Layer](#523-application-layer)  
+        - [5.2.4. Infrastructure Layer](#524-infrastructure-layer)  
+        - [5.2.6. Bounded Context Software Architecture Component Level Diagrams](#526-bounded-context-software-architecture-component-level-diagrams)  
+        - [5.2.7. Bounded Context Software Architecture Code Level Diagrams](#527-bounded-context-software-architecture-code-level-diagrams)  
+          - [5.2.7.1. Bounded Context Domain Layer Class Diagrams](#5271-bounded-context-domain-layer-class-diagrams)  
+          - [5.2.7.2. Bounded Context Database Design Diagram](#5272-bounded-context-database-design-diagram)  
+
+    - [5.3. Bounded Context: Configuration](#53-bounded-context-configuration)  
+        - [5.3.1. Domain Layer](#531-domain-layer)  
+        - [5.3.2. Interface Layer](#532-interface-layer)  
+        - [5.3.3. Application Layer](#533-application-layer)  
+        - [5.3.4. Infrastructure Layer](#534-infrastructure-layer)  
+        - [5.3.6. Bounded Context Software Architecture Component Level Diagrams](#536-bounded-context-software-architecture-component-level-diagrams)  
+        - [5.3.7. Bounded Context Software Architecture Code Level Diagrams](#537-bounded-context-software-architecture-code-level-diagrams)  
+          - [5.3.7.1. Bounded Context Domain Layer Class Diagrams](#5371-bounded-context-domain-layer-class-diagrams)  
+          - [5.3.7.2. Bounded Context Database Design Diagram](#5372-bounded-context-database-design-diagram)  
+
+    - [5.4. Bounded Context: Support and Maintenance](#54-bounded-context-support-and-maintenance)  
+        - [5.4.1. Domain Layer](#541-domain-layer)  
+        - [5.4.2. Interface Layer](#542-interface-layer)  
+        - [5.4.3. Application Layer](#543-application-layer)  
+        - [5.4.4. Infrastructure Layer](#544-infrastructure-layer)  
+        - [5.4.6. Bounded Context Software Architecture Component Level Diagrams](#546-bounded-context-software-architecture-component-level-diagrams)  
+        - [5.4.7. Bounded Context Software Architecture Code Level Diagrams](#547-bounded-context-software-architecture-code-level-diagrams)  
+          - [5.4.7.1. Bounded Context Domain Layer Class Diagrams](#5471-bounded-context-domain-layer-class-diagrams)  
+          - [5.4.7.2. Bounded Context Database Design Diagram](#5472-bounded-context-database-design-diagram)  
+
+    - [5.5. Bounded Context: Monitoring](#55-bounded-context-monitoring)  
+        - [5.5.1. Domain Layer](#551-domain-layer)  
+        - [5.5.2. Interface Layer](#552-interface-layer)  
+        - [5.5.3. Application Layer](#553-application-layer)  
+        - [5.5.4. Infrastructure Layer](#554-infrastructure-layer)  
+        - [5.5.6. Bounded Context Software Architecture Component Level Diagrams](#556-bounded-context-software-architecture-component-level-diagrams)  
+        - [5.5.7. Bounded Context Software Architecture Code Level Diagrams](#557-bounded-context-software-architecture-code-level-diagrams)  
+          - [5.5.7.1. Bounded Context Domain Layer Class Diagrams](#5571-bounded-context-domain-layer-class-diagrams)  
+          - [5.5.7.2. Bounded Context Database Design Diagram](#5572-bounded-context-database-design-diagram)  
+
+    - [5.6. Bounded Context: Reports and Alerts](#56-bounded-context-reports-and-alerts)  
+        - [5.6.1. Domain Layer](#561-domain-layer)  
+        - [5.6.2. Interface Layer](#562-interface-layer)  
+        - [5.6.3. Application Layer](#563-application-layer)  
+        - [5.6.4. Infrastructure Layer](#564-infrastructure-layer)  
+        - [5.6.6. Bounded Context Software Architecture Component Level Diagrams](#566-bounded-context-software-architecture-component-level-diagrams)  
+        - [5.6.7. Bounded Context Software Architecture Code Level Diagrams](#567-bounded-context-software-architecture-code-level-diagrams)  
+          - [5.6.7.1. Bounded Context Domain Layer Class Diagrams](#5671-bounded-context-domain-layer-class-diagrams)  
+          - [5.6.7.2. Bounded Context Database Design Diagram](#5672-bounded-context-database-design-diagram)  
+
+- [Capítulo VI: Solution UX Design](#capítulo-vi-solution-ux-design)  
+    - [6.1. Style Guidelines](#61-style-guidelines)  
+        - [6.1.1. General Style Guidelines](#611-general-style-guidelines)  
+        - [6.1.2. Web, Mobile & Devices Style Guidelines](#612-web-mobile--devices-style-guidelines)  
+    - [6.2. Information Architecture](#62-information-architecture)  
+        - [6.2.2. Labeling Systems](#622-labeling-systems)  
+        - [6.2.3. Searching Systems](#623-searching-systems)  
+        - [6.2.4. SEO Tags and Meta Tags](#624-seo-tags-and-meta-tags)  
+        - [6.2.5. Navigation Systems](#625-navigation-systems)  
+    - [6.3. Landing Page UI Design](#63-landing-page-ui-design)  
+        - [6.3.1. Landing Page Wireframe](#631-landing-page-wireframe)  
+        - [6.3.2. Landing Page Mock-up](#632-landing-page-mock-up)  
+    - [6.4. Applications UX/UI Design](#64-applications-uxui-design)  
+        - [6.4.1. Applications Wireframes](#641-applications-wireframes)  
+        - [6.4.2. Applications Wireflow Diagrams](#642-applications-wireflow-diagrams)  
+    
+          
 - [Conclusiones](#conclusiones)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
@@ -310,206 +393,114 @@ Los jefes de Seguridad, Salud Ocupacional y Medio Ambiente (SSOMA) son responsab
 
 ### 2.1.1. Análisis competitivo
 
-<table>
-  <tr>
-    <th colspan="7" valign="top"><b>Competitive Analysis Landscape</b></th>
-  </tr>
-  <tr>
-    <td colspan="2" rowspan="2">¿Por qué llevar a cabo este análisis?</td>
-  </tr>
-  <tr>
-    <td colspan="5">Comparar las características y funcionalidades clave de nuestra solución con las de la competencia para identificar ventajas competitivas y posibles áreas de mejora.</td>
-  </tr>
-  <tr>
-    <td colspan="3">Competidores</td>
-    <td colspan="1" valign="top" style="font-weight: bold;text-align: center">
-        Nuestro producto
-        <div style="text-align: center; margin-top: 10px;">
-        </div>
-    <td colspan="1" valign="top" style="font-weight: bold;text-align: center">
-        GoDoWorks
-        <div style="text-align: center; margin-top: 10px;">
-        </div>
-    </td>
-    <td colspan="1" valign="top" style="font-weight: bold;text-align: center" >
-        SoterGenius
-        <div style="text-align: center; margin-top: 10px;">
-        </div>
-      </td>
-    <td colspan="1" valign="top" style="font-weight: bold;text-align: center" >
-        IA Box
-        <div style="text-align: center; margin-top: 10px;">
-        </div>
-    </td>
-  </tr>
-  <tr>
-    <td colspan="1" rowspan="2"><p>Perfil</p></td>
-    <td colspan="2">Overview</td>
-    <td colspan="1" valign="top">Ofrece un software que permite detectar y prevenir el mal uso de los implementos de seguridad en almacenes y construcciones. La solución utiliza inteligencia artificial para identificar la correcta utilización de los equipos de protección personal (EPPs).
-    </td>
-    <td colspan="1" valign="top">Orece un software en tiempo real que analiza imágenes para verificar el uso adecuado de los EPPs y asegurar que se sigan las normas de seguridad
-    </td>
-    <td colspan="1" valign="top">Proporciona un sistema que previene accidentes por el uso incorrecto de los equipos de protección personal (EPPs), utilizando una inteligencia artificial entrenada con cientos de imágenes de implementos de seguridad para su detección.
-    </td>
-    <td colspan="1" valign="top">Ofrece un software de seguridad que utiliza inteligencia artificial para monitorear en tiempo real el uso correcto de EPPs y detectar riesgos en el lugar de trabajo, emitiendo alertas automáticas para prevenir accidentes.
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2">Ventaja competitiva</td>
-    <td colspan="1" valign="top">Monitoreo constante y alertas inmediatas cuando detecte un mal uso de EPPs.
-
-Asistencia al cliente 24/7
-</td>
-    <td colspan="1" valign="top">Emite una alerta al personal de oficina cada vez que detecte la falta de EPPs</td>
-    <td colspan="1" valign="top">Ofrece asistencias a problemas con el software 24/7</td>
-    <td colspan="1" valign="top">Ofrece un valor significativo a los clientes al mejorar la seguridad en el lugar de trabajo mediante la detección en tiempo real de riesgos y el uso incorrecto de EPPs</td>
-  </tr>
-  <tr>
-    <td colspan="1" rowspan="2"><p>Perfil de Marketing</p></td>
-    <td colspan="2">Mercado objetivo</td>
-    <td colspan="1" valign="top">Se centra en el uso de IA para la prevención de accidentes basándose en la detección temprana del mal uso de los EPPso</td>
-    <td colspan="1" valign="top">Se enfoca en la integración de inteligencia artificial en la detección de equipo de protección personal (EPP). Su perfil de marketing destaca la innovación y la seguridad en el lugar de trabajo.</td>
-    <td colspan="1" valign="top">Se centra en la gestión y monitoreo de EPP mediante tecnología de sensores y análisis de datos para mejorar la seguridad laboral.</td>
-    <td colspan="1" valign="top">Se presenta como un líder en la integración de inteligencia artificial para mejorar la seguridad personal en entornos laborales. Destacan su enfoque en utilizar algoritmos específicos para proporcionar soluciones avanzadas de seguridad.</td>
-  </tr>
-  <tr>
-    <td colspan="2">Estrategias de marketing</td>
-    <td colspan="1" valign="top">Promover el uso de IA para la prevención de accidentes. Además de realizar programas para la familiarización del sector con el sistema.</td>
-    <td colspan="1" valign="top">Utilizan el avance tecnológico y la inteligencia artificial como su principal atractivo. Promocionan la eficiencia y la reducción de riesgos laborales como ventajas clave.</td>
-    <td colspan="1" valign="top">Promueven el uso de tecnología avanzada y datos en tiempo real para optimizar el cumplimiento de normas de seguridad. Hacen hincapié en la prevención de accidentes y en la mejora de la eficiencia operativa.</td>
-    <td colspan="1" valign="top">La estrategia de marketing se centra en educar a los visitantes sobre los beneficios de la inteligencia artificial en la seguridad.</td>
-  </tr>
-  <tr>
-    <td colspan="1" rowspan="3"><p>Perfil de Producto</p></td>
-    <td colspan="2">Productos & Servicios</td>
-    <td colspan="1" valign="top">Ofrece un software basado en IA para la detección del correcto uso de los EPPs en entornos laborales.</td>
-    <td colspan="1" valign="top">Ofrecen una solución basada en IA para la detección y prevención del uso incorrecto de EPP. La tecnología está diseñada para mejorar la seguridad en los entornos laborales.</td>
-    <td colspan="1" valign="top">Ofrecen sistemas de monitoreo para EPP con sensores que proporcionan datos analíticos sobre su uso. También brindan informes y análisis para ayudar a las empresas a cumplir con las normativas de seguridad.</td>
-    <td colspan="1" valign="top">Ofrecen una variedad de productos relacionados con la seguridad en el trabajo</td>
-  </tr>
-  <tr>
-    <td colspan="2">Precios y Costos</td>
-    <td colspan="1" valign="top">Por definir</td>
-    <td colspan="1" valign="top">La página no proporciona detalles específicos sobre precios.</td>
-    <td colspan="1" valign="top">La página no ofrece detalles sobre precios específicos.</td>
-    <td colspan="1" valign="top">La página no proporciona información sobre precios.</td>
-  </tr>
-  <tr>
-    <td colspan="2">Canales de distribución</td>
-    <td colspan="1" valign="top">El producto se distribuye por medio de la página web, la aplicación y la aplicación móvil.</td>
-    <td colspan="1" valign="top">La distribución principal es a través de su sitio web.</td>
-    <td colspan="1" valign="top">Distribuyen sus productos principalmente a través de su sitio web.</td>
-    <td colspan="1" valign="top">Su distribución principal se realiza a través de su sitio web.</td>
-  </tr>
-  <tr>
-    <td colspan="1" rowspan="5"><p>Análisis SWOT</p></td>
-    
-  </tr>
-  <tr>
-    <td colspan="2">Fortalezas</td>
-    <td colspan="1" valign="top">
-
-- Uso de IA de última generación
-- Mejora de seguridad en entorno laboral
-- Interfaz amigable
-
-</td>
-    <td colspan="1" valign="top">
-
-- Innovación Tecnológica 
-- Mejora de Seguridad
-- Especialización en EPP
-
-</td>
-    <td colspan="1" valign="top">
-    
-- Monitoreo en Tiempo Real
-- Análisis Detallado
-
-</td>
-    <td colspan="1" valign="top">
-
-- Enfoque en IA
-- Educación del Mercado
-
-</td>
-  </tr>
-  <tr>
-    <td colspan="2">Debilidades</td>
-    <td colspan="1" valign="top">
-
-- Sin experiencia en el mercado objetivo
-- Poco conocimiento del software en el mercado
-
-</td>
-    <td colspan="1" valign="top">
-    
-- Falta de Información sobre Precios
-- Dependencia de Tecnología
-</td>
-    <td colspan="1" valign="top">
-
-- Falta de Detalles de Precios
-- Enfoque en un Nicho Específico
-</td>
-    <td colspan="1" valign="top">
-
-- Información Limitada sobre Productos y Precios
-- Dependencia de Tecnología Específica
-</td>
-  </tr>
-  <tr>
-    <td colspan="2">Oportunidades</td>
-    <td colspan="1" valign="top">
-    
-- Pocas implementaciones parecidas en el mercado peruano
-- Entrenar la IA con nuevos objetos para ampliar nuestro alcance
-</td>
-    <td colspan="1" valign="top">
-
-- Aumento de la Demanda de Seguridad Laboral
-- Expansión a Nuevos Mercados
-</td>
-    <td colspan="1" valign="top">
-    
-- Creciente Necesidad de Cumplimiento de Normas
-- Desarrollo de Nuevas Funcionalidades
-</td>
-    <td colspan="1" valign="top">
-
-- Aumento de la Conciencia sobre Seguridad
-- Expansión de Contenidos Educativos
-</td>
-  </tr>
-  <tr>
-    <td colspan="2">Amenazas</td>
-    <td colspan="1" valign="top">
-    
-- Competencia con más experiencia en el mercado
-- Falta de dataset para entrenar el modelo
-</td>
-    <td colspan="1" valign="top">
-    
-- Competencia en el Sector
-- Evolución Rápida de la Tecnología
-</td>
-    <td colspan="1" valign="top">
-
-- Competencia Intensa
-- Problemas de Privacidad y Datos
-</td>
-    <td colspan="1" valign="top">
-    
-- Competencia en Innovación Tecnológica
-- Cambios en Regulaciones
-</td>
-  </tr>
+<table border="1" cellpadding="10" cellspacing="0" style="border-collapse:collapse; width:100%;">
+  <thead>
+    <tr>
+      <th colspan="7" style="text-align: center; font-size: 1.5em; padding: 10px;">Competitive Analysis Landscape</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="2" rowspan="2" style="font-weight:bold;">¿Por qué llevar a cabo este análisis?</td>
+      <td colspan="5">Comparar las características y funcionalidades clave de nuestra solución con las de la competencia para identificar ventajas competitivas y posibles áreas de mejora.</td>
+    </tr>
+    <tr></tr>
+    <tr>
+      <td colspan="3" style="font-weight:bold; text-align: center;">Competidores</td>
+      <td style="font-weight:bold; text-align: center;">Nuestro producto</td>
+      <td style="font-weight:bold; text-align: center;">GoDoWorks</td>
+      <td style="font-weight:bold; text-align: center;">SoterGenius</td>
+      <td style="font-weight:bold; text-align: center;">IA Box</td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="font-weight:bold;">Perfil</td>
+      <td colspan="2">Overview</td>
+      <td>Ofrece un software que permite detectar y prevenir el mal uso de los implementos de seguridad en almacenes y construcciones, utilizando IA para identificar la correcta utilización de los EPPs.</td>
+      <td>Ofrece un software en tiempo real que analiza imágenes para verificar el uso adecuado de los EPPs y asegurar el cumplimiento de normas de seguridad.</td>
+      <td>Proporciona un sistema que previene accidentes por el uso incorrecto de EPPs, utilizando IA entrenada con cientos de imágenes.</td>
+      <td>Ofrece un software de seguridad basado en IA para monitorear en tiempo real el uso de EPPs y detectar riesgos, emitiendo alertas automáticas.</td>
+    </tr>
+    <tr>
+      <td colspan="2" style="font-weight:bold;">Ventaja competitiva</td>
+      <td>Monitoreo constante y alertas inmediatas en caso de mal uso de EPPs. Asistencia al cliente 24/7.</td>
+      <td>Emite una alerta al personal de oficina al detectar la falta de EPPs.</td>
+      <td>Ofrece asistencia técnica 24/7.</td>
+      <td>Proporciona un valor significativo al mejorar la seguridad laboral mediante la detección en tiempo real de riesgos.</td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="font-weight:bold;">Perfil de Marketing</td>
+      <td colspan="2" style="font-weight:bold;">Mercado objetivo</td>
+      <td>Se centra en el uso de IA para la prevención de accidentes a través de la detección temprana del mal uso de EPPs.</td>
+      <td>Enfocado en la integración de IA en la detección de EPPs, destacando innovación y seguridad en el lugar de trabajo.</td>
+      <td>Se enfoca en la gestión de EPPs mediante tecnología de sensores y análisis de datos para mejorar la seguridad.</td>
+      <td>Se presenta como líder en IA para la seguridad personal en entornos laborales, usando algoritmos específicos.</td>
+    </tr>
+    <tr>
+      <td colspan="2" style="font-weight:bold;">Estrategias de marketing</td>
+      <td>Promover el uso de IA para la prevención de accidentes, además de realizar programas de familiarización con el sistema.</td>
+      <td>Utiliza la IA como principal atractivo, promocionando eficiencia y reducción de riesgos.</td>
+      <td>Promueve el uso de tecnología avanzada y datos en tiempo real para optimizar el cumplimiento de normas de seguridad.</td>
+      <td>Enfocados en educar sobre los beneficios de la IA en la seguridad.</td>
+    </tr>
+    <tr>
+      <td rowspan="3" style="font-weight:bold;">Perfil de Producto</td>
+      <td colspan="2" style="font-weight:bold;">Productos & Servicios</td>
+      <td>Ofrece un software basado en IA para la detección correcta del uso de EPPs en entornos laborales.</td>
+      <td>Ofrecen una solución basada en IA para la detección y prevención del uso incorrecto de EPPs.</td>
+      <td>Ofrecen sistemas de monitoreo para EPPs con sensores que proporcionan datos analíticos.</td>
+      <td>Ofrecen una variedad de productos relacionados con la seguridad en el trabajo.</td>
+    </tr>
+    <tr>
+      <td colspan="2" style="font-weight:bold;">Precios y Costos</td>
+      <td>Por definir</td>
+      <td>No proporciona detalles específicos sobre precios.</td>
+      <td>No ofrece detalles sobre precios específicos.</td>
+      <td>No proporciona información sobre precios.</td>
+    </tr>
+    <tr>
+      <td colspan="2" style="font-weight:bold;">Canales de distribución</td>
+      <td>Distribución a través de la web y aplicación móvil.</td>
+      <td>Distribución principal a través del sitio web.</td>
+      <td>Distribución principalmente a través del sitio web.</td>
+      <td>Distribución a través del sitio web.</td>
+    </tr>
+    <tr>
+      <td rowspan="5" style="font-weight:bold;">Análisis SWOT</td>
+      <td colspan="2" style="font-weight:bold;">Fortalezas</td>
+      <td>- Uso de IA avanzada<br>- Mejora de seguridad<br>- Interfaz amigable</td>
+      <td>- Innovación tecnológica<br>- Especialización en EPP</td>
+      <td>- Monitoreo en tiempo real<br>- Análisis detallado</td>
+      <td>- Enfoque en IA<br>- Educación del mercado</td>
+    </tr>
+    <tr>
+      <td colspan="2" style="font-weight:bold;">Debilidades</td>
+      <td>- Sin experiencia en el mercado objetivo<br>- Bajo conocimiento del software en el mercado</td>
+      <td>- Falta de información sobre precios<br>- Dependencia de tecnología</td>
+      <td>- Falta de detalles de precios<br>- Enfoque en un nicho específico</td>
+      <td>- Información limitada sobre productos y precios<br>- Dependencia de tecnología específica</td>
+    </tr>
+    <tr>
+      <td colspan="2" style="font-weight:bold;">Oportunidades</td>
+      <td>- Pocas implementaciones en el mercado peruano<br>- Entrenar la IA con nuevos objetos</td>
+      <td>- Aumento de la demanda de seguridad laboral<br>- Expansión a nuevos mercados</td>
+      <td>- Necesidad de cumplimiento de normas<br>- Desarrollo de nuevas funcionalidades</td>
+      <td>- Aumento de la conciencia sobre seguridad<br>- Expansión de contenidos educativos</td>
+    </tr>
+    <tr>
+      <td colspan="2" style="font-weight:bold;">Amenazas</td>
+      <td>- Competencia con más experiencia<br>- Falta de dataset para entrenar el modelo</td>
+      <td>- Competencia en el sector<br>- Evolución rápida de la tecnología</td>
+      <td>- Competencia intensa<br>- Problemas de privacidad y datos</td>
+      <td>- Competencia en innovación<br>- Cambios en regulaciones</td>
+    </tr>
+  </tbody>
 </table>
+
 
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
 
-<table>
+<table border="1" cellspacing="0" cellpadding="10">
   <tr>
     <th colspan="3" valign="top"></th>
     <th colspan="4" valign="top"><b>OPORTUNIDADES</b></th>
@@ -518,58 +509,56 @@ Asistencia al cliente 24/7
   <tr>
     <th colspan="3" valign="top"></th>
     <td colspan="4" valign="top">
-    O1: Pocas implementaciones parecidas en el mercado peruano
-
-O2: Entrenar la IA con nuevos objetos para ampliar nuestro alcance</td>
-    <td colspan="4" valign="top">A1: Competencia con más experiencia en el mercado
-
-A2: Falta de dataset para entrenar el modelo</td>
+      O1: Pocas implementaciones parecidas en el mercado peruano<br>
+      O2: Entrenar la IA con nuevos objetos para ampliar nuestro alcance
+    </td>
+    <td colspan="4" valign="top">
+      A1: Competencia con más experiencia en el mercado<br>
+      A2: Falta de dataset para entrenar el modelo
+    </td>
   </tr>
-
   <tr>
     <th colspan="3" valign="top"><b>FORTALEZAS</b></th>
     <th colspan="4" valign="top"><b>ESTRATEGIAS FO (Ofensivas)</b></th>
-    <th colspan="4" valign="top"><b>ESTRATEGIAS FA (Defensiva)</b></th>
+    <th colspan="4" valign="top"><b>ESTRATEGIAS FA (Defensivas)</b></th>
   </tr>
   <tr>
-    <td colspan="3" valign="top">F1: Uso de IA de última generación
-
-F2: Mejora de seguridad en entorno laboral</td>
+    <td colspan="3" valign="top">
+      F1: Uso de IA de última generación<br>
+      F2: Mejora de seguridad en entorno laboral
+    </td>
     <td colspan="4" valign="top">
- 
-- Implementar campañas que destaquen el uso avanzado de IA para captar la atención de clientes que buscan innovaciones tecnológicas (F1, O1). 
-- Realizar pilotos en empresas locales para demostrar la efectividad del software y generar casos de estudio (F2, O1). 
-- Resaltar la facilidad de uso de la interfaz en todas las campañas de marketing para atraer a usuarios menos técnicos (F3, O2).</td>
-
-<td colspan="4" valign="top">
-
-- Colaborar con universidades y centros de investigación para obtener datasets más amplios y mejorar el entrenamiento del modelo (F1, A2). 
-- Ofrecer soporte técnico personalizado y capacitación para diferenciarse de competidores más experimentados (F2, A1).
-- Implementar una estrategia de retención basada en la simplicidad de uso para mantener la base de usuarios (F3, A1).</td>
-
+      - Implementar campañas que destaquen el uso avanzado de IA para captar la atención de clientes que buscan innovaciones tecnológicas (F1, O1).<br>
+      - Realizar pilotos en empresas locales para demostrar la efectividad del software y generar casos de estudio (F2, O1).<br>
+      - Resaltar la facilidad de uso de la interfaz en campañas de marketing para atraer a usuarios menos técnicos (F3, O2).
+    </td>
+    <td colspan="4" valign="top">
+      - Colaborar con universidades y centros de investigación para obtener datasets más amplios y mejorar el entrenamiento del modelo (F1, A2).<br>
+      - Ofrecer soporte técnico personalizado y capacitación para diferenciarse de competidores más experimentados (F2, A1).<br>
+      - Implementar una estrategia de retención basada en la simplicidad de uso para mantener la base de usuarios (F3, A1).
+    </td>
   </tr>
-
   <tr>
     <th colspan="3" valign="top"><b>DEBILIDADES</b></th>
     <th colspan="4" valign="top"><b>ESTRATEGIAS DO (Reorientación)</b></th>
     <th colspan="4" valign="top"><b>ESTRATEGIAS DA (Supervivencia)</b></th>
   </tr>
   <tr>
-    <td colspan="3" valign="top">D1: Sin experiencia en el mercado objetivo
-D2: Poco conocimiento del software en el mercado</td>
+    <td colspan="3" valign="top">
+      D1: Sin experiencia en el mercado objetivo<br>
+      D2: Poco conocimiento del software en el mercado
+    </td>
     <td colspan="4" valign="top">
-
-- Adoptar una estrategia de alianzas con empresas locales para ganar credibilidad y visibilidad en el mercado (D1, O1).
-- Realizar campañas educativas sobre los beneficios del software y la IA en la seguridad laboral, enfocadas en el mercado peruano (D2, O1).</td>
-
-<td colspan="4" valign="top">
-
-- Enfocarse en ofrecer un soporte técnico robusto y crear tutoriales que guíen a los nuevos usuarios a lo largo de su experiencia (D1, A1).
-- Ofrecer versiones de prueba gratuitas o a bajo costo para atraer a usuarios y recolectar datos valiosos que puedan utilizarse para mejorar el modelo (D2, A2).</td>
-
+      - Adoptar una estrategia de alianzas con empresas locales para ganar credibilidad y visibilidad en el mercado (D1, O1).<br>
+      - Realizar campañas educativas sobre los beneficios del software y la IA en la seguridad laboral, enfocadas en el mercado peruano (D2, O1).
+    </td>
+    <td colspan="4" valign="top">
+      - Enfocarse en ofrecer un soporte técnico robusto y crear tutoriales que guíen a los nuevos usuarios (D1, A1).<br>
+      - Ofrecer versiones de prueba gratuitas o a bajo costo para atraer usuarios y recolectar datos valiosos para mejorar el modelo (D2, A2).
+    </td>
   </tr>
-
 </table>
+
 
 ## 2.2. Entrevistas
 
@@ -594,7 +583,7 @@ D2: Poco conocimiento del software en el mercado</td>
   </tr>
   <tr>
     <td colspan=2>
-      <b>Enlace:</b> <a>https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211a452_upc_edu_pe/EYA63Hzg-k1Dk7dqBwwoU1UB45Nn96U2dYqSBtjv9TxVJA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7PE7je</a>
+      <b>Enlace:</b> <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211a452_upc_edu_pe/EYA63Hzg-k1Dk7dqBwwoU1UB45Nn96U2dYqSBtjv9TxVJA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7PE7je">https://goo.su/lLnzq</a>
       <br>
       <b>Resumen:</b> Piero Valverde, de 20 años, se desempeña actualmente como asistente de almacén en Sodimac. Durante la entrevista, nos comenta que las marcas más utilizadas por su empresa en cuanto a implementos de seguridad son 3M y Delta, debido a su alta calidad y reconocimiento. Piero se describe como una persona que sigue las normas al pie de la letra. Para comunicarse con sus compañeros de trabajo y mantenerse informado sobre los anuncios laborales, utiliza principalmente WhatsApp e Instagram. Sin embargo, menciona que en ocasiones los equipos de protección personal (EPP) que les proporcionan están algo anticuados y presentan defectos, como rajaduras. Además, admite que en algunas ocasiones ha trabajado sin EPPs debido a olvidos en la implementación, aunque al darse cuenta, se asegura de corregir la situación lo más rápido posible.
     </td>
@@ -616,7 +605,7 @@ D2: Poco conocimiento del software en el mercado</td>
   </tr>
   <tr>
     <td colspan=2>
-      <b>Enlace:</b> <a>https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211a452_upc_edu_pe/EYA63Hzg-k1Dk7dqBwwoU1UB45Nn96U2dYqSBtjv9TxVJA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7PE7je</a>
+      <b>Enlace:</b> <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211a452_upc_edu_pe/EYA63Hzg-k1Dk7dqBwwoU1UB45Nn96U2dYqSBtjv9TxVJA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7PE7je">https://goo.su/lLnzq</a>
       <br>
       <b>Resumen:</b> El trabajador menciona que las marcas le dan los equipos de seguridad sin una marca en especifico y que al desgastarse se le renuevan los equipos. Tambien menciona que una aplicacion que ayude a mejorar su uso de los epps. Tambien quisiera que le llegara un reporte del dia sobre su uso correcto de epps.
     </td>
@@ -638,7 +627,7 @@ D2: Poco conocimiento del software en el mercado</td>
   </tr>
   <tr>
     <td colspan=2>
-      <b>Enlace:</b> <a>https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211a452_upc_edu_pe/EYA63Hzg-k1Dk7dqBwwoU1UB45Nn96U2dYqSBtjv9TxVJA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7PE7je</a>
+      <b>Enlace:</b> <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211a452_upc_edu_pe/EYA63Hzg-k1Dk7dqBwwoU1UB45Nn96U2dYqSBtjv9TxVJA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7PE7je">https://goo.su/lLnzq</a>
       <br>
       <b>Resumen:</b>  William es un trabajador más especializado que nos menciona que se encarga de supervisar las medidas y cantidades de los materiales en la hora de la construcción, se encarga precisamente de supervisar el correcto uso de los materiales en el proceso de una obra, en varias ocasiones nos comenta que vio a trabajadores que hacen uso de EPPs de forma incorrecta, sin tomarle tanta importancia prevaleciendo la comodidad al momento de trabajar antes que la seguridad, sobretodo en algunas zonas que puedan se peligrosas. Además comenta que ocurren accidentes relacionados a los EPPs que pueden ocasionar lesiones en la obra debido a un maluso de los implementos de seguridad dificultando el correcto proceso de la misma obra.
     </td>
@@ -662,7 +651,7 @@ D2: Poco conocimiento del software en el mercado</td>
   </tr>
   <tr>
     <td colspan=2>
-      <b>Enlace:</b> <a>https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211a452_upc_edu_pe/EYA63Hzg-k1Dk7dqBwwoU1UB45Nn96U2dYqSBtjv9TxVJA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7PE7je</a>
+      <b>Enlace:</b> <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211a452_upc_edu_pe/EYA63Hzg-k1Dk7dqBwwoU1UB45Nn96U2dYqSBtjv9TxVJA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7PE7je">https://goo.su/lLnzq</a>
       <br>
       <b>Resumen:</b> Edfrank, de 36 años, trabaja actualmente como supervisor SSOMA. En la entrevista comenta que algunas de sus marcas preferidas para sus implementos de seguridad son 3M, Delta y Bata debido a su calidad. Suele utilizar redes como Instagram y TikTok para encontrar proveedores de EPPs. Respecto a su labor, menciona que se realizan supervisiones mensuales para asegurar que los implementos de seguridad están en buen estado. Uno de los desafíos que enfrenta es que los trabajadores nuevos no están acostumbrados al uso de los EPPs, razón por la cual no siempre se los colocan, por lo que considera importante capacitarlos y educarlos sobre la seguridad en el trabajo. En su día a día, se encarga de vigilar que los obreros tengan puestos todos sus EPPs, previamente entregados por los empleadores. Edfrank considera que un sistema de monitoreo debería tener la capacidad de identificar si los trabajadores están usando o no adecuadamente sus EPPs y enviar una alerta al dispositivo del supervisor, ya que no siempre existen suficientes supervisores para monitorear a todos en todo momento.
     </td>
@@ -684,7 +673,7 @@ D2: Poco conocimiento del software en el mercado</td>
   </tr>
   <tr>
     <td colspan=2>
-      <b>Enlace:</b> <a>https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211a452_upc_edu_pe/EYA63Hzg-k1Dk7dqBwwoU1UB45Nn96U2dYqSBtjv9TxVJA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7PE7je</a>
+      <b>Enlace:</b> <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211a452_upc_edu_pe/EYA63Hzg-k1Dk7dqBwwoU1UB45Nn96U2dYqSBtjv9TxVJA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7PE7je">https://goo.su/lLnzq</a>
       <br>
       <b>Resumen:</b> Andrea es una supervisora SSOMA que labora en el Callao. Comenta que, en su centro de labor, se utilizan implementos de marca 3M, los cuales son renovados de acuerdo con su estado de uso. Suele utilizar redes sociales como Facebook, Instagram y TikTok. Andrea menciona que uno de los desafíos que enfrenta es que los trabajadores no siempre tienen colocados sus implementos de seguridad, por lo cual se les realizan amonestaciones. Se considera una persona estricta, pero trata de entender al personal y capacitarlo sobre la importancia del uso de las EPPs. En su día a día realiza inspecciones para asegurarse del uso adecuado de las EPPs. En cuanto a un sistema de monitoreo, le gustaría que se pueda supervisar a los trabajadores en cada área. Además, considera importante que el sistema sea rápido y eficaz para que las notificaciones lleguen a tiempo. 
     </td>
@@ -706,7 +695,7 @@ D2: Poco conocimiento del software en el mercado</td>
   </tr>
   <tr>
     <td colspan=2>
-      <b>Enlace:</b> <a>https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211a452_upc_edu_pe/EYA63Hzg-k1Dk7dqBwwoU1UB45Nn96U2dYqSBtjv9TxVJA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7PE7je</a>
+      <b>Enlace:</b> <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211a452_upc_edu_pe/EYA63Hzg-k1Dk7dqBwwoU1UB45Nn96U2dYqSBtjv9TxVJA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7PE7je">https://goo.su/lLnzq</a>
       <br>
       <b>Resumen:</b> Ricardo, de 42 años, ocupa el puesto de Jefe de Seguridad Salud Ocupacional y Medio Ambiente en su empresa. En la entrevista menciona que algunas de las marcas más utilizadas son 3M, Hawk, Clute, entre otras, dependiendo del tipo de EPP. Las redes sociales que más usa son LinkedIn para el contacto con proveedores, además de Whatsapp, donde suele unirse a grupos para compartir información sobre seguridad. Respecto a su labor, menciona que se realizan inspecciones programadas e inspecciones diarias inopinadas (al azar) para verificar el estado de los EPPs. Ricardo comenta haber presenciado casos en los que los obreros no utilizan adecuadamente los EPPs y algunas de las razones por las cuales tienen este tipo de comportamientos inseguros son factores psicológicos e incomodidad al usarlos. Ante ello, considera que es importante capacitar no solo a los trabajadores, sino a todos los niveles de la empresa. Por último, Ricardo menciona que un sistema de monitoreo debería ser permanente y tener la capacidad de permitir al supervisor elegir qué EPPs se deben supervisar en ciertos ambientes, ya que los requerimientos pueden variar en las distintas áreas de la obra. Por ejemplo, en algunos pisos se requiere el uso de arnés, mientras que al inicio de la obra no es necesario.
     </td>
@@ -1085,7 +1074,7 @@ https://miro.com/app/board/uXjVKiVZzx4=/?share_link_id=394583925589
 
 ---
 
-# Capítulo V: Bounded Contexts
+# Capítulo V: Tactical-Level Software Design. 
 
 ## 5.1. Bounded Context: Account
 
@@ -2476,19 +2465,19 @@ Estos sistemas de navegación garantizan que los usuarios de **EPPEye** puedan d
 
 # 6.3. Landing Page UI Design
 
-### 6.3.1. Lading Page Wireframe
+### 6.3.1. Landing Page Wireframe
 
 ![EPPEye Landing Page Wireframe](./assets/wireframe-landingpage-1.png)
 ![EPPEye Landing Page Wireframe](./assets/wireframe-landingpage-2.png)
 
-### 6.3.2. Landing Page Mockup
+### 6.3.2. Landing Page Mock-up
 
 ![EPPEye Landing Page Mockup](./assets/mockup-landingpage-1.png)
 ![EPPEye Landing Page Mockup](./assets/mockup-landingpage-2.png)
 
-# 6.3. Applications UX/UI Design
+# 6.4. Applications UX/UI Design
 
-### 6.3.1. Applications Wireframes
+### 6.4.1. Applications Wireframes
 
 ##### Mobile Application Wireframes
 
@@ -2512,7 +2501,7 @@ Reports
 ![EPPEye Reports Wireframes](./assets/wireframes-reports.jpg)
 
 
-### 6.3.1. Applications Wireflow Diagrams
+### 6.4.2. Applications Wireflow Diagrams
 
 Goal:  Realizar el Iniciar Sesión
 
