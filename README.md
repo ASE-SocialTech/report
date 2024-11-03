@@ -35,6 +35,7 @@ Trujillo Lopez, Luis Alberto (U20211C667)<br>
 | ------- | ---------- | --------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
 | 1.0     | 06/09/2024 | Achamizo Huamani Jean Carlos, Aliaga Trevejo Lucía Guadalupe, Raymundo Guevara Rodrigo Alejandro, Siancas Reategui Luis Alberto, Trujillo Lopez Luis Alberto | Se añadieron los elementos correspondientes al entregable de la TB1 (capítulos 1 al 4). |
 | 2.0     | 22/09/2024 | Achamizo Huamani Jean Carlos, Aliaga Trevejo Lucía Guadalupe, Raymundo Guevara Rodrigo Alejandro, Siancas Reategui Luis Alberto, Trujillo Lopez Luis Alberto | Se añadieron los elementos correspondientes a los capítulos 5 y 6.     |
+| 3.0     | 01/11/2024 | Achamizo Huamani Jean Carlos, Aliaga Trevejo Lucía Guadalupe, Raymundo Guevara Rodrigo Alejandro, Siancas Reategui Luis Alberto, Trujillo Lopez Luis Alberto | Se completaron los elementos correspondientes al capítulo 7, abarcando todos los apartados y secciones necesarias para esta fase del proyecto. |
 
 # Project Report Collaboration Insights
 
@@ -204,8 +205,8 @@ URL del repositorio: https://github.com/ASE-SocialTech/report
 
 | Criterio específico                                              | Acciones realizadas                                                                 | Conclusiones |
 |------------------------------------------------------------------|-------------------------------------------------------------------------------------|--------------|
-| Comunica oralmente con efectividad a diferentes rangos de audiencia | *Achamizo Huamani Jean Carlos* <br> TB1: <br> Durante la presentación del perfil de la startup SocialTech en la sección 1.1, me enfoqué en explicar la misión y visión de nuestra startup. Al describir el **Lean UX Canvas** (1.2.2.4), destaqué cómo nuestras hipótesis y suposiciones estaban alineadas con los problemas detectados en las entrevistas realizadas. Adapté mi discurso para diferentes audiencias, asegurándome de que tanto los stakeholders técnicos como los no técnicos comprendieran nuestro enfoque. <br> TP: <br> Realicé mockups y wireframes de la interfaz de usuario, presentando el flujo de interacción de forma visual y adaptando el diseño según las necesidades de cada grupo de usuarios identificados en el Lean UX Canvas. <br><br> *Aliaga Trevejo Lucía Guadalupe* <br> TB1: <br> En las reuniones de presentación de los resultados del análisis competitivo (2.1.1), me encargué de comunicar cómo las **estrategias y tácticas frente a los competidores** (2.1.2) influenciaban el desarrollo de la solución. Expliqué con claridad los desafíos y oportunidades, asegurándome de que la audiencia comprendiera las ventajas competitivas de SocialTech. <br> TP: <br> Presenté los wireframes correspondientes a la estrategia de diferenciación, mostrando cómo el diseño de la interfaz y la experiencia de usuario ofrecían un valor agregado frente a la competencia. También colaboré en el diseño del bounded context para definir claramente las interacciones entre los diferentes módulos del sistema. <br><br> *Raymundo Guevara Rodrigo Alejandro* <br> TB1: <br> Al presentar los resultados de las **entrevistas** (2.2), me aseguré de que los distintos perfiles de los usuarios potenciales, basados en el **Needfinding** (2.3), fueran comprendidos tanto por el equipo técnico como por los involucrados en la toma de decisiones. Utilicé ejemplos de las entrevistas y los **User Personas** (2.3.1) para conectar con el público. <br> TP: <br> Diseñé los mockups de las interfaces basadas en las necesidades detectadas en los perfiles de usuario, asegurándome de que cada interacción propuesta fuera coherente con los resultados del Needfinding. También participé en la creación del bounded context, estableciendo los límites funcionales de cada módulo basado en los requerimientos de los usuarios. <br><br> *Siancas Reategui Luis Alberto* <br> TB1: <br> Mi presentación se centró en el mapeo de escenarios, donde describí tanto los **As-is** como los **To-be Scenarios** (2.3.4 y 3.1). Al comunicar las mejoras proyectadas para el sistema, ajusté mi lenguaje para que tanto los desarrolladores como los líderes de proyecto pudieran entender claramente los beneficios del diseño propuesto. <br> TP: <br> Realicé wireframes de los escenarios To-be, mostrando las mejoras proyectadas en la experiencia de usuario. Además, colaboré en la definición del bounded context para garantizar que las nuevas funcionalidades propuestas estuvieran claramente delimitadas y alineadas con los objetivos del proyecto. <br><br> *Trujillo Lopez Luis Alberto* <br> TB1: <br> Durante las presentaciones sobre el **Impact Mapping** y la **Product Backlog** (3.3 y 3.4), destaqué cómo los **User Stories** (3.2) guiaban nuestro proceso de desarrollo. Adapté mi lenguaje para que el equipo técnico pudiera entender las historias de usuario y cómo estas reflejaban las necesidades identificadas en las entrevistas y el **Empathy Mapping** (2.3.3). <br> TP: <br> Diseñé mockups de las principales funcionalidades descritas en las User Stories y ayudé a desarrollar el bounded context para especificar claramente las responsabilidades y dependencias de cada módulo del sistema. <br><br> | *TB1* <br> La comunicación oral fue efectiva en la transmisión de conceptos complejos y estratégicos a audiencias diversas, adaptando el lenguaje y las explicaciones según el nivel de conocimiento técnico de cada público. Esto facilitó la toma de decisiones y la alineación de los objetivos del proyecto entre las partes interesadas. <br> *TP* <br> La presentación de mockups, wireframes y bounded context permitió una visualización clara de la propuesta de valor, facilitando la comprensión y alineación de las expectativas de diseño y funcionalidad entre los equipos. |
-| Comunica por escrito con efectividad a diferentes rangos de audiencia | *Achamizo Huamani Jean Carlos* <br> TB1: <br> Al redactar la sección sobre el **Lean UX Canvas** (1.2.2.4) y el análisis de la problemática (1.2.1), me aseguré de utilizar un lenguaje accesible para describir los **Problem Statements** (1.2.2.1) y su relación con las necesidades detectadas en la fase de entrevistas. Mi objetivo fue que cualquier lector, independiente de su perfil, pudiera entender las hipótesis clave del proyecto. <br> TP: <br> Documenté los wireframes y mockups desarrollados, explicando el propósito de cada pantalla y la interacción esperada del usuario. También detallé el bounded context, describiendo las interacciones entre módulos y cómo estas soportan los objetivos del sistema. <br><br> *Aliaga Trevejo Lucía Guadalupe* <br> TB1: <br> En mi contribución escrita al **Análisis Competitivo** (2.1.1), detallé las fortalezas y debilidades de los competidores y cómo SocialTech podía diferenciarse. Me aseguré de que el informe explicara claramente las **estrategias** propuestas (2.1.2) para superar a nuestros competidores en términos de innovación tecnológica y accesibilidad. <br> TP: <br> Redacté la documentación de los wireframes relacionados con la estrategia de diferenciación, describiendo cómo cada elemento del diseño apoyaba nuestras ventajas competitivas. También participé en la redacción del bounded context, especificando cómo las funcionalidades propuestas se alineaban con nuestra estrategia general. <br><br> *Raymundo Guevara Rodrigo Alejandro* <br> TB1: <br> Mi redacción sobre las **entrevistas** (2.2) fue clave para establecer una narrativa clara que conectara las necesidades del usuario con las soluciones propuestas. En particular, en la sección de **User Personas** (2.3.1), enfoqué mis escritos en describir los comportamientos y necesidades de cada segmento de usuarios de manera comprensible para el equipo de diseño y desarrollo. <br> TP: <br> Documenté los mockups basados en los resultados de las entrevistas, explicando cómo cada diseño respondía a las necesidades detectadas en los User Personas. Además, ayudé a redactar el bounded context, asegurando que las funcionalidades propuestas cubrieran adecuadamente los requerimientos de los usuarios. <br><br> *Siancas Reategui Luis Alberto* <br> TB1: <br> En la sección de **To-Be Scenario Mapping** (3.1), me aseguré de que las propuestas de escenarios futuros estuvieran claramente explicadas y justificadas en relación con los datos obtenidos del **Empathy Mapping** (2.3.3). Además, describí las mejoras proyectadas para el sistema en términos de impacto en la experiencia del usuario. <br> TP: <br> Redacté la documentación de los wireframes de los escenarios To-be, explicando cada paso y mejora en el flujo de usuario. También participé en la redacción del bounded context, definiendo cómo cada módulo del sistema se ajusta a los escenarios propuestos. <br><br> *Trujillo Lopez Luis Alberto* <br> TB1: <br> Al redactar la **Product Backlog** (3.4), me centré en asegurar que las **User Stories** (3.2) fueran claras y accesibles, de modo que el equipo de desarrollo pudiera priorizarlas fácilmente. También me aseguré de explicar cómo estas historias de usuario estaban alineadas con los resultados del **Impact Mapping** (3.3) y los requerimientos del cliente. <br> TP: <br> Documenté los mockups de las funcionalidades clave en la Product Backlog, explicando cómo cada historia de usuario se traduce en elementos visuales y de interacción. Además, participé en la redacción del bounded context, detallando las relaciones entre módulos y cómo estas reflejan las necesidades del cliente y los usuarios. <br><br> | *TB1* <br> La comunicación escrita permitió detallar de forma clara los aspectos técnicos y estratégicos del proyecto, facilitando la comprensión y el alineamiento de las expectativas entre las partes interesadas. Se utilizó un lenguaje preciso y accesible que permitió a los equipos técnicos y no técnicos trabajar en conjunto de manera efectiva. <br> *TP* <br> La documentación de los mockups, wireframes y bounded context facilitó la comunicación visual y técnica del proyecto, asegurando que todos los involucrados comprendieran las funcionalidades propuestas y su impacto en el sistema. |
+| Comunica oralmente con efectividad a diferentes rangos de audiencia | *Achamizo Huamani Jean Carlos* <br> TB1: <br> Durante la presentación del perfil de la startup SocialTech en la sección 1.1, me enfoqué en explicar la misión y visión de nuestra startup. Al describir el **Lean UX Canvas** (1.2.2.4), destaqué cómo nuestras hipótesis y suposiciones estaban alineadas con los problemas detectados en las entrevistas realizadas. Adapté mi discurso para diferentes audiencias, asegurándome de que tanto los stakeholders técnicos como los no técnicos comprendieran nuestro enfoque. <br> TP: <br> Realicé mockups y wireframes de la interfaz de usuario, presentando el flujo de interacción de forma visual y adaptando el diseño según las necesidades de cada grupo de usuarios identificados en el Lean UX Canvas. <br> TB2: <br> Colaboré en la comunicación de los avances en el desarrollo de la landing page, el entrenamiento de la IA de detección y el front end del sistema, asegurándome de que cada audiencia entendiera las implicaciones técnicas y funcionales de cada módulo. <br><br> *Aliaga Trevejo Lucía Guadalupe* <br> TB1: <br> En las reuniones de presentación de los resultados del análisis competitivo (2.1.1), me encargué de comunicar cómo las **estrategias y tácticas frente a los competidores** (2.1.2) influenciaban el desarrollo de la solución. Expliqué con claridad los desafíos y oportunidades, asegurándome de que la audiencia comprendiera las ventajas competitivas de SocialTech. <br> TP: <br> Presenté los wireframes correspondientes a la estrategia de diferenciación, mostrando cómo el diseño de la interfaz y la experiencia de usuario ofrecían un valor agregado frente a la competencia. <br> TB2: <br> Expuse los avances en la integración del front end, la landing page y el entrenamiento de la IA de detección, facilitando la comprensión de cómo estos componentes contribuyen a los objetivos de SocialTech. <br><br> *Raymundo Guevara Rodrigo Alejandro* <br> TB1: <br> Al presentar los resultados de las **entrevistas** (2.2), me aseguré de que los distintos perfiles de los usuarios potenciales, basados en el **Needfinding** (2.3), fueran comprendidos tanto por el equipo técnico como por los involucrados en la toma de decisiones. <br> TP: <br> Diseñé los mockups de las interfaces basadas en las necesidades detectadas en los perfiles de usuario, asegurándome de que cada interacción propuesta fuera coherente con los resultados del Needfinding. <br> TB2: <br> Comuniqué los aspectos técnicos del entrenamiento de la IA de detección y cómo la landing page y el front end respondían a las necesidades de los usuarios, facilitando una mejor comprensión entre todos los stakeholders. <br><br> *Siancas Reategui Luis Alberto* <br> TB1: <br> Mi presentación se centró en el mapeo de escenarios, donde describí tanto los **As-is** como los **To-be Scenarios** (2.3.4 y 3.1). Al comunicar las mejoras proyectadas para el sistema, ajusté mi lenguaje para que tanto los desarrolladores como los líderes de proyecto pudieran entender claramente los beneficios del diseño propuesto. <br> TP: <br> Realicé wireframes de los escenarios To-be, mostrando las mejoras proyectadas en la experiencia de usuario. <br> TB2: <br> Expuse cómo el entrenamiento de la IA de detección y los desarrollos en la landing page y front end facilitaron una interacción fluida y eficiente para los usuarios, adaptando el discurso según el perfil de la audiencia. <br><br> *Trujillo Lopez Luis Alberto* <br> TB1: <br> Durante las presentaciones sobre el **Impact Mapping** y la **Product Backlog** (3.3 y 3.4), destaqué cómo los **User Stories** (3.2) guiaban nuestro proceso de desarrollo. Adapté mi lenguaje para que el equipo técnico pudiera entender las historias de usuario y cómo estas reflejaban las necesidades identificadas en las entrevistas y el **Empathy Mapping** (2.3.3). <br> TP: <br> Diseñé mockups de las principales funcionalidades descritas en las User Stories. <br> TB2: <br> Presenté los avances del front end, la landing page y el entrenamiento de la IA, destacando cómo estos módulos cumplían con los requerimientos técnicos y de experiencia del usuario identificados en fases previas. <br><br> | *TB1* <br> La comunicación oral fue efectiva en la transmisión de conceptos complejos y estratégicos a audiencias diversas, adaptando el lenguaje y las explicaciones según el nivel de conocimiento técnico de cada público. Esto facilitó la toma de decisiones y la alineación de los objetivos del proyecto entre las partes interesadas. <br> *TP* <br> La presentación de mockups, wireframes y bounded context permitió una visualización clara de la propuesta de valor, facilitando la comprensión y alineación de las expectativas de diseño y funcionalidad entre los equipos. <br> *TB2* <br> La comunicación de los avances en la landing page, el front end y el entrenamiento de la IA de detección permitió que las distintas partes interesadas comprendieran la contribución de cada componente en la solución final, promoviendo una colaboración informada y alineada. |
+| Comunica por escrito con efectividad a diferentes rangos de audiencia | *Achamizo Huamani Jean Carlos* <br> TB1: <br> Al redactar la sección sobre el **Lean UX Canvas** (1.2.2.4) y el análisis de la problemática (1.2.1), me aseguré de utilizar un lenguaje accesible para describir los **Problem Statements** (1.2.2.1) y su relación con las necesidades detectadas en la fase de entrevistas. <br> TP: <br> Documenté los wireframes y mockups desarrollados, explicando el propósito de cada pantalla y la interacción esperada del usuario. <br> TB2: <br> Redacté informes detallados sobre el desarrollo de la landing page, el entrenamiento de la IA de detección y los componentes del front end, especificando el funcionamiento de cada módulo y su alineación con los objetivos del proyecto. <br><br> *Aliaga Trevejo Lucía Guadalupe* <br> TB1: <br> En mi contribución escrita al **Análisis Competitivo** (2.1.1), detallé las fortalezas y debilidades de los competidores y cómo SocialTech podía diferenciarse. <br> TP: <br> Redacté la documentación de los wireframes relacionados con la estrategia de diferenciación. <br> TB2: <br> Documenté el proceso de integración del front end y el entrenamiento de la IA, explicando cómo cada uno de estos componentes aportaba a la experiencia de usuario y los objetivos estratégicos del proyecto. <br><br> *Raymundo Guevara Rodrigo Alejandro* <br> TB1: <br> Mi redacción sobre las **entrevistas** (2.2) fue clave para establecer una narrativa clara que conectara las necesidades del usuario con las soluciones propuestas. <br> TP: <br> Documenté los mockups basados en los resultados de las entrevistas. <br> TB2: <br> Redacté la documentación sobre el entrenamiento de la IA de detección y la landing page, detallando cómo cada interacción respondía a los requerimientos del usuario. <br><br> *Siancas Reategui Luis Alberto* <br> TB1: <br> En la sección de **To-Be Scenario Mapping** (3.1), me aseguré de que las propuestas de escenarios futuros estuvieran claramente explicadas. <br> TP: <br> Redacté la documentación de los wireframes de los escenarios To-be. <br> TB2: <br> Documenté el backend del entrenamiento de la IA y su relación con la landing page y el front end, asegurando que el equipo comprendiera cómo estas partes trabajaban en conjunto. <br><br> *Trujillo Lopez Luis Alberto* <br> TB1: <br> Al redactar la **Product Backlog** (3.4), me centré en asegurar que las **User Stories** (3.2) fueran claras y accesibles. <br> TP: <br> Documenté los mockups de las funcionalidades clave en la Product Backlog. <br> TB2: <br> Redacté la documentación de la integración del front end y el entrenamiento de la IA, describiendo la funcionalidad de cada módulo y cómo cada componente aportaba valor al proyecto. <br><br> | *TB1* <br> La comunicación escrita permitió detallar de forma clara los aspectos técnicos y estratégicos del proyecto, facilitando la comprensión y el alineamiento de las expectativas entre las partes interesadas. <br> *TP* <br> La documentación de los mockups, wireframes y bounded context facilitó la comunicación visual y técnica del proyecto. <br> *TB2* <br> La documentación de la landing page, el front end y el entrenamiento de la IA de detección proporcionó una visión completa de la solución propuesta, facilitando la colaboración y comprensión entre los equipos involucrados. |
 
 ---
 
@@ -2522,6 +2523,436 @@ Goal:  Configurar las alertas según epp
 Goal:  Generar reporte
 
 ![EPPEye Reports Wireflow](./assets/wireflow-reports.png)
+
+# Capítulo VII: Product Implementation, Validation & Deployment
+
+## 7.1. Software Configuration Management
+- ### 7.1.1. Software Development Environment Configuration
+En esta sección, el equipo especifica los productos de software utilizados durante el ciclo de vida del proyecto, clasificándolos por su función y proporcionando enlaces de referencia o descarga según corresponda.
+
+### Project Management
+**Trello**  
+Trello es una herramienta visual que permite gestionar proyectos de manera colaborativa, ayudando al equipo a organizar tareas, establecer flujos de trabajo y asignar responsables.  
+- **Ruta de referencia**: [https://trello.com/es](https://trello.com/es)
+
+### Requirements Management
+**Pivotal Tracker**  
+Pivotal Tracker facilita la gestión de user stories, epics y prioridades del proyecto. Permite que el equipo comparta una visión en tiempo real del estado de cada tarea.  
+- **Ruta de referencia**: [https://www.pivotaltracker.com](https://www.pivotaltracker.com)
+
+### Product UX/UI Design
+**Figma**  
+Figma permite crear prototipos web y gráficos vectoriales, facilitando el diseño de interfaces para versiones web y móvil.  
+- **Ruta de referencia**: [https://www.figma.com/design/](https://www.figma.com/design/)
+
+**Uxpressia**  
+Herramienta en línea para mapeo de la experiencia del usuario, incluyendo User Persona, Empathy Map y Journey Map.  
+- **Ruta de referencia**: [https://uxpressia.com/](https://uxpressia.com/)
+
+**MIRO**  
+Pizarra digital colaborativa usada para la investigación, creación de ideas y mapas mentales.  
+- **Ruta de referencia**: [https://miro.com/app/dashboard/](https://miro.com/app/dashboard/)
+
+**Lucid Chart**  
+Herramienta de diagramación basada en la web, utilizada para crear diagramas UML, mapas mentales y prototipos de software.  
+- **Ruta de referencia**: [https://lucid.app/documents#/dashboard](https://lucid.app/documents#/dashboard)
+
+**Structurizr**  
+Soporta el modelo C4 para visualizar la arquitectura de software de la solución.  
+- **Ruta de referencia**: [https://structurizr.com/](https://structurizr.com/)
+
+### Software Development
+**Visual Studio Code (VSCode)**  
+Editor de código potente utilizado para construir el backend y el frontend del proyecto, con soporte para múltiples extensiones y personalización.  
+- **Ruta de descarga**: [https://code.visualstudio.com/](https://code.visualstudio.com/)
+
+**Google Colab**  
+Entorno de ejecución que permite desarrollar y probar modelos de visión artificial y deep learning. Usado principalmente para el entrenamiento de la IA de detección de EPP.  
+- **Ruta de referencia**: [https://colab.research.google.com/](https://colab.research.google.com/)
+
+**IntelliJ IDEA**  
+Entorno de desarrollo usado para trabajar con el backend en Java y otras tareas avanzadas de desarrollo.  
+- **Ruta de descarga**: [https://www.jetbrains.com/idea/](https://www.jetbrains.com/idea/)
+
+**Android Studio**  
+IDE utilizado para la creación de aplicaciones móviles, permitiendo el desarrollo con Flutter y Dart para el módulo de mobile.  
+- **Ruta de descarga**: [https://developer.android.com/studio](https://developer.android.com/studio)
+
+**GitHub**  
+Repositorio comunitario que facilita la colaboración en el código y la gestión de versiones del proyecto.  
+- **Ruta de referencia**: [https://github.com/Arquitectura-Software-Emergentes-Grupo1](https://github.com/Arquitectura-Software-Emergentes-Grupo1)
+
+**Lenguajes y Frameworks**  
+- **JavaScript**: Lenguaje de programación utilizado para el desarrollo de funcionalidades interactivas en el frontend de la aplicación.  
+  - **Ruta de referencia**: [https://www.javascript.com/](https://www.javascript.com/)
+
+- **Python**: Lenguaje de programación de alto nivel utilizado principalmente para el entrenamiento de modelos de visión artificial.  
+  - **Ruta de referencia**: [https://www.python.org/](https://www.python.org/)
+
+- **Java**: Lenguaje orientado a objetos usado en el backend para la construcción de lógica de negocio y procesamiento de datos.  
+  - **Ruta de referencia**: [https://www.java.com/es/](https://www.java.com/es/)
+
+- **Flutter/Dart**: Framework y lenguaje de programación utilizados para el desarrollo de aplicaciones móviles multiplataforma.  
+  - **Ruta de referencia**: [https://flutter.dev/](https://flutter.dev/)  
+
+- **Angular**: Framework de JavaScript utilizado para crear aplicaciones web robustas y modulares.  
+  - **Ruta de referencia**: [https://angular.io/](https://angular.io/)
+
+- **YOLOv8 y TensorFlow**: Frameworks y librerías para el desarrollo y entrenamiento de modelos de detección de objetos, utilizados en el procesamiento de imágenes de EPP.  
+  - **Ruta de referencia YOLOv8**: [https://github.com/ultralytics/yolov8](https://github.com/ultralytics/yolov8)
+  - **Ruta de referencia TensorFlow**: [https://www.tensorflow.org/](https://www.tensorflow.org/)
+
+### Software Testing
+**Gherkin**  
+Lenguaje específico de dominio (DSL) utilizado para describir pruebas de aceptación de manera estructurada y comprensible.  
+- **Ruta de referencia**: [https://cucumber.io/docs/gherkin/](https://cucumber.io/docs/gherkin/)
+
+### Software Deployment
+**GitHub Pages**  
+Servicio de GitHub que permite alojar la landing page del proyecto.  
+- **Ruta de referencia**: [https://pages.github.com/](https://pages.github.com/)
+
+**Firebase**  
+Plataforma de Google utilizada para alojar el frontend de la aplicación web.  
+- **Ruta de referencia**: [https://firebase.google.com/?hl=es](https://firebase.google.com/?hl=es)
+
+### Software Documentation
+**Markdown en GitHub**  
+El equipo utiliza archivos Markdown en GitHub para documentar el proyecto de manera clara y accesible.  
+- **Ruta de referencia**: [https://guides.github.com/features/mastering-markdown/](https://guides.github.com/features/mastering-markdown/)
+
+**OpenAPI Specification vía Swagger**  
+Herramienta para documentar y visualizar los servicios web RESTful del proyecto, mejorando la claridad en la estructura de las APIs. 
+- ### 7.1.2. Source Code Management
+## 7.1.2. Source Code Management (SCM)
+
+En esta sección se detalla la gestión de código fuente, conocida como SCM (Source Code Management). Este proceso permite llevar un control preciso de las modificaciones que cada integrante realiza en el repositorio de código fuente, facilitando la organización y el desarrollo colaborativo en GitHub. Al implementar GitFlow como modelo de ramas, el equipo asegura que el código se mantenga organizado y fácil de integrar, con un flujo claro entre desarrollo, pruebas y despliegue.
+
+### GitFlow
+GitFlow es un modelo de ramificación y control de versiones para Git, diseñado por Vincent Driessen. Este modelo permite gestionar las ramas de desarrollo y producción de manera estructurada, lo que es especialmente útil para proyectos de equipo que requieren un flujo de trabajo colaborativo y organizado. 
+
+El flujo de trabajo de GitFlow incluye las siguientes ramas:
+
+#### Estructura de Ramas
+
+1. **Main Branches**
+   - **main**: Rama principal que contiene la versión de producción más estable y el historial de publicaciones. Al final de cada ciclo de desarrollo, las ramas `release` o `hotfix` se fusionan aquí para actualizar la versión pública.
+   - **develop**: Rama de desarrollo creada a partir de `main`, donde se integran y prueban las nuevas funcionalidades antes de ser preparadas para producción. Esta rama es la base para todos los desarrollos en curso.
+
+2. **Support Branches**
+   - **Feature Branches**
+     - **Origen**: `develop`
+     - **Destino**: `develop`
+     - Estas ramas se crean para desarrollar nuevas funcionalidades específicas. Permiten a los desarrolladores trabajar en funciones independientes sin afectar la rama `develop` hasta que la funcionalidad esté completa y testeada. Una vez finalizada, la rama se fusiona de nuevo a `develop`.
+     - **Convención de nombres**: `feature/<nombre_feature>`
+       - **Ejemplos**: `feature/welcome`, `feature/about`, `feature/myfeature`
+
+   - **Release Branches**
+     - **Origen**: `develop`
+     - **Destino**: `develop` / `main`
+     - Las ramas de lanzamiento se crean cuando se acerca una fecha de despliegue, lo que permite preparar la versión final con ajustes y correcciones menores. La rama `release` se utiliza para corregir errores y preparar la versión de producción, sin agregar nuevas funcionalidades.
+     - **Convención de nombres**: `release-*` (donde * se reemplaza por la versión semántica)
+       - **Ejemplo**: `release-1.2.0`
+
+   - **Hotfix Branches**
+     - **Origen**: `main`
+     - **Destino**: `develop` / `main`
+     - Las ramas de hotfix son similares a las de `release`, pero se usan para corregir errores críticos directamente en producción. Estas ramas permiten resolver problemas urgentes y aplicar correcciones rápidas, fusionándose después en `main` y `develop` para mantener ambas ramas actualizadas.
+     - **Convención de nombres**: `hotfix-*` (donde * se reemplaza por la versión semántica)
+       - **Ejemplo**: `hotfix-1.2.1`
+
+### Semantic Versioning
+El equipo utiliza **Semantic Versioning** para nombrar sus versiones de lanzamiento. Esto proporciona una estructura clara en el control de versiones, en el formato `MAJOR.MINOR.PATCH` (X.Y.Z), donde:
+
+- **Patch version (Z)**: Se incrementa para pequeñas correcciones de errores o ajustes sin afectación a la compatibilidad.
+- **Minor version (Y)**: Se incrementa para agregar nuevas funcionalidades compatibles con versiones anteriores.
+- **Major version (X)**: Se incrementa para cambios que alteran la compatibilidad con versiones anteriores.
+
+Este esquema permite una visión clara de los cambios y facilita la gestión de dependencias y versiones en el proyecto.
+
+**Convenciones para Naming**
+- **Feature Branch**: `feature/<nombre_feature>` (ej., `feature/user-authentication`)
+- **Release Branch**: `release-*` (ej., `release-1.2.0`)
+- **Hotfix Branch**: `hotfix-*` (ej., `hotfix-1.2.1`)
+
+### Conventional Commits
+El equipo sigue las pautas de **Conventional Commits** para mantener consistencia en los mensajes de commits, mejorando la comprensión y trazabilidad de cambios en el código. Cada mensaje de commit se estructura de la siguiente manera: <type>[optional scope]: <description> [optional body] [optional footer(s)]
+
+
+**Tipos de Commits**:
+- **feat**: Para nuevas funcionalidades.
+- **fix**: Para corregir errores.
+- **build**: Cambios que afectan el proceso de compilación o dependencias.
+- **chore**: Cambios de mantenimiento que no afectan el código.
+- **docs**: Cambios en la documentación.
+- **refactor**: Reestructuración del código sin cambios en el comportamiento.
+- **perf**: Mejoras de rendimiento.
+- **style**: Cambios que no afectan el funcionamiento (formato, espacios, etc.).
+- **test**: Commits que agregan o modifican pruebas.
+
+**Scope** (opcional): Proporciona un contexto adicional, por ejemplo, `feat(auth): add login functionality`.
+
+**Description**: Debe ser breve y en tiempo imperativo, describiendo de forma clara el cambio realizado. Ejemplo: `feat(authentication): add login functionality for new users`.
+
+**Body** (opcional): Explica la motivación del cambio y, en caso de ser necesario, detalles adicionales sobre el comportamiento modificado.
+
+**Footer** (opcional): Se usa para mencionar información adicional importante o cambios relevantes, como `BREAKING CHANGE`.
+
+**Ejemplo de un Commit**:
+- `feat(authentication): add login functionality for new users`
+- `fix(auth): correct token expiration issue`
+
+Al aplicar estas convenciones, el equipo garantiza que los cambios sean rastreables, fáciles de entender y colaborativos, mejorando la calidad y claridad en el desarrollo del proyecto.
+
+
+
+- ### 7.1.3. Source Code Style Guide & Conventions
+
+En esta sección se describen las convenciones de codificación para HTML, CSS, JavaScript, TypeScript, Angular, Java y Gherkin. Estas normas aseguran calidad, legibilidad y mantenimiento del código.
+
+### Nomenclatura General
+- **Idioma**: Todos los nombres estarán en inglés para consistencia.
+- **Formato**:
+  - **lowerCamelCase** para variables y funciones.
+  - **UpperCamelCase** para clases e interfaces.
+
+### Sangría
+Usar 2 espacios de sangría en HTML, CSS y JavaScript, evitando tabulaciones.
+
+**Ejemplos de Sangría:**
+
+HTML:
+<div>
+  <h1>Sample Title</h1>
+  <p>This is a sample paragraph for demonstration purposes.</p>
+</div>
+
+CSS:
+html {
+  background: #fff;
+  color: #404;
+}
+
+JavaScript:
+function toCelsius(fahrenheit) {
+  return (5 / 9) * (fahrenheit - 32);
+}
+
+### HTML
+- **Declaración de Documento**: Usar `<!DOCTYPE html>` en la primera línea.
+- **Saltos de Línea**: Insertar líneas en blanco entre bloques de contenido.
+- **Comillas Dobles**: Utilizar comillas dobles en valores de atributos.
+
+Ejemplo:
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>App Title</title>
+  </head>
+  <body>
+    <h1>Welcome to our app</h1>
+  </body>
+</html>
+
+### CSS
+- **Propiedades en Línea**: Abreviar propiedades cuando sea posible.
+- **Punto y Coma**: Finalizar cada declaración con un punto y coma.
+
+Ejemplo:
+html {
+  background: #fff;
+  color: #404;
+}
+
+### JavaScript
+- **Espacios en Operadores**: Colocar un espacio alrededor de cada operador.
+- **Punto y Coma**: Finalizar cada declaración con punto y coma.
+
+Ejemplo:
+let x = y + z;
+const myArray = ["Volvo", "Saab", "Fiat"];
+
+### TypeScript
+- **UpperCamelCase** para clases e interfaces, **lowerCamelCase** para variables y funciones.
+- Usar `const` por defecto y `let` solo si es necesario reasignar.
+
+Ejemplo:
+let randomName: string = 'Juan';
+function randomFunction() {}
+class View {}
+
+### Angular
+- **Naming Components**: Utilizar la estructura `feature.type.ts`, por ejemplo, `information.component.ts`.
+- **Naming Services**: Los nombres de los servicios deben terminar en `Service`, por ejemplo, `DataService`.
+
+Ejemplo:
+@Component({
+  selector: 'app-information',
+  templateUrl: './information.component.html'
+})
+export class InformationComponent {}
+
+### Java
+- **Visibilidad**: Siempre especificar visibilidad (public, protected, private).
+- **Naming**: **UpperCamelCase** para clases, **lowerCamelCase** para variables y métodos.
+
+Ejemplo:
+public void setGroupNames(Group group, String name) {
+  // method code
+}
+
+### Gherkin
+- **Given-When-Then Blocks**: Usar sangría en los pasos para mejorar la legibilidad.
+- **Step with Tables**: Utilizar tablas para valores de entrada en los pasos, si corresponde.
+
+Ejemplo:
+Scenario: User login
+  Given the user is on the login page
+  When the user enters valid credentials
+  Then the user is redirected to the dashboard
+
+Estas convenciones ayudan a mantener el código organizado, legible y fácil de mantener.
+
+- ### 7.1.4. Software Deployment Configuration
+
+En esta sección se detallan los pasos y configuraciones necesarios para el despliegue de la solución. El objetivo es asegurar que, a partir de los repositorios de código fuente, cada producto digital de la solución se pueda desplegar o publicar satisfactoriamente. Esto incluye tanto la configuración del entorno de despliegue como los procesos automáticos que facilitan la actualización de los productos.
+
+### Pasos de Despliegue
+
+1. **Preparación del Entorno de Despliegue**
+   - Configurar servidores y servicios requeridos, asegurando que cuenten con el sistema operativo y dependencias necesarias.
+   - Verificar la configuración de permisos para acceso seguro a los recursos de la solución.
+
+2. **Configuración de Variables de Entorno**
+   - Configurar variables sensibles (API keys, rutas de bases de datos, etc.) mediante archivos `.env` o configuraciones específicas del servidor.
+   - Variables clave a configurar:
+     - `API_KEY` para servicios de terceros.
+     - `DB_URL` para la conexión de la base de datos.
+     - `PORT` para especificar el puerto en el que se ejecutará el servicio.
+
+3. **Instalación de Dependencias**
+   - Usar los gestores de paquetes necesarios (npm para Node.js, pip para Python) para instalar todas las dependencias listadas en los archivos de configuración del proyecto.
+   - Ejemplo de comandos:
+     ```
+     npm install  # Para proyectos Node.js
+     pip install -r requirements.txt  # Para proyectos Python
+     ```
+
+4. **Compilación y Construcción**
+   - Compilar y construir los proyectos necesarios, como el frontend y el backend, para preparar los archivos de producción.
+   - Ejemplo de comandos:
+     ```
+     npm run build  # Compilar el frontend
+     ./gradlew build  # Para proyectos en Java
+     ```
+
+5. **Despliegue en el Servidor**
+   - Transferir los archivos compilados al servidor de producción mediante FTP, SSH o herramientas de integración continua (CI/CD).
+   - Configurar un sistema de despliegue automático para facilitar futuras actualizaciones.
+
+6. **Configuración de la Base de Datos**
+   - Crear la base de datos e importar la estructura y datos iniciales necesarios para la aplicación.
+   - Configurar el acceso desde la aplicación al servidor de base de datos.
+
+7. **Configuración de Balanceo de Carga y Proxy Inverso**
+   - Configurar un balanceador de carga para distribuir las peticiones a múltiples instancias de la aplicación, si es necesario.
+   - Configurar un proxy inverso (como Nginx o Apache) para gestionar las conexiones HTTP/HTTPS.
+
+8. **Pruebas de Despliegue**
+   - Ejecutar pruebas para verificar que el despliegue se haya realizado correctamente, incluyendo pruebas de integración y validación de las configuraciones.
+
+9. **Monitoreo y Logs**
+    - Configurar herramientas de monitoreo (como Prometheus o Grafana) para observar el rendimiento de la aplicación.
+    - Configurar el almacenamiento de logs para registrar errores y eventos de la aplicación.
+
+### Diagrama de Despliegue (Deployment Diagram) - Modelo C4
+
+El Deployment Diagram es una representación visual de cómo se despliegan los componentes en el entorno de producción. Se utiliza el Modelo C4 para detallar la infraestructura y las interacciones entre los servicios y componentes. 
+
+**Descripción del Deployment Diagram:**
+- **Niveles del Diagrama**:
+  - **Nube de Proveedores**: Servicios en la nube, como el almacenamiento de bases de datos y servicios de autenticación.
+  - **Servidor de Aplicación**: Entorno donde se ejecutan el frontend y backend de la aplicación.
+  - **Proxy Inverso y Balanceador de Carga**: Responsable de distribuir las solicitudes y gestionar las conexiones HTTPS.
+  - **Bases de Datos y Almacenamiento**: Servidores de bases de datos y almacenamiento de archivos de la solución.
+  
+Este esquema ayuda a visualizar la infraestructura de la solución, permitiendo identificar las relaciones entre los distintos componentes y cómo se gestionan los servicios en el entorno de producción.
+
+## 7.2. Solution Implementation
+- ### 7.2.1. Sprint 1
+  - #### 7.2.1.1. Sprint Planning 1
+
+    | **Sprint #**                                | Sprint n                          |
+    |---------------------------------------------|-----------------------------------|
+    | **Sprint Planning Background**              |                                   |
+    | **Date**                                    | 26/10/2024                       |
+    | **Time**                                    | 10:00 PM                       |
+    | **Location**                                | Discord |
+    | **Prepared By**                             | Rodrigo Alejandro Raymundo Guevara |
+    | **Attendees (to planning meeting)**         | Raymundo Guevara Rodrigo Alejandro / Achamizo Huamani Jean Carlos / Aliaga Trevejo Lucía Guadalupe / Siancas Reategui Luis Alberto / Trujillo Lopez Luis Alberto |
+    | **Sprint Goal & User Stories**              |  |
+    | **Sprint n Goal**                           | Establecer la base de la aplicación completando las configuraciones iniciales y funcionalidades esenciales. Este sprint tiene como objetivo implementar la autenticación de usuarios, la interfaz de usuario inicial, la integración de un modelo básico de detección de EPP mediante visión artificial, y la documentación de las API para asegurar una comunicación efectiva entre frontend y backend. La métrica de cumplimiento es que el sistema de autenticación y la detección de EPP estén funcionales y probados en el entorno de desarrollo. |
+    | **Sprint n Velocity**                       | 21 |
+    | **Sum of Story Points**                     | 18 |
+
+
+  - #### 7.2.1.2. Sprint Backlog 1
+
+| **User Story** |           | **Work-Item / Task**       |           |           |         |
+|----------------|-----------|---------------------------|-----------|-----------|---------|
+| **Id**        | **Title** | **Id**                    | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status (To-do / In Progress / Done)** |
+| **US01**      | Notificación de EPP Incorrecto |
+| 1.1           | Configuración del sistema de notificaciones | Configurar el sistema de notificaciones para alertas de incumplimiento en EPP. | 5 horas | [Asignar miembro del equipo] | To-do |
+| 1.2           | Prueba de notificación de incumplimiento | Probar el sistema para verificar la notificación al detectar incumplimientos de EPP. | 3 horas | [Asignar miembro del equipo] | To-do |
+| **US06**      | Visualización de Incumplimientos |
+| 6.1           | Implementación de alertas visuales | Crear alertas visuales en la interfaz para zonas con incumplimientos de EPP. | 6 horas | [Asignar miembro del equipo] | To-do |
+| 6.2           | Integración con el backend | Integrar la funcionalidad de visualización de incumplimientos con el backend para detección en tiempo real. | 5 horas | [Asignar miembro del equipo] | To-do |
+| 6.3           | Prueba de visualización de alertas | Verificar que las alertas visuales funcionen correctamente en el entorno de pruebas. | 4 horas | [Asignar miembro del equipo] | To-do |
+| **US08**      | Monitorización en Tiempo Real |
+| 8.1           | Configuración del flujo en tiempo real | Configurar el flujo de datos en tiempo real desde las cámaras para monitoreo de EPP. | 8 horas | [Asignar miembro del equipo] | To-do |
+| 8.2           | Desarrollo de la interfaz de monitorización | Crear una interfaz de usuario para mostrar el flujo en vivo de zonas de trabajo. | 6 horas | [Asignar miembro del equipo] | To-do |
+| 8.3           | Pruebas de flujo en tiempo real | Ejecutar pruebas para validar la estabilidad del flujo en tiempo real. | 5 horas | [Asignar miembro del equipo] | To-do |
+
+  - #### 7.2.1.3. Development Evidence for Sprint Review
+
+| **Repository**                   | **Branch** | **Commit Id**                         | **Commit Message**               | **Commit Message Body**                                                                                      | **Commited on (Date)** |
+|----------------------------------|------------|---------------------------------------|----------------------------------|--------------------------------------------------------------------------------------------------------------|-------------------------|
+| ASE-SocialTech/eppeye-ia         | develop    | ed7bbc7ee34a32991daf59c48991fa9300b74136 | feat: add EPP detection model integration | Integrates initial EPP detection model using TensorFlow. Improves accuracy in identifying EPP compliance.   | 02/11/2024             |
+| ASE-SocialTech/eppeye-frontend   | develop    | 9901f5e37a01d6967d08b59afabb44f9817204b7 | feat: implement EPP alert notifications | Adds notification system to alert users when EPP compliance is not detected. Updates UI with alert badges.   | 02/11/2024             |
+| ASE-SocialTech/eppeye-landing-page | develop | 9a871912816780ed11e8316afdf7ac103a6eb238 | fix: correct link to privacy policy       | Fixes broken link to privacy policy on landing page footer. Adjusts styling to improve accessibility.        | 02/11/2024             |
+
+  - #### 7.2.1.4. Testing Suite Evidence for Sprint Review
+
+No se desarrolló en este sprint, pues en esta parte se presentarán los Unit Tests, Integration Tests y Acceptance Tests automatizados, para Web Services.
+
+  - #### 7.2.1.5. Execution Evidence for Sprint Review
+
+  **Landing Page**
+
+![Landing Page](./assets/landing.jpeg)
+
+  **Front End**
+
+![Front End](./assets/frontend.png)
+
+  - #### 7.2.1.6. Services Documentation Evidence for Sprint Review
+
+No se desarrolló en este sprint, pues en esta sección presentaremos la relación de Endpoints documentados con OpenAPI, relacionados con el alcance del Sprint y con web services.
+
+  - #### 7.2.1.7. Software Deployment Evidence for Sprint Review
+
+
+
+  - #### 7.2.1.8. Team Collaboration Insights during Sprint
+
+
+
+
+## 7.3. Validation Interviews
+- ### 7.3.1. Diseño de Entrevistas
+
+## 7.4. Video About-the-Product
+
 
 # Conclusiones
 
