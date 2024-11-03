@@ -2902,24 +2902,151 @@ Este esquema ayuda a visualizar la infraestructura de la solución, permitiendo 
 |----------------|-----------|---------------------------|-----------|-----------|---------|
 | **Id**        | **Title** | **Id**                    | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status (To-do / In Progress / Done)** |
 | **US01**      | Notificación de EPP Incorrecto |
-| 1.1           | Configuración del sistema de notificaciones | Configurar el sistema de notificaciones para alertas de incumplimiento en EPP. | 5 horas | [Asignar miembro del equipo] | To-do |
-| 1.2           | Prueba de notificación de incumplimiento | Probar el sistema para verificar la notificación al detectar incumplimientos de EPP. | 3 horas | [Asignar miembro del equipo] | To-do |
+| 1.1           | Configuración del sistema de notificaciones | Configurar el sistema de notificaciones para alertas de incumplimiento en EPP. | 5 horas | Luis Trujillo | In Process |
+| 1.2           | Prueba de notificación de incumplimiento | Probar el sistema para verificar la notificación al detectar incumplimientos de EPP. | 3 horas | Lucía Aliaga | In Process |
 | **US06**      | Visualización de Incumplimientos |
-| 6.1           | Implementación de alertas visuales | Crear alertas visuales en la interfaz para zonas con incumplimientos de EPP. | 6 horas | [Asignar miembro del equipo] | To-do |
-| 6.2           | Integración con el backend | Integrar la funcionalidad de visualización de incumplimientos con el backend para detección en tiempo real. | 5 horas | [Asignar miembro del equipo] | To-do |
-| 6.3           | Prueba de visualización de alertas | Verificar que las alertas visuales funcionen correctamente en el entorno de pruebas. | 4 horas | [Asignar miembro del equipo] | To-do |
+| 6.1           | Implementación de alertas visuales | Crear alertas visuales en la interfaz para zonas con incumplimientos de EPP. | 6 horas | Jean Achamizo | In Process |
+| 6.2           | Integración con el backend | Integrar la funcionalidad de visualización de incumplimientos con el backend para detección en tiempo real. | 5 horas | Luis Siancas | In Process |
+| 6.3           | Prueba de visualización de alertas | Verificar que las alertas visuales funcionen correctamente en el entorno de pruebas. | 4 horas | Luis Siancas  | In Process |
 | **US08**      | Monitorización en Tiempo Real |
-| 8.1           | Configuración del flujo en tiempo real | Configurar el flujo de datos en tiempo real desde las cámaras para monitoreo de EPP. | 8 horas | [Asignar miembro del equipo] | To-do |
-| 8.2           | Desarrollo de la interfaz de monitorización | Crear una interfaz de usuario para mostrar el flujo en vivo de zonas de trabajo. | 6 horas | [Asignar miembro del equipo] | To-do |
-| 8.3           | Pruebas de flujo en tiempo real | Ejecutar pruebas para validar la estabilidad del flujo en tiempo real. | 5 horas | [Asignar miembro del equipo] | To-do |
+| 8.1           | Configuración del flujo en tiempo real | Configurar el flujo de datos en tiempo real desde las cámaras para monitoreo de EPP. | 8 horas | Luis Trujillo | In Process |
+| 8.2           | Desarrollo de la interfaz de monitorización | Crear una interfaz de usuario para mostrar el flujo en vivo de zonas de trabajo. | 6 horas | Rodrigo Raymundo | In Process |
+| 8.3           | Pruebas de flujo en tiempo real | Ejecutar pruebas para validar la estabilidad del flujo en tiempo real. | 5 horas | Rodrigo Raymundo | In Process |
 
   - #### 7.2.1.3. Development Evidence for Sprint Review
 
-| **Repository**                   | **Branch** | **Commit Id**                         | **Commit Message**               | **Commit Message Body**                                                                                      | **Commited on (Date)** |
-|----------------------------------|------------|---------------------------------------|----------------------------------|--------------------------------------------------------------------------------------------------------------|-------------------------|
-| ASE-SocialTech/eppeye-ia         | develop    | ed7bbc7ee34a32991daf59c48991fa9300b74136 | feat: add EPP detection model integration | Integrates initial EPP detection model using TensorFlow. Improves accuracy in identifying EPP compliance.   | 02/11/2024             |
-| ASE-SocialTech/eppeye-frontend   | develop    | 9901f5e37a01d6967d08b59afabb44f9817204b7 | feat: implement EPP alert notifications | Adds notification system to alert users when EPP compliance is not detected. Updates UI with alert badges.   | 02/11/2024             |
-| ASE-SocialTech/eppeye-landing-page | develop | 9a871912816780ed11e8316afdf7ac103a6eb238 | fix: correct link to privacy policy       | Fixes broken link to privacy policy on landing page footer. Adjusts styling to improve accessibility.        | 02/11/2024             |
+*Landing Page*
+
+<table  align="left" border="1" width="100%">
+    <tr>
+        <th>Repository</th>
+        <th>Branch</th>
+        <th>Commit ID</th>
+        <th>Commit Message</th>
+        <th>Commit Message Body</th>
+        <th>Commited On (Date)</th>
+    </tr>
+    <tr>
+        <td rowspan=19>ASE-SocialTech/eppeye-landing-page</td>
+        <td>/main</td>
+        <td>9a87191</td>
+        <td>Initial commit</td>
+        <td>Initial commit</td>
+        <td>09/10/2024</td>
+    </tr>
+    <tr>
+        <td>/development</td>
+        <td>66b2436</td>
+        <td>Add: Navbar</td>
+        <td>Added navbar and styles</td>
+        <td>10/10/2024</td>
+    </tr>
+    <tr>
+        <td>/hero-section</td>
+        <td>0c34b29</td>
+        <td>Add: Hero section</td>
+        <td>Added hero section and styles</td>
+        <td>10/10/2024</td>
+    </tr>
+    <tr>
+        <td>/how-it-works-section</td>
+        <td>8184b21</td>
+        <td>Add: How it works section</td>
+        <td>Added How it works section and styles</td>
+        <td>10/10/2024</td>
+    </tr>
+    <tr>
+        <td>/how-it-works-section</td>
+        <td>eab9f39</td>
+        <td>Fix: images</td>
+        <td>Fixed images src</td>
+        <td>10/10/2024</td>
+    </tr>
+    <tr>
+        <td>/why-choose-us-section</td>
+        <td>4695b90</td>
+        <td>Add: why choose us section</td>
+        <td>Added Why choose us section and styles</td>
+        <td>15/10/2024</td>
+    </tr>
+    <tr>
+        <td>/plans-section</td>
+        <td>34b7201</td>
+        <td>Add: Plans section and cards</td>
+        <td>Add: Plans section and cards</td>
+        <td>26/10/2024</td>
+    </tr>
+    <tr>
+        <td>/footer</td>
+        <td>756a713</td>
+        <td>Added: Footer</td>
+        <td>Added: Footer</td>
+        <td>27/10/2024</td>
+    </tr>
+    <tr>
+        <td>/testimonials-section</td>
+        <td>8efca71</td>
+        <td>Add: testimonials section and styles</td>
+        <td>Add: testimonials section and styles</td>
+        <td>02/11/2024</td>
+    </tr>
+    <tr>
+        <td>/team-section</td>
+        <td>8679e65</td>
+        <td>Add: Team section</td>
+        <td>Added team section and styles</td>
+        <td>02/11/2024</td>
+    </tr>
+    <tr>
+        <td>/contact-section</td>
+        <td>1f92448</td>
+        <td>Add: Contact section</td>
+        <td>Added: Contact section</td>
+        <td>02/11/2024</td>
+    </tr>
+</table>
+
+*Web Application*
+
+<table  align="left" border="1" width="100%">
+    <tr>
+        <th>Repository</th>
+        <th>Branch</th>
+        <th>Commit ID</th>
+        <th>Commit Message</th>
+        <th>Commit Message Body</th>
+        <th>Commited On (Date)</th>
+    </tr>
+    <tr>
+        <td rowspan=19>ASE-SocialTech/eppeye-frontend</td>
+        <td>/main</td>
+        <td>9901f5e</td>
+        <td>add navbar and camera component</td>
+        <td>add navbar and camera component</td>
+        <td>02/11/2024</td>
+    </tr>
+</table>
+
+*IA*
+
+<table  align="left" border="1" width="100%">
+    <tr>
+        <th>Repository</th>
+        <th>Branch</th>
+        <th>Commit ID</th>
+        <th>Commit Message</th>
+        <th>Commit Message Body</th>
+        <th>Commited On (Date)</th>
+    </tr>
+    <tr>
+        <td rowspan=19>ASE-SocialTech/eppeye-ia</td>
+        <td>/main</td>
+        <td>ed7bbc7</td>
+        <td>add ia training</td>
+        <td>add ia training</td>
+        <td>02/11/2024</td>
+    </tr>
+</table>
 
   - #### 7.2.1.4. Testing Suite Evidence for Sprint Review
 
@@ -2941,18 +3068,56 @@ No se desarrolló en este sprint, pues en esta sección presentaremos la relaci�
 
   - #### 7.2.1.7. Software Deployment Evidence for Sprint Review
 
+    El despliegue de nuestra landing page se realizó utilizando GitHub Pages, una plataforma que permite la publicación de sitios web estáticos de manera sencilla y eficiente.
 
+    **Enlace al Landing Page**
+    <a href="https://ase-socialtech.github.io/eppeye-landing-page/"> https://ase-socialtech.github.io/eppeye-landing-page/</a>
+
+    ![Landing Page Deployment](./assets/landing-deployment.PNG)
+
+    El despliegue se realiza automáticamente desde la rama develop, lo que nos permite mantener un flujo de trabajo ágil. Cada vez que se efectúan commits en esta rama, el proceso de despliegue se activa de manera automática, asegurando que los cambios más recientes estén siempre disponibles para revisión
+
+    ![Landing Page Deployment](./assets/landing-deployment2.PNG)
 
   - #### 7.2.1.8. Team Collaboration Insights during Sprint
 
+    *Landing Page* 
 
+    ![Pulse Landing Page](./assets/insights-pulse-landing.PNG)
+
+    ![Network Landing Page](./assets/insights-network-landing.PNG)
 
 
 ## 7.3. Validation Interviews
+
 - ### 7.3.1. Diseño de Entrevistas
+
+  1. ¿Cuál fue tu primera impresión al ingresar a la landing page?
+  2. ¿La propuesta de valor del sistema es clara y fácil de entender?
+  3. ¿Qué opinas sobre el diseño visual y la estética de la landing page?
+  4. ¿Las llamadas a la acción son lo suficientemente atractivas y visibles?
+  5. ¿El contenido proporciona suficiente información sobre el sistema y sus beneficios?
+  6. ¿La landing page se carga rápidamente en tu dispositivo?
+  7. ¿Encontraste algún problema de accesibilidad al navegar por la página?
+  8. ¿Qué tan fácil es navegar por la aplicación web? ¿Hay secciones que te resultan confusas?
+  9. ¿Las funciones clave, como la notificación de uso de EPP y la selección de elementos para monitorear, son intuitivas?
+  10. ¿Qué opinas sobre la visualización de gráficos de incidencias de EPP no usados? ¿Es clara y útil?
+  11. ¿La aplicación responde de manera rápida y adecuada a tus interacciones?
+  12. ¿Te resultó fácil completar tareas específicas dentro de la aplicación? (e.g., revisar alertas, generar reportes)
+  13. ¿Has experimentado problemas de compatibilidad en diferentes navegadores al usar la aplicación web?
+  14. ¿Cómo comparas la experiencia de usuario de la aplicación móvil con la de la aplicación web?
+  15. ¿Todas las funciones importantes están fácilmente accesibles en la aplicación móvil?
+  16. ¿Las notificaciones en la aplicación móvil son útiles y oportunas?
+  17. ¿Qué opinas sobre el diseño y la interfaz de usuario de la aplicación móvil?
+  18. ¿La aplicación móvil funciona sin problemas y se carga rápidamente?
+  19. ¿Te resultó fácil navegar por la aplicación móvil y completar tareas?
+  20. ¿Tienes algún comentario adicional o sugerencia que no se haya abordado en las preguntas anteriores?
+
 
 ## 7.4. Video About-the-Product
 
+**Enlace del video:**
+<a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211a452_upc_edu_pe/EQGTM-gIMTVBuPvA-yQAJZABtDO6-FopTtn2rj8zwqaDKw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=rFg9NJ">https://goo.su/iC9Ml</a>
 
 # Conclusiones
 
@@ -2972,3 +3137,9 @@ El Peruano. (2021). *Equipos de protección deben cumplir las normas técnicas*.
 --- 
 
 # Anexos
+
+## Videos de Exposición
+
+| Enlace                                             | Fecha        | Entregable                       |
+|----------------------------------------------------|--------------|----------------------------------|
+| https://acortar.link/J9mkex   | 02/11/2024   | TB2        |
