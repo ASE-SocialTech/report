@@ -2902,16 +2902,16 @@ Este esquema ayuda a visualizar la infraestructura de la solución, permitiendo 
 |----------------|-----------|---------------------------|-----------|-----------|---------|
 | **Id**        | **Title** | **Id**                    | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status (To-do / In Progress / Done)** |
 | **US01**      | Notificación de EPP Incorrecto |
-| 1.1           | Configuración del sistema de notificaciones | Configurar el sistema de notificaciones para alertas de incumplimiento en EPP. | 5 horas | [Asignar miembro del equipo] | To-do |
-| 1.2           | Prueba de notificación de incumplimiento | Probar el sistema para verificar la notificación al detectar incumplimientos de EPP. | 3 horas | [Asignar miembro del equipo] | To-do |
+| 1.1           | Configuración del sistema de notificaciones | Configurar el sistema de notificaciones para alertas de incumplimiento en EPP. | 5 horas | Luis Trujillo | In Process |
+| 1.2           | Prueba de notificación de incumplimiento | Probar el sistema para verificar la notificación al detectar incumplimientos de EPP. | 3 horas | Lucía Aliaga | In Process |
 | **US06**      | Visualización de Incumplimientos |
-| 6.1           | Implementación de alertas visuales | Crear alertas visuales en la interfaz para zonas con incumplimientos de EPP. | 6 horas | [Asignar miembro del equipo] | To-do |
-| 6.2           | Integración con el backend | Integrar la funcionalidad de visualización de incumplimientos con el backend para detección en tiempo real. | 5 horas | [Asignar miembro del equipo] | To-do |
-| 6.3           | Prueba de visualización de alertas | Verificar que las alertas visuales funcionen correctamente en el entorno de pruebas. | 4 horas | [Asignar miembro del equipo] | To-do |
+| 6.1           | Implementación de alertas visuales | Crear alertas visuales en la interfaz para zonas con incumplimientos de EPP. | 6 horas | Jean Achamizo | In Process |
+| 6.2           | Integración con el backend | Integrar la funcionalidad de visualización de incumplimientos con el backend para detección en tiempo real. | 5 horas | Luis Siancas | In Process |
+| 6.3           | Prueba de visualización de alertas | Verificar que las alertas visuales funcionen correctamente en el entorno de pruebas. | 4 horas | Luis Siancas  | In Process |
 | **US08**      | Monitorización en Tiempo Real |
-| 8.1           | Configuración del flujo en tiempo real | Configurar el flujo de datos en tiempo real desde las cámaras para monitoreo de EPP. | 8 horas | [Asignar miembro del equipo] | To-do |
-| 8.2           | Desarrollo de la interfaz de monitorización | Crear una interfaz de usuario para mostrar el flujo en vivo de zonas de trabajo. | 6 horas | [Asignar miembro del equipo] | To-do |
-| 8.3           | Pruebas de flujo en tiempo real | Ejecutar pruebas para validar la estabilidad del flujo en tiempo real. | 5 horas | [Asignar miembro del equipo] | To-do |
+| 8.1           | Configuración del flujo en tiempo real | Configurar el flujo de datos en tiempo real desde las cámaras para monitoreo de EPP. | 8 horas | Luis Trujillo | In Process |
+| 8.2           | Desarrollo de la interfaz de monitorización | Crear una interfaz de usuario para mostrar el flujo en vivo de zonas de trabajo. | 6 horas | Rodrigo Raymundo | In Process |
+| 8.3           | Pruebas de flujo en tiempo real | Ejecutar pruebas para validar la estabilidad del flujo en tiempo real. | 5 horas | Rodrigo Raymundo | In Process |
 
   - #### 7.2.1.3. Development Evidence for Sprint Review
 
@@ -3068,21 +3068,56 @@ No se desarrolló en este sprint, pues en esta sección presentaremos la relaci�
 
   - #### 7.2.1.7. Software Deployment Evidence for Sprint Review
 
-    
+    El despliegue de nuestra landing page se realizó utilizando GitHub Pages, una plataforma que permite la publicación de sitios web estáticos de manera sencilla y eficiente.
+
+    **Enlace al Landing Page**
+    <a href="https://ase-socialtech.github.io/eppeye-landing-page/"> https://ase-socialtech.github.io/eppeye-landing-page/</a>
+
+    ![Landing Page Deployment](./assets/landing-deployment.PNG)
+
+    El despliegue se realiza automáticamente desde la rama develop, lo que nos permite mantener un flujo de trabajo ágil. Cada vez que se efectúan commits en esta rama, el proceso de despliegue se activa de manera automática, asegurando que los cambios más recientes estén siempre disponibles para revisión
+
+    ![Landing Page Deployment](./assets/landing-deployment2.PNG)
 
   - #### 7.2.1.8. Team Collaboration Insights during Sprint
 
+    *Landing Page* 
 
+    ![Pulse Landing Page](./assets/insights-pulse-landing.PNG)
+
+    ![Network Landing Page](./assets/insights-network-landing.PNG)
 
 
 ## 7.3. Validation Interviews
 
 - ### 7.3.1. Diseño de Entrevistas
 
+  1. ¿Cuál fue tu primera impresión al ingresar a la landing page?
+  2. ¿La propuesta de valor del sistema es clara y fácil de entender?
+  3. ¿Qué opinas sobre el diseño visual y la estética de la landing page?
+  4. ¿Las llamadas a la acción son lo suficientemente atractivas y visibles?
+  5. ¿El contenido proporciona suficiente información sobre el sistema y sus beneficios?
+  6. ¿La landing page se carga rápidamente en tu dispositivo?
+  7. ¿Encontraste algún problema de accesibilidad al navegar por la página?
+  8. ¿Qué tan fácil es navegar por la aplicación web? ¿Hay secciones que te resultan confusas?
+  9. ¿Las funciones clave, como la notificación de uso de EPP y la selección de elementos para monitorear, son intuitivas?
+  10. ¿Qué opinas sobre la visualización de gráficos de incidencias de EPP no usados? ¿Es clara y útil?
+  11. ¿La aplicación responde de manera rápida y adecuada a tus interacciones?
+  12. ¿Te resultó fácil completar tareas específicas dentro de la aplicación? (e.g., revisar alertas, generar reportes)
+  13. ¿Has experimentado problemas de compatibilidad en diferentes navegadores al usar la aplicación web?
+  14. ¿Cómo comparas la experiencia de usuario de la aplicación móvil con la de la aplicación web?
+  15. ¿Todas las funciones importantes están fácilmente accesibles en la aplicación móvil?
+  16. ¿Las notificaciones en la aplicación móvil son útiles y oportunas?
+  17. ¿Qué opinas sobre el diseño y la interfaz de usuario de la aplicación móvil?
+  18. ¿La aplicación móvil funciona sin problemas y se carga rápidamente?
+  19. ¿Te resultó fácil navegar por la aplicación móvil y completar tareas?
+  20. ¿Tienes algún comentario adicional o sugerencia que no se haya abordado en las preguntas anteriores?
 
 
 ## 7.4. Video About-the-Product
 
+**Enlace del video:**
+<a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211a452_upc_edu_pe/EQGTM-gIMTVBuPvA-yQAJZABtDO6-FopTtn2rj8zwqaDKw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=rFg9NJ">https://goo.su/iC9Ml</a>
 
 # Conclusiones
 
@@ -3102,3 +3137,9 @@ El Peruano. (2021). *Equipos de protección deben cumplir las normas técnicas*.
 --- 
 
 # Anexos
+
+## Videos de Exposición
+
+| Enlace                                             | Fecha        | Entregable                       |
+|----------------------------------------------------|--------------|----------------------------------|
+| https://acortar.link/J9mkex   | 02/11/2024   | TB2        |
