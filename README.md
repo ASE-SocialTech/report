@@ -2915,11 +2915,138 @@ Este esquema ayuda a visualizar la infraestructura de la solución, permitiendo 
 
   - #### 7.2.1.3. Development Evidence for Sprint Review
 
-| **Repository**                   | **Branch** | **Commit Id**                         | **Commit Message**               | **Commit Message Body**                                                                                      | **Commited on (Date)** |
-|----------------------------------|------------|---------------------------------------|----------------------------------|--------------------------------------------------------------------------------------------------------------|-------------------------|
-| ASE-SocialTech/eppeye-ia         | develop    | ed7bbc7ee34a32991daf59c48991fa9300b74136 | feat: add EPP detection model integration | Integrates initial EPP detection model using TensorFlow. Improves accuracy in identifying EPP compliance.   | 02/11/2024             |
-| ASE-SocialTech/eppeye-frontend   | develop    | 9901f5e37a01d6967d08b59afabb44f9817204b7 | feat: implement EPP alert notifications | Adds notification system to alert users when EPP compliance is not detected. Updates UI with alert badges.   | 02/11/2024             |
-| ASE-SocialTech/eppeye-landing-page | develop | 9a871912816780ed11e8316afdf7ac103a6eb238 | fix: correct link to privacy policy       | Fixes broken link to privacy policy on landing page footer. Adjusts styling to improve accessibility.        | 02/11/2024             |
+*Landing Page*
+
+<table  align="left" border="1" width="100%">
+    <tr>
+        <th>Repository</th>
+        <th>Branch</th>
+        <th>Commit ID</th>
+        <th>Commit Message</th>
+        <th>Commit Message Body</th>
+        <th>Commited On (Date)</th>
+    </tr>
+    <tr>
+        <td rowspan=19>ASE-SocialTech/eppeye-landing-page</td>
+        <td>/main</td>
+        <td>9a87191</td>
+        <td>Initial commit</td>
+        <td>Initial commit</td>
+        <td>09/10/2024</td>
+    </tr>
+    <tr>
+        <td>/development</td>
+        <td>66b2436</td>
+        <td>Add: Navbar</td>
+        <td>Added navbar and styles</td>
+        <td>10/10/2024</td>
+    </tr>
+    <tr>
+        <td>/hero-section</td>
+        <td>0c34b29</td>
+        <td>Add: Hero section</td>
+        <td>Added hero section and styles</td>
+        <td>10/10/2024</td>
+    </tr>
+    <tr>
+        <td>/how-it-works-section</td>
+        <td>8184b21</td>
+        <td>Add: How it works section</td>
+        <td>Added How it works section and styles</td>
+        <td>10/10/2024</td>
+    </tr>
+    <tr>
+        <td>/how-it-works-section</td>
+        <td>eab9f39</td>
+        <td>Fix: images</td>
+        <td>Fixed images src</td>
+        <td>10/10/2024</td>
+    </tr>
+    <tr>
+        <td>/why-choose-us-section</td>
+        <td>4695b90</td>
+        <td>Add: why choose us section</td>
+        <td>Added Why choose us section and styles</td>
+        <td>15/10/2024</td>
+    </tr>
+    <tr>
+        <td>/plans-section</td>
+        <td>34b7201</td>
+        <td>Add: Plans section and cards</td>
+        <td>Add: Plans section and cards</td>
+        <td>26/10/2024</td>
+    </tr>
+    <tr>
+        <td>/footer</td>
+        <td>756a713</td>
+        <td>Added: Footer</td>
+        <td>Added: Footer</td>
+        <td>27/10/2024</td>
+    </tr>
+    <tr>
+        <td>/testimonials-section</td>
+        <td>8efca71</td>
+        <td>Add: testimonials section and styles</td>
+        <td>Add: testimonials section and styles</td>
+        <td>02/11/2024</td>
+    </tr>
+    <tr>
+        <td>/team-section</td>
+        <td>8679e65</td>
+        <td>Add: Team section</td>
+        <td>Added team section and styles</td>
+        <td>02/11/2024</td>
+    </tr>
+    <tr>
+        <td>/contact-section</td>
+        <td>1f92448</td>
+        <td>Add: Contact section</td>
+        <td>Added: Contact section</td>
+        <td>02/11/2024</td>
+    </tr>
+</table>
+
+*Web Application*
+
+<table  align="left" border="1" width="100%">
+    <tr>
+        <th>Repository</th>
+        <th>Branch</th>
+        <th>Commit ID</th>
+        <th>Commit Message</th>
+        <th>Commit Message Body</th>
+        <th>Commited On (Date)</th>
+    </tr>
+    <tr>
+        <td rowspan=19>ASE-SocialTech/eppeye-frontend</td>
+        <td>/main</td>
+        <td>9901f5e</td>
+        <td>add navbar and camera component</td>
+        <td>add navbar and camera component</td>
+        <td>02/11/2024</td>
+    </tr>
+</table>
+
+*IA*
+
+<table  align="left" border="1" width="100%">
+    <tr>
+        <th>Repository</th>
+        <th>Branch</th>
+        <th>Commit ID</th>
+        <th>Commit Message</th>
+        <th>Commit Message Body</th>
+        <th>Commited On (Date)</th>
+    </tr>
+    <tr>
+        <td rowspan=19>ASE-SocialTech/eppeye-ia</td>
+        <td>/main</td>
+        <td>ed7bbc7</td>
+        <td>add ia training</td>
+        <td>add ia training</td>
+        <td>02/11/2024</td>
+    </tr>
+</table>
 
   - #### 7.2.1.4. Testing Suite Evidence for Sprint Review
 
@@ -2941,7 +3068,7 @@ No se desarrolló en este sprint, pues en esta sección presentaremos la relaci�
 
   - #### 7.2.1.7. Software Deployment Evidence for Sprint Review
 
-
+    
 
   - #### 7.2.1.8. Team Collaboration Insights during Sprint
 
@@ -2949,7 +3076,10 @@ No se desarrolló en este sprint, pues en esta sección presentaremos la relaci�
 
 
 ## 7.3. Validation Interviews
+
 - ### 7.3.1. Diseño de Entrevistas
+
+
 
 ## 7.4. Video About-the-Product
 
