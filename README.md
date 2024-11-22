@@ -3109,6 +3109,161 @@ No se desarrolló en este sprint, pues en esta sección presentaremos la relaci�
 
 #### 7.2.2.3. Development Evidence for Sprint Review
 
+*Web Application*
+
+<table  align="left" border="1" width="100%">
+    <tr>
+        <th>Repository</th>
+        <th>Branch</th>
+        <th>Commit ID</th>
+        <th>Commit Message</th>
+        <th>Commit Message Body</th>
+        <th>Commited On (Date)</th>
+    </tr>
+    <tr>
+        <td rowspan=19>ASE-SocialTech/eppeye-frontend</td>
+        <td>/US02-historia-notificaciones</td>
+        <td>4b4076e</td>
+        <td>Add: Alerts view</td>
+        <td>Added alerts view and services</td>
+        <td>18/11/2024</td>
+    </tr>
+    <tr>
+        <td>/US08-Monitorizacion</td>
+        <td>70c1481</td>
+        <td>Add: component structure and styles</td>
+        <td>Add: component structure</td>
+        <td>18/11/2024</td>
+    </tr>
+    <tr>
+        <td>/US08-Monitorizacion</td>
+        <td>3e6676e</td>
+        <td>Add: Camera component functionality</td>
+        <td>Add: Camera component functionality</td>
+        <td>18/11/2024</td>
+    </tr>
+     <tr>
+        <td>/US03-Visualizacion</td>
+        <td>ac3cb64</td>
+        <td>Add: Dashboard</td>
+        <td>Add: Dashboard</td>
+        <td>18/11/2024</td>
+    </tr>
+    <tr>
+        <td>/development</td>
+        <td>e43cb54</td>
+        <td>Merge pull request #3 from ASE-SocialTech/US03-Visualizacion</td>
+        <td>Add: Dashboard</td>
+        <td>18/11/2024</td>
+    </tr>
+</table>
+
+*Cloud API*
+
+<table  align="left" border="1" width="100%">
+    <tr>
+        <th>Repository</th>
+        <th>Branch</th>
+        <th>Commit ID</th>
+        <th>Commit Message</th>
+        <th>Commit Message Body</th>
+        <th>Commited On (Date)</th>
+    </tr>
+    <tr>
+        <td rowspan=19>ASE-SocialTech/eppeye-api</td>
+        <td>/main</td>
+        <td>b16f6e3</td>
+        <td>Initial commit</td>
+        <td>Initial commit</td>
+        <td>16/11/2024</td>
+    </tr>
+    <tr>
+        <td>/US11-US12</td>
+        <td>579290a</td>
+        <td>Add: Account Context</td>
+        <td>Add: Account Context</td>
+        <td>16/11/2024</td>
+    </tr>
+    <tr>
+        <td>/US13-US14</td>
+        <td>2af7704</td>
+        <td>Add: Subscription context entities and DTOs</td>
+        <td>Add: Subscription context entities and DTOs</td>
+        <td>17/11/2024</td>
+    </tr>
+     <tr>
+        <td>/US13-US14</td>
+        <td>7dcedf2</td>
+        <td>Add: Plan and Subscription Services</td>
+        <td>Add: Plan and Subscription Services</td>
+        <td>17/11/2024</td>
+    </tr>
+    <tr>
+        <td>/US13-US14</td>
+        <td>a1d381a</td>
+        <td>Add: Plan and Subscription Controllers</td>
+        <td>Add: Plan and Subscription Controllers</td>
+        <td>17/11/2024</td>
+    </tr>
+     <tr>
+        <td>/US13-US14</td>
+        <td>9e196ea</td>
+        <td>Add: PaymentDetails service and controller</td>
+        <td>Add: PaymentDetails service and controller</td>
+        <td>17/11/2024</td>
+    </tr>
+     <tr>
+        <td>/US08</td>
+        <td>eeb0b26</td>
+        <td>Add: Monitoring context entities and DTOs</td>
+        <td>Add: Monitoring context entities and DTOs</td>
+        <td>17/11/2024</td>
+    </tr>
+     <tr>
+        <td>/US08</td>
+        <td>50f700e</td>
+        <td>Add: Interfaces and services for Monitoring Context</td>
+        <td>Add: Interfaces and services for Monitoring Context</td>
+        <td>17/11/2024</td>
+    </tr>
+    <tr>
+        <td>/US08</td>
+        <td>2bbb078</td>
+        <td>Add: Controllers for area, camera, compliance status, monitoring incident and session endpoints</td>
+        <td>Add: Controllers for area, camera, compliance status, monitoring incident and session endpoints</td>
+        <td>17/11/2024</td>
+    </tr>
+    <tr>
+        <td>/US08</td>
+        <td>a567f71</td>
+        <td>Update: Application properties</td>
+        <td>Update: Application properties</td>
+        <td>17/11/2024</td>
+    </tr>
+    <tr>
+        <td>/US08</td>
+        <td>7ac94a9</td>
+        <td>Fix: Monitoring incident service</td>
+        <td>Fix: Monitoring incident service</td>
+        <td>18/11/2024</td>
+    </tr>
+    <tr>
+        <td>/US08</td>
+        <td>a75cc2c</td>
+        <td>Update: Camera service and controller</td>
+        <td>Update: Camera service and controller</td>
+        <td>18/11/2024</td>
+    </tr>
+    <tr>
+        <td>/US08</td>
+        <td>a554da0</td>
+        <td>Update: camera controller</td>
+        <td>Update: camera controller</td>
+        <td>18/11/2024</td>
+    </tr>
+</table>
+
+
 #### 7.2.2.4. Testing Suite Evidence for Sprint Review
 
 #### 7.2.2.5. Execution Evidence for Sprint Review
