@@ -3413,6 +3413,19 @@ No se desarrolló en este sprint, pues en esta sección presentaremos la relaci�
 
 #### 7.2.2.8. Team Collaboration Insights during Sprint
 
+**Landing Page:**
+
+![](https://media.discordapp.net/attachments/1222216213187526771/1309366700147474472/image.png?ex=67415244&is=674000c4&hm=f74c05bba2507802177df85e72ebb4f8c6b0028605371cb55b5246b5d54db555&=&format=webp&quality=lossless&width=857&height=676)
+
+**FrontEnd:**
+
+![](https://media.discordapp.net/attachments/1222216213187526771/1309366955358158931/image.png?ex=67415281&is=67400101&hm=dc869e78abf50d2351372de1a7d0a2c4d97136499dab1468722bb818cb6581bf&=&format=webp&quality=lossless)
+
+**Backend:**
+
+![](https://media.discordapp.net/attachments/1222216213187526771/1309367038061580399/image.png?ex=67415294&is=67400114&hm=c80c259968ae9a2e892c1c130887fe7c414885fb3dc3532869cfb1e85afc893f&=&format=webp&quality=lossless)
+
+![](https://media.discordapp.net/attachments/1222216213187526771/1309367135931203614/image.png?ex=674152ac&is=6740012c&hm=b0c1499d5160dede7901ea9486f5e430a2a9bf3df0a111577b3ca4d395b20dc7&=&format=webp&quality=lossless)
 
 ## 7.3. Validation Interviews
 
