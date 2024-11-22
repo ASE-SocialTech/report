@@ -36,6 +36,7 @@ Trujillo Lopez, Luis Alberto (U20211C667)<br>
 | 1.0     | 06/09/2024 | Achamizo Huamani Jean Carlos, Aliaga Trevejo Lucía Guadalupe, Raymundo Guevara Rodrigo Alejandro, Siancas Reategui Luis Alberto, Trujillo Lopez Luis Alberto | Se añadieron los elementos correspondientes al entregable de la TB1 (capítulos 1 al 4). |
 | 2.0     | 22/09/2024 | Achamizo Huamani Jean Carlos, Aliaga Trevejo Lucía Guadalupe, Raymundo Guevara Rodrigo Alejandro, Siancas Reategui Luis Alberto, Trujillo Lopez Luis Alberto | Se añadieron los elementos correspondientes a los capítulos 5 y 6.     |
 | 3.0     | 01/11/2024 | Achamizo Huamani Jean Carlos, Aliaga Trevejo Lucía Guadalupe, Raymundo Guevara Rodrigo Alejandro, Siancas Reategui Luis Alberto, Trujillo Lopez Luis Alberto | Se completaron los elementos correspondientes al capítulo 7, abarcando todos los apartados y secciones necesarias para esta fase del proyecto. |
+| 4.0     | 20/11/2024 | Achamizo Huamani Jean Carlos, Aliaga Trevejo Lucía Guadalupe, Raymundo Guevara Rodrigo Alejandro, Siancas Reategui Luis Alberto, Trujillo Lopez Luis Alberto | Se completaron los elementos del capítulo 7, incluyendo el Sprint 2.  |
 
 # Project Report Collaboration Insights
 
@@ -115,84 +116,212 @@ URL del repositorio: https://github.com/ASE-SocialTech/report
     - [4.3.2. Software Architecture Context Level Diagrams](#432-software-architecture-context-level-diagrams)
     - [4.3.3. Software Architecture Container Level Diagrams](#433-software-architecture-container-level-diagrams)
     - [4.3.4. Software Architecture Deployment Diagrams](#434-software-architecture-deployment-diagrams)
-- [Capítulo V: Bounded Contexts](#capítulo-v-bounded-contexts)  
-    - [5.1. Bounded Context: Account](#51-bounded-context-account)  
-        - [5.1.1. Domain Layer](#511-domain-layer)  
-        - [5.1.2. Interface Layer](#512-interface-layer)  
-        - [5.1.3. Application Layer](#513-application-layer)  
-        - [5.1.4. Infrastructure Layer](#514-infrastructure-layer)  
-        - [5.1.6. Bounded Context Software Architecture Component Level Diagrams](#516-bounded-context-software-architecture-component-level-diagrams)  
-        - [5.1.7. Bounded Context Software Architecture Code Level Diagrams](#517-bounded-context-software-architecture-code-level-diagrams)  
-          - [5.1.7.1. Bounded Context Domain Layer Class Diagrams](#5171-bounded-context-domain-layer-class-diagrams)  
-          - [5.1.7.2. Bounded Context Database Design Diagram](#5172-bounded-context-database-design-diagram)  
-
-    - [5.2. Bounded Context: Payment Subscription](#52-bounded-context-payment-subscription)  
-        - [5.2.1. Domain Layer](#521-domain-layer)  
-        - [5.2.2. Interface Layer](#522-interface-layer)  
-        - [5.2.3. Application Layer](#523-application-layer)  
-        - [5.2.4. Infrastructure Layer](#524-infrastructure-layer)  
-        - [5.2.6. Bounded Context Software Architecture Component Level Diagrams](#526-bounded-context-software-architecture-component-level-diagrams)  
-        - [5.2.7. Bounded Context Software Architecture Code Level Diagrams](#527-bounded-context-software-architecture-code-level-diagrams)  
-          - [5.2.7.1. Bounded Context Domain Layer Class Diagrams](#5271-bounded-context-domain-layer-class-diagrams)  
-          - [5.2.7.2. Bounded Context Database Design Diagram](#5272-bounded-context-database-design-diagram)  
-
-    - [5.3. Bounded Context: Configuration](#53-bounded-context-configuration)  
-        - [5.3.1. Domain Layer](#531-domain-layer)  
-        - [5.3.2. Interface Layer](#532-interface-layer)  
-        - [5.3.3. Application Layer](#533-application-layer)  
-        - [5.3.4. Infrastructure Layer](#534-infrastructure-layer)  
-        - [5.3.6. Bounded Context Software Architecture Component Level Diagrams](#536-bounded-context-software-architecture-component-level-diagrams)  
-        - [5.3.7. Bounded Context Software Architecture Code Level Diagrams](#537-bounded-context-software-architecture-code-level-diagrams)  
-          - [5.3.7.1. Bounded Context Domain Layer Class Diagrams](#5371-bounded-context-domain-layer-class-diagrams)  
-          - [5.3.7.2. Bounded Context Database Design Diagram](#5372-bounded-context-database-design-diagram)  
-
-    - [5.4. Bounded Context: Support and Maintenance](#54-bounded-context-support-and-maintenance)  
-        - [5.4.1. Domain Layer](#541-domain-layer)  
-        - [5.4.2. Interface Layer](#542-interface-layer)  
-        - [5.4.3. Application Layer](#543-application-layer)  
-        - [5.4.4. Infrastructure Layer](#544-infrastructure-layer)  
-        - [5.4.6. Bounded Context Software Architecture Component Level Diagrams](#546-bounded-context-software-architecture-component-level-diagrams)  
-        - [5.4.7. Bounded Context Software Architecture Code Level Diagrams](#547-bounded-context-software-architecture-code-level-diagrams)  
-          - [5.4.7.1. Bounded Context Domain Layer Class Diagrams](#5471-bounded-context-domain-layer-class-diagrams)  
-          - [5.4.7.2. Bounded Context Database Design Diagram](#5472-bounded-context-database-design-diagram)  
-
-    - [5.5. Bounded Context: Monitoring](#55-bounded-context-monitoring)  
-        - [5.5.1. Domain Layer](#551-domain-layer)  
-        - [5.5.2. Interface Layer](#552-interface-layer)  
-        - [5.5.3. Application Layer](#553-application-layer)  
-        - [5.5.4. Infrastructure Layer](#554-infrastructure-layer)  
-        - [5.5.6. Bounded Context Software Architecture Component Level Diagrams](#556-bounded-context-software-architecture-component-level-diagrams)  
-        - [5.5.7. Bounded Context Software Architecture Code Level Diagrams](#557-bounded-context-software-architecture-code-level-diagrams)  
-          - [5.5.7.1. Bounded Context Domain Layer Class Diagrams](#5571-bounded-context-domain-layer-class-diagrams)  
-          - [5.5.7.2. Bounded Context Database Design Diagram](#5572-bounded-context-database-design-diagram)  
-
-    - [5.6. Bounded Context: Reports and Alerts](#56-bounded-context-reports-and-alerts)  
-        - [5.6.1. Domain Layer](#561-domain-layer)  
-        - [5.6.2. Interface Layer](#562-interface-layer)  
-        - [5.6.3. Application Layer](#563-application-layer)  
-        - [5.6.4. Infrastructure Layer](#564-infrastructure-layer)  
-        - [5.6.6. Bounded Context Software Architecture Component Level Diagrams](#566-bounded-context-software-architecture-component-level-diagrams)  
-        - [5.6.7. Bounded Context Software Architecture Code Level Diagrams](#567-bounded-context-software-architecture-code-level-diagrams)  
-          - [5.6.7.1. Bounded Context Domain Layer Class Diagrams](#5671-bounded-context-domain-layer-class-diagrams)  
-          - [5.6.7.2. Bounded Context Database Design Diagram](#5672-bounded-context-database-design-diagram)  
-
-- [Capítulo VI: Solution UX Design](#capítulo-vi-solution-ux-design)  
-    - [6.1. Style Guidelines](#61-style-guidelines)  
-        - [6.1.1. General Style Guidelines](#611-general-style-guidelines)  
-        - [6.1.2. Web, Mobile & Devices Style Guidelines](#612-web-mobile--devices-style-guidelines)  
-    - [6.2. Information Architecture](#62-information-architecture)  
-        - [6.2.2. Labeling Systems](#622-labeling-systems)  
-        - [6.2.3. Searching Systems](#623-searching-systems)  
-        - [6.2.4. SEO Tags and Meta Tags](#624-seo-tags-and-meta-tags)  
-        - [6.2.5. Navigation Systems](#625-navigation-systems)  
-    - [6.3. Landing Page UI Design](#63-landing-page-ui-design)  
-        - [6.3.1. Landing Page Wireframe](#631-landing-page-wireframe)  
-        - [6.3.2. Landing Page Mock-up](#632-landing-page-mock-up)  
-    - [6.4. Applications UX/UI Design](#64-applications-uxui-design)  
-        - [6.4.1. Applications Wireframes](#641-applications-wireframes)  
-        - [6.4.2. Applications Wireflow Diagrams](#642-applications-wireflow-diagrams)  
+- [Capítulo V: Tactical-Level Software Design.](#capítulo-v-tactical-level-software-design)
+  - [5.1. Bounded Context: Account](#51-bounded-context-account)
+    - [Clases Identificadas](#clases-identificadas)
+    - [5.1.1. Domain Layer](#511-domain-layer)
+      - [**Entities**](#entities)
+      - [**Value Objects**](#value-objects)
+      - [**Aggregates**](#aggregates)
+      - [**Factories**](#factories)
+      - [**Domain Services**](#domain-services)
+      - [**Repositories**](#repositories)
+    - [5.1.2. Interface Layer](#512-interface-layer)
+      - [**Controllers**](#controllers)
+      - [**Consumers**](#consumers)
+      - [**Requests \& Responses**](#requests--responses)
+    - [5.1.3. Application Layer](#513-application-layer)
+      - [**Command Handlers**](#command-handlers)
+      - [**Event Handlers**](#event-handlers)
+    - [5.1.4. Infrastructure Layer](#514-infrastructure-layer)
+      - [**Repositories Implementation**](#repositories-implementation)
+      - [**Messaging Systems**](#messaging-systems)
+      - [**Email Services**](#email-services)
+      - [**External Services Integration**](#external-services-integration)
+    - [5.1.6. Bounded Context Software Architecture Component Level Diagrams](#516-bounded-context-software-architecture-component-level-diagrams)
+    - [5.1.7. Bounded Context Software Architecture Code Level Diagrams](#517-bounded-context-software-architecture-code-level-diagrams)
+      - [5.1.7.1. Bounded Context Domain Layer Class Diagrams](#5171-bounded-context-domain-layer-class-diagrams)
+      - [5.1.7.2. Bounded Context Database Design Diagram](#5172-bounded-context-database-design-diagram)
+  - [5.2. Bounded Context: Payment Subscription](#52-bounded-context-payment-subscription)
+    - [5.2.1. Domain Layer](#521-domain-layer)
+      - [**Entities**](#entities-1)
+      - [**Aggregates**](#aggregates-1)
+      - [**Value Objects**](#value-objects-1)
+    - [5.2.2. Interface Layer](#522-interface-layer)
+      - [**Controllers**](#controllers-1)
+      - [**Consumers**](#consumers-1)
+    - [5.2.3. Application Layer](#523-application-layer)
+      - [**Command Handlers**](#command-handlers-1)
+      - [**Event Handlers**](#event-handlers-1)
+    - [5.2.4. Infrastructure Layer](#524-infrastructure-layer)
+      - [**Repositories Implementation**](#repositories-implementation-1)
+      - [**Messaging Systems**](#messaging-systems-1)
+      - [**External Payment Services Integration**](#external-payment-services-integration)
+    - [5.2.6. Bounded Context Software Architecture Component Level Diagrams](#526-bounded-context-software-architecture-component-level-diagrams)
+    - [5.2.7. Bounded Context Software Architecture Code Level Diagrams](#527-bounded-context-software-architecture-code-level-diagrams)
+      - [5.2.7.1. Bounded Context Domain Layer Class Diagrams](#5271-bounded-context-domain-layer-class-diagrams)
+      - [5.2.7.2. Bounded Context Database Design Diagram](#5272-bounded-context-database-design-diagram)
+  - [5.3. Bounded Context: Configuration](#53-bounded-context-configuration)
+    - [5.3.1. Domain Layer](#531-domain-layer)
+      - [**Entities**](#entities-2)
+      - [**Aggregates**](#aggregates-2)
+      - [**Value Objects**](#value-objects-2)
+    - [5.3.2. Interface Layer](#532-interface-layer)
+      - [**Controllers**](#controllers-2)
+      - [**Consumers**](#consumers-2)
+    - [5.3.3. Application Layer](#533-application-layer)
+      - [**Command Handlers**](#command-handlers-2)
+      - [**Event Handlers**](#event-handlers-2)
+    - [5.3.4. Infrastructure Layer](#534-infrastructure-layer)
+      - [**Repositories Implementation**](#repositories-implementation-2)
+      - [**Messaging Systems**](#messaging-systems-2)
+      - [**External Standards Services Integration**](#external-standards-services-integration)
+    - [5.3.6. Bounded Context Software Architecture Component Level Diagrams](#536-bounded-context-software-architecture-component-level-diagrams)
+    - [5.3.7. Bounded Context Software Architecture Code Level Diagrams](#537-bounded-context-software-architecture-code-level-diagrams)
+      - [5.3.7.1. Bounded Context Domain Layer Class Diagrams](#5371-bounded-context-domain-layer-class-diagrams)
+      - [5.3.7.2. Bounded Context Database Design Diagram](#5372-bounded-context-database-design-diagram)
+  - [5.4. Bounded Context: Support and Maintenance](#54-bounded-context-support-and-maintenance)
+    - [5.4.1. Domain Layer](#541-domain-layer)
+      - [**Entities**](#entities-3)
+      - [**Aggregates**](#aggregates-3)
+      - [**Value Objects**](#value-objects-3)
+    - [5.4.2. Interface Layer](#542-interface-layer)
+      - [**Controllers**](#controllers-3)
+      - [**Consumers**](#consumers-3)
+    - [5.4.3. Application Layer](#543-application-layer)
+      - [**Command Handlers**](#command-handlers-3)
+      - [**Event Handlers**](#event-handlers-3)
+    - [5.4.4. Infrastructure Layer](#544-infrastructure-layer)
+      - [**Repositories Implementation**](#repositories-implementation-3)
+      - [**Messaging Systems**](#messaging-systems-3)
+      - [**Notification Services Integration**](#notification-services-integration)
+    - [5.4.6. Bounded Context Software Architecture Component Level Diagrams](#546-bounded-context-software-architecture-component-level-diagrams)
+    - [5.4.7. Bounded Context Software Architecture Code Level Diagrams](#547-bounded-context-software-architecture-code-level-diagrams)
+      - [5.4.7.1. Bounded Context Domain Layer Class Diagrams](#5471-bounded-context-domain-layer-class-diagrams)
+      - [5.4.7.2. Bounded Context Database Design Diagram](#5472-bounded-context-database-design-diagram)
+  - [5.5. Bounded Context: Monitoring](#55-bounded-context-monitoring)
+    - [5.5.1. Domain Layer](#551-domain-layer)
+      - [**Entities**](#entities-4)
+      - [**Aggregates**](#aggregates-4)
+      - [**Value Objects**](#value-objects-4)
+    - [5.5.2. Interface Layer](#552-interface-layer)
+      - [**Controllers**](#controllers-4)
+      - [**Consumers**](#consumers-4)
+    - [5.5.3. Application Layer](#553-application-layer)
+      - [**Command Handlers**](#command-handlers-4)
+      - [**Event Handlers**](#event-handlers-4)
+    - [5.5.4. Infrastructure Layer](#554-infrastructure-layer)
+      - [**Repositories Implementation**](#repositories-implementation-4)
+      - [**Messaging Systems**](#messaging-systems-4)
+      - [**Notification Services Integration**](#notification-services-integration-1)
+    - [5.5.6. Bounded Context Software Architecture Component Level Diagrams](#556-bounded-context-software-architecture-component-level-diagrams)
+    - [5.5.7. Bounded Context Software Architecture Code Level Diagrams](#557-bounded-context-software-architecture-code-level-diagrams)
+      - [5.5.7.1. Bounded Context Domain Layer Class Diagrams](#5571-bounded-context-domain-layer-class-diagrams)
+      - [5.5.7.2. Bounded Context Database Design Diagram](#5572-bounded-context-database-design-diagram)
+  - [5.6. Bounded Context: Reports and Alerts](#56-bounded-context-reports-and-alerts)
+    - [5.6.1. Domain Layer](#561-domain-layer)
+      - [**Entities**](#entities-5)
+      - [**Aggregates**](#aggregates-5)
+      - [**Value Objects**](#value-objects-5)
+    - [5.6.2. Interface Layer](#562-interface-layer)
+      - [**Controllers**](#controllers-5)
+      - [**Consumers**](#consumers-5)
+    - [5.6.3. Application Layer](#563-application-layer)
+      - [**Command Handlers**](#command-handlers-5)
+      - [**Event Handlers**](#event-handlers-5)
+    - [5.6.4. Infrastructure Layer](#564-infrastructure-layer)
+      - [**Repositories Implementation**](#repositories-implementation-5)
+      - [**Messaging Systems**](#messaging-systems-5)
+      - [**Notification Services Integration**](#notification-services-integration-2)
+    - [5.6.6. Bounded Context Software Architecture Component Level Diagrams](#566-bounded-context-software-architecture-component-level-diagrams)
+    - [5.6.7. Bounded Context Software Architecture Code Level Diagrams](#567-bounded-context-software-architecture-code-level-diagrams)
+      - [5.6.7.1. Bounded Context Domain Layer Class Diagrams](#5671-bounded-context-domain-layer-class-diagrams)
+      - [5.6.7.2. Bounded Context Database Design Diagram](#5672-bounded-context-database-design-diagram)
+- [Capítulo VI: Solution UX Design](#capítulo-vi-solution-ux-design)
+  - [6.1. Style Guidelines](#61-style-guidelines)
+    - [6.1.1. General Style Guidelines](#611-general-style-guidelines)
+      - [Brand Overview](#brand-overview)
+      - [Brand Name (EPPEye)](#brand-name-eppeye)
+      - [Typography](#typography)
+      - [Color Palette](#color-palette)
+    - [6.1.2. Web, Mobile \& Devices Style Guidelines](#612-web-mobile--devices-style-guidelines)
+    - [6.1.2. Web, Mobile \& Devices Style Guidelines](#612-web-mobile--devices-style-guidelines-1)
+      - [Web and Mobile Style Guide](#web-and-mobile-style-guide)
+      - [Native Mobile Interfaces](#native-mobile-interfaces)
+  - [6.2. Information Architecture](#62-information-architecture)
+    - [6.2.1. Labeling Systems](#621-labeling-systems)
+    - [6.2.2. Searching Systems](#622-searching-systems)
+    - [6.2.3. SEO Tags and Meta Tags](#623-seo-tags-and-meta-tags)
+    - [6.2.4. Navigation Systems](#624-navigation-systems)
+- [6.3. Landing Page UI Design](#63-landing-page-ui-design)
+    - [6.3.1. Landing Page Wireframe](#631-landing-page-wireframe)
+    - [6.3.2. Landing Page Mock-up](#632-landing-page-mock-up)
+- [6.4. Applications UX/UI Design](#64-applications-uxui-design)
+    - [6.4.1. Applications Wireframes](#641-applications-wireframes)
+        - [Mobile Application Wireframes](#mobile-application-wireframes)
+    - [6.4.2. Applications Wireflow Diagrams](#642-applications-wireflow-diagrams)
+- [Capítulo VII: Product Implementation, Validation \& Deployment](#capítulo-vii-product-implementation-validation--deployment)
+  - [7.1. Software Configuration Management](#71-software-configuration-management)
+    - [Project Management](#project-management)
+    - [Requirements Management](#requirements-management)
+    - [Product UX/UI Design](#product-uxui-design)
+    - [Software Development](#software-development)
+    - [Software Testing](#software-testing)
+    - [Software Deployment](#software-deployment)
+    - [Software Documentation](#software-documentation)
+  - [7.1.2. Source Code Management (SCM)](#712-source-code-management-scm)
+    - [GitFlow](#gitflow)
+      - [Estructura de Ramas](#estructura-de-ramas)
+    - [Semantic Versioning](#semantic-versioning)
+    - [Conventional Commits](#conventional-commits)
+    - [Nomenclatura General](#nomenclatura-general)
+    - [Sangría](#sangría)
+    - [HTML](#html)
+    - [CSS](#css)
+    - [JavaScript](#javascript)
+    - [TypeScript](#typescript)
+    - [Angular](#angular)
+    - [Java](#java)
+    - [Gherkin](#gherkin)
+    - [Pasos de Despliegue](#pasos-de-despliegue)
+    - [Diagrama de Despliegue (Deployment Diagram) - Modelo C4](#diagrama-de-despliegue-deployment-diagram---modelo-c4)
+  - [7.2. Solution Implementation](#72-solution-implementation)
+    - [7.2.2. Sprint 2](#722-sprint-2)
+      - [7.2.2.1. Sprint Planning 2](#7221-sprint-planning-2)
+      - [7.2.2.2. Sprint Backlog 2](#7222-sprint-backlog-2)
+      - [7.2.2.3. Development Evidence for Sprint Review](#7223-development-evidence-for-sprint-review)
+      - [7.2.2.4. Testing Suite Evidence for Sprint Review](#7224-testing-suite-evidence-for-sprint-review)
+      - [7.2.2.5. Execution Evidence for Sprint Review](#7225-execution-evidence-for-sprint-review)
+      - [7.2.2.6. Services Documentation Evidence for Sprint Review](#7226-services-documentation-evidence-for-sprint-review)
+      - [7.2.2.7. Software Deployment Evidence for Sprint Review](#7227-software-deployment-evidence-for-sprint-review)
+      - [7.2.2.8. Team Collaboration Insights during Sprint](#7228-team-collaboration-insights-during-sprint)
+  - [7.3. Validation Interviews](#73-validation-interviews)
+  - [7.4. Video About-the-Product](#74-video-about-the-product)
+- [Conclusiones](#conclusiones)
+- [Bibliografía](#bibliografía)
+- [Anexos](#anexos)
+  - [Videos de Exposición](#videos-de-exposición)
     
-          
+[Capítulo VII: Product Implementation, Validation & Deployment](#capítulo-vii-product-implementation-validation--deployment)  
+    - [7.1. Software Configuration Management](#71-software-configuration-management)  
+        - [7.1.1. Software Development Environment Configuration](#711-software-development-environment-configuration)  
+        - [7.1.2. Source Code Management](#712-source-code-management)  
+        - [7.1.3. Source Code Style Guide & Conventions](#713-source-code-style-guide--conventions)  
+        - [7.1.4. Software Deployment Configuration](#714-software-deployment-configuration)  
+    - [7.2. Solution Implementation](#72-solution-implementation)  
+        - [7.2.1. Sprint 1](#721-sprint-1)  
+            - [7.2.1.1. Sprint Planning 1](#7211-sprint-planning-1)  
+            - [7.2.1.2. Sprint Backlog 1](#7212-sprint-backlog-1)  
+            - [7.2.1.3. Development Evidence for Sprint Review](#7213-development-evidence-for-sprint-review)  
+            - [7.2.1.4. Testing Suite Evidence for Sprint Review](#7214-testing-suite-evidence-for-sprint-review)  
+            - [7.2.1.5. Execution Evidence for Sprint Review](#7215-execution-evidence-for-sprint-review)  
+            - [7.2.1.6. Services Documentation Evidence for Sprint Review](#7216-services-documentation-evidence-for-sprint-review)  
+            - [7.2.1.7. Software Deployment Evidence for Sprint Review](#7217-software-deployment-evidence-for-sprint-review)  
+            - [7.2.1.8. Team Collaboration Insights during Sprint](#7218-team-collaboration-insights-during-sprint)  
+    - [7.3. Validation Interviews](#73-validation-interviews)  
+        - [7.3.1. Diseño de Entrevistas](#731-diseño-de-entrevistas)  
+    - [7.4. Video About-the-Product](#74-video-about-the-product)
+    
 - [Conclusiones](#conclusiones)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
@@ -205,8 +334,9 @@ URL del repositorio: https://github.com/ASE-SocialTech/report
 
 | Criterio específico                                              | Acciones realizadas                                                                 | Conclusiones |
 |------------------------------------------------------------------|-------------------------------------------------------------------------------------|--------------|
-| Comunica oralmente con efectividad a diferentes rangos de audiencia | *Achamizo Huamani Jean Carlos* <br> TB1: <br> Durante la presentación del perfil de la startup SocialTech en la sección 1.1, me enfoqué en explicar la misión y visión de nuestra startup. Al describir el **Lean UX Canvas** (1.2.2.4), destaqué cómo nuestras hipótesis y suposiciones estaban alineadas con los problemas detectados en las entrevistas realizadas. Adapté mi discurso para diferentes audiencias, asegurándome de que tanto los stakeholders técnicos como los no técnicos comprendieran nuestro enfoque. <br> TP: <br> Realicé mockups y wireframes de la interfaz de usuario, presentando el flujo de interacción de forma visual y adaptando el diseño según las necesidades de cada grupo de usuarios identificados en el Lean UX Canvas. <br> TB2: <br> Colaboré en la comunicación de los avances en el desarrollo de la landing page, el entrenamiento de la IA de detección y el front end del sistema, asegurándome de que cada audiencia entendiera las implicaciones técnicas y funcionales de cada módulo. <br><br> *Aliaga Trevejo Lucía Guadalupe* <br> TB1: <br> En las reuniones de presentación de los resultados del análisis competitivo (2.1.1), me encargué de comunicar cómo las **estrategias y tácticas frente a los competidores** (2.1.2) influenciaban el desarrollo de la solución. Expliqué con claridad los desafíos y oportunidades, asegurándome de que la audiencia comprendiera las ventajas competitivas de SocialTech. <br> TP: <br> Presenté los wireframes correspondientes a la estrategia de diferenciación, mostrando cómo el diseño de la interfaz y la experiencia de usuario ofrecían un valor agregado frente a la competencia. <br> TB2: <br> Expuse los avances en la integración del front end, la landing page y el entrenamiento de la IA de detección, facilitando la comprensión de cómo estos componentes contribuyen a los objetivos de SocialTech. <br><br> *Raymundo Guevara Rodrigo Alejandro* <br> TB1: <br> Al presentar los resultados de las **entrevistas** (2.2), me aseguré de que los distintos perfiles de los usuarios potenciales, basados en el **Needfinding** (2.3), fueran comprendidos tanto por el equipo técnico como por los involucrados en la toma de decisiones. <br> TP: <br> Diseñé los mockups de las interfaces basadas en las necesidades detectadas en los perfiles de usuario, asegurándome de que cada interacción propuesta fuera coherente con los resultados del Needfinding. <br> TB2: <br> Comuniqué los aspectos técnicos del entrenamiento de la IA de detección y cómo la landing page y el front end respondían a las necesidades de los usuarios, facilitando una mejor comprensión entre todos los stakeholders. <br><br> *Siancas Reategui Luis Alberto* <br> TB1: <br> Mi presentación se centró en el mapeo de escenarios, donde describí tanto los **As-is** como los **To-be Scenarios** (2.3.4 y 3.1). Al comunicar las mejoras proyectadas para el sistema, ajusté mi lenguaje para que tanto los desarrolladores como los líderes de proyecto pudieran entender claramente los beneficios del diseño propuesto. <br> TP: <br> Realicé wireframes de los escenarios To-be, mostrando las mejoras proyectadas en la experiencia de usuario. <br> TB2: <br> Expuse cómo el entrenamiento de la IA de detección y los desarrollos en la landing page y front end facilitaron una interacción fluida y eficiente para los usuarios, adaptando el discurso según el perfil de la audiencia. <br><br> *Trujillo Lopez Luis Alberto* <br> TB1: <br> Durante las presentaciones sobre el **Impact Mapping** y la **Product Backlog** (3.3 y 3.4), destaqué cómo los **User Stories** (3.2) guiaban nuestro proceso de desarrollo. Adapté mi lenguaje para que el equipo técnico pudiera entender las historias de usuario y cómo estas reflejaban las necesidades identificadas en las entrevistas y el **Empathy Mapping** (2.3.3). <br> TP: <br> Diseñé mockups de las principales funcionalidades descritas en las User Stories. <br> TB2: <br> Presenté los avances del front end, la landing page y el entrenamiento de la IA, destacando cómo estos módulos cumplían con los requerimientos técnicos y de experiencia del usuario identificados en fases previas. <br><br> | *TB1* <br> La comunicación oral fue efectiva en la transmisión de conceptos complejos y estratégicos a audiencias diversas, adaptando el lenguaje y las explicaciones según el nivel de conocimiento técnico de cada público. Esto facilitó la toma de decisiones y la alineación de los objetivos del proyecto entre las partes interesadas. <br> *TP* <br> La presentación de mockups, wireframes y bounded context permitió una visualización clara de la propuesta de valor, facilitando la comprensión y alineación de las expectativas de diseño y funcionalidad entre los equipos. <br> *TB2* <br> La comunicación de los avances en la landing page, el front end y el entrenamiento de la IA de detección permitió que las distintas partes interesadas comprendieran la contribución de cada componente en la solución final, promoviendo una colaboración informada y alineada. |
-| Comunica por escrito con efectividad a diferentes rangos de audiencia | *Achamizo Huamani Jean Carlos* <br> TB1: <br> Al redactar la sección sobre el **Lean UX Canvas** (1.2.2.4) y el análisis de la problemática (1.2.1), me aseguré de utilizar un lenguaje accesible para describir los **Problem Statements** (1.2.2.1) y su relación con las necesidades detectadas en la fase de entrevistas. <br> TP: <br> Documenté los wireframes y mockups desarrollados, explicando el propósito de cada pantalla y la interacción esperada del usuario. <br> TB2: <br> Redacté informes detallados sobre el desarrollo de la landing page, el entrenamiento de la IA de detección y los componentes del front end, especificando el funcionamiento de cada módulo y su alineación con los objetivos del proyecto. <br><br> *Aliaga Trevejo Lucía Guadalupe* <br> TB1: <br> En mi contribución escrita al **Análisis Competitivo** (2.1.1), detallé las fortalezas y debilidades de los competidores y cómo SocialTech podía diferenciarse. <br> TP: <br> Redacté la documentación de los wireframes relacionados con la estrategia de diferenciación. <br> TB2: <br> Documenté el proceso de integración del front end y el entrenamiento de la IA, explicando cómo cada uno de estos componentes aportaba a la experiencia de usuario y los objetivos estratégicos del proyecto. <br><br> *Raymundo Guevara Rodrigo Alejandro* <br> TB1: <br> Mi redacción sobre las **entrevistas** (2.2) fue clave para establecer una narrativa clara que conectara las necesidades del usuario con las soluciones propuestas. <br> TP: <br> Documenté los mockups basados en los resultados de las entrevistas. <br> TB2: <br> Redacté la documentación sobre el entrenamiento de la IA de detección y la landing page, detallando cómo cada interacción respondía a los requerimientos del usuario. <br><br> *Siancas Reategui Luis Alberto* <br> TB1: <br> En la sección de **To-Be Scenario Mapping** (3.1), me aseguré de que las propuestas de escenarios futuros estuvieran claramente explicadas. <br> TP: <br> Redacté la documentación de los wireframes de los escenarios To-be. <br> TB2: <br> Documenté el backend del entrenamiento de la IA y su relación con la landing page y el front end, asegurando que el equipo comprendiera cómo estas partes trabajaban en conjunto. <br><br> *Trujillo Lopez Luis Alberto* <br> TB1: <br> Al redactar la **Product Backlog** (3.4), me centré en asegurar que las **User Stories** (3.2) fueran claras y accesibles. <br> TP: <br> Documenté los mockups de las funcionalidades clave en la Product Backlog. <br> TB2: <br> Redacté la documentación de la integración del front end y el entrenamiento de la IA, describiendo la funcionalidad de cada módulo y cómo cada componente aportaba valor al proyecto. <br><br> | *TB1* <br> La comunicación escrita permitió detallar de forma clara los aspectos técnicos y estratégicos del proyecto, facilitando la comprensión y el alineamiento de las expectativas entre las partes interesadas. <br> *TP* <br> La documentación de los mockups, wireframes y bounded context facilitó la comunicación visual y técnica del proyecto. <br> *TB2* <br> La documentación de la landing page, el front end y el entrenamiento de la IA de detección proporcionó una visión completa de la solución propuesta, facilitando la colaboración y comprensión entre los equipos involucrados. |
+| Comunica oralmente con efectividad a diferentes rangos de audiencia | *Achamizo Huamani Jean Carlos* <br> TB1: <br> Durante la presentación del perfil de la startup SocialTech en la sección 1.1, me enfoqué en explicar la misión y visión de nuestra startup. Al describir el **Lean UX Canvas** (1.2.2.4), destaqué cómo nuestras hipótesis y suposiciones estaban alineadas con los problemas detectados en las entrevistas realizadas. Adapté mi discurso para diferentes audiencias, asegurándome de que tanto los stakeholders técnicos como los no técnicos comprendieran nuestro enfoque. <br> TP: <br> Realicé mockups y wireframes de la interfaz de usuario, presentando el flujo de interacción de forma visual y adaptando el diseño según las necesidades de cada grupo de usuarios identificados en el Lean UX Canvas. <br> TB2: <br> Colaboré en la comunicación de los avances en el desarrollo de la landing page, el entrenamiento de la IA de detección, la integración del modelo de TensorFlow y el front end del sistema, asegurándome de que cada audiencia entendiera las implicaciones técnicas y funcionales de cada módulo. <br> **TF**: <br> Expuse cómo la finalización del front end y el back end permitieron integrar exitosamente el modelo de TensorFlow con una interfaz de usuario intuitiva y un sistema de detección en tiempo real. <br><br> *Aliaga Trevejo Lucía Guadalupe* <br> TB1: <br> En las reuniones de presentación de los resultados del análisis competitivo (2.1.1), me encargué de comunicar cómo las **estrategias y tácticas frente a los competidores** (2.1.2) influenciaban el desarrollo de la solución. Expliqué con claridad los desafíos y oportunidades, asegurándome de que la audiencia comprendiera las ventajas competitivas de SocialTech. <br> TP: <br> Presenté los wireframes correspondientes a la estrategia de diferenciación, mostrando cómo el diseño de la interfaz y la experiencia de usuario ofrecían un valor agregado frente a la competencia. <br> TB2: <br> Expuse los avances en la integración del front end, la landing page, el entrenamiento de la IA en TensorFlow y la implementación de visualizaciones basadas en los resultados de la detección. <br> **TF**: <br> Destaqué cómo el sistema final combina la arquitectura de front end y back end para ofrecer detección en tiempo real y reportes visuales en la interfaz. <br><br> *Raymundo Guevara Rodrigo Alejandro* <br> TB1: <br> Al presentar los resultados de las **entrevistas** (2.2), me aseguré de que los distintos perfiles de los usuarios potenciales, basados en el **Needfinding** (2.3), fueran comprendidos tanto por el equipo técnico como por los involucrados en la toma de decisiones. <br> TP: <br> Diseñé los mockups de las interfaces basadas en las necesidades detectadas en los perfiles de usuario, asegurándome de que cada interacción propuesta fuera coherente con los resultados del Needfinding. <br> TB2: <br> Comuniqué los aspectos técnicos del entrenamiento del modelo en TensorFlow, los resultados obtenidos en el front end y cómo la landing page respondía a las necesidades de los usuarios. <br> **TF**: <br> Coordiné la finalización del front end y back end, asegurando la integración perfecta con el modelo y ofreciendo soporte técnico para pruebas de usuario finales. <br><br> *Siancas Reategui Luis Alberto* <br> TB1: <br> Mi presentación se centró en el mapeo de escenarios, donde describí tanto los **As-is** como los **To-be Scenarios** (2.3.4 y 3.1). Al comunicar las mejoras proyectadas para el sistema, ajusté mi lenguaje para que tanto los desarrolladores como los líderes de proyecto pudieran entender claramente los beneficios del diseño propuesto. <br> TP: <br> Realicé wireframes de los escenarios To-be, mostrando las mejoras proyectadas en la experiencia de usuario. <br> TB2: <br> Expuse cómo el entrenamiento de la IA con TensorFlow y los desarrollos en la landing page y front end facilitaron una interacción fluida y eficiente para los usuarios, adaptando el discurso según el perfil de la audiencia. <br> **TF**: <br> Presenté las mejoras realizadas en la infraestructura del back end, destacando su papel en la comunicación en tiempo real con el front end para la detección eficiente de EPP. <br><br> *Trujillo Lopez Luis Alberto* <br> TB1: <br> Durante las presentaciones sobre el **Impact Mapping** y la **Product Backlog** (3.3 y 3.4), destaqué cómo los **User Stories** (3.2) guiaban nuestro proceso de desarrollo. Adapté mi lenguaje para que el equipo técnico pudiera entender las historias de usuario y cómo estas reflejaban las necesidades identificadas en las entrevistas y el **Empathy Mapping** (2.3.3). <br> TP: <br> Diseñé mockups de las principales funcionalidades descritas en las User Stories. <br> TB2: <br> Presenté los avances del entrenamiento de la IA en TensorFlow, el front end y la landing page, destacando cómo estos módulos cumplían con los requerimientos técnicos y de experiencia del usuario identificados en fases previas. <br> **TF**: <br> Validé que los endpoints del back end y los módulos del front end se comunicaran correctamente, logrando un sistema estable y funcional. <br><br> | *TB1* <br> La comunicación oral fue efectiva en la transmisión de conceptos complejos y estratégicos a audiencias diversas, adaptando el lenguaje y las explicaciones según el nivel de conocimiento técnico de cada público. Esto facilitó la toma de decisiones y la alineación de los objetivos del proyecto entre las partes interesadas. <br> *TP* <br> La presentación de mockups, wireframes y bounded context permitió una visualización clara de la propuesta de valor, facilitando la comprensión y alineación de las expectativas de diseño y funcionalidad entre los equipos. <br> *TB2* <br> La comunicación de los avances en la landing page, el front end y el entrenamiento de la IA con TensorFlow permitió que las distintas partes interesadas comprendieran la contribución de cada componente en la solución final, promoviendo una colaboración informada y alineada. <br> **TF** <br> La combinación del front end y el back end, integrados con TensorFlow, resultó en un sistema robusto, escalable y centrado en la detección de EPP en tiempo real, mostrando resultados satisfactorios durante las pruebas finales. |
+| Comunica por escrito con efectividad a diferentes rangos de audiencia | *Achamizo Huamani Jean Carlos* <br> TB1: <br> Al redactar la sección sobre el **Lean UX Canvas** (1.2.2.4) y el análisis de la problemática (1.2.1), me aseguré de utilizar un lenguaje accesible para describir los **Problem Statements** (1.2.2.1) y su relación con las necesidades detectadas en la fase de entrevistas. <br> TP: <br> Documenté los wireframes y mockups desarrollados, explicando el propósito de cada pantalla y la interacción esperada del usuario. <br> TB2: <br> Redacté informes detallados sobre el desarrollo de la landing page, el entrenamiento de la IA de detección, la integración con TensorFlow y los componentes del front end. <br> **TF**: <br> Documenté la integración entre el modelo de TensorFlow, el front end y el back end, destacando la funcionalidad del sistema de detección en tiempo real. <br><br> *Aliaga Trevejo Lucía Guadalupe* <br> TB1: <br> En mi contribución escrita al **Análisis Competitivo** (2.1.1), detallé las fortalezas y debilidades de los competidores y cómo SocialTech podía diferenciarse. <br> TP: <br> Redacté la documentación de los wireframes relacionados con la estrategia de diferenciación. <br> TB2: <br> Documenté el proceso de integración del front end y el entrenamiento de la IA, explicando cómo cada uno de estos componentes aportaba a la experiencia de usuario. <br> **TF**: <br> Escribí el reporte final de la integración del sistema de monitoreo, asegurando que los detalles técnicos y funcionales fueran claros para todas las audiencias. <br><br> *Raymundo Guevara Rodrigo Alejandro* <br> TB1: <br> Mi redacción sobre las **entrevistas** (2.2) fue clave para establecer una narrativa clara que conectara las necesidades del usuario con las soluciones propuestas. <br> TP: <br> Documenté los mockups basados en los resultados de las entrevistas. <br> TB2: <br> Redacté la documentación sobre el entrenamiento de la IA en TensorFlow, el diseño del sistema de detección y los resultados obtenidos en la landing page. <br> **TF**: <br> Realicé el reporte técnico sobre la integración de la IA en tiempo real y el flujo de datos entre el back end y el front end. <br><br> *Siancas Reategui Luis Alberto* <br> TB1: <br> En la sección de **To-Be Scenario Mapping** (3.1), me aseguré de que las propuestas de escenarios futuros estuvieran claramente explicadas. <br> TP: <br> Redacté la documentación de los wireframes de los escenarios To-be. <br> TB2: <br> Documenté el backend del entrenamiento de la IA y su relación con la landing page y el front end. <br> **TF**: <br> Redacté las especificaciones técnicas sobre la arquitectura del back end y cómo se conecta con el front end y TensorFlow. <br><br> *Trujillo Lopez Luis Alberto* <br> TB1: <br> Al redactar la **Product Backlog** (3.4), me centré en asegurar que las **User Stories** (3.2) fueran claras y accesibles. <br> TP: <br> Documenté los mockups de las funcionalidades clave en la Product Backlog. <br> TB2: <br> Redacté la documentación de la integración del front end y el entrenamiento de la IA. <br> **TF**: <br> Escribí el manual técnico para la implementación del sistema final, destacando la integración de TensorFlow, el back end y el front end. <br><br> | *TB1* <br> La comunicación escrita permitió detallar de forma clara los aspectos técnicos y estratégicos del proyecto, facilitando la comprensión y el alineamiento de las expectativas entre las partes interesadas. <br> *TP* <br> La documentación de los mockups, wireframes y bounded context facilitó la comunicación visual y técnica del proyecto. <br> *TB2* <br> La documentación de la landing page, el front end y el entrenamiento de la IA con TensorFlow proporcionó una visión completa de la solución propuesta. <br> **TF** <br> La documentación final incluyó la integración del sistema de detección en tiempo real, asegurando claridad para todas las audiencias y facilitando su implementación y escalabilidad futura. |
+
 
 ---
 
@@ -876,24 +1006,21 @@ Los jefes de Seguridad, Salud Ocupacional y Medio Ambiente (SSOMA) son responsab
 | **Epic / User Story ID** | **Título**                                    | **Descripción**                                                                                                                                                                                                                            | **Criterios de Aceptación**                                                                                                                                                                                                                                                                                                                                                          | **Relacionado con (Epic ID)** |
 |--------------------------|-----------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------|
 | **EP01**                 | **Monitoreo de Cumplimiento de EPP**          | Implementar funcionalidades para detectar y notificar incumplimientos en el uso de equipo de protección personal (EPP) por parte de los trabajadores.                                                                                       |                                                                                                                                                                                                                                                                                                                                                                                                                         |                               |
-| **US01**                 | **Notificación de EPP Incorrecto**            | Como jefe de seguridad, quiero recibir notificaciones si se detectan incumplimientos en el uso de EPP en alguna zona de trabajo para poder tomar medidas inmediatas.                                                                        | - **Escenario 1:** Dado que el sistema detecta que no se está utilizando correctamente el EPP en una zona de trabajo específica, cuando se produce el incumplimiento, entonces recibo una notificación en el panel indicando la zona afectada y la naturaleza del problema.<br> - **Escenario 2:** Dado que recibo una notificación sobre el uso incorrecto del EPP en una zona, cuando la incidencia es corregida, entonces el sistema deja de enviar alertas para esa zona y actualiza el estado de cumplimiento en el panel.                                                                                                           | EP01                          |
-| **US02**                 | **Historial de Notificaciones**               | Como jefe de seguridad, quiero revisar el historial de notificaciones sobre el uso de EPP en diferentes zonas de trabajo para entender y corregir errores recurrentes.                                                                      | - **Escenario 1:** Dado que quiero revisar el historial de notificaciones, cuando accedo a la sección de historial en la aplicación, entonces puedo ver todas las alertas generadas con fechas y detalles específicos de cada zona afectada.<br> - **Escenario 2:** Dado que se ha corregido el uso de EPP en una zona, cuando reviso el historial, entonces se indica claramente qué alertas han sido resueltas.                                                                                                                                          | EP01                          |
-| **US03**                 | **Confirmación de Cumplimiento de EPP**       | Como jefe de seguridad, quiero recibir confirmaciones de cumplimiento del uso de EPP al inicio de la jornada en cada zona de trabajo para evitar problemas futuros.                                                                         | - **Escenario 1:** Dado que se va a iniciar una jornada de trabajo, cuando comienza el día laboral, entonces recibo un reporte en la aplicación confirmando que todas las zonas han verificado el uso adecuado del EPP.<br> - **Escenario 2:** Dado que se ha confirmado el uso adecuado de EPP en todas las zonas, cuando reviso el panel de cumplimiento, entonces el estado de cada zona se muestra en verde.                                                                                                                                                               | EP01                          |
-| **US04**                 | **Guía de Uso de EPP**                        | Como jefe de seguridad, quiero tener acceso a una guía interactiva sobre el uso de EPP para asegurarme de que se están cumpliendo los requisitos en cada zona.                                                                              | - **Escenario 1:** Dado que quiero asegurarme de que las zonas cumplen con los requisitos de EPP, cuando accedo a la guía en la aplicación, entonces puedo ver videos y tutoriales interactivos sobre el uso adecuado de cada tipo de EPP.<br> - **Escenario 2:** Dado que necesito revisar un procedimiento específico, cuando selecciono un tema en la guía, entonces el sistema me lleva directamente al video o tutorial relacionado con ese tema.                                                                                                           | EP01                          |
-| **US05**                 | **Recomendaciones Personalizadas**            | Como jefe de seguridad, quiero recibir recomendaciones personalizadas basadas en el historial de cumplimiento por zonas para mejorar el uso de EPP en el sitio.                                                                            | - **Escenario 1:** Dado que he tenido varios incumplimientos en ciertas zonas, cuando reviso mis notificaciones, entonces puedo ver recomendaciones personalizadas para mejorar el cumplimiento en el uso de EPP en esas áreas.<br> - **Escenario 2:** Dado que sigo las recomendaciones, cuando reviso el estado de cumplimiento posteriormente, entonces veo una mejora en las estadísticas de uso de EPP en las zonas afectadas.                                                                                                                                                       | EP01                          |
+| **US01**                 | **Notificación de EPP Incorrecto**            | Como jefe de seguridad, quiero recibir notificaciones si se detectan incumplimientos en el uso de EPP en alguna zona de trabajo para poder tomar medidas inmediatas.                                                                        | - **Escenario 1:** Dado que el sistema detecta que no se está utilizando correctamente el EPP en una zona de trabajo específica, cuando se produce el incumplimiento, entonces recibo una notificación en el panel indicando la zona afectada y la naturaleza del problema.<br> - **Escenario 2:** Dado que recibo una notificación sobre el uso incorrecto del EPP en una zona, cuando la incidencia es corregida, entonces el sistema deja de enviar alertas para esa zona y actualiza el estado de cumplimiento en el panel. | EP01                          |
+| **US02**                 | **Historial de Notificaciones**               | Como jefe de seguridad, quiero revisar el historial de notificaciones sobre el uso de EPP en diferentes zonas de trabajo para entender y corregir errores recurrentes.                                                                      | - **Escenario 1:** Dado que quiero revisar el historial de notificaciones, cuando accedo a la sección de historial en la aplicación, entonces puedo ver todas las alertas generadas con fechas y detalles específicos de cada zona afectada.<br> - **Escenario 2:** Dado que se ha corregido el uso de EPP en una zona, cuando reviso el historial, entonces se indica claramente qué alertas han sido resueltas.                                              | EP01                          |
+| **US03**                 | **Confirmación de Cumplimiento de EPP**       | Como jefe de seguridad, quiero recibir confirmaciones de cumplimiento del uso de EPP al inicio de la jornada en cada zona de trabajo para evitar problemas futuros.                                                                         | - **Escenario 1:** Dado que se va a iniciar una jornada de trabajo, cuando comienza el día laboral, entonces recibo un reporte en la aplicación confirmando que todas las zonas han verificado el uso adecuado del EPP.<br> - **Escenario 2:** Dado que se ha confirmado el uso adecuado de EPP en todas las zonas, cuando reviso el panel de cumplimiento, entonces el estado de cada zona se muestra en verde.                                                  | EP01                          |
+| **US04**                 | **Guía de Uso de EPP**                        | Como jefe de seguridad, quiero tener acceso a una guía interactiva sobre el uso de EPP para asegurarme de que se están cumpliendo los requisitos en cada zona.                                                                              | - **Escenario 1:** Dado que quiero asegurarme de que las zonas cumplen con los requisitos de EPP, cuando accedo a la guía en la aplicación, entonces puedo ver videos y tutoriales interactivos sobre el uso adecuado de cada tipo de EPP.<br> - **Escenario 2:** Dado que necesito revisar un procedimiento específico, cuando selecciono un tema en la guía, entonces el sistema me lleva directamente al video o tutorial relacionado con ese tema.                            | EP01                          |
+| **US05**                 | **Recomendaciones Personalizadas**            | Como jefe de seguridad, quiero recibir recomendaciones personalizadas basadas en el historial de cumplimiento por zonas para mejorar el uso de EPP en el sitio.                                                                            | - **Escenario 1:** Dado que he tenido varios incumplimientos en ciertas zonas, cuando reviso mis notificaciones, entonces puedo ver recomendaciones personalizadas para mejorar el cumplimiento en el uso de EPP en esas áreas.<br> - **Escenario 2:** Dado que sigo las recomendaciones, cuando reviso el estado de cumplimiento posteriormente, entonces veo una mejora en las estadísticas de uso de EPP en las zonas afectadas.                                | EP01                          |
 | **EP02**                 | **Gestión de Alertas y Auditorías**           | Implementar funcionalidades para gestionar alertas relacionadas con el incumplimiento de EPP y realizar auditorías para asegurar el cumplimiento de las normas de seguridad.                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                         |                               |
-| **US06**                 | **Visualización de Incumplimientos**          | Como jefe de seguridad, quiero recibir alertas de zonas de trabajo donde se detecten incumplimientos en el uso de EPP para tomar medidas correctivas generales.                                                                            | - **Escenario 1:** Dado que el sistema detecta incumplimientos en el uso de EPP en varias zonas, cuando accedo al panel de seguridad, entonces puedo ver un resumen con el número de incidentes y las zonas afectadas, sin detallar trabajadores específicos.<br> - **Escenario 2:** Dado que quiero ver detalles de un incidente en una zona, cuando selecciono la zona en el resumen, entonces se muestra información detallada del tipo de incumplimiento y las condiciones en las que se produjo.                                                                                                                | EP02                          |
-| **US07**                 | **Generación de Reportes Semanales**          | Como jefe de seguridad, quiero generar reportes semanales sobre el uso de EPP para analizar el cumplimiento general por zona y tomar decisiones basadas en datos.                                                                           | - **Escenario 1:** Dado que es el final de la semana, cuando genero un reporte, entonces puedo ver un resumen de todos los incidentes relacionados con el EPP, incluidos detalles de fechas, horas y zonas involucradas.<br> - **Escenario 2:** Dado que necesito presentar el reporte a la gerencia, cuando exporto el reporte, entonces se genera un archivo PDF con todos los detalles y gráficos relevantes por zona.                                                                                                                                                         | EP02                          |
-| **US08**                 | **Monitorización en Tiempo Real**             | Como jefe de seguridad, quiero ver un flujo en vivo de las áreas de trabajo para detectar incumplimientos de EPP en tiempo real por zona.                                                                                                   | - **Escenario 1:** Dado que estoy supervisando la seguridad en el sitio, cuando accedo al panel de monitorización, entonces puedo ver un flujo en vivo de las áreas de trabajo con indicaciones visuales de incumplimientos de EPP en diferentes zonas.<br> - **Escenario 2:** Dado que detecto un incumplimiento en tiempo real en una zona, cuando selecciono la alerta, entonces puedo ver detalles específicos del tipo de incumplimiento y las condiciones de la zona afectada.                                                                                       | EP02                          |
-| **US09**                 | **Configuración de Alertas**                  | Como jefe de seguridad, quiero configurar alertas personalizadas para el incumplimiento de EPP por zona para adaptarlas a las necesidades específicas del sitio.                                                                            | - **Escenario 1:** Dado que quiero configurar alertas, cuando accedo a la sección de configuración de alertas, entonces puedo seleccionar las zonas, tipos de EPP y las condiciones específicas para emitir alertas.<br> - **Escenario 2:** Dado que he configurado alertas personalizadas por zona, cuando se incumple con el EPP en una de las zonas especificadas, entonces recibo una notificación basada en las condiciones que he especificado.                                                                                                           | EP02                          |
-| **US10**                 | **Análisis de Tendencias**                    | Como jefe de seguridad, quiero analizar las tendencias en el uso de EPP por zona para identificar patrones y áreas de mejora.                                                                                                              | - **Escenario 1:** Dado que quiero analizar las tendencias, cuando accedo a la sección de análisis, entonces puedo ver gráficos y estadísticas sobre el uso de EPP por zonas durante un periodo específico.<br> - **Escenario 2:** Dado que quiero enfocar el análisis en una zona específica, cuando selecciono esa zona en el sistema, entonces los gráficos y estadísticas se actualizan para reflejar los datos de esa área en particular.                                                                                                           | EP02                          |
-| **EP03**                 | **Cuentas y Autenticación**           | Implementar funcionalidades para gestionar las cuentas y autenticación, garantizando la seguridad de los datos del usuario                                                        |                                                                                                                                                                                                                                                                                                                                                                                                                         |                               |
-| **US11**                 | **Registro de Usuarios**                    | Como usuario, quiero poder registrarme en el sistema para acceder a las funcionalidades disponibles.   | Escenario 1: Dado que soy un nuevo usuario, cuando accedo a la página de registro, entonces puedo introducir mis datos (nombre, correo electrónico, contraseña) y completar el registro exitosamente. Escenario 2: Dado que ya estoy registrado, cuando intento registrarme nuevamente con el mismo correo, entonces el sistema me informa que ya existe una cuenta con ese correo electrónico.| EP03| 
-| **US12**                 | **Inicio de Sesión**                    | Como usuario registrado, quiero iniciar sesión en el sistema para acceder a mi cuenta y utilizar las funcionalidades correspondientes. | Escenario 1: Dado que soy un usuario registrado, cuando ingreso mi correo electrónico y contraseña correctos, entonces accedo a mi cuenta y veo mi panel principal. Escenario 2: Dado que introduzco credenciales incorrectas, cuando intento iniciar sesión, entonces el sistema me muestra un mensaje de error indic                         | EP03                    |
-| **EP04**                 | **Suscripciones**           | Implementar funcionalidades para gestionar las suscripciones, planes y pagos en la aplicación.                                                       |                                                                                                                                                                                                                                                                                                                                                                                                                         |                               |
-| **US13**                 | **Planes de Suscripción**                    | Como jefe de seguridad, quiero analizar las tendencias en el uso de EPP por zona para identificar patrones y áreas de mejora.                                                                                                              | - **Escenario 1:** Dado que quiero analizar las tendencias, cuando accedo a la sección de análisis, entonces puedo ver gráficos y estadísticas sobre el uso de EPP por zonas durante un periodo específico.<br> - **Escenario 2:** Dado que quiero enfocar el análisis en una zona específica, cuando selecciono esa zona en el sistema, entonces los gráficos y estadísticas se actualizan para reflejar los datos de esa área en particular.                                                                                                           | EP04                        |
-| **US14**                 | **Gestión de Suscripciones**                    | Como jefe de seguridad, quiero analizar las tendencias en el uso de EPP por zona para identificar patrones y áreas de mejora.                                                                                                              | - **Escenario 1:** Dado que quiero analizar las tendencias, cuando accedo a la sección de análisis, entonces puedo ver gráficos y estadísticas sobre el uso de EPP por zonas durante un periodo específico.<br> - **Escenario 2:** Dado que quiero enfocar el análisis en una zona específica, cuando selecciono esa zona en el sistema, entonces los gráficos y estadísticas se actualizan para reflejar los datos de esa área en particular.                                                                                                           | EP04                         |
-
+| **US06**                 | **Visualización de Incumplimientos**          | Como jefe de seguridad, quiero recibir alertas de zonas de trabajo donde se detecten incumplimientos en el uso de EPP para tomar medidas correctivas generales.                                                                            | - **Escenario 1:** Dado que el sistema detecta incumplimientos en el uso de EPP en varias zonas, cuando accedo al panel de seguridad, entonces puedo ver un resumen con el número de incidentes y las zonas afectadas, sin detallar trabajadores específicos.<br> - **Escenario 2:** Dado que quiero ver detalles de un incidente en una zona, cuando selecciono la zona en el resumen, entonces se muestra información detallada del tipo de incumplimiento y las condiciones en las que se produjo. | EP02                          |
+| **US07**                 | **Generación de Reportes Semanales**          | Como jefe de seguridad, quiero generar reportes semanales sobre el uso de EPP para analizar el cumplimiento general por zona y tomar decisiones basadas en datos.                                                                           | - **Escenario 1:** Dado que es el final de la semana, cuando genero un reporte, entonces puedo ver un resumen de todos los incidentes relacionados con el EPP, incluidos detalles de fechas, horas y zonas involucradas.<br> - **Escenario 2:** Dado que necesito presentar el reporte a la gerencia, cuando exporto el reporte, entonces se genera un archivo PDF con todos los detalles y gráficos relevantes por zona.                         | EP02                          |
+| **US08**                 | **Monitorización en Tiempo Real**             | Como jefe de seguridad, quiero ver un flujo en vivo de las áreas de trabajo para detectar incumplimientos de EPP en tiempo real por zona.                                                                                                   | - **Escenario 1:** Dado que estoy supervisando la seguridad en el sitio, cuando accedo al panel de monitorización, entonces puedo ver un flujo en vivo de las áreas de trabajo con indicaciones visuales de incumplimientos de EPP en diferentes zonas.<br> - **Escenario 2:** Dado que detecto un incumplimiento en tiempo real en una zona, cuando selecciono la alerta, entonces puedo ver detalles específicos del tipo de incumplimiento y las condiciones de la zona afectada.      | EP02                          |
+| **US09**                 | **Configuración de Alertas**                  | Como jefe de seguridad, quiero configurar alertas personalizadas para el incumplimiento de EPP por zona para adaptarlas a las necesidades específicas del sitio.                                                                            | - **Escenario 1:** Dado que quiero configurar alertas, cuando accedo a la sección de configuración de alertas, entonces puedo seleccionar las zonas, tipos de EPP y las condiciones específicas para emitir alertas.<br> - **Escenario 2:** Dado que he configurado alertas personalizadas por zona, cuando se incumple con el EPP en una de las zonas especificadas, entonces recibo una notificación basada en las condiciones que he especificado.                         | EP02                          |
+| **US10**                 | **Análisis de Tendencias**                    | Como jefe de seguridad, quiero analizar las tendencias en el uso de EPP por zona para identificar patrones y áreas de mejora.                                                                                                              | - **Escenario 1:** Dado que quiero analizar las tendencias, cuando accedo a la sección de análisis, entonces puedo ver gráficos y estadísticas sobre el uso de EPP por zonas durante un periodo específico.<br> - **Escenario 2:** Dado que quiero enfocar el análisis en una zona específica, cuando selecciono esa zona en el sistema, entonces los gráficos y estadísticas se actualizan para reflejar los datos de esa área en particular.                        | EP02                          |
+| **US11**                 | **Registro de Usuarios**                      | Como usuario, quiero poder registrarme en el sistema para acceder a las funcionalidades disponibles.                                                                                                                                       | - **Escenario 1:** Dado que soy un nuevo usuario, cuando accedo a la página de registro, entonces puedo introducir mis datos (nombre, correo electrónico, contraseña) y completar el registro exitosamente.<br> - **Escenario 2:** Dado que ya estoy registrado, cuando intento registrarme nuevamente con el mismo correo, entonces el sistema me informa que ya existe una cuenta con ese correo electrónico.                                  |                               |
+| **US12**                 | **Inicio de Sesión**                          | Como usuario registrado, quiero iniciar sesión en el sistema para acceder a mi cuenta y utilizar las funcionalidades correspondientes.                                                                                                     | - **Escenario 1:** Dado que soy un usuario registrado, cuando ingreso mi correo electrónico y contraseña correctos, entonces accedo a mi cuenta y veo mi panel principal.<br> - **Escenario 2:** Dado que introduzco credenciales incorrectas, cuando intento iniciar sesión, entonces el sistema me muestra un mensaje de error indicando que las credenciales no son válidas.                                                   |                               |
+| **US13**                 | **Planes de Suscripción**                     | Como usuario, quiero poder explorar y elegir entre diferentes planes de suscripción para acceder a funciones avanzadas del sistema.                                                                                                       | - **Escenario 1:** Dado que quiero explorar planes de suscripción, cuando accedo a la sección de planes, entonces puedo ver una lista de opciones con detalles de precios y beneficios.<br> - **Escenario 2:** Dado que selecciono un plan, cuando confirmo mi elección, entonces el sistema procesa mi pago y activa las funcionalidades avanzadas asociadas a ese plan.                                                      |                               |
+| **US14**                 | **Gestión de Suscripciones**                  | Como usuario, quiero poder gestionar mi suscripción (actualizar, cancelar, renovar) para controlar mi acceso a las funcionalidades avanzadas.                                                                                              | - **Escenario 1:** Dado que tengo una suscripción activa, cuando accedo a la sección de gestión, entonces puedo ver opciones para actualizar, cancelar o renovar mi plan.<br> - **Escenario 2:** Dado que he solicitado cancelar mi suscripción, cuando confirmo la cancelación, entonces el sistema desactiva las funcionalidades avanzadas al finalizar el periodo de facturación actual.                                         |                               |
 
 ## 3.3. Impact Mapping
 
@@ -3060,9 +3187,8 @@ Este esquema ayuda a visualizar la infraestructura de la solución, permitiendo 
 </table>
 
   - #### 7.2.1.4. Testing Suite Evidence for Sprint Review
-
-No se desarrolló en este sprint, pues en esta parte se presentarán los Unit Tests, Integration Tests y Acceptance Tests automatizados, para Web Services.
-
+Para el sprint 1, se realizaron pruebas manuales y automatizadas para garantizar la calidad y funcionalidad de la aplicación. A continuación, se presentan los resultados de las pruebas realizds:
+![alt text](image.png)
   - #### 7.2.1.5. Execution Evidence for Sprint Review
 
   **Landing Page**
@@ -3505,8 +3631,32 @@ La siguiente tabla describe los principales endpoints disponibles en la API, org
 
 #### 7.2.2.7. Software Deployment Evidence for Sprint Review
 
+![](https://media.discordapp.net/attachments/1222216213187526771/1309361185220460544/render_deploy_2.PNG?ex=67414d21&is=673ffba1&hm=f29b7b463ec29fe1491b4d9c592ffa3b4a55d026c9fc233c49775cdd70e5cd54&=&format=webp&quality=lossless&width=1264&height=676)
+
+![](https://media.discordapp.net/attachments/1222216213187526771/1309361185531101305/render_deploy_1.PNG?ex=67414d21&is=673ffba1&hm=8115d3643f58895c3c5ff434b5137663f0090691ed7202607629e71e9162966b&=&format=webp&quality=lossless&width=1289&height=676)
+
+![](https://media.discordapp.net/attachments/1222216213187526771/1309361207852929105/netlify_deploy_1.PNG?ex=67414d26&is=673ffba6&hm=60c8c842d2b8d7d655c9b2fc9597214e0e797db3081c90628deff7f126b55e7f&=&format=webp&quality=lossless&width=1345&height=676)
+
+![](https://media.discordapp.net/attachments/1222216213187526771/1309361648057847819/image.png?ex=67414d8f&is=673ffc0f&hm=4dfdd773ca457dd97c1a2c9023b29daaed27f032e69869655e0d44c9ba38104c&=&format=webp&quality=lossless&width=1174&height=676)
+
+![](https://media.discordapp.net/attachments/1222216213187526771/1309362124241506314/image.png?ex=67414e01&is=673ffc81&hm=c357a59eff21e51003200361e63eaf1bdd024a8f7587a6ed32dcd415b48d52b5&=&format=webp&quality=lossless&width=1271&height=676)
+
+
 #### 7.2.2.8. Team Collaboration Insights during Sprint
 
+**Landing Page:**
+
+![](https://media.discordapp.net/attachments/1222216213187526771/1309366700147474472/image.png?ex=67415244&is=674000c4&hm=f74c05bba2507802177df85e72ebb4f8c6b0028605371cb55b5246b5d54db555&=&format=webp&quality=lossless&width=857&height=676)
+
+**FrontEnd:**
+
+![](https://media.discordapp.net/attachments/1222216213187526771/1309366955358158931/image.png?ex=67415281&is=67400101&hm=dc869e78abf50d2351372de1a7d0a2c4d97136499dab1468722bb818cb6581bf&=&format=webp&quality=lossless)
+
+**Backend:**
+
+![](https://media.discordapp.net/attachments/1222216213187526771/1309367038061580399/image.png?ex=67415294&is=67400114&hm=c80c259968ae9a2e892c1c130887fe7c414885fb3dc3532869cfb1e85afc893f&=&format=webp&quality=lossless)
+
+![](https://media.discordapp.net/attachments/1222216213187526771/1309367135931203614/image.png?ex=674152ac&is=6740012c&hm=b0c1499d5160dede7901ea9486f5e430a2a9bf3df0a111577b3ca4d395b20dc7&=&format=webp&quality=lossless)
 
 ## 7.3. Validation Interviews
 
