@@ -3245,13 +3245,15 @@ No se desarrolló en este sprint, pues en esta sección presentaremos la relaci�
 
 #### 7.2.2.7. Software Deployment Evidence for Sprint Review
 
-![](https://media.discordapp.net/attachments/1222216213187526771/1309361185220460544/render_deploy_2.PNG?ex=67414d21&is=673ffba1&hm=f29b7b463ec29fe1491b4d9c592ffa3b4a55d026c9fc233c49775cdd70e5cd54&=&format=webp&quality=lossless&width=768&height=512)
+![](https://media.discordapp.net/attachments/1222216213187526771/1309361185220460544/render_deploy_2.PNG?ex=67414d21&is=673ffba1&hm=f29b7b463ec29fe1491b4d9c592ffa3b4a55d026c9fc233c49775cdd70e5cd54&=&format=webp&quality=lossless&width=1264&height=676)
 
 ![](https://media.discordapp.net/attachments/1222216213187526771/1309361185531101305/render_deploy_1.PNG?ex=67414d21&is=673ffba1&hm=8115d3643f58895c3c5ff434b5137663f0090691ed7202607629e71e9162966b&=&format=webp&quality=lossless&width=1289&height=676)
 
 ![](https://media.discordapp.net/attachments/1222216213187526771/1309361207852929105/netlify_deploy_1.PNG?ex=67414d26&is=673ffba6&hm=60c8c842d2b8d7d655c9b2fc9597214e0e797db3081c90628deff7f126b55e7f&=&format=webp&quality=lossless&width=1345&height=676)
 
 ![](https://media.discordapp.net/attachments/1222216213187526771/1309361648057847819/image.png?ex=67414d8f&is=673ffc0f&hm=4dfdd773ca457dd97c1a2c9023b29daaed27f032e69869655e0d44c9ba38104c&=&format=webp&quality=lossless&width=1174&height=676)
+
+![](https://media.discordapp.net/attachments/1222216213187526771/1309362124241506314/image.png?ex=67414e01&is=673ffc81&hm=c357a59eff21e51003200361e63eaf1bdd024a8f7587a6ed32dcd415b48d52b5&=&format=webp&quality=lossless&width=1271&height=676)
 
 
 #### 7.2.2.8. Team Collaboration Insights during Sprint
