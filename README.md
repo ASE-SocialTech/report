@@ -3183,9 +3183,8 @@ Este esquema ayuda a visualizar la infraestructura de la solución, permitiendo 
 </table>
 
   - #### 7.2.1.4. Testing Suite Evidence for Sprint Review
-
-No se desarrolló en este sprint, pues en esta parte se presentarán los Unit Tests, Integration Tests y Acceptance Tests automatizados, para Web Services.
-
+Para el sprint 1, se realizaron pruebas manuales y automatizadas para garantizar la calidad y funcionalidad de la aplicación. A continuación, se presentan los resultados de las pruebas realizds:
+![alt text](image.png)
   - #### 7.2.1.5. Execution Evidence for Sprint Review
 
   **Landing Page**
