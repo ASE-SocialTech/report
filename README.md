@@ -1017,10 +1017,10 @@ Los jefes de Seguridad, Salud Ocupacional y Medio Ambiente (SSOMA) son responsab
 | **US08**                 | **Monitorización en Tiempo Real**             | Como jefe de seguridad, quiero ver un flujo en vivo de las áreas de trabajo para detectar incumplimientos de EPP en tiempo real por zona.                                                                                                   | - **Escenario 1:** Dado que estoy supervisando la seguridad en el sitio, cuando accedo al panel de monitorización, entonces puedo ver un flujo en vivo de las áreas de trabajo con indicaciones visuales de incumplimientos de EPP en diferentes zonas.<br> - **Escenario 2:** Dado que detecto un incumplimiento en tiempo real en una zona, cuando selecciono la alerta, entonces puedo ver detalles específicos del tipo de incumplimiento y las condiciones de la zona afectada.      | EP02                          |
 | **US09**                 | **Configuración de Alertas**                  | Como jefe de seguridad, quiero configurar alertas personalizadas para el incumplimiento de EPP por zona para adaptarlas a las necesidades específicas del sitio.                                                                            | - **Escenario 1:** Dado que quiero configurar alertas, cuando accedo a la sección de configuración de alertas, entonces puedo seleccionar las zonas, tipos de EPP y las condiciones específicas para emitir alertas.<br> - **Escenario 2:** Dado que he configurado alertas personalizadas por zona, cuando se incumple con el EPP en una de las zonas especificadas, entonces recibo una notificación basada en las condiciones que he especificado.                         | EP02                          |
 | **US10**                 | **Análisis de Tendencias**                    | Como jefe de seguridad, quiero analizar las tendencias en el uso de EPP por zona para identificar patrones y áreas de mejora.                                                                                                              | - **Escenario 1:** Dado que quiero analizar las tendencias, cuando accedo a la sección de análisis, entonces puedo ver gráficos y estadísticas sobre el uso de EPP por zonas durante un periodo específico.<br> - **Escenario 2:** Dado que quiero enfocar el análisis en una zona específica, cuando selecciono esa zona en el sistema, entonces los gráficos y estadísticas se actualizan para reflejar los datos de esa área en particular.                        | EP02                          |
-| **US13**                 | **Registro de Usuarios**                      | Como usuario, quiero poder registrarme en el sistema para acceder a las funcionalidades disponibles.                                                                                                                                       | - **Escenario 1:** Dado que soy un nuevo usuario, cuando accedo a la página de registro, entonces puedo introducir mis datos (nombre, correo electrónico, contraseña) y completar el registro exitosamente.<br> - **Escenario 2:** Dado que ya estoy registrado, cuando intento registrarme nuevamente con el mismo correo, entonces el sistema me informa que ya existe una cuenta con ese correo electrónico.                                  |                               |
-| **US14**                 | **Inicio de Sesión**                          | Como usuario registrado, quiero iniciar sesión en el sistema para acceder a mi cuenta y utilizar las funcionalidades correspondientes.                                                                                                     | - **Escenario 1:** Dado que soy un usuario registrado, cuando ingreso mi correo electrónico y contraseña correctos, entonces accedo a mi cuenta y veo mi panel principal.<br> - **Escenario 2:** Dado que introduzco credenciales incorrectas, cuando intento iniciar sesión, entonces el sistema me muestra un mensaje de error indicando que las credenciales no son válidas.                                                   |                               |
-| **US15**                 | **Planes de Suscripción**                     | Como usuario, quiero poder explorar y elegir entre diferentes planes de suscripción para acceder a funciones avanzadas del sistema.                                                                                                       | - **Escenario 1:** Dado que quiero explorar planes de suscripción, cuando accedo a la sección de planes, entonces puedo ver una lista de opciones con detalles de precios y beneficios.<br> - **Escenario 2:** Dado que selecciono un plan, cuando confirmo mi elección, entonces el sistema procesa mi pago y activa las funcionalidades avanzadas asociadas a ese plan.                                                      |                               |
-| **US16**                 | **Gestión de Suscripciones**                  | Como usuario, quiero poder gestionar mi suscripción (actualizar, cancelar, renovar) para controlar mi acceso a las funcionalidades avanzadas.                                                                                              | - **Escenario 1:** Dado que tengo una suscripción activa, cuando accedo a la sección de gestión, entonces puedo ver opciones para actualizar, cancelar o renovar mi plan.<br> - **Escenario 2:** Dado que he solicitado cancelar mi suscripción, cuando confirmo la cancelación, entonces el sistema desactiva las funcionalidades avanzadas al finalizar el periodo de facturación actual.                                         |                               |
+| **US11**                 | **Registro de Usuarios**                      | Como usuario, quiero poder registrarme en el sistema para acceder a las funcionalidades disponibles.                                                                                                                                       | - **Escenario 1:** Dado que soy un nuevo usuario, cuando accedo a la página de registro, entonces puedo introducir mis datos (nombre, correo electrónico, contraseña) y completar el registro exitosamente.<br> - **Escenario 2:** Dado que ya estoy registrado, cuando intento registrarme nuevamente con el mismo correo, entonces el sistema me informa que ya existe una cuenta con ese correo electrónico.                                  |                               |
+| **US12**                 | **Inicio de Sesión**                          | Como usuario registrado, quiero iniciar sesión en el sistema para acceder a mi cuenta y utilizar las funcionalidades correspondientes.                                                                                                     | - **Escenario 1:** Dado que soy un usuario registrado, cuando ingreso mi correo electrónico y contraseña correctos, entonces accedo a mi cuenta y veo mi panel principal.<br> - **Escenario 2:** Dado que introduzco credenciales incorrectas, cuando intento iniciar sesión, entonces el sistema me muestra un mensaje de error indicando que las credenciales no son válidas.                                                   |                               |
+| **US13**                 | **Planes de Suscripción**                     | Como usuario, quiero poder explorar y elegir entre diferentes planes de suscripción para acceder a funciones avanzadas del sistema.                                                                                                       | - **Escenario 1:** Dado que quiero explorar planes de suscripción, cuando accedo a la sección de planes, entonces puedo ver una lista de opciones con detalles de precios y beneficios.<br> - **Escenario 2:** Dado que selecciono un plan, cuando confirmo mi elección, entonces el sistema procesa mi pago y activa las funcionalidades avanzadas asociadas a ese plan.                                                      |                               |
+| **US14**                 | **Gestión de Suscripciones**                  | Como usuario, quiero poder gestionar mi suscripción (actualizar, cancelar, renovar) para controlar mi acceso a las funcionalidades avanzadas.                                                                                              | - **Escenario 1:** Dado que tengo una suscripción activa, cuando accedo a la sección de gestión, entonces puedo ver opciones para actualizar, cancelar o renovar mi plan.<br> - **Escenario 2:** Dado que he solicitado cancelar mi suscripción, cuando confirmo la cancelación, entonces el sistema desactiva las funcionalidades avanzadas al finalizar el periodo de facturación actual.                                         |                               |
 
 ## 3.3. Impact Mapping
 
@@ -1044,6 +1044,10 @@ Los jefes de Seguridad, Salud Ocupacional y Medio Ambiente (SSOMA) son responsab
 | 8         | US08              | Monitorización en Tiempo Real                 | Como jefe de seguridad, quiero ver un flujo en vivo de las áreas de trabajo para detectar incumplimientos de EPP en tiempo real por zona.                                                                                                   | 8                |
 | 9         | US09              | Configuración de Alertas                      | Como jefe de seguridad, quiero configurar alertas personalizadas para el incumplimiento de EPP por zona para adaptarlas a las necesidades específicas del sitio de trabajo.                                                                | 5                |
 | 10        | US10              | Análisis de Tendencias                        | Como jefe de seguridad, quiero analizar las tendencias en el uso de EPP por zona para identificar patrones y áreas de mejora.                                                                                                               | 5                |
+| 11        | US11              | Registro de Usuarios                        | Como usuario, quiero poder registrarme en el sistema para acceder a las funcionalidades disponibles.  | 3                |
+| 12        | US12              | Inicio de Sesión                        |   Como usuario registrado, quiero iniciar sesión en el sistema para acceder a mi cuenta y utilizar las funcionalidades correspondientes                                                                                                 | 2               |
+| 13        | US13              | Planes de Suscripción                        |                                                                                                               | 2                |
+| 14        | US14              | Gestión de Suscripciones                        |                                                                                                               | 2              |
 
 
 # Capítulo IV: Strategic-Level Software Design
@@ -3240,6 +3244,153 @@ No se desarrolló en este sprint, pues en esta sección presentaremos la relaci�
 
 #### 7.2.2.2. Sprint Backlog 2
 
+<table align="center" border="1" width="90%" style="text-align:center">
+    <tr>
+        <td colspan="1"><b>Sprint #</b></td>
+        <td colspan="7"><b>Sprint 3</b></td>
+    </tr>
+    <tr>
+        <td colspan="2"><b>User Story</b></td>
+        <td colspan="6"><b>Work-Item / Task</b></td>
+    </tr>
+    <tr>
+        <td><b>Id</b></td>
+        <td><b>Title</b></td>
+        <td><b>Id</b></td>
+        <td><b>Title</b></td>
+        <td><b>Description</b></td>
+        <td><b>Estimation(Hours)</b></td>
+        <td><b>Assigned To</b></td>
+        <td><b>Status(To-do/ In-Process/ To-Review/ Done)</b></td>
+    </tr>
+    <tr>
+        <td rowspan="3">US03</td>
+        <td rowspan="3">Confirmación de Cumplimiento de EPP</td>
+        <td>US03-TSK01</td>
+        <td>Implementar verificación de cumplimiento</td>
+        <td>Implementar la lógica para verificar que los trabajadores llevan el EPP requerido</td>
+        <td>3 horas</td>
+        <td>Lucía Aliaga</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>US03-TSK02</td>
+        <td>Diseñar notificaciones de incumplimiento</td>
+        <td>Diseñar y mostrar notificaciones cuando un trabajador no cumple con el EPP</td>
+        <td>2 horas</td>
+        <td>Jean Achamizo</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>US03-TSK03</td>
+        <td>Generar reporte de cumplimiento</td>
+        <td>Generar un reporte descargable sobre el cumplimiento del EPP</td>
+        <td>1.5 horas</td>
+        <td>Luis Trujillo</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td rowspan="2">US02</td>
+        <td rowspan="2">Historial de Notificaciones</td>
+        <td>US02-TSK01</td>
+        <td>Implementar historial en web</td>
+        <td>Diseñar e implementar la interfaz del historial de notificaciones en la web</td>
+        <td>2 horas</td>
+        <td>Luis Siancas</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>US02-TSK02</td>
+        <td>Implementar historial en móvil</td>
+        <td>Implementar la interfaz y funcionalidad del historial en la aplicación móvil</td>
+        <td>1.5 horas</td>
+        <td>Luis Siancas</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td rowspan="3">US08</td>
+        <td rowspan="3">Monitorización en Tiempo Real</td>
+        <td>US08-TSK01</td>
+        <td>Configurar flujo de datos</td>
+        <td>Configurar y optimizar el flujo de datos en tiempo real entre cámaras y servidores</td>
+        <td>4 horas</td>
+        <td>Jean Achamizo</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>US08-TSK02</td>
+        <td>Crear visualización de cámaras</td>
+        <td>Implementar la visualización de cámaras en la interfaz web</td>
+        <td>3 horas</td>
+        <td>Lucía Aliaga</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>US08-TSK03</td>
+        <td>Notificaciones de incidentes</td>
+        <td>Implementar alertas en tiempo real basadas en las cámaras de monitorización</td>
+        <td>2 horas</td>
+        <td>Jean Achamizo</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td rowspan="2">US11</td>
+        <td rowspan="2">Registro de Usuarios</td>
+        <td>US11-TSK01</td>
+        <td>Diseñar formulario de registro</td>
+        <td>Implementar el formulario de registro de usuarios en la aplicación web</td>
+        <td>1.5 horas</td>
+        <td>Lucía Aliaga</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>US11-TSK02</td>
+        <td>Validaciones en backend</td>
+        <td>Implementar validaciones y manejo de errores en el backend para el registro</td>
+        <td>2 horas</td>
+        <td>Luis Trujillo</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td rowspan="2">US12</td>
+        <td rowspan="2">Inicio de Sesión</td>
+        <td>US12-TSK01</td>
+        <td>Diseñar flujo de login</td>
+        <td>Implementar el flujo de inicio de sesión con validación de credenciales</td>
+        <td>2 horas</td>
+        <td>Jean Achamizo</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>US12-TSK02</td>
+        <td>Agregar recuperación de contraseña</td>
+        <td>Implementar la opción de recuperación de contraseña en la aplicación</td>
+        <td>2 horas</td>
+        <td>Luis Siancas</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td rowspan="2">US13</td>
+        <td rowspan="2">Planes de Suscripción</td>
+        <td>US13-TSK01</td>
+        <td>Diseñar lista de planes</td>
+        <td>Implementar la visualización de los planes de suscripción disponibles</td>
+        <td>2 horas</td>
+        <td>Luis Trujillo</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>US13-TSK02</td>
+        <td>Agregar flujo de pago</td>
+        <td>Implementar el flujo de pago para la selección de un plan</td>
+        <td>3 horas</td>
+        <td>Jean Achamizo</td>
+        <td>Done</td>
+    </tr>
+</table>
+
+
+
 #### 7.2.2.3. Development Evidence for Sprint Review
 
 *Web Application*
@@ -3409,11 +3560,11 @@ Cloud API: Implementación de los endpoints diseñados para gestionar los datos 
 
 ![Execution evidence Cloud API](./assets/evidence-api.PNG)
 
-![Execution evidence web application](./assets/evidence-web.PNG)
-
 *Web Application*
 
 Se implementó la visualización de las secciones clave del sistema, tales como el dashboard, alertas y la interfaz para el monitoreo en tiempo real.
+
+![Execution evidence web application](./assets/evidence-web.PNG)
 
 ![Execution evidence web application](./assets/evidence-web2.PNG)
 
