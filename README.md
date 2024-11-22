@@ -3106,6 +3106,38 @@ No se desarrolló en este sprint, pues en esta sección presentaremos la relaci�
 
     ![Network Landing Page](./assets/insights-network-landing.PNG)
 
+### 7.2.2. Sprint 2
+
+#### 7.2.2.1. Sprint Planning 2
+
+| **Sprint #**                                | Sprint 2                          |
+|---------------------------------------------|-----------------------------------|
+| **Sprint Planning Background**              | Planificación del segundo sprint para finalizar todas las funcionalidades restantes. |
+| **Date**                                    | 12/11/2024                       |
+| **Time**                                    | 09:00 PM                          |
+| **Location**                                | Discord                           |
+| **Prepared By**                             | Rodrigo Alejandro Raymundo Guevara |
+| **Attendees (to planning meeting)**         | Raymundo Guevara Rodrigo Alejandro / Achamizo Huamani Jean Carlos / Aliaga Trevejo Lucía Guadalupe / Siancas Reategui Luis Alberto / Trujillo Lopez Luis Alberto |
+| **Sprint Goal & User Stories**              | Finalizar el desarrollo de las funcionalidades esenciales relacionadas con la gestión y notificación de incumplimientos de EPP, análisis de datos y generación de reportes. |
+| **Sprint 2 Goal**                           | Culminar todas las funcionalidades del sistema, incluyendo la notificación, monitoreo en tiempo real, configuración de alertas personalizadas, análisis de tendencias, y generación de reportes. Este sprint garantizará que el sistema esté completamente funcional y preparado para la fase de pruebas finales. |
+| **Sprint 2 Velocity**                       | 25                                |
+| **Sum of Story Points**                     | 24                                |
+
+
+#### 7.2.2.2. Sprint Backlog 2
+
+#### 7.2.2.3. Development Evidence for Sprint Review
+
+#### 7.2.2.4. Testing Suite Evidence for Sprint Review
+
+#### 7.2.2.5. Execution Evidence for Sprint Review
+
+#### 7.2.2.6. Services Documentation Evidence for Sprint Review
+
+#### 7.2.2.7. Software Deployment Evidence for Sprint Review
+
+#### 7.2.2.8. Team Collaboration Insights during Sprint
+
 
 ## 7.3. Validation Interviews
 
