@@ -3268,7 +3268,82 @@ No se desarrolló en este sprint, pues en esta sección presentaremos la relaci�
 
 #### 7.2.2.5. Execution Evidence for Sprint Review
 
+*Cloud API*
+
+En esta sección se presenta evidencia de la ejecución de las funcionalidades desarrolladas durante el sprint. Los principales elementos mostrados incluyen:
+
+Cloud API: Implementación de los endpoints diseñados para gestionar los datos y operaciones necesarias en el sistema. Se incluyen funcionalidades como la administración de suscripciones, roles, áreas, cámaras, y más.
+
+![Execution evidence Cloud API](./assets/evidence-api.PNG)
+
+![Execution evidence web application](./assets/evidence-web.PNG)
+
+*Web Application*
+
+Se implementó la visualización de las secciones clave del sistema, tales como el dashboard, alertas y la interfaz para el monitoreo en tiempo real.
+
+![Execution evidence web application](./assets/evidence-web2.PNG)
+
+
 #### 7.2.2.6. Services Documentation Evidence for Sprint Review
+
+La siguiente tabla describe los principales endpoints disponibles en la API, organizados por recurso. Cada fila incluye el método HTTP, la ruta del endpoint y una breve descripción de su funcionalidad. Estos endpoints permiten realizar operaciones CRUD y otras acciones específicas sobre los recursos, facilitando la interacción con el sistema.
+
+| Endpoint                                    | Descripción                          |
+|--------------------------------------------|--------------------------------------|
+| **Subscriptions**                          |                                      |
+| GET /api/v1/subscriptions/{id}             | Get subscription by id              |
+| PUT /api/v1/subscriptions/{id}             | Update subscription                 |
+| DELETE /api/v1/subscriptions/{id}          | Delete subscription                 |
+| POST /api/v1/subscriptions                 | Create subscription                 |
+| GET /api/v1/subscriptions/user/{id}        | Get subscription by user id         |
+| **Roles**                                  |                                      |
+| GET /api/v1/roles/{id}                     | Get role by id                      |
+| PUT /api/v1/roles/{id}                     | Update role                         |
+| DELETE /api/v1/roles/{id}                  | Delete role                         |
+| POST /api/v1/roles                         | Create role                         |
+| **Plans**                                  |                                      |
+| GET /api/v1/plans/{id}                     | Get plan by id                      |
+| PUT /api/v1/plans/{id}                     | Update plan                         |
+| DELETE /api/v1/plans/{id}                  | Delete plan                         |
+| POST /api/v1/plans                         | Create plan                         |
+| **PaymentDetails**                         |                                      |
+| GET /api/v1/payment-details/{id}           | Get payment details by id           |
+| PUT /api/v1/payment-details/{id}           | Update payment details              |
+| DELETE /api/v1/payment-details/{id}        | Delete payment details              |
+| POST /api/v1/payment-details               | Create payment details              |
+| GET /api/v1/payment-details/user/{id}      | Get payment details by user id      |
+| **Monitoring Session**                     |                                      |
+| GET /api/v1/monitoring-sessions/{id}       | Get monitoring session by id        |
+| PUT /api/v1/monitoring-sessions/{id}       | Update monitoring session           |
+| DELETE /api/v1/monitoring-sessions/{id}    | Delete monitoring session           |
+| POST /api/v1/monitoring-sessions           | Create monitoring session           |
+| **Monitoring Incident**                    |                                      |
+| GET /api/v1/monitoring-incidents/{id}      | Get monitoring incident by id       |
+| PUT /api/v1/monitoring-incidents/{id}      | Update monitoring incident          |
+| DELETE /api/v1/monitoring-incidents/{id}   | Delete monitoring incident          |
+| POST /api/v1/monitoring-incidents          | Create monitoring incident          |
+| **Compliance Status**                      |                                      |
+| GET /api/v1/compliance-status/{id}         | Get compliance status by id         |
+| PUT /api/v1/compliance-status/{id}         | Update compliance status            |
+| DELETE /api/v1/compliance-status/{id}      | Delete compliance status            |
+| POST /api/v1/compliance-status             | Create compliance status            |
+| **Cameras**                                |                                      |
+| GET /api/v1/cameras/{id}                   | Get camera by id                    |
+| PUT /api/v1/cameras/{id}                   | Update camera                       |
+| DELETE /api/v1/cameras/{id}                | Delete camera                       |
+| POST /api/v1/cameras                       | Create camera                       |
+| GET /api/v1/cameras/users/{userId}         | Get cameras by user id              |
+| **Areas**                                  |                                      |
+| GET /api/v1/areas/{id}                     | Get area by id                      |
+| PUT /api/v1/areas/{id}                     | Update area                         |
+| DELETE /api/v1/areas/{id}                  | Delete area                         |
+| POST /api/v1/areas                         | Create area                         |
+| **Account**                                |                                      |
+| PUT /api/v1/accounts/auth/delete/{userId}  | Delete a user                       |
+| POST /api/v1/accounts/auth/signUp          | Create a new user                   |
+| POST /api/v1/accounts/auth/logIn           | Log in                              |
+
 
 #### 7.2.2.7. Software Deployment Evidence for Sprint Review
 
